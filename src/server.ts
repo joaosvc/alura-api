@@ -1,6 +1,6 @@
+import express from "express";
 import { config } from "dotenv";
 import { DatabaseClient } from "./database/client";
-import express from "express";
 
 const main = async () => {
   config();
@@ -12,7 +12,7 @@ const main = async () => {
 
   await DatabaseClient.connect();
 
-  server.app.listen(server.port, () =>
+  server.app.listen(server.port, async () =>
     console.log(`listening on port ${server.port}!`)
   );
 };
