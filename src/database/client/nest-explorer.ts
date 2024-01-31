@@ -32,12 +32,31 @@ export default class NestExplorer {
     }
 
     return Object.entries(NestData[courseId].modules[module]).map(
-      ([video, playlist]) => {
+      ([video, playlistId]) => {
         return {
           video,
-          playlist,
+          playlistId,
         };
       }
     );
+  }
+
+  async getVideoWhere(courseId: string, module: string, video: string) {
+    if (!NestData[courseId]) {
+      throw new Error("Course not found");
+    }
+
+    if (!NestData[courseId].modules[module]) {
+      throw new Error("Module not found");
+    }
+
+    if (!NestData[courseId].modules[module][video]) {
+      throw new Error("Video not found");
+    }
+
+    return {
+      video,
+      playlistId: NestData[courseId].modules[module][video],
+    };
   }
 }

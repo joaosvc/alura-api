@@ -1,3 +1,5 @@
+import express from "express";
+
 export interface HttpResponse<T> {
   statusCode: HttpStatusCode;
   body: T;
@@ -16,5 +18,9 @@ export enum HttpStatusCode {
 }
 
 export interface IController {
-  handle(httpRequest: HttpRequest<unknown>): Promise<HttpResponse<unknown>>;
+  handle(
+    httpRequest: HttpRequest<unknown>,
+    request?: express.Request,
+    response?: express.Response
+  ): Promise<HttpResponse<unknown>>;
 }

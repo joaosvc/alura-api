@@ -33,4 +33,16 @@ export const DatabaseClient = {
     }
     return [];
   },
+
+  async getVideoWhere(
+    courseId: string,
+    module: string,
+    video: string
+  ): Promise<Video> {
+    if (Type === ClientTypes.DataNest) {
+      return await DataNest.client.getVideoWhere(courseId, module, video);
+    }
+
+    throw new Error("Client not found");
+  },
 };
