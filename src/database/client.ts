@@ -3,6 +3,7 @@ import { DataNest } from "./types/data-nest";
 import { Course } from "../models/course";
 import { Module } from "../models/module";
 import { Video } from "../models/video";
+import { VideoPlaylist } from "../models/playlist";
 
 export const Type = ClientTypes.DataNest;
 
@@ -38,7 +39,7 @@ export const DatabaseClient = {
     courseId: string,
     module: string,
     video: string
-  ): Promise<Video> {
+  ): Promise<VideoPlaylist> {
     if (Type === ClientTypes.DataNest) {
       return await DataNest.client.getVideoWhere(courseId, module, video);
     }

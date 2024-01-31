@@ -31,14 +31,11 @@ export default class NestExplorer {
       throw new Error("Module not found");
     }
 
-    return Object.entries(NestData[courseId].modules[module]).map(
-      ([video, playlistId]) => {
-        return {
-          video,
-          playlistId,
-        };
-      }
-    );
+    return Object.keys(NestData[courseId].modules[module]).map((video) => {
+      return {
+        video,
+      };
+    });
   }
 
   async getVideoWhere(courseId: string, module: string, video: string) {
@@ -56,7 +53,7 @@ export default class NestExplorer {
 
     return {
       video,
-      playlistId: NestData[courseId].modules[module][video],
+      playlist: NestData[courseId].modules[module][video],
     };
   }
 }

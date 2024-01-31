@@ -8,28 +8,33 @@ import { GetVideoParams } from "./protocols";
 export class GetVideoController implements IController {
   async handle(
     httpRequest: HttpRequest<GetVideoParams>,
-    request: express.Request
+    request: express.Request,
+    response: express.Response
   ): Promise<HttpResponse<string>> {
     try {
-      const requiredFields: (keyof GetVideoParams)[] = [
-        "courseId",
-        "module",
-        "video",
-      ];
+      const courseId = httpRequest?.params?.courseId;
+      const module = httpRequest?.params?.module;
+      const video = httpRequest?.params?.video;
 
-      for (const field of requiredFields) {
-        if (!httpRequest?.body?.[field as keyof GetVideoParams]?.length) {
-          return badRequest(`Field ${field} is required`);
-        }
+      if (!courseId) {
+        return badRequest("Missing course id");
       }
 
-      const video = await DatabaseClient.getVideoWhere(
-        httpRequest.body!.courseId,
-        httpRequest.body!.module,
-        httpRequest.body!.video
+      if (!module) {
+        return badRequest("Missing module");
+      }
+
+      if (!video) {
+        return badRequest("Missing video");
+      }
+
+      const videoResponse = await DatabaseClient.getVideoWhere(
+        courseId,
+        module,
+        video
       );
 
-      const attachmentProxyId = decodeURIComponent(video.playlistId);
+      const attachmentProxyId = decodeURIComponent(videoResponse.playlist);
       const attachmentUrl = `https://cdn.discordapp.com/attachments/${attachmentProxyId}`;
 
       const axiosResponse = await axios.get(attachmentUrl);
@@ -40,6 +45,13 @@ export class GetVideoController implements IController {
           /ProxyId=/g,
           `${baseURL}/segment/`
         );
+
+        response.setHeader("Content-Type", "application/vnd.apple.mpegurl");
+        response.setHeader(
+          "Content-Disposition",
+          `attachment; filename=${courseId}-${module}-${video}.m3u8`
+        );
+        response.setHeader("Cache-Control", "public, max-age=3600");
 
         return ok<string>(playlist);
       } else {

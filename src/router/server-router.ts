@@ -1,4 +1,5 @@
 import express from "express";
+import { Readable } from "stream";
 import { Router } from "express";
 import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
@@ -6,6 +7,7 @@ import { GetVideosController } from "../controllers/get-videos/get-videos";
 import { authMiddleware } from "../middleware/middleware";
 import { GetJwtTokenController } from "../controllers/get-token/get-token";
 import { GetVideoController } from "../controllers/get-video/get-video";
+import { GetVideoSegmentController } from "../controllers/get-segment/get-segment";
 
 const serverRouter = Router();
 
@@ -60,15 +62,42 @@ serverRouter.get("/jwt-token", express.json(), async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/video", express.json(), async (req, res) => {
-  const getVideoController = new GetVideoController();
+serverRouter.get(
+  "/video/:courseId/:module/:video/",
+  express.json(),
+  async (req, res) => {
+    const getVideoController = new GetVideoController();
 
-  const { body, statusCode } = await getVideoController.handle(
-    { body: req.body },
-    req
+    const { body, statusCode } = await getVideoController.handle(
+      {
+        body: req.body,
+        params: req.params,
+      },
+      req,
+      res
+    );
+
+    res.status(statusCode).send(body);
+  }
+);
+
+serverRouter.get("/segment/:id/", express.json(), async (req, res) => {
+  const getVideoSegmentController = new GetVideoSegmentController();
+
+  const { body, statusCode } = await getVideoSegmentController.handle(
+    {
+      body: req.body,
+      params: req.params,
+    },
+    req,
+    res
   );
 
-  res.status(statusCode).send(body);
+  if (body instanceof Readable) {
+    body.pipe(res);
+  } else {
+    res.status(statusCode).send(body);
+  }
 });
 
 export default serverRouter;
