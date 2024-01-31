@@ -1,4 +1,4 @@
 export interface Module {
-  courserId: string;
+  courseId: string;
   module: string;
 }

@@ -1,5 +1,5 @@
 export interface Video {
-  courserId: string;
+  courseId: string;
   module: string;
   video: string;
   playlist: string;

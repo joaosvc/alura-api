@@ -1,4 +1,4 @@
-export interface Courser {
+export interface Course {
   id: string;
   name: string;
 }
