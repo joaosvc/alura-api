@@ -51,7 +51,7 @@ export class GetVideoController implements IController {
           "Content-Disposition",
           `attachment; filename=${courseId}-${module}-${video}.m3u8`
         );
-        response.setHeader("Cache-Control", "public, max-age=3600");
+        //response.setHeader("Cache-Control", "public, max-age=3600");
 
         return ok<string>(playlist);
       } else {

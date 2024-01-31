@@ -34,7 +34,7 @@ export class GetVideoSegmentController implements IController {
           "Content-Disposition",
           `attachment; filename=${attachmentUuid}`
         );
-        response.setHeader("Cache-Control", "public, max-age=43200");
+        //response.setHeader("Cache-Control", "public, max-age=43200");
 
         return ok<string>(axiosResponse.data);
       } else {
