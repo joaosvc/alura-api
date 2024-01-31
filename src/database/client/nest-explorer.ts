@@ -17,7 +17,6 @@ export default class NestExplorer {
 
     return Object.keys(NestData[courseId].modules).map((module) => {
       return {
-        courseId: courseId,
         module: module,
       };
     });
@@ -35,8 +34,6 @@ export default class NestExplorer {
     return Object.entries(NestData[courseId].modules[module]).map(
       ([video, playlist]) => {
         return {
-          courseId,
-          module,
           video,
           playlist,
         };
