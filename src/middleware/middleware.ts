@@ -6,11 +6,10 @@ import {
 } from "./session/session-interface";
 import { decodeSession } from "./session/decode-session";
 import { encodeSession } from "./session/encode-session";
-import dotenv from "dotenv";
+import { config } from "dotenv";
+import { HttpStatusCode } from "../controllers/protocols";
 
-dotenv.config();
-
-const SECRET_KEY = process.env.SECRET_KEY!;
+config();
 
 export function checkExpirationStatus(token: Session): ExpirationStatus {
   const now = Date.now();
@@ -34,20 +33,18 @@ export function authMiddleware(
   res: Response,
   next: NextFunction
 ) {
-  const unauthorized = (message: string) =>
-    res.status(401).json({
-      ok: false,
-      status: 401,
-      message: message,
-    });
+  const SECRET_KEY = process.env.SECRET_KEY!;
+
+  const unauthorized = (message: string) => {
+    res.status(HttpStatusCode.UNAUTHORIZED).send(message);
+  };
 
   const requestHeader = "X-JWT-Token";
   const responseHeader = "X-Renewed-JWT-Token";
   const header = req.header(requestHeader);
 
   if (!header) {
-    unauthorized(`Required ${requestHeader} header not found.`);
-    return;
+    return unauthorized(`Required ${requestHeader} header not found.`);
   }
 
   const decodedSession: DecodeResult = decodeSession(SECRET_KEY, header);
@@ -56,10 +53,9 @@ export function authMiddleware(
     decodedSession.type === "integrity-error" ||
     decodedSession.type === "invalid-token"
   ) {
-    unauthorized(
+    return unauthorized(
       `Failed to decode or validate authorization token. Reason: ${decodedSession.type}.`
     );
-    return;
   }
 
   const expiration: ExpirationStatus = checkExpirationStatus(
