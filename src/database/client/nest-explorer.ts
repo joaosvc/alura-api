@@ -1,8 +1,8 @@
-import { NestData } from "./data/nest-data";
+import { NestCoursesData, NestCategoriesData } from "./data/nest-data";
 
 export default class NestExplorer {
   async getCourses() {
-    return Object.entries(NestData).map(([id, course]) => {
+    return Object.entries(NestCoursesData).map(([id, course]) => {
       return {
         id,
         name: course.name,
@@ -11,11 +11,11 @@ export default class NestExplorer {
   }
 
   async getModulesWhere(courseId: string) {
-    if (!NestData[courseId]) {
+    if (!NestCoursesData[courseId]) {
       throw new Error("Course not found");
     }
 
-    return Object.keys(NestData[courseId].modules).map((module) => {
+    return Object.keys(NestCoursesData[courseId].modules).map((module) => {
       return {
         module: module,
       };
@@ -23,37 +23,55 @@ export default class NestExplorer {
   }
 
   async getVideosWhere(courseId: string, module: string) {
-    if (!NestData[courseId]) {
+    if (!NestCoursesData[courseId]) {
       throw new Error("Course not found");
     }
 
-    if (!NestData[courseId].modules[module]) {
+    if (!NestCoursesData[courseId].modules[module]) {
       throw new Error("Module not found");
     }
 
-    return Object.keys(NestData[courseId].modules[module]).map((video) => {
-      return {
-        video,
-      };
-    });
+    return Object.keys(NestCoursesData[courseId].modules[module]).map(
+      (video) => {
+        return {
+          video,
+        };
+      }
+    );
   }
 
   async getVideoWhere(courseId: string, module: string, video: string) {
-    if (!NestData[courseId]) {
+    if (!NestCoursesData[courseId]) {
       throw new Error("Course not found");
     }
 
-    if (!NestData[courseId].modules[module]) {
+    if (!NestCoursesData[courseId].modules[module]) {
       throw new Error("Module not found");
     }
 
-    if (!NestData[courseId].modules[module][video]) {
+    if (!NestCoursesData[courseId].modules[module][video]) {
       throw new Error("Video not found");
     }
 
     return {
       video,
-      playlist: NestData[courseId].modules[module][video],
+      playlist: NestCoursesData[courseId].modules[module][video],
     };
+  }
+
+  async getCategories() {
+    return Object.keys(NestCategoriesData).map((category) => {
+      return {
+        category,
+      };
+    });
+  }
+
+  async getCategoryModulesWhere(category: string) {
+    if (!NestCategoriesData[category]) {
+      throw new Error("Category not found");
+    }
+
+    return NestCategoriesData[category];
   }
 }

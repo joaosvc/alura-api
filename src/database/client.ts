@@ -1,9 +1,11 @@
 import { ClientTypes } from "./protocols";
 import { DataNest } from "./types/data-nest";
-import { Course } from "../models/course";
-import { Module } from "../models/module";
-import { Video } from "../models/video";
-import { VideoPlaylist } from "../models/playlist";
+import { Course } from "../models/course/course";
+import { Module } from "../models/course/module";
+import { Video } from "../models/course/video";
+import { VideoPlaylist } from "../models/course/playlist";
+import { Category } from "../models/category/category";
+import { CategoryModules } from "../models/category/modules";
 
 export const Type = ClientTypes.DataNest;
 
@@ -45,5 +47,19 @@ export const DatabaseClient = {
     }
 
     throw new Error("Client not found");
+  },
+
+  async getCategories(): Promise<Category[]> {
+    if (Type === ClientTypes.DataNest) {
+      return await DataNest.client.getCategories();
+    }
+    return [];
+  },
+
+  async getCategoryModulesWhere(category: string): Promise<CategoryModules> {
+    if (Type === ClientTypes.DataNest) {
+      return await DataNest.client.getCategoryModulesWhere(category);
+    }
+    return {};
   },
 };

@@ -1,14 +1,14 @@
 import { DatabaseClient } from "../../database/client";
-import { Course } from "../../models/course/course";
+import { Category } from "../../models/category/category";
 import { badRequest, ok, serverError } from "../helpers";
 import { HttpResponse, IController } from "../protocols";
 
-export class GetCoursesController implements IController {
-  async handle(): Promise<HttpResponse<Course[] | string>> {
+export class GetCategoriesController implements IController {
+  async handle(): Promise<HttpResponse<Category[] | string>> {
     try {
-      const courses = await DatabaseClient.getCourses();
+      const categories = await DatabaseClient.getCategories();
 
-      return ok<Course[]>(courses);
+      return ok<Category[]>(categories);
     } catch (error) {
       if (error instanceof Error) {
         return badRequest(error.message);

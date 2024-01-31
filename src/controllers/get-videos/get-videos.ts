@@ -1,5 +1,5 @@
 import { DatabaseClient } from "../../database/client";
-import { Video } from "../../models/video";
+import { Video } from "../../models/course/video";
 import { badRequest, ok, serverError } from "../helpers";
 import { HttpRequest, HttpResponse, IController } from "../protocols";
 import { GetVideosParams } from "./protocols";

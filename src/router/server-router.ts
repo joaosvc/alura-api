@@ -8,6 +8,8 @@ import { authMiddleware } from "../middleware/middleware";
 import { GetJwtTokenController } from "../controllers/get-token/get-token";
 import { GetVideoController } from "../controllers/get-video/get-video";
 import { GetVideoSegmentController } from "../controllers/get-segment/get-segment";
+import { GetCategoriesController } from "../controllers/get-categories/get-categories";
+import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 
 const serverRouter = Router();
 
@@ -25,6 +27,19 @@ serverRouter.get(
 );
 
 serverRouter.get(
+  "/categories",
+  authMiddleware,
+  express.json(),
+  async (req, res) => {
+    const getCategoriesController = new GetCategoriesController();
+
+    const { body, statusCode } = await getCategoriesController.handle();
+
+    res.status(statusCode).send(body);
+  }
+);
+
+serverRouter.get(
   "/modules",
   authMiddleware,
   express.json(),
@@ -32,6 +47,21 @@ serverRouter.get(
     const getModulesController = new GetModulesController();
 
     const { body, statusCode } = await getModulesController.handle({
+      body: req.body,
+    });
+
+    res.status(statusCode).send(body);
+  }
+);
+
+serverRouter.get(
+  "/category/modules",
+  authMiddleware,
+  express.json(),
+  async (req, res) => {
+    const getCategoryModulesController = new GetCategoryModulesController();
+
+    const { body, statusCode } = await getCategoryModulesController.handle({
       body: req.body,
     });
 
