@@ -1,6 +1,6 @@
-import express from "express";
 import { config } from "dotenv";
-import { DataNest } from "./database/data-nest";
+import { DatabaseClient } from "./database/client";
+import express from "express";
 
 const main = async () => {
   config();
@@ -10,7 +10,7 @@ const main = async () => {
     port: process.env.SERVER_PORT || 8000,
   };
 
-  await DataNest.connect();
+  await DatabaseClient.connect();
 
   server.app.listen(server.port, () =>
     console.log(`listening on port ${server.port}!`)

@@ -1,4 +1,4 @@
-export const nestData = {
+export const NestData = {
   "5b172d22-6af9-46dd-ac87-36b4a52636ff": {
     "name": "Acessibilidade web parte 1 - tornando seu front-end inclusivo",
     "modules": {
