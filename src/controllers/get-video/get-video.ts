@@ -53,7 +53,6 @@ export class GetVideoController implements IController {
         );
         //response.setHeader("Cache-Control", "public, max-age=3600");
 
-        console.log(baseURL);
         return ok<string>(playlist);
       } else {
         return serverError("Failed to retrieve valid response");
