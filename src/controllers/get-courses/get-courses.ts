@@ -1,6 +1,6 @@
 import { DatabaseClient } from "../../database/client";
 import { Course } from "../../models/course";
-import { ok, serverError } from "../helpers";
+import { badRequest, ok, serverError } from "../helpers";
 import { HttpResponse, IController } from "../protocols";
 
 export class GetCoursesController implements IController {
@@ -10,7 +10,12 @@ export class GetCoursesController implements IController {
 
       return ok<Course[]>(courses);
     } catch (error) {
-      return serverError();
+      if (error instanceof Error) {
+        return badRequest(error.message);
+      } else {
+        console.error(error);
+        return serverError();
+      }
     }
   }
 }

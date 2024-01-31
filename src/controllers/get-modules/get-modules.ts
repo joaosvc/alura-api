@@ -9,16 +9,26 @@ export class GetModulesController implements IController {
     httpRequest: HttpRequest<GetModulesParams>
   ): Promise<HttpResponse<Module[] | string>> {
     try {
-      const courseId = httpRequest?.params?.courseId;
+      const requiredFields: (keyof GetModulesParams)[] = ["courseId"];
 
-      if (!courseId) {
-        return badRequest("Missing course id");
+      for (const field of requiredFields) {
+        if (!httpRequest?.body?.[field as keyof GetModulesParams]?.length) {
+          return badRequest(`Field ${field} is required`);
+        }
       }
-      const modules = await DatabaseClient.getModulesWhere(courseId);
+
+      const modules = await DatabaseClient.getModulesWhere(
+        httpRequest.body!.courseId
+      );
 
       return ok<Module[]>(modules);
     } catch (error) {
-      return serverError();
+      if (error instanceof Error) {
+        return badRequest(error.message);
+      } else {
+        console.error(error);
+        return serverError();
+      }
     }
   }
 }

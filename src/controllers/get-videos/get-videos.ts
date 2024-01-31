@@ -9,21 +9,27 @@ export class GetVideosController implements IController {
     httpRequest: HttpRequest<GetVideosParams>
   ): Promise<HttpResponse<Video[] | string>> {
     try {
-      const courseId = httpRequest?.params?.courseId;
-      const module = httpRequest?.params?.module;
+      const requiredFields: (keyof GetVideosParams)[] = ["courseId", "module"];
 
-      if (!courseId) {
-        return badRequest("Missing course id");
+      for (const field of requiredFields) {
+        if (!httpRequest?.body?.[field as keyof GetVideosParams]?.length) {
+          return badRequest(`Field ${field} is required`);
+        }
       }
 
-      if (!module) {
-        return badRequest("Missing module");
-      }
-      const videos = await DatabaseClient.getVideosWhere(courseId, module);
+      const videos = await DatabaseClient.getVideosWhere(
+        httpRequest.body!.courseId,
+        httpRequest.body!.module
+      );
 
       return ok<Video[]>(videos);
     } catch (error) {
-      return serverError();
+      if (error instanceof Error) {
+        return badRequest(error.message);
+      } else {
+        console.error(error);
+        return serverError();
+      }
     }
   }
 }

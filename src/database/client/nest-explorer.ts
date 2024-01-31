@@ -12,7 +12,7 @@ export default class NestExplorer {
 
   async getModulesWhere(courseId: string) {
     if (!NestData[courseId]) {
-      new Error("Course not found");
+      throw new Error("Course not found");
     }
 
     return Object.keys(NestData[courseId].modules).map((module) => {
@@ -25,11 +25,11 @@ export default class NestExplorer {
 
   async getVideosWhere(courseId: string, module: string) {
     if (!NestData[courseId]) {
-      new Error("Course not found");
+      throw new Error("Course not found");
     }
 
     if (!NestData[courseId].modules[module]) {
-      new Error("Module not found");
+      throw new Error("Module not found");
     }
 
     return Object.entries(NestData[courseId].modules[module]).map(
