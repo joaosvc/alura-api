@@ -10,4 +10,4 @@ echo -e "${GREEN}Executando build...${NC}"
 npm run build
 
 echo -e "${GREEN}Iniciando a api...${NC}"
-npm run start
+screen npm run start
