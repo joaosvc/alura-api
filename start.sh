@@ -24,11 +24,11 @@ parar_processo_anterior() {
 
 iniciar_novo_processo() {
     PRIMEIRA_EXECUCAO=false
+    
+    parar_processo_anterior
 
     echo "Executando build..."
     npm run build
-
-    parar_processo_anterior
 
     echo "Iniciando a API..."
     npm run start &
