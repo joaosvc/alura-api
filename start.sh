@@ -1,13 +1,48 @@
 #!/bin/bash
 
-GREEN='\033[0;32m'
-NC='\033[0m'
+REPOSITORIO="origin"
+BRANCH="main"
+TEMPO_ESPERA=5
+PRIMEIRA_EXECUCAO=true
 
-echo -e "${GREEN}Atualizando o repositório...${NC}"
-git pull
+parar_processo_anterior() {
+    PID_ANTIGO=$(pgrep -f "npm run start")
 
-echo -e "${GREEN}Executando build...${NC}"
-npm run build
+    if [ -n "$PID_ANTIGO" ]; then
+        echo "Parando processo anterior (PID: $PID_ANTIGO)..."
+        kill "$PID_ANTIGO"
+        wait "$PID_ANTIGO" 2>/dev/null
+    fi
+}
 
-echo -e "${GREEN}Iniciando a api...${NC}"
-screen npm run start
+iniciar_novo_processo() {
+    PRIMEIRA_EXECUCAO=false
+
+    echo "Executando build..."
+    npm run build
+
+    parar_processo_anterior
+
+    echo "Iniciando a API..."
+    npm run start &
+}
+
+while true; do
+    git fetch "$REPOSITORIO"
+
+    LOCAL=$(git rev-parse HEAD)
+    REMOTE=$(git rev-parse "$REPOSITORIO/$BRANCH")
+
+    if [ "$LOCAL" != "$REMOTE" ]; then
+        echo "Atualizando o repositório..."
+        git pull "$REPOSITORIO" "$BRANCH"
+
+        iniciar_novo_processo
+    else
+        if [ "$PRIMEIRA_EXECUCAO" = true ]; then
+            iniciar_novo_processo
+        fi
+    fi
+
+    sleep "$TEMPO_ESPERA"
+done
