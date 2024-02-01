@@ -17,7 +17,7 @@ parar_processo_anterior() {
 
     if [ -n "$PIDS" ]; then
         echo "Parando processos anteriores na porta $SERVER_PORT..."
-        kill -9 $PIDS
+        kill -15 $PIDS
         wait $PIDS 2>/dev/null
     fi
 }
