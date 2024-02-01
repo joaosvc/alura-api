@@ -8,7 +8,7 @@ PRIMEIRA_EXECUCAO=true
 if [ -f ".env" ]; then
     source .env
 else
-    echo "Error: The .env file is missing."
+    echo "Erro: o arquivo .env está faltando."
     exit 1
 fi
 
