@@ -40,9 +40,7 @@ export class GetVideoController implements IController {
       const axiosResponse = await axios.get(attachmentUrl);
 
       if (axiosResponse && axiosResponse.data) {
-        const forwardedProto = request.headers["x-forwarded-proto"];
-        const requestProtocol = forwardedProto || request.protocol;
-        const baseURL = `${requestProtocol}://${request.get("host")}`;
+        const baseURL = `https://${request.get("host")}`;
         const playlist = axiosResponse.data.replace(
           /ProxyId=/g,
           `${baseURL}/segment/`
