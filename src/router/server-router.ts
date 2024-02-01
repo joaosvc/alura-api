@@ -1,5 +1,4 @@
 import express from "express";
-import { Readable } from "stream";
 import { Router } from "express";
 import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
@@ -10,6 +9,7 @@ import { GetVideoController } from "../controllers/get-video/get-video";
 import { GetVideoSegmentController } from "../controllers/get-segment/get-segment";
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
+import { HttpStatusCode } from "../controllers/protocols";
 
 const serverRouter = Router();
 
@@ -123,9 +123,7 @@ serverRouter.get("/segment/:id/", express.json(), async (req, res) => {
     res
   );
 
-  if (body instanceof Readable) {
-    body.pipe(res);
-  } else {
+  if (statusCode !== HttpStatusCode.OK) {
     res.status(statusCode).send(body);
   }
 });
