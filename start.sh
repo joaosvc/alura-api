@@ -44,8 +44,6 @@ while true; do
         echo "Atualizando o repositório..."
         git pull "$REPOSITORIO" "$BRANCH"
 
-        chmod +x ./start.sh
-
         iniciar_novo_processo
     else
         if [ "$PRIMEIRA_EXECUCAO" = true ]; then
