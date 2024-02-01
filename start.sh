@@ -17,7 +17,14 @@ parar_processo_anterior() {
 
     if [ -n "$PIDS" ]; then
         kill -15 $PIDS
-        wait $PIDS 2>/dev/null
+        sleep 5
+
+        PIDS=$(lsof -ti :"$SERVER_PORT")
+        if [ -n "$PIDS" ]; then
+            echo "Parando à força processos na porta $SERVER_PORT..."
+            kill -9 $PIDS
+            wait $PIDS 2>/dev/null
+        fi
     fi
 }
 
