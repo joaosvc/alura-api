@@ -16,7 +16,7 @@ parar_processo_anterior() {
     PIDS=$(lsof -ti :"$SERVER_PORT")
 
     if [ -n "$PIDS" ]; then
-        echo "Parando processos anterior na porta $SERVER_PORT..."
+        echo "Parando processos anteriores na porta $SERVER_PORT..."
         kill -9 $PIDS
         wait $PIDS 2>/dev/null
     fi
