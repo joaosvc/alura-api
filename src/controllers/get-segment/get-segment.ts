@@ -18,48 +18,31 @@ export class GetVideoSegmentController implements IController {
 
       const attachmentProxyId = decodeURIComponent(segmentId);
       const attachmentUrl = `https://cdn.discordapp.com/attachments/${attachmentProxyId}`;
-      // const attachmentUuid = attachmentProxyId.split("/").pop()!;
+      const attachmentUuid = attachmentProxyId.split("/").pop()!;
 
       const axiosResponse = await axios.get(attachmentUrl, {
         responseType: "stream",
       });
 
-      const contentType = axiosResponse.headers["content-type"];
-      const contentLength = axiosResponse.headers["content-length"];
+      if (axiosResponse && axiosResponse.data) {
+        const contentType = axiosResponse.headers["content-type"];
+        const contentLength = axiosResponse.headers["content-length"];
 
-      response.setHeader("Content-Type", contentType);
-      response.setHeader("Content-Length", contentLength);
+        response.setHeader("Content-Type", contentType);
+        response.setHeader("Content-Length", contentLength);
+        // response.setHeader("Cache-Control", "public, max-age=43200");
 
-      // response.setHeader(
-      //   "Content-Disposition",
-      //   `attachment; filename=${attachmentUuid}`
-      // );
+        response.setHeader(
+          "Content-Disposition",
+          `attachment; filename=${attachmentUuid}`
+        );
 
-      // axiosResponse.data.pipe(response, { end: true });
+        axiosResponse.data.pipe(response, { end: true });
 
-      const chunkSize = 3 * 1024 * 1024;
-
-      let offset = 0;
-      let remaining = contentLength;
-
-      const sendChunk = () => {
-        const end = Math.min(offset + chunkSize, contentLength);
-
-        if (offset < contentLength) {
-          axiosResponse.data.pipe(response, { start: offset, end });
-
-          offset += chunkSize;
-          remaining -= chunkSize;
-
-          if (remaining <= 0) {
-            response.end();
-          }
-        }
-      };
-
-      sendChunk();
-
-      return ok<string>("Streaming in progress");
+        return ok<string>("Streaming in progress");
+      } else {
+        return serverError("Failed to retrieve valid response");
+      }
     } catch (error) {
       if (error instanceof Error) {
         return badRequest(error.message);
