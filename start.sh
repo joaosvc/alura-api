@@ -5,13 +5,20 @@ BRANCH="main"
 TEMPO_ESPERA=5
 PRIMEIRA_EXECUCAO=true
 
-parar_processo_anterior() {
-    PID_ANTIGO=$(pgrep -f "npm run start")
+if [ -f ".env" ]; then
+    source .env
+else
+    echo "Error: The .env file is missing."
+    exit 1
+fi
 
-    if [ -n "$PID_ANTIGO" ]; then
-        echo "Parando processo anterior (PID: $PID_ANTIGO)..."
-        kill "$PID_ANTIGO"
-        wait "$PID_ANTIGO" 2>/dev/null
+parar_processo_anterior() {
+    PIDS=$(lsof -ti :"$SERVER_PORT")
+
+    if [ -n "$PIDS" ]; then
+        echo "Parando processos anterior na porta $SERVER_PORT..."
+        kill -9 $PIDS
+        wait $PIDS 2>/dev/null
     fi
 }
 
@@ -36,6 +43,8 @@ while true; do
     if [ "$LOCAL" != "$REMOTE" ]; then
         echo "Atualizando o repositório..."
         git pull "$REPOSITORIO" "$BRANCH"
+
+        chmod +x ./start.sh
 
         iniciar_novo_processo
     else
