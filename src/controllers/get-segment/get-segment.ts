@@ -30,7 +30,7 @@ export class GetVideoSegmentController implements IController {
 
         response.setHeader("Content-Type", contentType);
         response.setHeader("Content-Length", contentLength);
-        // response.setHeader("Cache-Control", "public, max-age=43200");
+        response.setHeader("Cache-Control", "public, max-age=43200");
 
         response.setHeader(
           "Content-Disposition",
