@@ -19,6 +19,7 @@ export function checkExpirationStatus(token: Session): ExpirationStatus {
     return "active";
   }
 
+  /** 3 hours * 60 minutes * 60 seconds * 1000 milliseconds */
   const threeHoursInMs = 3 * 60 * 60 * 1000;
   const threeHoursAfterExpiration = token.expires + threeHoursInMs;
 
