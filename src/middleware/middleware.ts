@@ -7,8 +7,8 @@ import {
 import { decodeSession } from "./session/decode-session";
 import { encodeSession } from "./session/encode-session";
 import { config } from "dotenv";
-import { HttpResponse } from "../controllers/protocols";
-import { badRequest, serverError, unauthorized } from "../controllers/helpers";
+import { HttpStatusCode } from "../controllers/protocols";
+import { serverError } from "../controllers/helpers";
 
 config();
 
@@ -37,8 +37,8 @@ export function authMiddleware(
 ) {
   const SECRET_KEY = process.env.SECRET_KEY!;
 
-  const httpResponse = (response: HttpResponse<string>) => {
-    res.status(response.statusCode).send(response.body);
+  const unauthorized = (error: string, message: string) => {
+    res.status(HttpStatusCode.UNAUTHORIZED).send({ error, message });
   };
 
   try {
@@ -47,8 +47,9 @@ export function authMiddleware(
     const header = req.header(requestHeader);
 
     if (!header) {
-      return httpResponse(
-        badRequest(`Required ${requestHeader} header not found.`)
+      return unauthorized(
+        "token-missing",
+        `Required ${requestHeader} header not found.`
       );
     }
 
@@ -58,10 +59,9 @@ export function authMiddleware(
       decodedSession.type === "integrity-error" ||
       decodedSession.type === "invalid-token"
     ) {
-      return httpResponse(
-        unauthorized(
-          `Failed to decode or validate authorization token. Reason: ${decodedSession.type}.`
-        )
+      return unauthorized(
+        "integrity-error",
+        `Failed to decode or validate authorization token. Reason: ${decodedSession.type}.`
       );
     }
 
@@ -70,10 +70,9 @@ export function authMiddleware(
     );
 
     if (expiration === "expired") {
-      return httpResponse(
-        unauthorized(
-          `Authorization token has expired. Please create a new authorization token.`
-        )
+      return unauthorized(
+        "token-expired",
+        "Authorization token has expired. Please create a new authorization token."
       );
     }
 
@@ -101,6 +100,6 @@ export function authMiddleware(
     next();
   } catch (error) {
     console.error(`Error in authMiddleware: ${error}`);
-    httpResponse(serverError());
+    res.status(HttpStatusCode.SERVER_ERROR).send(serverError().body);
   }
 }
