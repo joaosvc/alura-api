@@ -12,6 +12,13 @@ export const badRequest = (message: string): HttpResponse<string> => {
   };
 };
 
+export const unauthorized = (message: string): HttpResponse<string> => {
+  return {
+    statusCode: HttpStatusCode.UNAUTHORIZED,
+    body: message,
+  };
+};
+
 export const serverError = (message?: string): HttpResponse<string> => {
   return {
     statusCode: HttpStatusCode.SERVER_ERROR,
