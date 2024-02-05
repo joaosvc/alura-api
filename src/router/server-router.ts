@@ -16,7 +16,7 @@ import { GetCategoriesWithModulesController } from "../controllers/get-categorie
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
   origin: "*",
-  methods: "GET",
+  methods: "GET, POST",
   optionsSuccessStatus: 204,
 };
 
@@ -26,7 +26,7 @@ serverRouter.use(
     "/modules",
     "/videos",
     "/categories",
-    "/categories-modules",
+    "/categories/modules",
     "/category/modules",
   ],
   cors(corsOptions),
@@ -50,7 +50,7 @@ serverRouter.get("/categories", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/categories-modules", async (req, res) => {
+serverRouter.get("/categories/modules", async (req, res) => {
   const getCategoriesWithModulesController =
     new GetCategoriesWithModulesController();
 
@@ -60,7 +60,7 @@ serverRouter.get("/categories-modules", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/modules", async (req, res) => {
+serverRouter.post("/modules", async (req, res) => {
   const getModulesController = new GetModulesController();
 
   const { body, statusCode } = await getModulesController.handle({
@@ -70,7 +70,7 @@ serverRouter.get("/modules", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/category/modules", async (req, res) => {
+serverRouter.post("/category/modules", async (req, res) => {
   const getCategoryModulesController = new GetCategoryModulesController();
 
   const { body, statusCode } = await getCategoryModulesController.handle({
@@ -80,7 +80,7 @@ serverRouter.get("/category/modules", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/videos", async (req, res) => {
+serverRouter.post("/videos", async (req, res) => {
   const getVideosController = new GetVideosController();
 
   const { body, statusCode } = await getVideosController.handle({
