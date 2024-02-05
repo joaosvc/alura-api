@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { Router } from "express";
 import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
@@ -41,6 +42,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/modules",
+  cors(),
   authMiddleware,
   express.json(),
   async (req, res) => {
