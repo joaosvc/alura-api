@@ -11,6 +11,7 @@ import { GetVideoSegmentController } from "../controllers/get-segment/get-segmen
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 import { HttpStatusCode } from "../controllers/protocols";
+import { GetCategoriesWithModulesController } from "../controllers/get-categories/get-categories-modules";
 
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
@@ -20,7 +21,14 @@ const corsOptions: CorsOptions = {
 };
 
 serverRouter.use(
-  ["/courses", "/modules", "/videos", "/categories", "/category/modules"],
+  [
+    "/courses",
+    "/modules",
+    "/videos",
+    "/categories",
+    "/categories-modules",
+    "/category/modules",
+  ],
   cors(corsOptions),
   authMiddleware,
   express.json()
@@ -38,6 +46,16 @@ serverRouter.get("/categories", async (req, res) => {
   const getCategoriesController = new GetCategoriesController();
 
   const { body, statusCode } = await getCategoriesController.handle();
+
+  res.status(statusCode).send(body);
+});
+
+serverRouter.get("/categories-modules", async (req, res) => {
+  const getCategoriesWithModulesController =
+    new GetCategoriesWithModulesController();
+
+  const { body, statusCode } =
+    await getCategoriesWithModulesController.handle();
 
   res.status(statusCode).send(body);
 });

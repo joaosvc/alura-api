@@ -1,3 +1,4 @@
+import { Category, CategoryWithModules } from "../../models/category/category";
 import { NestCoursesData, NestCategoriesData } from "./data/nest-data";
 
 export default class NestExplorer {
@@ -59,11 +60,11 @@ export default class NestExplorer {
     };
   }
 
-  async getCategories() {
-    return Object.keys(NestCategoriesData).map((category) => {
-      return {
-        category,
-      };
+  async getCategories(
+    modules: boolean = false
+  ): Promise<Category[] | CategoryWithModules[]> {
+    return Object.entries(NestCategoriesData).map(([category, data]) => {
+      return modules ? { category, modules: Object.keys(data) } : { category };
     });
   }
 
