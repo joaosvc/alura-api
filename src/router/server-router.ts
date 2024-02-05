@@ -1,5 +1,5 @@
 import express from "express";
-import cors from "cors";
+import cors, { CorsOptions } from "cors";
 import { Router } from "express";
 import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
@@ -13,10 +13,15 @@ import { GetCategoryModulesController } from "../controllers/get-category/get-ca
 import { HttpStatusCode } from "../controllers/protocols";
 
 const serverRouter = Router();
+const corsOptions: CorsOptions = {
+  origin: "*",
+  methods: "GET",
+  optionsSuccessStatus: 204,
+};
 
 serverRouter.get(
   "/courses",
-  cors(),
+  cors(corsOptions),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -30,7 +35,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/categories",
-  cors(),
+  cors(corsOptions),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -44,7 +49,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/modules",
-  cors(),
+  cors(corsOptions),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -60,7 +65,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/category/modules",
-  cors(),
+  cors(corsOptions),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -76,7 +81,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/videos",
-  cors(),
+  cors(corsOptions),
   authMiddleware,
   express.json(),
   async (req, res) => {
