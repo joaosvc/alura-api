@@ -16,6 +16,7 @@ const serverRouter = Router();
 
 serverRouter.get(
   "/courses",
+  cors(),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -29,6 +30,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/categories",
+  cors(),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -58,6 +60,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/category/modules",
+  cors(),
   authMiddleware,
   express.json(),
   async (req, res) => {
@@ -73,6 +76,7 @@ serverRouter.get(
 
 serverRouter.get(
   "/videos",
+  cors(),
   authMiddleware,
   express.json(),
   async (req, res) => {
