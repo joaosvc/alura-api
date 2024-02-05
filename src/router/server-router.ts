@@ -12,88 +12,65 @@ import { GetCategoriesController } from "../controllers/get-categories/get-categ
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 import { HttpStatusCode } from "../controllers/protocols";
 
-const serverRouter = Router();
+const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
   origin: "*",
   methods: "GET",
   optionsSuccessStatus: 204,
 };
 
-serverRouter.get(
-  "/courses",
+serverRouter.use(
+  ["/courses", "/modules", "/videos", "/categories", "/category/modules"],
   cors(corsOptions),
   authMiddleware,
-  express.json(),
-  async (req, res) => {
-    const getCoursesController = new GetCoursesController();
-
-    const { body, statusCode } = await getCoursesController.handle();
-
-    res.status(statusCode).send(body);
-  }
+  express.json()
 );
 
-serverRouter.get(
-  "/categories",
-  cors(corsOptions),
-  authMiddleware,
-  express.json(),
-  async (req, res) => {
-    const getCategoriesController = new GetCategoriesController();
+serverRouter.get("/courses", async (req, res) => {
+  const getCoursesController = new GetCoursesController();
 
-    const { body, statusCode } = await getCategoriesController.handle();
+  const { body, statusCode } = await getCoursesController.handle();
 
-    res.status(statusCode).send(body);
-  }
-);
+  res.status(statusCode).send(body);
+});
 
-serverRouter.get(
-  "/modules",
-  cors(corsOptions),
-  authMiddleware,
-  express.json(),
-  async (req, res) => {
-    const getModulesController = new GetModulesController();
+serverRouter.get("/categories", async (req, res) => {
+  const getCategoriesController = new GetCategoriesController();
 
-    const { body, statusCode } = await getModulesController.handle({
-      body: req.body,
-    });
+  const { body, statusCode } = await getCategoriesController.handle();
 
-    res.status(statusCode).send(body);
-  }
-);
+  res.status(statusCode).send(body);
+});
 
-serverRouter.get(
-  "/category/modules",
-  cors(corsOptions),
-  authMiddleware,
-  express.json(),
-  async (req, res) => {
-    const getCategoryModulesController = new GetCategoryModulesController();
+serverRouter.get("/modules", async (req, res) => {
+  const getModulesController = new GetModulesController();
 
-    const { body, statusCode } = await getCategoryModulesController.handle({
-      body: req.body,
-    });
+  const { body, statusCode } = await getModulesController.handle({
+    body: req.body,
+  });
 
-    res.status(statusCode).send(body);
-  }
-);
+  res.status(statusCode).send(body);
+});
 
-serverRouter.get(
-  "/videos",
-  cors(corsOptions),
-  authMiddleware,
-  express.json(),
-  async (req, res) => {
-    const getVideosController = new GetVideosController();
+serverRouter.get("/category/modules", async (req, res) => {
+  const getCategoryModulesController = new GetCategoryModulesController();
 
-    const { body, statusCode } = await getVideosController.handle({
-      body: req.body,
-    });
+  const { body, statusCode } = await getCategoryModulesController.handle({
+    body: req.body,
+  });
 
-    res.status(statusCode).send(body);
-  }
-);
+  res.status(statusCode).send(body);
+});
+
+serverRouter.get("/videos", async (req, res) => {
+  const getVideosController = new GetVideosController();
+
+  const { body, statusCode } = await getVideosController.handle({
+    body: req.body,
+  });
+
+  res.status(statusCode).send(body);
+});
 
 serverRouter.get("/jwt-token", express.json(), async (req, res) => {
   const getJwtTokenController = new GetJwtTokenController();
@@ -103,26 +80,22 @@ serverRouter.get("/jwt-token", express.json(), async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get(
-  "/video/:courseId/:module/:video/",
-  express.json(),
-  async (req, res) => {
-    const getVideoController = new GetVideoController();
+serverRouter.get("/video/:courseId/:module/:video/", async (req, res) => {
+  const getVideoController = new GetVideoController();
 
-    const { body, statusCode } = await getVideoController.handle(
-      {
-        body: req.body,
-        params: req.params,
-      },
-      req,
-      res
-    );
+  const { body, statusCode } = await getVideoController.handle(
+    {
+      body: req.body,
+      params: req.params,
+    },
+    req,
+    res
+  );
 
-    res.status(statusCode).send(body);
-  }
-);
+  res.status(statusCode).send(body);
+});
 
-serverRouter.get("/segment/:id/", express.json(), async (req, res) => {
+serverRouter.get("/segment/:id/", async (req, res) => {
   const getVideoSegmentController = new GetVideoSegmentController();
 
   const { body, statusCode } = await getVideoSegmentController.handle(
