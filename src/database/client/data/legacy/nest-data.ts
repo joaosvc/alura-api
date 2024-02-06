@@ -1,13 +1,9 @@
-import { INestCoursesData } from "./protocols";
+import { INestCoursesLegacyData } from "../protocols";
+import { INestCategoriesLegacyData } from "../protocols";
 
-export const NestCoursesData: INestCoursesData = {
+export const NestCoursesData: INestCoursesLegacyData = {
   "5b172d22-6af9-46dd-ac87-36b4a52636ff": {
     name: "Acessibilidade web parte 1 - tornando seu front-end inclusivo",
-    icon: "acessibilidade-html-codigos-semanticos-inclusao.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201430050134839308%2F5b172d22-6af9-46dd-ac87-36b4a52636ff011",
@@ -42,11 +38,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "047d8dca-bc8b-436c-b3aa-5646a605b530": {
     name: "Acessibilidade web - crie designs inclusivos",
-    icon: "acessibilidade-html-codigos-semanticos-inclusao.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201430080333815849%2F047d8dca-bc8b-436c-b3aa-5646a605b530011",
@@ -84,11 +75,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4bcd90dc-b794-461d-bafd-628836b73f0d": {
     name: "Acessibilidade web parte 2 - componentes acessíveis com um pouco de JavaScript",
-    icon: "acessibilidade-web-front-end-parte-2.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430121379274762%2F4bcd90dc-b794-461d-bafd-628836b73f0d011",
@@ -125,11 +111,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "20c3d98b-5de9-4d90-9fa9-2b62f7b3c920": {
     name: "Acesso ao Big Query - manipulação programático linguagens",
-    icon: "big-query-manipulacao-programatico-linguagens.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201430160424050728%2F20c3d98b-5de9-4d90-9fa9-2b62f7b3c920011",
@@ -183,11 +164,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "63596b40-87a1-45a3-a4e8-636f9994e471": {
     name: "Administração do MySQL - segurança e otimização do banco",
-    icon: "mysql-dba-administracao.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201430218712285235%2F63596b40-87a1-45a3-a4e8-636f9994e471011",
@@ -236,11 +212,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2b95c36b-fbc6-44c9-84d5-b6217592df38": {
     name: "Administração do Oracle Database - criação e gerenciamento do banco",
-    icon: "administracao-oracle-database-gerenciamento-banco.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201430272646860850%2F2b95c36b-fbc6-44c9-84d5-b6217592df38011",
@@ -282,11 +253,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5a43184e-519b-4e50-918f-e6c1ffc13e79": {
     name: "Adobe After Effects - animando a partir do Element 3D",
-    icon: "element-3d.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201430315932074085%2F5a43184e-519b-4e50-918f-e6c1ffc13e79011",
@@ -312,11 +278,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "142440c3-1d72-4be4-b81a-3cf8d5067669": {
     name: "Administração do Oracle Database - segurança e otimização do banco",
-    icon: "administracao-oracle-database-seguranca-otimizacao.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201430331551658074%2F142440c3-1d72-4be4-b81a-3cf8d5067669011",
@@ -359,11 +320,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e708fce-3518-4aa7-98b6-eab3665fc6de": {
     name: "Adobe After Effects - construção do personagem no Photoshop",
-    icon: "after-effects-personagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430376514600990%2F7e708fce-3518-4aa7-98b6-eab3665fc6de011",
@@ -389,11 +345,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "42fc6e10-c15d-42c3-ad52-eff6e885dead": {
     name: "Adobe Illustrator - compondo peças gráficas",
-    icon: "adobe-illustrator-compondo-pecas-graficas.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201430396299128935%2F42fc6e10-c15d-42c3-ad52-eff6e885dead011",
@@ -429,11 +380,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5fd0b28d-a5fe-4e61-88e6-99a9e71ecfc3": {
     name: "Adobe Illustrator - conhecendo a ferramenta",
-    icon: "adobe-illustrator-conhecendo-ferramenta.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201430429748707328%2F5fd0b28d-a5fe-4e61-88e6-99a9e71ecfc3011",
@@ -470,11 +416,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d37aa93c-d911-4227-af08-6599d7f280f6": {
     name: "Adobe Illustrator - criação de ícones e fundos para interfaces digitais",
-    icon: "illustrator-criacao-icones-fundos-interfaces-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201430462510420061%2Fd37aa93c-d911-4227-af08-6599d7f280f6011",
@@ -508,11 +449,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "10937397-5bca-4b82-9d35-707fc3eac84f": {
     name: "Adobe Illustrator - desenho vetorial",
-    icon: "vetor-illustrator.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201430491614687272%2F10937397-5bca-4b82-9d35-707fc3eac84f011",
@@ -544,11 +480,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9efed23a-5bd2-47fc-9399-992cb7b09dbf": {
     name: "Adobe Illustrator - gráficos e elementos 3D para interfaces digitais",
-    icon: "adobe-illustrator-graficos-elementos-3d-interfaces-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201430515966820372%2F9efed23a-5bd2-47fc-9399-992cb7b09dbf011",
@@ -585,11 +516,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0dbc3d4-5627-47c2-a034-68de4b3bf992": {
     name: "Adobe Illustrator - ilustrações para interfaces digitais",
-    icon: "adobe-illustrator-ilustracoes-interfaces-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201430552096546816%2Fd0dbc3d4-5627-47c2-a034-68de4b3bf992011",
@@ -617,11 +543,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c0278f6d-2482-4c83-92a3-6f99dba79226": {
     name: "Adobe Illustrator - trabalhando a partir do gradiente",
-    icon: "adobe-illustrator-gradiente.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201430577304317972%2Fc0278f6d-2482-4c83-92a3-6f99dba79226011",
@@ -650,11 +571,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "502356e9-3ee5-4a8a-a183-b0b74c633ceb": {
     name: "Adobe Illustrator - trabalhando com edição tipográfica",
-    icon: "adobe-illustrator-tipografia-edicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201430604093345812%2F502356e9-3ee5-4a8a-a183-b0b74c633ceb011",
@@ -691,11 +607,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4ac5a7a6-40e8-4752-b7b4-49f9331406d5": {
     name: "Adobe Illustrator - vetorizando a partir da pen tool",
-    icon: "illustrator-vetorizacao-pen.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201430644450926632%2F4ac5a7a6-40e8-4752-b7b4-49f9331406d5011",
@@ -724,11 +635,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5e3870e8-9eaa-4e73-a066-80955afe4974": {
     name: "Adobe Illustrator Mobile - criando peças para redes sociais no Ipad",
-    icon: "adobe-illustrator-mobile-pecas-redes-sociais-ipad.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201430670594019438%2F5e3870e8-9eaa-4e73-a066-80955afe4974011",
@@ -756,11 +662,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f398163f-165f-4a76-9521-2e938ab0fed7": {
     name: "Adobe InDesign - Trabalhando com diagramação",
-    icon: "indesign-introducao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201430697961848903%2Ff398163f-165f-4a76-9521-2e938ab0fed7011",
@@ -787,11 +688,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "617a6b69-ccee-48f3-8f5c-9cd0294157df": {
     name: "Adobe InDesign - trabalhando na diagramação de um eBook",
-    icon: "indesign-ebook.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201430719910649886%2F617a6b69-ccee-48f3-8f5c-9cd0294157df011",
@@ -820,11 +716,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f3e937e7-ba32-4bb0-b621-349bc131c52b": {
     name: "Adobe Lightroom - gerenciamento e tratamento de múltiplas fotos",
-    icon: "adobe-lightroom-gerenciamento-tratamento-fotos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430743595880468%2Ff3e937e7-ba32-4bb0-b621-349bc131c52b011",
@@ -853,11 +744,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "343a9a81-0c01-498a-9405-52b0e2125888": {
     name: "Adobe Lightroom - lidando com aplicações profissionais",
-    icon: "adobe-lightroom-aplicacoes-profissionais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201430769978064927%2F343a9a81-0c01-498a-9405-52b0e2125888011",
@@ -887,11 +773,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "18970155-808b-4ded-afc2-c08bd4d02117": {
     name: "Adobe Photoshop - compondo peça publicitária",
-    icon: "adobe-photoshop-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Manipulação Fotografica",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201430800042827857%2F18970155-808b-4ded-afc2-c08bd4d02117011",
@@ -919,11 +800,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6c5d3e63-0e9c-45f9-90a4-9a57fed53154": {
     name: "Adobe Photoshop - composição de imagens",
-    icon: "adobe-photoshop-composicao-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201430822373294130%2F6c5d3e63-0e9c-45f9-90a4-9a57fed53154011",
@@ -960,11 +836,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bfedeb56-fade-4876-a691-83803186ebd1": {
     name: "Adobe Photoshop - cor e narrativa em uma HQ",
-    icon: "adobe-photoshop-cor-narrativa-hq.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201430858851176500%2Fbfedeb56-fade-4876-a691-83803186ebd1011",
@@ -1000,11 +871,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b4be552-4692-4e0f-a85f-d438dcb6a1eb": {
     name: "Adobe Photoshop - ferramentas essenciais do programa",
-    icon: "adobe-photoshop-ferramentas-essenciais-programa.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201430903856037939%2F7b4be552-4692-4e0f-a85f-d438dcb6a1eb011",
@@ -1041,11 +907,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dfba2df0-9852-41ee-9307-57ef3a0a53c3": {
     name: "Adobe Photoshop - iluminação dentro de uma HQ",
-    icon: "adobe-photoshop-iluminacao-hq.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201430942208766052%2Fdfba2df0-9852-41ee-9307-57ef3a0a53c3011",
@@ -1077,11 +938,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c1bf98c-58cf-4997-9b67-47a8fb888b32": {
     name: "Adobe Photoshop - lidando com imperfeições de pele",
-    icon: "adobe-photoshop-tratamento-pele.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201430967521390652%2F3c1bf98c-58cf-4997-9b67-47a8fb888b32011",
@@ -1112,11 +968,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50e4e883-d33a-48fb-903e-4c1d555b2657": {
     name: "Adobe Photoshop - processo de colorização para HQ's",
-    icon: "photoshop-colorizacao-hqs.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201430993840636004%2F50e4e883-d33a-48fb-903e-4c1d555b2657011",
@@ -1148,11 +999,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5277f812-0737-4a5a-9a05-67571e475d99": {
     name: "Adobe Photoshop - tons de pele e correções",
-    icon: "adobe-photoshop-tons-pele-correcoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201431028200374342%2F5277f812-0737-4a5a-9a05-67571e475d99011",
@@ -1181,11 +1027,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c4e246f2-272a-4937-b7e2-cfbf93b46ca0": {
     name: "Adobe Photoshop - tratamento de imagens",
-    icon: "photoshop-tratamento-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201431065487749170%2Fc4e246f2-272a-4937-b7e2-cfbf93b46ca0011",
@@ -1221,11 +1062,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ad569e59-7e4b-4e12-8a64-51a8cb9fe3b1": {
     name: "Adobe Photoshop - tratando imagem com viés publicitário",
-    icon: "tratamento-imagem-publicitario.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201431098064912536%2Fad569e59-7e4b-4e12-8a64-51a8cb9fe3b1011",
@@ -1255,11 +1091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78ec0ec5-a9d9-4b13-bf2e-a2a5014f14a5": {
     name: "Adobe Photoshop - tratando imagens com técnicas refinadas",
-    icon: "adobe-photoshop-tratamento-refinado.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431123637579866%2F78ec0ec5-a9d9-4b13-bf2e-a2a5014f14a5011",
@@ -1289,11 +1120,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b5390f6a-e4b3-49b1-99a1-b9ba8b8523c8": {
     name: "Adobe Photoshop e Adobe Illustrator - composição para impressão",
-    icon: "composicao-impressao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201431149843599380%2Fb5390f6a-e4b3-49b1-99a1-b9ba8b8523c8011",
@@ -1325,11 +1151,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e3d44f30-8de6-43c6-8d63-aa6913828ef7": {
     name: "Adobe Photoshop e Illustrator - do vetor à composição",
-    icon: "photoshop-illustrator-vetor-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201431175441436702%2Fe3d44f30-8de6-43c6-8d63-aa6913828ef7011",
@@ -1367,11 +1188,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d8efa3c3-1527-4d2f-bdd8-1bfadb2cf412": {
     name: "Adobe Photoshop e Illustrator - práticas de edição gráfica para mídias sociais",
-    icon: "photoshop-illustrator-midias.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201431208534474793%2Fd8efa3c3-1527-4d2f-bdd8-1bfadb2cf412011",
@@ -1404,11 +1220,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d1a3128d-74d4-4160-9b77-8f87bc3e2997": {
     name: "Adobe Premiere - cor grading",
-    icon: "adobe-premiere-cor-grading.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Colorização",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431234824376350%2Fd1a3128d-74d4-4160-9b77-8f87bc3e2997011",
@@ -1443,11 +1254,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5a33283-720a-4943-9255-3dac9f84b16a": {
     name: "Adobe Premiere - criação de vídeo institucional",
-    icon: "premiere-video-instucional.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201431264016736256%2Fd5a33283-720a-4943-9255-3dac9f84b16a011",
@@ -1485,11 +1291,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5b1d28e-226a-4b70-9768-d40ed0611af8": {
     name: "Adobe Premiere 2020 - edição de vídeo",
-    icon: "adobe-premiere-introducao-edicao-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201431294089908285%2Fd5b1d28e-226a-4b70-9768-d40ed0611af8011",
@@ -1531,11 +1332,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "18ef5bfa-d0ed-41c8-8bbd-5f38b78792fa": {
     name: "Adobe Premiere Rush - edite seus vídeos direto do seu smartphone",
-    icon: "adobe-premiere-rush.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201431332581015583%2F18ef5bfa-d0ed-41c8-8bbd-5f38b78792fa011",
@@ -1562,11 +1358,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "abf7698b-c106-4e13-9ec2-d33f2413347d": {
     name: "Adobe XD - componentes da interface",
-    icon: "adobe-xd-componentes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201431352394911815%2Fabf7698b-c106-4e13-9ec2-d33f2413347d011",
@@ -1605,11 +1396,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aff0a4c3-21cd-42c6-955c-10d26829282d": {
     name: "Adobe XD - design visual de um site mobile",
-    icon: "adobe-xd-site-mobile.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431386490404864%2Faff0a4c3-21cd-42c6-955c-10d26829282d011",
@@ -1645,11 +1431,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d21d755b-8d80-4732-aa9d-fb3e79a0b61e": {
     name: "Adobe XD - refinando o visual da interface",
-    icon: "adobe-xd-interface.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201431420975992862%2Fd21d755b-8d80-4732-aa9d-fb3e79a0b61e011",
@@ -1688,11 +1469,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f6c29069-2d5d-4be3-bb13-49c894c82ad6": {
     name: "Adobe XD - trabalhando com microinterações",
-    icon: "xd-microinteracoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431454589140993%2Ff6c29069-2d5d-4be3-bb13-49c894c82ad6011",
@@ -1719,11 +1495,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f1924ecc-2ecf-4b09-9287-5ec9fd55653f": {
     name: "Affinity Designer - vetorizando ilustrações",
-    icon: "affinity-designer-vetorizacao-ilustracoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201431474377859092%2Ff1924ecc-2ecf-4b09-9287-5ec9fd55653f011",
@@ -1757,11 +1528,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dcfd665d-f804-4c6b-9c4d-b768e0326e11": {
     name: "Affinity Photo - tratamento de imagens",
-    icon: "affinity-photo-tratamento-imagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431503775731832%2Fdcfd665d-f804-4c6b-9c4d-b768e0326e11011",
@@ -1798,11 +1564,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ca294bad-688d-497a-ace9-04ee25058531": {
     name: "Affinity Publisher - diagramação de conteúdo",
-    icon: "affinity-publisher-diagramacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201431544280133702%2Fca294bad-688d-497a-ace9-04ee25058531011",
@@ -1837,11 +1598,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9368e103-536c-43d9-95a7-777f2ed17ac5": {
     name: "After Effects - animando uma interface",
-    icon: "after-effects-animando-interface.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431576500781087%2F9368e103-536c-43d9-95a7-777f2ed17ac5011",
@@ -1881,11 +1637,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d3aa87ab-5a33-4a51-a5b8-3a46fe1bf2e4": {
     name: "After effects - anime personagens com Duik",
-    icon: "after-effects-anime-personagens-duik.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201431620440297572%2Fd3aa87ab-5a33-4a51-a5b8-3a46fe1bf2e4011",
@@ -1923,11 +1674,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "41a11482-3e37-491f-9881-f9c4458c62a8": {
     name: "After Effects - transformando dados em animações impactantes",
-    icon: "after-effects-transformando-dados-animacoes-impactantes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201431655001374782%2F41a11482-3e37-491f-9881-f9c4458c62a8011",
@@ -1965,11 +1711,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c3baea3-f44d-4508-861e-5c2392ae716c": {
     name: "After Effects - técnicas de composição e fluxo de trabalho",
-    icon: "after-effects-tecnicas-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201431688920703027%2F3c3baea3-f44d-4508-861e-5c2392ae716c011",
@@ -1998,11 +1739,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8bafaf02-94ff-43f1-9ac3-f1df4cacf569": {
     name: "Agile Coach - lidere a transformação nas empresas",
-    icon: "agile-coach.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431712568180826%2F8bafaf02-94ff-43f1-9ac3-f1df4cacf569011",
@@ -2040,11 +1776,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e4ceec4f-2ada-45a6-9a30-b34af78b300c": {
     name: "Agile Coaching - difunda o Ágil nas organizações",
-    icon: "agile-coaching-difunda-agil-organizacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431742171586560%2Fe4ceec4f-2ada-45a6-9a30-b34af78b300c011",
@@ -2074,11 +1805,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c02c60b2-7b08-49a6-867d-e7e556b92b76": {
     name: "Agilidade - como ela pode ajudar a criar um time de alta performance",
-    icon: "agilidade-ajudar-criar-time-alta-performance.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201431763822575687%2Fc02c60b2-7b08-49a6-867d-e7e556b92b76011",
@@ -2107,11 +1833,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6d417e41-03b7-448d-ae76-c07bc046020d": {
     name: "Agilidade e DevOps - um dia no desenvolvimento de software",
-    icon: "agilidade-devops-desenvolvimento-software.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201431787038060606%2F6d417e41-03b7-448d-ae76-c07bc046020d011",
@@ -2141,11 +1862,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cecfd034-8694-44fe-a4fe-8e370f9a120b": {
     name: "Agilidade e TDD - um dia no desenvolvimento de software",
-    icon: "agilidade-tdd-desenvolvimento-software.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201431809850867712%2Fcecfd034-8694-44fe-a4fe-8e370f9a120b011",
@@ -2177,11 +1893,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ab5aa995-5b5e-4eda-a248-9c90ff44e69a": {
     name: "Alavancas de gestão do conhecimento - aprendizagem e produtividade",
-    icon: "alavancas-gestao-conhecimento-aprendizagem-produtividade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Práticas de Gestão - Waterfall & Híbridas",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201431835427749929%2Fab5aa995-5b5e-4eda-a248-9c90ff44e69a011",
@@ -2219,11 +1930,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aa5f4b2b-ccd7-43df-b6aa-b6d266e72811": {
     name: "Amazon API Gateway - integrando e protegendo serviços",
-    icon: "amazon-api-gateway.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201431873109372928%2Faa5f4b2b-ccd7-43df-b6aa-b6d266e72811011",
@@ -2265,11 +1971,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a873be59-6b2e-4e6e-8bda-7954574995ae": {
     name: "Algoritmos com JavaScript II - aprofundando em algoritmos de ordenação e busca",
-    icon: "algoritmos-javascript-ii-aprofundando-ordenacao-busca.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431914414886993%2Fa873be59-6b2e-4e6e-8bda-7954574995ae011",
@@ -2305,11 +2006,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2194b130-3edb-4d75-bea7-2ce95d01c1ed": {
     name: "Amazon EC2 - alta disponibilidade e escalabilidade em uma aplicação",
-    icon: "amazon-ec2-alta-disponibilidade-escalabilidade-aplicacao.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201431947650535534%2F2194b130-3edb-4d75-bea7-2ce95d01c1ed011",
@@ -2341,11 +2037,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1359a10d-6cca-468d-97b1-d49c8fe524c7": {
     name: "Amazon ECS - gerencie Docker na nuvem da AWS",
-    icon: "amazon-ecs-docker-nuvem-aws.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201431972732469389%2F1359a10d-6cca-468d-97b1-d49c8fe524c7011",
@@ -2379,11 +2070,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "512e265b-25c7-4829-90fd-1b7bc296789f": {
     name: "Amazon EKS - gerenciando aplicações conteinerizadas com Kubernetes",
-    icon: "amazon-eks-kubernetes.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201432000586850314%2F512e265b-25c7-4829-90fd-1b7bc296789f011",
@@ -2419,11 +2105,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9f587a55-6d88-4d1d-a58b-1ee822aa2e26": {
     name: "Amazon Elastic Beanstalk Parte 1 - container Docker",
-    icon: "elastic-beanstalk.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201432031654051840%2F9f587a55-6d88-4d1d-a58b-1ee822aa2e26011",
@@ -2454,11 +2135,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f679e74e-b9a0-4c2f-9603-ea9f864c340a": {
     name: "Amazon Elastic Beanstalk Parte 2 - múltiplos containers e NGINX",
-    icon: "elastic-beanstalk-multiplos-containers.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201432057201569812%2Ff679e74e-b9a0-4c2f-9603-ea9f864c340a011",
@@ -2492,11 +2168,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8f26a7e-5469-4f7b-b676-24016511624f": {
     name: "Amazon Lightsail - descomplicando a nuvem",
-    icon: "amazon-lightsail-descomplicando-nuvem.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201432085286617129%2Fb8f26a7e-5469-4f7b-b676-24016511624f011",
@@ -2526,11 +2197,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a7c28015-5ce2-43f6-a068-96cfd06982df": {
     name: "Amazon S3 - manipule e armazene objetos na nuvem",
-    icon: "amazon-s3-manipule-armazene-objetos-nuvem.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432108233670736%2Fa7c28015-5ce2-43f6-a068-96cfd06982df011",
@@ -2561,11 +2227,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bb9b24e3-282c-4f18-811c-06c388838947": {
     name: "Amazon VPC - configurando redes na AWS",
-    icon: "amazon-vpc-configurando-redes-aws.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201432131818242128%2Fbb9b24e3-282c-4f18-811c-06c388838947011",
@@ -2599,11 +2260,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9cb5db3b-08ce-44dd-8edf-5628f6ba08e2": {
     name: "Andragogia - aprimore a educação de pessoas adultas",
-    icon: "andragogia-educacao-pessoas-adultas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ensino e Aprendizado",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432158871490640%2F9cb5db3b-08ce-44dd-8edf-5628f6ba08e2011",
@@ -2631,11 +2287,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "02f3f6cf-a92f-43d4-9f82-adf2bacc779e": {
     name: "Android - acessando uma API Web",
-    icon: "android-api-web.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201432176449822740%2F02f3f6cf-a92f-43d4-9f82-adf2bacc779e011",
@@ -2676,11 +2327,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d858b08d-6b92-44e1-bc89-de7ea0301038": {
     name: "Android - entendendo conceitos de Arquitetura",
-    icon: "android-entendendo-conceitos-arquitetura.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201432212587958292%2Fd858b08d-6b92-44e1-bc89-de7ea0301038011",
@@ -2709,11 +2355,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c5b3a22b-01a1-4b88-9a06-6d2dc8403297": {
     name: "Android com Espresso parte 1 - teste da interface do usuário",
-    icon: "android-espresso-teste-interface.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201432236726177902%2Fc5b3a22b-01a1-4b88-9a06-6d2dc8403297011",
@@ -2750,11 +2391,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c16952bd-e592-4c19-8111-131bcaae36b9": {
     name: "Android com Espresso parte 2 - testes de fluxos complexos",
-    icon: "android-espresso-testes-complexos.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201432267327807501%2Fc16952bd-e592-4c19-8111-131bcaae36b9011",
@@ -2787,11 +2423,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9ad8ef38-90bf-4760-bb88-d61b82ef1766": {
     name: "Android com Kotlin - comunicação com Web API",
-    icon: "android-kotlin-comunicacao-web-api.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201432295500947496%2F9ad8ef38-90bf-4760-bb88-d61b82ef1766011",
@@ -2828,11 +2459,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78b975cd-21fc-4f95-a8c7-982f656b4d0e": {
     name: "Android com Kotlin - criando um app",
-    icon: "fundamentos-android-kotlin.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201432328992464956%2F78b975cd-21fc-4f95-a8c7-982f656b4d0e011",
@@ -2882,11 +2508,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8b36cfb4-fd36-46d7-be58-488e3a464059": {
     name: "Android com Kotlin - Migrations e relacionamento com o Room",
-    icon: "android-kotlin-migrations-relacionamento-room.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201432379143749692%2F8b36cfb4-fd36-46d7-be58-488e3a464059011",
@@ -2918,11 +2539,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7dae6ef8-7a30-4c98-9728-77dba2e8dcc8": {
     name: "Android com Kotlin - persistência de dados com o Room",
-    icon: "android-kotlin-persistencia-dados-room.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201432403864997978%2F7dae6ef8-7a30-4c98-9728-77dba2e8dcc8011",
@@ -2960,11 +2576,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "70618792-107f-4363-a74b-c0c594ae7d7a": {
     name: "Android com Kotlin - personalize o seu app",
-    icon: "android-kotlin-personalize-app.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432437855621120%2F70618792-107f-4363-a74b-c0c594ae7d7a011",
@@ -3004,11 +2615,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "93e51277-31f0-4af1-8d74-1185eca5da2a": {
     name: "Android com Kotlin - testes de unidade e Mocks",
-    icon: "android-kotlin-testes-unidade-mocks.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201432475520479302%2F93e51277-31f0-4af1-8d74-1185eca5da2a011",
@@ -3044,11 +2650,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9f39e8a9-c074-4cba-92e8-8dc4b2ffd3df": {
     name: "Android com Kotlin - testes instrumentados",
-    icon: "android-kotlin-testes-instrumentados.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201432508026331217%2F9f39e8a9-c074-4cba-92e8-8dc4b2ffd3df011",
@@ -3079,11 +2680,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c96588f-6bd9-469a-a058-02c6ee4396a0": {
     name: "Android Fragments - reutilizando componentes visuais",
-    icon: "android-fragments.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201432532776923176%2F4c96588f-6bd9-469a-a058-02c6ee4396a0011",
@@ -3114,11 +2710,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e43cc578-1f13-4ca3-b727-8c015bb11eb0": {
     name: "Android parte 1 - crie um app mobile",
-    icon: "android-sua-primeira-app-mobile.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201432558781595648%2Fe43cc578-1f13-4ca3-b727-8c015bb11eb0011",
@@ -3155,11 +2746,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ee502b5-4a14-413f-9698-205277e7149a": {
     name: "Android parte 1 - testes automatizados e TDD",
-    icon: "android-testes-automatizados-tdd.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201432598224838677%2F2ee502b5-4a14-413f-9698-205277e7149a011",
@@ -3194,11 +2780,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "908fa20e-2286-42ef-8f96-824c73c4a6b7": {
     name: "Android parte 2 - avançando com listeners, menu e UI",
-    icon: "android-avancando-listeners-menu-ui.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201432630105735220%2F908fa20e-2286-42ef-8f96-824c73c4a6b7011",
@@ -3230,11 +2811,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60c5af1c-bb54-4231-88ce-393371f79239": {
     name: "Android parte 2 - boas práticas e novos cenários de testes",
-    icon: "android-boas-praticas-e-cenarios-testes.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201432655498059786%2F60c5af1c-bb54-4231-88ce-393371f79239011",
@@ -3263,11 +2839,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "736e841f-8617-4858-9451-10b8aa4c6a03": {
     name: "Android parte 3 - refinando o projeto",
-    icon: "android-refinando-o-projeto.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432675433582662%2F736e841f-8617-4858-9451-10b8aa4c6a03011",
@@ -3303,11 +2874,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "185bfcf2-dfa2-4307-9f4c-97cafd1b04cb": {
     name: "Android Room parte 1 - entendendo e aplicando a persistência de dados com ORM",
-    icon: "android-room.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201432706874081290%2F185bfcf2-dfa2-4307-9f4c-97cafd1b04cb011",
@@ -3340,11 +2906,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0154a289-0200-486f-9473-8cc68c329410": {
     name: "Android Room parte 2 - implementando operações assíncronas",
-    icon: "android-room-operacoes-assincronas.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201432735017865277%2F0154a289-0200-486f-9473-8cc68c329410011",
@@ -3382,11 +2943,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b52b942-5d69-4987-90e1-13649a125917": {
     name: "Angular - aprimore suas técnicas de animação e crie interfaces ainda mais atraentes",
-    icon: "angular-tecnicas-animacao-interfaces-atraentes.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201432771688673280%2F7b52b942-5d69-4987-90e1-13649a125917011",
@@ -3419,11 +2975,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0f6e4628-8dea-4194-8999-f614b35135c5": {
     name: "Angular - avançando com testes automatizados",
-    icon: "angular-avancando-testes-automatizados.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201432799182344223%2F0f6e4628-8dea-4194-8999-f614b35135c5011",
@@ -3482,11 +3033,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a00d030a-cf9f-4021-b109-e13969194512": {
     name: "Angular - avançando no design de componentes com acessibilidade",
-    icon: "angular-avancando-componentes-acessibilidade.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201432872691716146%2Fa00d030a-cf9f-4021-b109-e13969194512011",
@@ -3534,11 +3080,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2147377f-a6af-4da8-9d36-6b236d0eebfd": {
     name: "Angular - boas práticas de desenvolvimento com Modularização, Lazy Loading e Interceptors",
-    icon: "angular-modularizacao-lazy-loading-interceptors.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432927502868521%2F2147377f-a6af-4da8-9d36-6b236d0eebfd011",
@@ -3573,11 +3114,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7acebb16-905b-4e50-9908-e8283bba8e7d": {
     name: "Angular - buscando, filtrando e exibindo dados de uma API",
-    icon: "angular-buscando-filtrando-exibindo-dados-api.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201432959065010206%2F7acebb16-905b-4e50-9908-e8283bba8e7d011",
@@ -3609,11 +3145,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e9de4f7-ed5f-452a-b2ec-58bebb1aec61": {
     name: "Angular - ciclo de vida",
-    icon: "angular-ciclo-vida.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201432988030881852%2F6e9de4f7-ed5f-452a-b2ec-58bebb1aec61011",
@@ -3645,11 +3176,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e4a5e50e-6a5c-49fc-a016-70384907632e": {
     name: "Angular - componentização, formulários e interação com APIs",
-    icon: "angular-componentizacao-formularios-interacao-apis.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201433018871586846%2Fe4a5e50e-6a5c-49fc-a016-70384907632e011",
@@ -3683,11 +3209,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7fa3ff36-e26e-4d86-b65f-60a9c98f9181": {
     name: "Angular - componentização e design com Angular Material",
-    icon: "angular-componentizacao-design-angular-material.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201433048676323358%2F7fa3ff36-e26e-4d86-b65f-60a9c98f9181011",
@@ -3717,11 +3238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "11a3d1fe-0559-43f8-b913-06acc317cf6c": {
     name: "Angular - design de componentes com acessibilidade",
-    icon: "angular-introducao-componentes-acessibilidade.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201433076090286190%2F11a3d1fe-0559-43f8-b913-06acc317cf6c011",
@@ -3760,11 +3276,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50c961b5-8d0c-4350-9594-0f82b0d8cb50": {
     name: "Angular - formulários orientados a templates",
-    icon: "angular-formularios-orientados-templates.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433114212319322%2F50c961b5-8d0c-4350-9594-0f82b0d8cb50011",
@@ -3797,11 +3308,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "217dbfea-dc9a-459d-9a0b-0929dd3f48d1": {
     name: "Angular - torne sua aplicação interativa e personalizada com animações",
-    icon: "angular-aplicacao-interativa-personalizada-animacoes.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201433140208611328%2F217dbfea-dc9a-459d-9a0b-0929dd3f48d1011",
@@ -3833,11 +3339,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e312d4c6-7892-44d0-8fb3-7584e82399bb": {
     name: "Angular - testes automatizados com Jasmine e Karma",
-    icon: "angular-testes-automatizados-jasmin-karma.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433165328285777%2Fe312d4c6-7892-44d0-8fb3-7584e82399bb011",
@@ -3894,11 +3395,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ce93bbb0-678b-44e4-a0c4-c4bc4ef26516": {
     name: "Angular 14 - aplique os conceitos e desenvolva seu primeiro CRUD",
-    icon: "angular-explorando-framework.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201433234962128946%2Fce93bbb0-678b-44e4-a0c4-c4bc4ef26516011",
@@ -3940,11 +3436,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "87cc7f5c-349a-4c2c-8ce1-b9cc03c825b9": {
     name: "Angular - trabalhando com Tokens JWT na autenticação e cadastro",
-    icon: "angular-tokens-jwt-autenticacao-cadastro.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201433274585731124%2F87cc7f5c-349a-4c2c-8ce1-b9cc03c825b9011",
@@ -3984,11 +3475,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9f1323cb-fd66-4462-a55e-f90478cffea8": {
     name: "Angular 14 - evoluindo a aplicação",
-    icon: "angular-evoluindo-aplicacao.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433315807338496%2F9f1323cb-fd66-4462-a55e-f90478cffea8011",
@@ -4025,11 +3511,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "09961c38-44ae-4bae-ace8-7d286f42f39b": {
     name: "Ansible - sua infraestrutura como código",
-    icon: "infraestrutura-como-codigo-com-ansible.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201433349508575272%2F09961c38-44ae-4bae-ace8-7d286f42f39b011",
@@ -4070,11 +3551,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2050f369-66c6-49da-8d65-3583059ee3c6": {
     name: "Análise da gestão de processos - implantando melhorias",
-    icon: "gestao-processos-implantando-melhorias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201433382802960474%2F2050f369-66c6-49da-8d65-3583059ee3c6011",
@@ -4101,11 +3577,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f7f33a41-784f-45ef-9f50-ec72970dac1f": {
     name: "Análise de componentes principais - elaboração de rankings com o PCA",
-    icon: "analise-componentes-elaboracao-rankings-pca.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201433404181327902%2Ff7f33a41-784f-45ef-9f50-ec72970dac1f011",
@@ -4137,11 +3608,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "92d6053b-15bc-428e-b6fc-3502fdc79892": {
     name: "Análise de dados - cálculos, padrões e estratégias com Excel",
-    icon: "analise-de-dados-excel.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201433433424019456%2F92d6053b-15bc-428e-b6fc-3502fdc79892011",
@@ -4177,11 +3643,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a281a1eb-e855-4bb1-af1e-c4e3712f994c": {
     name: "Análise de dados com Python - utilizando o ChatGPT como assistente",
-    icon: "analise-dados-python-chatgpt-assistente.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433465783066655%2Fa281a1eb-e855-4bb1-af1e-c4e3712f994c011",
@@ -4209,11 +3670,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6c70da0c-46fe-4639-8550-73d803f8f34f": {
     name: "Análise de experimentos - testes, mapas de cores e análises dos dados.",
-    icon: "analise-de-experimentos.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201433488805613608%2F6c70da0c-46fe-4639-8550-73d803f8f34f011",
@@ -4249,11 +3705,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d8de3ab0-a243-4843-8f07-f80e97f52cd4": {
     name: "Análise de métricas para aplicativos - configurações e relatórios",
-    icon: "analise-metricas-aplicativos-configuracoes-relatorios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201433518723575869%2Fd8de3ab0-a243-4843-8f07-f80e97f52cd4011",
@@ -4280,11 +3731,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c50c246a-b95c-4a56-bcf2-e39ee281fd0a": {
     name: "Análise de métricas para e-commerce - explorando conceitos",
-    icon: "analise-metricas-e-commerce-explorando-conceitos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "E-commerce",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201433537748930670%2Fc50c246a-b95c-4a56-bcf2-e39ee281fd0a011",
@@ -4314,11 +3760,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0d2396d-2feb-40a1-bc52-1db38ad606d2": {
     name: "Análise e Classificação de Faces - visão Computacional com OpenCV",
-    icon: "analise-classificacao-faces-visao-computacional-opencv.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201433566811262986%2Fd0d2396d-2feb-40a1-bc52-1db38ad606d2011",
@@ -4355,11 +3796,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c1fb5540-dd9e-493c-a8a6-7de07ced2f4c": {
     name: "Apache Airflow - extração de dados",
-    icon: "apache-airflow-extracao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201433604337696768%2Fc1fb5540-dd9e-493c-a8a6-7de07ced2f4c011",
@@ -4396,11 +3832,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9f91d53c-3e06-460b-b165-2a405fa3e2e2": {
     name: "Apache Airflow - orquestrando seu primeiro pipeline de dados",
-    icon: "apache-airflow-primeiro-pipeline-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433638328348683%2F9f91d53c-3e06-460b-b165-2a405fa3e2e2011",
@@ -4433,11 +3864,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1aaf0d36-1d0a-42ca-b292-7aec5004ee06": {
     name: "Apache Airflow - transformação de dados com Spark",
-    icon: "apache-airflow-transformacao-dados-spark.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201433671589175366%2F1aaf0d36-1d0a-42ca-b292-7aec5004ee06011",
@@ -4472,11 +3898,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "63c5cdf7-5f77-440a-850d-216d2188aa57": {
     name: "Apache Beam - Data Pipeline com Python",
-    icon: "apache-beam-data-pipeline-python.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201433701200957450%2F63c5cdf7-5f77-440a-850d-216d2188aa57011",
@@ -4519,11 +3940,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "849ee8e4-a7c5-4c27-8510-792942f6f1ab": {
     name: "API com Django 3 - Aprofundando em testes e documentação",
-    icon: "api-django-3-testes-documentacao.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201433737708175461%2F849ee8e4-a7c5-4c27-8510-792942f6f1ab011",
@@ -4553,11 +3969,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e5326322-24d4-4535-916e-3dbb14ff6c33": {
     name: "API com Django 3 - Django Rest Framework",
-    icon: "api-django-3-rest-framework.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201433758675501128%2Fe5326322-24d4-4535-916e-3dbb14ff6c33011",
@@ -4591,11 +4002,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d68c4652-f1d0-48c0-a50d-578e5af62b76": {
     name: "API com Django 3 - Testes, segurança e lapidações",
-    icon: "api-django-3-testes-seguranca-lapidacoes.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201433791009411092%2Fd68c4652-f1d0-48c0-a50d-578e5af62b76011",
@@ -4626,11 +4032,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1208e9de-1af2-46a1-9188-693f804fa4f5": {
     name: "API com Django 3 - Validações, buscas, filtros e deploy",
-    icon: "api-django-3-validacoes-buscas-filtros-deploy.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433818326909028%2F1208e9de-1af2-46a1-9188-693f804fa4f5011",
@@ -4663,11 +4064,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9d2b319c-cfbe-4f9d-820a-f8da9b67cc7c": {
     name: "API com Django 3 - Versionamento, cabeçalhos e CORS",
-    icon: "api-django-3-versionamento-cabecalhos-cors.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201433847083053098%2F9d2b319c-cfbe-4f9d-820a-f8da9b67cc7c011",
@@ -4697,11 +4093,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "655a6201-8b51-47b4-b3e5-ffd87e7bf347": {
     name: "API REST com Kotlin e Spring Boot - Camada de persistência",
-    icon: "api-rest-kotlin-spring-boot-camada-persistencia.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433869690339388%2F655a6201-8b51-47b4-b3e5-ffd87e7bf347011",
@@ -4736,11 +4127,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "45a5253c-27a9-4251-b9f0-0b03acfde7a5": {
     name: "API REST com Kotlin e Spring Boot - Camada Web",
-    icon: "api-rest-kotlin-spring-boot-camada-web.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201433901420269589%2F45a5253c-27a9-4251-b9f0-0b03acfde7a5011",
@@ -4777,11 +4163,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a6c6510d-eb98-4877-beed-e4a2983f83be": {
     name: "Appium - compreenda e aplique testes de interface",
-    icon: "appium-compreenda-e-aplique-testes-interface.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201433935230541864%2Fa6c6510d-eb98-4877-beed-e4a2983f83be011",
@@ -4813,11 +4194,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e0c1ff4e-a575-49c0-896b-eedd56170463": {
     name: "Aprenda Motion Design - crie animações incríveis no After Effects",
-    icon: "motion-design-animacoes-incriveis-after-effects.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201433962019565629%2Fe0c1ff4e-a575-49c0-896b-eedd56170463011",
@@ -4856,11 +4232,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d06c8038-ccf4-4ce5-812e-6e34dce0509e": {
     name: "Aprendizado não supervisionado - primeiras técnicas e métodos",
-    icon: "aprendizado-nao-supervisionado-tecnicas-metodos.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434001349550149%2Fd06c8038-ccf4-4ce5-812e-6e34dce0509e011",
@@ -4892,11 +4263,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e27ca12a-9791-41e4-ab51-780a8667ce22": {
     name: "Aprender a aprender - técnicas para seu autodesenvolvimento",
-    icon: "aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ensino e Aprendizado",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434031909253181%2Fe27ca12a-9791-41e4-ab51-780a8667ce22011",
@@ -4934,11 +4300,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "54108950-ade2-41ba-9361-1381853809ac": {
     name: "Aprofundando no Airflow - Executor Kubernetes",
-    icon: "aprofundando-airflow-executor-kubernetes.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201434071532834918%2F54108950-ade2-41ba-9361-1381853809ac011",
@@ -4971,11 +4332,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "996589e7-01e0-438d-b4ce-4953777e92cf": {
     name: "Aprofundando no Airflow - Executores Local e Celery",
-    icon: "aprofundando-airflow-executores-local-celery.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201434099102003230%2F996589e7-01e0-438d-b4ce-4953777e92cf011",
@@ -5008,11 +4364,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "549f1740-4c70-4560-96b3-f42cf66f9eee": {
     name: "Architecture Components - ViewModel, LiveData e Room",
-    icon: "android-archtecture-components.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201434125706461184%2F549f1740-4c70-4560-96b3-f42cf66f9eee011",
@@ -5046,11 +4397,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "31914987-48c0-46dd-829d-f947317d42aa": {
     name: "Arduino e Robótica - Programando um braço robô",
-    icon: "arduino-robotica.svg",
-    category: {
-      name: "Programação",
-      module: "Embarcados e Robótica",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201434152394838116%2F31914987-48c0-46dd-829d-f947317d42aa011",
@@ -5089,11 +4435,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8fe048e4-60e6-431e-9e14-59f9e75f43ff": {
     name: "Arduino - do zero ao jogo",
-    icon: "arduino.svg",
-    category: {
-      name: "Programação",
-      module: "Embarcados e Robótica",
-    },
     modules: {
       "10": {
         "1": "1198982062078697562%2F1201434189690589264%2F8fe048e4-60e6-431e-9e14-59f9e75f43ff101",
@@ -5139,11 +4480,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1ca5e1f3-3a92-4af6-a963-d721f28843da": {
     name: "Arquitetura com PHP - escalando uma aplicação monolítica",
-    icon: "arquitetura-php-escalando-aplicacao-monolitica.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201434226642386955%2F1ca5e1f3-3a92-4af6-a963-d721f28843da011",
@@ -5176,11 +4512,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "29dcac50-e2db-4e7f-a5eb-ca5853a2677d": {
     name: "Arquitetura CSS - descomplicando os problemas",
-    icon: "arquitetura-css.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434253913767986%2F29dcac50-e2db-4e7f-a5eb-ca5853a2677d011",
@@ -5214,11 +4545,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "16d9e3c3-a566-42ca-b1cc-a072f668e4d0": {
     name: "Arquitetura da Informação - criando a experiência de navegação de um ambiente digital",
-    icon: "arquitetura-informacao-experiencia-navegacao-ambiente-digital.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201434282892206110%2F16d9e3c3-a566-42ca-b1cc-a072f668e4d0011",
@@ -5252,11 +4578,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "feb3ce8d-2a44-445d-9e4f-81fd01986fe4": {
     name: "Arquitetura da Informação - estratégias e acompanhamento do produto",
-    icon: "arquitetura-informacao-estrategias-acompanhamento-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201434311337984101%2Ffeb3ce8d-2a44-445d-9e4f-81fd01986fe4011",
@@ -5289,11 +4610,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f112fa4c-d4bc-46c3-a65a-eeae9df2475c": {
     name: "Arquitetura da Informação - projetando para dispositivos móveis e e-commerces",
-    icon: "arquitetura-informacao-projetando-dispositivos-moveis-e-commerce.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201434339372712037%2Ff112fa4c-d4bc-46c3-a65a-eeae9df2475c011",
@@ -5327,11 +4643,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f1320343-c1f8-4ad3-a90b-c0e7741e1a5e": {
     name: "Arquitetura da Informação - técnicas de pesquisa para projetar experiências digitais",
-    icon: "arquitetura-informacao-tecnicas-pesquisa-experiencias-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201434367843631124%2Ff1320343-c1f8-4ad3-a90b-c0e7741e1a5e011",
@@ -5365,11 +4676,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5577dd26-ef1e-4f39-8223-16a9a397f99a": {
     name: "Arquitetura de computadores - por trás de como seu programa funciona",
-    icon: "arquitetura-computadores-funcionamento-programa.svg",
-    category: {
-      name: "Programação",
-      module: "Computação",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201434397094707270%2F5577dd26-ef1e-4f39-8223-16a9a397f99a011",
@@ -5409,11 +4715,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "20d1a09d-5a88-48e5-8960-71c483cc4cc6": {
     name: "Arquitetura e Escalabilidade com PHP - garantindo a disponibilidade de uma aplicação",
-    icon: "arquitetura-escalabilidade-php-disponibilidade-aplicacao.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434435715862619%2F20d1a09d-5a88-48e5-8960-71c483cc4cc6011",
@@ -5446,11 +4747,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5ec87fda-32e2-4b61-8585-b26cf1b2fde3": {
     name: "Aseprite - criando uma pixelart",
-    icon: "pixel-art-animacao-sprite.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201434463268257862%2F5ec87fda-32e2-4b61-8585-b26cf1b2fde3011",
@@ -5479,11 +4775,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "88d6a6b4-2ca2-438b-a58e-41437ccc11dd": {
     name: "Associate Cloud Engineer parte 1 - a certificação do Google Cloud",
-    icon: "google-cloud-engineer-certificacao-parte1.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434487897206794%2F88d6a6b4-2ca2-438b-a58e-41437ccc11dd011",
@@ -5521,11 +4812,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4b40b8ce-0596-425a-b49f-0bb3bcc963cc": {
     name: "Associate Cloud Engineer parte 2 - a certificação do Google Cloud",
-    icon: "google-cloud-engineer-certificacao-parte2.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201434525377511454%2F4b40b8ce-0596-425a-b49f-0bb3bcc963cc011",
@@ -5562,11 +4848,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ad0e10b7-fb07-4925-bacd-ccc0c4ecc479": {
     name: "Associate Cloud Engineer parte 3 - a certificação do Google Cloud",
-    icon: "google-cloud-engineer-certificacao-parte3.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201434558978072726%2Fad0e10b7-fb07-4925-bacd-ccc0c4ecc479011",
@@ -5606,11 +4887,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f517a791-8aa4-495b-ad69-2847a8f33ac5": {
     name: "Associate Cloud Engineer parte 4 - A certificação do Google Cloud",
-    icon: "google-cloud-engineer-certificacao-parte4.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201434598530355230%2Ff517a791-8aa4-495b-ad69-2847a8f33ac5011",
@@ -5653,11 +4929,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "51f2a2de-f41f-4e6b-9e9a-be681a028bc4": {
     name: "Avançando com C++ - entenda melhor a linguagem",
-    icon: "c-plus-plus-avancando-linguagem.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201434641123512400%2F51f2a2de-f41f-4e6b-9e9a-be681a028bc4011",
@@ -5698,11 +4969,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2dd5a64c-0abe-4f92-b629-1020cbcaf033": {
     name: "Avançando com C++ - Enum, templates e mais recursos",
-    icon: "c-plus-plus-enum-templates-recursos.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201434681690828850%2F2dd5a64c-0abe-4f92-b629-1020cbcaf033011",
@@ -5736,11 +5002,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "600ced74-7747-45b9-9d3c-763ff6cfc6f6": {
     name: "Avançando com C++ - performance e otimização",
-    icon: "c-plus-plus-performance-otimizacao.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434711587815485%2F600ced74-7747-45b9-9d3c-763ff6cfc6f6011",
@@ -5772,11 +5033,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f73e38a8-f97d-42fa-88f4-11ce5ba35a25": {
     name: "Avançando com Orientação a Objetos com PHP - Herança, Polimorfismo e Interfaces",
-    icon: "php-oo-heranca-polimorfirmo-interfaces.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201434736510382140%2Ff73e38a8-f97d-42fa-88f4-11ce5ba35a25011",
@@ -5820,11 +5076,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e17c3d0a-0782-4c05-8b5d-811c56485c0f": {
     name: "Avançando com PHP - Arrays, Strings, Função e Web",
-    icon: "php-arrays-strings-funcoes.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201434780756086845%2Fe17c3d0a-0782-4c05-8b5d-811c56485c0f011",
@@ -5863,11 +5114,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e6249064-8f91-403c-b3e0-fadf78abaa16": {
     name: "AWS - entendendo e controlando os custos dos serviços",
-    icon: "aws-servicos-custos.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201434818731311225%2Fe6249064-8f91-403c-b3e0-fadf78abaa16011",
@@ -5885,11 +5131,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "af8cd62c-3a96-4419-909c-5a2a2a5958df": {
     name: "AWS Certification - Solution Architect Associate Parte 1",
-    icon: "aws-certified-solutions-architect-associate-parte1.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201434832727703562%2Faf8cd62c-3a96-4419-909c-5a2a2a5958df011",
@@ -5924,11 +5165,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c9c73de6-7d66-461a-9b40-af74950b77c4": {
     name: "AWS Certification - Solutions Architect Associate Parte 2",
-    icon: "aws-certified-solutions-architect-associate-parte2.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201434868148617247%2Fc9c73de6-7d66-461a-9b40-af74950b77c4011",
@@ -5964,11 +5200,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d483f7ff-ace9-4255-870b-f767347257f9": {
     name: "AWS Certification - Solutions Architect Associate Parte 4",
-    icon: "aws-certified-solutions-architect-associate-parte4.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434903171059762%2Fd483f7ff-ace9-4255-870b-f767347257f9011",
@@ -6003,11 +5234,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "efab1d52-e519-4105-8324-4159dd11a8fd": {
     name: "AWS Certification - Solutions Architect Associate Parte 3",
-    icon: "aws-certified-solutions-architect-associate-parte3.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201434933135167518%2Fefab1d52-e519-4105-8324-4159dd11a8fd011",
@@ -6043,11 +5269,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5c401e25-60a3-4ec0-8b73-f5dcffe12e75": {
     name: "AWS Certified Cloud Practitioner - Domain 1 e 2",
-    icon: "aws-certified-cloud-practitioner-domain-1-e-2.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201434965955592243%2F5c401e25-60a3-4ec0-8b73-f5dcffe12e75011",
@@ -6087,11 +5308,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "44d1943f-73ca-4741-8964-fcca7dbb1817": {
     name: "AWS Certified Cloud Practitioner - Domain 3 e 4",
-    icon: "aws-certified-cloud-practitioner-domain-3-e-4.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201435007806361640%2F44d1943f-73ca-4741-8964-fcca7dbb1817011",
@@ -6137,11 +5353,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7252494e-f618-47a8-9fe2-87949102cfc2": {
     name: "AWS Lambda - escreva código sem se preocupar com infra",
-    icon: "aws-lambda-codigo-sem-se-preocupar-infra.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201435047610306560%2F7252494e-f618-47a8-9fe2-87949102cfc2011",
@@ -6174,11 +5385,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "81487887-b014-478b-b39a-0a690e6911ee": {
     name: "AWS Certified Solutions Architect Associate - simulado comentado",
-    icon: "aws-certified-solutions-architect-associate-simulado.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201435075762471022%2F81487887-b014-478b-b39a-0a690e6911ee011",
@@ -6233,11 +5439,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "02228b3c-1de4-4182-8d14-74bd3850fae8": {
     name: "AWS SQS - mensageria e desacoplamento de sistemas",
-    icon: "aws-sqs-mensageria-desacoplamento-sistemas.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201435132641415168%2F02228b3c-1de4-4182-8d14-74bd3850fae8011",
@@ -6273,11 +5474,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2fa11d26-0521-4bc8-b2e4-e5b442e81a83": {
     name: "AWS Storage Híbrido - soluções de armazenamento na nuvem",
-    icon: "aws-storage-hibrido-armazenamento-nuvem.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201435157735936080%2F2fa11d26-0521-4bc8-b2e4-e5b442e81a83011",
@@ -6315,11 +5511,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a7b0f658-7001-4b1a-aef6-d49c33dab784": {
     name: "Azure - gerencie Kubernetes com AKS e ACR",
-    icon: "azure-gerencie-kubernetes-com-aks-acr.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201435199477649520%2Fa7b0f658-7001-4b1a-aef6-d49c33dab784011",
@@ -6358,11 +5549,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "42f17958-1705-4e22-b274-90429e84569b": {
     name: "Azure Cloud - criando um servidor com banco de dados para receber uma aplicação",
-    icon: "azure-cloud-criando-servidor-banco-dados-receber-aplicacao.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201435236689530980%2F42f17958-1705-4e22-b274-90429e84569b011",
@@ -6389,11 +5575,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e0d7267b-ec96-4111-9bb6-6e4de7cf5554": {
     name: "Azure Cloud - segurança e recursos avançados",
-    icon: "azure-cloud-seguranca-recursos-avancados.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201435260861296660%2Fe0d7267b-ec96-4111-9bb6-6e4de7cf5554011",
@@ -6425,11 +5606,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d45edcf8-b844-4ee6-bac4-25c0414d84f9": {
     name: "Azure Data Lake - criando um pipeline de ingestão de dados",
-    icon: "azure-data-lake-pipeline-ingestao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201435290326290433%2Fd45edcf8-b844-4ee6-bac4-25c0414d84f9011",
@@ -6462,11 +5638,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4e6480b-b792-4784-859e-b8f8c0783290": {
     name: "Azure Functions - rodando código sem servidor",
-    icon: "azure-functions.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201435318721720350%2Fd4e6480b-b792-4784-859e-b8f8c0783290011",
@@ -6503,11 +5674,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d2d3073-b99a-4237-bb7e-cecb5ff6d0c1": {
     name: "Banco de dados na AWS - gerencie RDS e DynamoDB",
-    icon: "banco-dados-aws-rds-dynamodB.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201435359674904617%2F3d2d3073-b99a-4237-bb7e-cecb5ff6d0c1011",
@@ -6542,11 +5708,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "77e5c3d2-92f5-4e00-a27e-0e98f37bcdc1": {
     name: "BDD e Java - Behavior Driven Development com Cucumber",
-    icon: "bdd-cucumber-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201435389408317490%2F77e5c3d2-92f5-4e00-a27e-0e98f37bcdc1011",
@@ -6586,11 +5747,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a2554738-ff13-4ebb-970b-d591d0c3ca9b": {
     name: "Benchmarking em RH - explore boas práticas",
-    icon: "benchmarking-rh-explore-praticas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435422300065866%2Fa2554738-ff13-4ebb-970b-d591d0c3ca9b011",
@@ -6619,11 +5775,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "10841d1a-268e-4ed6-ba67-72d7166c1796": {
     name: "BI com Excel - conhecendo o Power Query",
-    icon: "bi-excel-power-query.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201435447889506314%2F10841d1a-268e-4ed6-ba67-72d7166c1796011",
@@ -6655,11 +5806,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30a0a13f-87b0-4f26-b955-5183f288c6a0": {
     name: "BI com Excel - criando bancos de dados com planilhas",
-    icon: "bi-excel-crie-bancos-dados-planilhas.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435473478959154%2F30a0a13f-87b0-4f26-b955-5183f288c6a0011",
@@ -6696,11 +5842,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8c0203d6-19fb-4ced-9e86-78b0d9bb9fef": {
     name: "BI com Excel - criando Dashboard com Power Pivot",
-    icon: "bi-excel-dashboard-power-pivot.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201435504953004103%2F8c0203d6-19fb-4ced-9e86-78b0d9bb9fef011",
@@ -6732,11 +5873,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "581fd543-0e59-4852-bd48-0dceac5a6cb8": {
     name: "BI com Excel - criando um Dashboard sem complicação",
-    icon: "bi-excel-criando-dashboard-sem-complicacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201435529355472907%2F581fd543-0e59-4852-bd48-0dceac5a6cb8011",
@@ -6769,11 +5905,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "49da9a2a-9490-487e-8e6f-d7c6dbc80fb7": {
     name: "BI com Excel - dashboard com Power Query",
-    icon: "excel-dashboards-power-query.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201435555112685628%2F49da9a2a-9490-487e-8e6f-d7c6dbc80fb7011",
@@ -6807,11 +5938,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ffef7497-0425-4649-92ac-d24e926ddd10": {
     name: "BI com Excel - trabalhando com tabelas dinâmicas com Power Pivot",
-    icon: "bi-excel-tabelas-dinamicas-power-pivot.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435583042564116%2Fffef7497-0425-4649-92ac-d24e926ddd10011",
@@ -6843,11 +5969,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0aef836-cc7a-4267-971b-f46d98d1d246": {
     name: "BigQuery - manipulação de dados",
-    icon: "bigquery-manipulacao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201435607864459265%2Fa0aef836-cc7a-4267-971b-f46d98d1d246011",
@@ -6895,11 +6016,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b4cc0514-b46c-4319-be61-ddf63cf08764": {
     name: "BigQuery - funções do BigQuery",
-    icon: "bigquery-funcoes.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201435654760976454%2Fb4cc0514-b46c-4319-be61-ddf63cf08764011",
@@ -6949,11 +6065,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0ed500de-97b3-470a-bb2b-e72cbfcc5f36": {
     name: "Blender - abertura de UV",
-    icon: "blender-abertura-uv.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201435709152694383%2F0ed500de-97b3-470a-bb2b-e72cbfcc5f36011",
@@ -6980,11 +6091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ab023a12-cd96-4c30-8cb1-3010d91f63c3": {
     name: "BigQuery - o banco de dados da Google para Big Data",
-    icon: "bigquery-banco-dados-google-big-data.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201435729671245874%2Fab023a12-cd96-4c30-8cb1-3010d91f63c3011",
@@ -7030,11 +6136,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3fc82e5a-1437-4c11-a0e1-9e5b6314c25c": {
     name: "Blender - criando um modelo 3D",
-    icon: "blender-criando-primeiro-modelo-3d.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201435782108413983%2F3fc82e5a-1437-4c11-a0e1-9e5b6314c25c011",
@@ -7064,11 +6165,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cb6b01b0-75ef-4da4-ab58-4f6091ec006b": {
     name: "Blender - entendendo o Box Modeling",
-    icon: "blender-entendendo-box-modeling.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435806389252116%2Fcb6b01b0-75ef-4da4-ab58-4f6091ec006b011",
@@ -7097,11 +6193,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "407499b0-8529-4b3a-aa93-f92e80f304a8": {
     name: "Blender - Hard Surfacing Modeling",
-    icon: "blender-hard-surfacing-modeling.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201435831869653022%2F407499b0-8529-4b3a-aa93-f92e80f304a8011",
@@ -7138,11 +6229,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "285ecb29-0b9b-4604-880d-72dac0ce3f1a": {
     name: "Blender - modelando com a técnica Poly by Poly",
-    icon: "blender-modelando-tecnica-poly-by-poly.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201435867177295893%2F285ecb29-0b9b-4604-880d-72dac0ce3f1a011",
@@ -7176,11 +6262,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "12e38a26-a056-4109-a98b-7610a7afc5ea": {
     name: "Blender - riggando e animando seu personagem",
-    icon: "blender-riggando-animando-personagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201435897225298000%2F12e38a26-a056-4109-a98b-7610a7afc5ea011",
@@ -7211,11 +6292,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b2fb72c-3363-441b-baaf-74ac6a297a13": {
     name: "Blender - texturizando modelos com Hand Paint",
-    icon: "blender-texturizando-modelos-hand-paint.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201435927894032394%2F7b2fb72c-3363-441b-baaf-74ac6a297a13011",
@@ -7245,11 +6321,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "71f6ecdd-50a2-48d7-bb37-87b085cdcce5": {
     name: "Blender - utilizando o 3DCoat na etapa de retopologia",
-    icon: "blender-retopologia-3d-coat.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201435952363618315%2F71f6ecdd-50a2-48d7-bb37-87b085cdcce5011",
@@ -7281,11 +6352,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1e7be148-2698-4dd8-a98c-472308b427c0": {
     name: "Boas práticas de programação - automatizando testes com Java",
-    icon: "boas-praticas-programacao-testes-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201435978624139294%2F1e7be148-2698-4dd8-a98c-472308b427c0011",
@@ -7325,11 +6391,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dba935dc-6f83-4582-b141-1207cfa3e8e7": {
     name: "Blender 2.8 - modelagem poligonal",
-    icon: "blender-modelagem-poligonal.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Modelagem 3D",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201436012069527583%2Fdba935dc-6f83-4582-b141-1207cfa3e8e7011",
@@ -7382,11 +6443,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e0992aac-b0a5-4a5a-a2f8-2e49c92b9a4f": {
     name: "Boas práticas de programação - melhore o código de uma API Java",
-    icon: "boas-praticas-programacao-melhore-codigo-api-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201436063768522792%2Fe0992aac-b0a5-4a5a-a2f8-2e49c92b9a4f011",
@@ -7419,11 +6475,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "26b702f8-5b33-4aba-9b31-f6916964b25c": {
     name: "Boas práticas no Django - apps, pastas e paginação",
-    icon: "django-2-boas-praticas.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201436092449177651%2F26b702f8-5b33-4aba-9b31-f6916964b25c011",
@@ -7452,11 +6503,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "badad1a7-ebd1-4b8a-b775-3b610b4f793b": {
     name: "Bootstrap 5 - novos recursos e práticas recomendadas de HTML, CSS e JavaScript",
-    icon: "bootstrap-5-novos-recursos-praticas-html-css-javascript.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201436113961754684%2Fbadad1a7-ebd1-4b8a-b775-3b610b4f793b011",
@@ -7487,11 +6533,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a99bf9af-5db0-40c3-aaa3-7d58925c3e20": {
     name: "Bootstrap5 - crie uma landing page responsiva",
-    icon: "bootstrap5-landing-page-responsiva.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436137462444032%2Fa99bf9af-5db0-40c3-aaa3-7d58925c3e20011",
@@ -7525,11 +6566,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "620eebd4-dc91-47b6-952f-c529270b71c1": {
     name: "Branding - criando uma marca forte",
-    icon: "branding-criando-marca-forte.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201436167065837628%2F620eebd4-dc91-47b6-952f-c529270b71c1011",
@@ -7561,11 +6597,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9506dc89-9938-4bb6-ba72-aa2c85ef4774": {
     name: "BSC - aplicado na gestão de portfólios",
-    icon: "bsc-aplicado-na-gestao-de-portfolios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201436193464782859%2F9506dc89-9938-4bb6-ba72-aa2c85ef4774011",
@@ -7603,11 +6634,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "745f6359-82dd-419b-a3b2-5e35ab5ec957": {
     name: "Build de uma aplicação .NET - construindo seus projetos com MSBuild",
-    icon: "msbuild-dotnet-cli.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201436242131288114%2F745f6359-82dd-419b-a3b2-5e35ab5ec957011",
@@ -7648,11 +6674,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "490a46a6-e94f-4b1d-bdf6-d87451a8b157": {
     name: "Business Model Canvas parte II - avance no seu modelo de negócios",
-    icon: "avance-na-construcao-de-negocios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436277980012594%2F490a46a6-e94f-4b1d-bdf6-d87451a8b157011",
@@ -7687,11 +6708,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "70bc19c8-a91b-407e-91f2-ef6ae0b5e2e2": {
     name: "Business Model Canvas parte I - um modelo poderoso para o seu negócio",
-    icon: "business-model-canvas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201436308699103272%2F70bc19c8-a91b-407e-91f2-ef6ae0b5e2e2011",
@@ -7743,11 +6759,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d92d4a93-d2af-4d42-ae60-ddcf56086943": {
     name: "Business Partner - atue como um RH de impacto estratégico",
-    icon: "business-partner-atue-rh-impacto-estrategico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201436362864332811%2Fd92d4a93-d2af-4d42-ae60-ddcf56086943011",
@@ -7777,11 +6788,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c7ab7983-34fd-4adf-be03-7d4226f2763a": {
     name: "C - avançando na linguagem",
-    icon: "introducao-a-programacao-com-c-parte-2.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201436385270304808%2Fc7ab7983-34fd-4adf-be03-7d4226f2763a011",
@@ -7836,11 +6842,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "84464505-cb90-427c-a032-21599e211381": {
     name: "C - conhecendo a Linguagem das Linguagens",
-    icon: "introducao-a-programacao-com-c-parte-1.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201436449417990154%2F84464505-cb90-427c-a032-21599e211381011",
@@ -7884,11 +6885,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ef01d5b0-1dac-420f-83c6-b50d0d3f6b91": {
     name: "C# - aplicando a Orientação a Objetos",
-    icon: "csharp-aplicando-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201436499997110362%2Fef01d5b0-1dac-420f-83c6-b50d0d3f6b91011",
@@ -7924,11 +6920,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2fd71ddc-e6d6-48a7-8101-fee27db1d143": {
     name: "C - recursos avançados da linguagem",
-    icon: "introducao-a-programacao-com-c-parte-3.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201436533945802823%2F2fd71ddc-e6d6-48a7-8101-fee27db1d143011",
@@ -7973,11 +6964,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80b5b537-c566-454c-a118-0ac41339548e": {
     name: "C# - aplique boas práticas de refatoração e torne seu código mais legível",
-    icon: "csharp-boas-praticas-refatoracao-codigo-legivel.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201436584562671718%2F80b5b537-c566-454c-a118-0ac41339548e011",
@@ -8012,11 +6998,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6117935d-529b-48a2-a9dc-59eaa8cf9fc2": {
     name: "C# - aplique princípios SOLID",
-    icon: "csharp-aplique-principios-solid.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201436619232780429%2F6117935d-529b-48a2-a9dc-59eaa8cf9fc2011",
@@ -8059,11 +7040,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "26991769-7f15-4908-bf87-8088a6b68ff4": {
     name: "C# - aprenda a criar testes limpos com boas práticas",
-    icon: "csharp-criar-testes-limpos-boas-praticas.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201436659095441519%2F26991769-7f15-4908-bf87-8088a6b68ff4011",
@@ -8102,11 +7078,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5c32fbf2-e03a-4b2c-ae1c-11a3a1b923d2": {
     name: "C# - consumindo API, gravando arquivos e utilizando o LINQ",
-    icon: "c-sharp-consumindo-api-gravando-arquivos-linq.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201436698043756664%2F5c32fbf2-e03a-4b2c-ae1c-11a3a1b923d2011",
@@ -8141,11 +7112,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a51ce4b8-0a33-4d9d-9b7f-fb5f9a02e55f": {
     name: "C# - criando e distribuindo bibliotecas em .NET",
-    icon: "csharp-criando-distribuindo-bibliotecas-dotnet.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201436732403486821%2Fa51ce4b8-0a33-4d9d-9b7f-fb5f9a02e55f011",
@@ -8170,11 +7136,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "858ad91b-c354-44b2-88d9-ee6086c228dd": {
     name: "C# - criando sua primeira aplicação",
-    icon: "csharp-criando-primeira-aplicacao.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201436751441432637%2F858ad91b-c354-44b2-88d9-ee6086c228dd011",
@@ -8209,11 +7170,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9cd2003b-85cc-4bee-892d-8e52136006b5": {
     name: "C# - dominando Orientação a Objetos",
-    icon: "csharp-dominando-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201436782907101244%2F9cd2003b-85cc-4bee-892d-8e52136006b5011",
@@ -8249,11 +7205,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0366df94-4cad-46c1-84fb-b2d9ae85b7e6": {
     name: "C# - Paralelismo no mundo real",
-    icon: "csharp-paralelismo-no-mundo-real.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201436815777869864%2F0366df94-4cad-46c1-84fb-b2d9ae85b7e6011",
@@ -8287,11 +7238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "403c4ce9-184f-452e-8a83-047544649adc": {
     name: "C# - trabalhando com arquivos",
-    icon: "c-sharp-trabalhando-arquivos.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201436846283042856%2F403c4ce9-184f-452e-8a83-047544649adc011",
@@ -8326,11 +7272,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "527f7253-701f-4351-b892-a38906a37624": {
     name: "C# - Trabalhando com Arrays e Coleções",
-    icon: "csharp-arrays-colecoes.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201436877392191488%2F527f7253-701f-4351-b892-a38906a37624011",
@@ -8367,11 +7308,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "08f49cde-4927-4941-ba69-a30b5aa1cb07": {
     name: "C# Collections parte 1 - Listas, arrays, listas ligadas, dicionários e conjuntos",
-    icon: "csharp-collections.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201436915111579740%2F08f49cde-4927-4941-ba69-a30b5aa1cb07011",
@@ -8407,11 +7343,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3045c27a-591e-4968-a0f0-f90ec9ca8b1c": {
     name: "C# Collections parte 2 - Coleções ordenadas, arrays multidimensionais e LINQ",
-    icon: "csharp-collections-parte-2.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201436951941750814%2F3045c27a-591e-4968-a0f0-f90ec9ca8b1c011",
@@ -8440,11 +7371,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aef5c7a0-7057-4161-b0db-fbf50728c3f6": {
     name: "C++ - Conhecendo a linguagem e a STL",
-    icon: "cpp-introducao-a-linguagem.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201436973802467388%2Faef5c7a0-7057-4161-b0db-fbf50728c3f6011",
@@ -8487,11 +7413,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c00ba597-c1a0-4dcd-838d-39fa87c814ea": {
     name: "C++ e TDD - testes de unidade com Catch2",
-    icon: "c-plus-plus-tdd-testes-unidade-catch2.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201437013119881256%2Fc00ba597-c1a0-4dcd-838d-39fa87c814ea011",
@@ -8530,11 +7451,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b4313d2f-e271-40bf-9ba3-6b0ab2787df0": {
     name: "Cadeia de valor de serviços - conhecendo as 4 dimensões",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Outros",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201437053024489502%2Fb4313d2f-e271-40bf-9ba3-6b0ab2787df0011",
@@ -8556,11 +7472,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "87b316e4-3a93-4628-8e97-c9e0a26a178f": {
     name: "Canva - criando apresentações",
-    icon: "canva-criando-apresentacoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201437066765013022%2F87b316e4-3a93-4628-8e97-c9e0a26a178f011",
@@ -8595,11 +7506,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fecd75ea-7eac-4ceb-81f8-c70c63ba82d0": {
     name: "Canva - criando o material gráfico para um podcast",
-    icon: "introducao-canva-criando-material-grafico-podcast.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437097773506652%2Ffecd75ea-7eac-4ceb-81f8-c70c63ba82d0011",
@@ -8636,11 +7542,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "89632948-d415-4157-9529-d924ac1e45a7": {
     name: "Canva - criando um currículo personalizado",
-    icon: "canva-criando-curriculo-personalizado.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201437129599897680%2F89632948-d415-4157-9529-d924ac1e45a7011",
@@ -8675,11 +7576,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d49dfca-ccfc-4034-9ee5-b408922ba726": {
     name: "Canva - editando imagens",
-    icon: "canva-editando-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201437162462257182%2F4d49dfca-ccfc-4034-9ee5-b408922ba726011",
@@ -8713,11 +7609,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ac1fd3ad-8258-4723-87e9-db357820216a": {
     name: "Canva - viabilizando soluções para artes no Instagram e Twitter",
-    icon: "canva-solucoes-artes-instagram-twitter.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201437193609162802%2Fac1fd3ad-8258-4723-87e9-db357820216a011",
@@ -8750,11 +7641,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "146262fa-15c7-4db8-b5e0-bc8027dcf137": {
     name: "Carreira internacional - descubra como conquistar sua oportunidade no exterior",
-    icon: "carreira-internacional-conquistar-oportunidade-exterior.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201437221237039124%2F146262fa-15c7-4db8-b5e0-bc8027dcf137011",
@@ -8786,11 +7672,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34e36d7f-ff9b-4648-a4cf-c2d846c69fe1": {
     name: "CD4ML - Entrega Contínua para Machine Learning",
-    icon: "cd4ml-entrega-continua-machine-learning.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437250156765204%2F34e36d7f-ff9b-4648-a4cf-c2d846c69fe1011",
@@ -8818,11 +7699,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd9ed3be-0a20-454d-9ac9-764810009138": {
     name: "Certificação Java SE 7 Programmer I - criando e usando Arrays",
-    icon: "certificacao-java-usando-arrays.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201437272554340402%2Fdd9ed3be-0a20-454d-9ac9-764810009138011",
@@ -8843,11 +7719,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7168214b-2004-47f4-b9ed-71c92490286a": {
     name: "Certificação Java SE 7 Programmer I - Laços",
-    icon: "certificacao-java-loops.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201437281022648400%2F7168214b-2004-47f4-b9ed-71c92490286a011",
@@ -8868,11 +7739,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aafde61c-2e2f-4b66-a122-1848c68aee77": {
     name: "Certificação Java SE 7 Programmer I - lidando com exceções",
-    icon: "certificacao-java-excecoes.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201437289662906408%2Faafde61c-2e2f-4b66-a122-1848c68aee77011",
@@ -8893,11 +7759,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6a1e9277-248f-4583-8de8-1713ebac8721": {
     name: "Certificação Java SE 7 Programmer I - métodos e encapsulamento",
-    icon: "certificacao-java-metodos-encapsulamento.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201437297489481788%2F6a1e9277-248f-4583-8de8-1713ebac8721011",
@@ -8927,11 +7788,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ace497c9-93dd-48f8-aef3-4a6dc66bb0a5": {
     name: "Certificação Java SE 7 Programmer I - Operadores",
-    icon: "certificacao-java-operadores-decisao.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "10": {
         "1": "1199522847694012528%2F1201437313952141403%2Face497c9-93dd-48f8-aef3-4a6dc66bb0a5101",
@@ -8976,11 +7832,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "20550dae-430c-4177-8b60-620a83dca381": {
     name: "Certificação Java SE 7 Programmer I - relações entre classes",
-    icon: "certificacao-java-heranca.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437335607320628%2F20550dae-430c-4177-8b60-620a83dca381011",
@@ -9004,11 +7855,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ba2b92d2-3825-40f5-af9e-7e150608e773": {
     name: "Certificação Java SE 7 Programmer I - tipos de Dados",
-    icon: "certificacao-java-tipos-de-dados.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201437345375850536%2Fba2b92d2-3825-40f5-af9e-7e150608e773011",
@@ -9035,11 +7881,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1bcdc421-a6f9-41d9-9cb4-77669795e6b7": {
     name: "Certificação Java SE 7 Programmer I",
-    icon: "certificacao-java-basico.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201437359326117979%2F1bcdc421-a6f9-41d9-9cb4-77669795e6b7011",
@@ -9057,11 +7898,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6043e526-18f9-4c89-a2f9-5fc5c3c47c74": {
     name: "Certificação Java SE 8 Programmer I - conteúdo além da prova",
-    icon: "certificacao-java-lambdas-api-de-datas.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201437365743403008%2F6043e526-18f9-4c89-a2f9-5fc5c3c47c74011",
@@ -9089,11 +7925,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9556326f-5537-46f2-87a1-3abc2ec8d4df": {
     name: "Certificação Linux LPI Essentials - Command Line Basics",
-    icon: "certificacao-linux-lpi-essentials-command-line-basics.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437384970096681%2F9556326f-5537-46f2-87a1-3abc2ec8d4df011",
@@ -9124,11 +7955,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50ab2710-bf1f-40cd-9707-c803fb60f332": {
     name: "Certificação Linux LPI Essentials - Evolution and Distributions",
-    icon: "certificacao-linux-lpi-essentials-evolution-distributions.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201437408063930368%2F50ab2710-bf1f-40cd-9707-c803fb60f332011",
@@ -9159,11 +7985,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c25b7268-a9a5-4fea-bf48-146ed066c3f9": {
     name: "Certificação Linux LPI Essentials - Open Source Software and Licensing",
-    icon: "certificacao-linux-lpi-essentials-open-source-software-licensing.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201437438078365829%2Fc25b7268-a9a5-4fea-bf48-146ed066c3f9011",
@@ -9194,11 +8015,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5f62b1b-f009-4eba-9435-c58111f9abb8": {
     name: "Certificação Linux LPI Essentials - Redirecting I/O Redirection",
-    icon: "certificacao-linux-lpi-essentials-redirecting-i-o.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201437466666737724%2Fd5f62b1b-f009-4eba-9435-c58111f9abb8011",
@@ -9226,11 +8042,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e0e4d99c-080e-4a3a-8924-c39ce4d7caea": {
     name: "Certificação Linux LPI Essentials - using the command line to get help",
-    icon: "certificacao-linux-lpi-essentials-using-command-line-get-help.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201437486581289032%2Fe0e4d99c-080e-4a3a-8924-c39ce4d7caea011",
@@ -9257,11 +8068,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f392c95f-cb89-41e8-8a87-cd4dd5723209": {
     name: "Certificação PMI-ACP - aspectos humanos do Ágil",
-    icon: "certificacao-pmi-acp-aspectos-humanos-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201437507326324796%2Ff392c95f-cb89-41e8-8a87-cd4dd5723209011",
@@ -9291,11 +8097,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1059e17a-77ee-416b-9d51-386935d695ab": {
     name: "Certificação PMI-ACP - conheça a Cultura Ágil e seu potencial de aplicação",
-    icon: "certificacao-pmi-acp-cultura-agil-potencial-aplicacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201437531460354098%2F1059e17a-77ee-416b-9d51-386935d695ab011",
@@ -9331,11 +8132,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3ae76a73-51d0-4384-bcfc-d947411c98e2": {
     name: "Certificação PMI-ACP - desafios na adoção do Ágil",
-    icon: "certificacao-pmi-acp-desafios-adocao-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201437561365733457%2F3ae76a73-51d0-4384-bcfc-d947411c98e2011",
@@ -9365,11 +8161,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "096c1196-4d2f-49f4-ae41-5a5f0370b0f4": {
     name: "Certificação PMI-ACP - entenda a estrutura do Scrum",
-    icon: "certificacao-pmi-acp-estrutura-scrum.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201437583834632212%2F096c1196-4d2f-49f4-ae41-5a5f0370b0f4011",
@@ -9407,11 +8198,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1448f3be-87fe-4f51-98d0-a1961d21682d": {
     name: "Certificação PMI-ACP - entenda mais sobre o Scrum",
-    icon: "certificacao-pmi-acp-entenda-sobre-scrum.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201437691187834950%2F1448f3be-87fe-4f51-98d0-a1961d21682d011",
@@ -9444,11 +8230,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d4f7185-7652-4f67-a9b4-965087b80522": {
     name: "Certificação PMI-ACP - escopo, tempo e custo no Ágil",
-    icon: "certificacao-pmi-acp-escopo-tempo-custo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437719826534451%2F8d4f7185-7652-4f67-a9b4-965087b80522011",
@@ -9480,11 +8261,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7611c315-c7dd-41ce-a199-904bd66d747d": {
     name: "Certificação PMI-ACP - o Kanban",
-    icon: "certificacao-pmi-acp-kanban.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201437747919990794%2F7611c315-c7dd-41ce-a199-904bd66d747d011",
@@ -9515,11 +8291,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f1e9d22-8546-461f-a885-467c4816af4d": {
     name: "Certificação PMI-ACP - qualidade, comunicação e Recursos Humanos no Ágil",
-    icon: "pmi-acp-qualidade-comunicacao-recursos-humanos-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437773006127205%2F3f1e9d22-8546-461f-a885-467c4816af4d011",
@@ -9551,11 +8322,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0da7a92-9c21-4e66-be3a-1957e688ad6c": {
     name: "Certificação PMI-ACP - riscos, aquisições e integração no Ágil",
-    icon: "certificacao-pmi-acp-riscos-aquisicoes-integracao-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201437798994026546%2Fa0da7a92-9c21-4e66-be3a-1957e688ad6c011",
@@ -9586,11 +8352,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3a844a57-67d8-446b-a016-fee8b61c9d99": {
     name: "Certificação PMI-ACP - simulado do exame",
-    icon: "certificacao-pmi-acp-simulado-exame.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437822721216603%2F3a844a57-67d8-446b-a016-fee8b61c9d99011",
@@ -9637,11 +8398,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34d20c9e-f0e7-4856-b269-08e26f010012": {
     name: "Certificação PMP e CAPM parte 1 - processos de gerenciamento de projetos",
-    icon: "certificacao-pmp-processos-de-gerenciamento-projetos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201437866903998464%2F34d20c9e-f0e7-4856-b269-08e26f010012011",
@@ -9674,11 +8430,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aa947a6f-73e9-4bcc-a126-71f82ad0da95": {
     name: "Certificação PMP e CAPM parte 10 - gerenciamento de aquisições",
-    icon: "certificacao-pmp-gerenciamento-de-aquisicoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201437903776120862%2Faa947a6f-73e9-4bcc-a126-71f82ad0da95011",
@@ -9695,11 +8446,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d874909-fc03-4153-9daf-d1cbba090b99": {
     name: "Certificação PMP e CAPM parte 11 - gerenciamento de partes interessadas",
-    icon: "certificacao-pmp-gerenciamento-de-partes-interessadas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201437914706489404%2F4d874909-fc03-4153-9daf-d1cbba090b99011",
@@ -9715,11 +8461,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7a476fdf-982b-4eca-8420-0c78cf776404": {
     name: "Certificação PMP e CAPM parte 12 - Código de Conduta e Ética",
-    icon: "certificacao-pmp-gerenciamento-codigo-de-conduta-etica.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437924852510841%2F7a476fdf-982b-4eca-8420-0c78cf776404011",
@@ -9736,11 +8477,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bf07ae7e-e1b8-43e1-852f-671ae3968c8b": {
     name: "Certificação PMP e CAPM parte 13 - PMBOK 6ª edição",
-    icon: "pmp-capm-atualizacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201437936797896825%2Fbf07ae7e-e1b8-43e1-852f-671ae3968c8b011",
@@ -9779,11 +8515,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6be55f70-90d3-4a36-bfe5-a45b4d5164f3": {
     name: "Certificação PMP e CAPM parte 2 - gerenciamento de integração",
-    icon: "certificacao-pmp-gerenciamento-de-integracao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201437978858360932%2F6be55f70-90d3-4a36-bfe5-a45b4d5164f3011",
@@ -9808,11 +8539,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "314d7f63-4a54-42d3-89f0-9e6e9ecad3f1": {
     name: "Certificação PMP e CAPM parte 3 - gerenciamento de escopo",
-    icon: "certificacao-pmp-processos-de-gerenciamento-escopo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201437993370665060%2F314d7f63-4a54-42d3-89f0-9e6e9ecad3f1011",
@@ -9832,11 +8558,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "05072a7f-5e0c-43d8-b84b-02d7be194c32": {
     name: "Certificação PMP e CAPM parte 4 - gerenciamento de tempo",
-    icon: "certificacao-pmp-gerenciamento-de-tempo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201438011703955588%2F05072a7f-5e0c-43d8-b84b-02d7be194c32011",
@@ -9855,11 +8576,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "54a223bb-229f-4799-9fad-c70851617086": {
     name: "Certificação PMP e CAPM parte 5 - gerenciamento de custos",
-    icon: "certificacao-pmp-gerenciamento-de-custos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201438032067309588%2F54a223bb-229f-4799-9fad-c70851617086011",
@@ -9873,11 +8589,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9515cbfa-c657-4687-9d32-05eeca2f0ad4": {
     name: "Certificação PMP e CAPM parte 6 - gerenciamento de qualidade",
-    icon: "certificacao-pmp-gerenciamento-de-qualidade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438041349292042%2F9515cbfa-c657-4687-9d32-05eeca2f0ad4011",
@@ -9894,11 +8605,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7159036f-2f8f-4273-bcae-a2eae2836047": {
     name: "Certificação PMP e CAPM parte 7 - gerenciamento dos Recursos Humanos",
-    icon: "certificacao-pmp-gerenciamento-de-recursos-humanos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201438055345684490%2F7159036f-2f8f-4273-bcae-a2eae2836047011",
@@ -9913,11 +8619,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "611e5b10-8e39-4b60-9af2-19cf184012c3": {
     name: "Certificação PMP e CAPM parte 8 - gerenciamento de comunicação",
-    icon: "certificacao-pmp-gerenciamento-de-comunicacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201438065588187166%2F611e5b10-8e39-4b60-9af2-19cf184012c3011",
@@ -9931,11 +8632,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7d5f786d-806c-4c11-8a8a-839ad651bed4": {
     name: "Certificação PMP e CAPM parte 9 - gerenciamento de riscos",
-    icon: "certificacao-pmp-gerenciamento-de-riscos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201438075348340777%2F7d5f786d-806c-4c11-8a8a-839ad651bed4011",
@@ -9953,11 +8649,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c01a6cc-9977-48b3-be90-44dba34b6b9c": {
     name: "ChatGPT - desvendando a IA em conversas e suas aplicações",
-    icon: "chatgpt-desvendando-ia-conversas-aplicacoes.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438091085361252%2F4c01a6cc-9977-48b3-be90-44dba34b6b9c011",
@@ -9984,11 +8675,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ce11a4ff-b864-4c22-a765-ce55a35e898f": {
     name: "ChatGPT - otimizando a qualidade dos resultados",
-    icon: "chatgpt-otimizando-qualidade-resultados.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438124719480864%2Fce11a4ff-b864-4c22-a765-ce55a35e898f011",
@@ -10014,11 +8700,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2d3f3f02-3a9d-470e-aa07-dcc5b78ce33b": {
     name: "ChatGPT com Excel - automação com macros",
-    icon: "chatgpt-excel-automacao-macros.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201438142092283986%2F2d3f3f02-3a9d-470e-aa07-dcc5b78ce33b011",
@@ -10053,11 +8734,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "900fce02-933f-4be3-b545-51dace2851df": {
     name: "ChatGPT com Excel - começando a usar o chatGPT como assistente",
-    icon: "chatgpt-excel-usar-chatgpt-assistente.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438175311183882%2F900fce02-933f-4be3-b545-51dace2851df011",
@@ -10089,11 +8765,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "79c22eaf-db48-47d2-9a4b-6df56cb8463d": {
     name: "ChatGPT e JavaScript - construa o jogo Pong",
-    icon: "chatgpt-javascript-construa-jogo-pong.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201438206420340797%2F79c22eaf-db48-47d2-9a4b-6df56cb8463d011",
@@ -10118,11 +8789,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "55d3f2a5-7d7b-47a3-8c8d-baf4365df533": {
     name: "ChatGPT e programação - aumente sua produtividade",
-    icon: "chatgpt-programacao-aumente-produtividade.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201438226536218743%2F55d3f2a5-7d7b-47a3-8c8d-baf4365df533011",
@@ -10148,11 +8814,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7f5ca2ad-07b8-4236-8cb6-0aec1abc27f2": {
     name: "Classificação - aprendendo a classificar dados com Machine Learning",
-    icon: "classificacao-aprendendo-classificar-dados-machine-learning.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438245007933461%2F7f5ca2ad-07b8-4236-8cb6-0aec1abc27f2011",
@@ -10180,11 +8841,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "71f33314-dba3-4463-a028-239a7da371b1": {
     name: "Classificação - resolvendo problemas multiclasse",
-    icon: "classificacao-resolvendo-problemas-multiclasse.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201438268818985050%2F71f33314-dba3-4463-a028-239a7da371b1011",
@@ -10218,11 +8874,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fcba6e41-f340-4274-b058-e960e3fafebb": {
     name: "Classificação - selecionando features",
-    icon: "classificacao-selecionando-features.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201438298581766155%2Ffcba6e41-f340-4274-b058-e960e3fafebb011",
@@ -10249,11 +8900,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "874a5e9b-6b3d-418a-9c10-00257deb7ec5": {
     name: "Classificação - validação de modelos e métricas de avaliação",
-    icon: "classificacao-validacao-modelos-metricas-avaliacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438319918186617%2F874a5e9b-6b3d-418a-9c10-00257deb7ec5011",
@@ -10283,11 +8929,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "77ccad83-5709-41f4-af34-58ec65005b6e": {
     name: "Classificação multilabel de textos - múltiplos contextos em NLP",
-    icon: "classificacao-multilabel-nlp.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438347286020187%2F77ccad83-5709-41f4-af34-58ec65005b6e011",
@@ -10331,11 +8972,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3b137c4e-0c5e-4c9f-afc8-d2a8d71824c2": {
     name: "Clojure - coleções no dia a dia",
-    icon: "clojure-colecoes-no-dia-a-dia.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438399815499857%2F3b137c4e-0c5e-4c9f-afc8-d2a8d71824c2011",
@@ -10363,11 +8999,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b2283126-0d37-4c01-88e5-ef1639152546": {
     name: "Clojure - explorando testes",
-    icon: "clojure-explorando-testes.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201438420279513098%2Fb2283126-0d37-4c01-88e5-ef1639152546011",
@@ -10398,11 +9029,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dedf7935-e0be-4ad8-a39d-b5e74d81162b": {
     name: "Clojure - geradores e testes de propriedades",
-    icon: "clojure-property-based-test.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201438445994782793%2Fdedf7935-e0be-4ad8-a39d-b5e74d81162b011",
@@ -10440,11 +9066,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6416dcbd-a589-4d8d-8991-c9911f5ae84b": {
     name: "Clojure - mutabilidade com átomos e refs",
-    icon: "clojure-mutabilidade-com-atoms-e-refs.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201438474490892338%2F6416dcbd-a589-4d8d-8991-c9911f5ae84b011",
@@ -10478,11 +9099,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50dee222-1029-4b0d-8b53-f8b29ed88880": {
     name: "Clojure - programação funcional",
-    icon: "clojure-introducao-a-programacao-funcional.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438502479470612%2F50dee222-1029-4b0d-8b53-f8b29ed88880011",
@@ -10516,11 +9132,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e25188c-b415-45d9-9855-421a441a8a99": {
     name: "Clojure - Record, protocol e multi method",
-    icon: "clojure-record-protocol-multi-method.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438532544233583%2F7e25188c-b415-45d9-9855-421a441a8a99011",
@@ -10546,11 +9157,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "27b71c21-e3c4-4395-a7a0-7f8cd800ff07": {
     name: "Clojure - Schemas",
-    icon: "clojure-schemas.svg",
-    category: {
-      name: "Programação",
-      module: "Clojure",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201438547375296593%2F27b71c21-e3c4-4395-a7a0-7f8cd800ff07011",
@@ -10578,11 +9184,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "36b13675-f4f1-40f5-8bf4-ca77d6fe107f": {
     name: "Cloud Onboarding - conhecendo os principais provedores parte 2",
-    icon: "cloud-onboarding-principais-provedores-parte2.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201438567751241798%2F36b13675-f4f1-40f5-8bf4-ca77d6fe107f011",
@@ -10614,11 +9215,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "feddf0ca-d947-4519-b90d-f20d07bffdef": {
     name: "Cloud Onboarding - trabalhando com os principais provedores",
-    icon: "cloud-onboarding-trabalhando-principais-provedores.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201438598587752458%2Ffeddf0ca-d947-4519-b90d-f20d07bffdef011",
@@ -10657,11 +9253,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5216c973-c952-458e-9ee6-f066c1ff27fd": {
     name: "Clustering - extraindo padrões de dados",
-    icon: "cluster-analysis.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201438637070487552%2F5216c973-c952-458e-9ee6-f066c1ff27fd011",
@@ -10714,11 +9305,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e0ce0bf4-4301-459b-94ac-e3497e7839c0": {
     name: "Clustering aplicado - recomendando músicas com K-Means",
-    icon: "clustering-aplicado-recomendando-musicas-k-means.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201438685124632646%2Fe0ce0bf4-4301-459b-94ac-e3497e7839c0011",
@@ -10752,11 +9338,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "53c17066-e494-4b28-91e7-b164b5ec67dc": {
     name: "Clusterização de dados - segmentação de clientes",
-    icon: "clusterizacao-dados-segmentacao-clientes.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201438713499095040%2F53c17066-e494-4b28-91e7-b164b5ec67dc011",
@@ -10787,11 +9368,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a5489da9-c71e-40c2-80b5-9508630a053a": {
     name: "Colorização digital - técnicas de colorização e iluminação",
-    icon: "colorizacao-digital.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201438741856780318%2Fa5489da9-c71e-40c2-80b5-9508630a053a011",
@@ -10820,11 +9396,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "87cb3a5d-1e2c-46e4-a670-83d8954ca0fb": {
     name: "Comandos DML - manipulação de dados com MySQL",
-    icon: "mysql-dml-manipulacao-de-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201438764598304868%2F87cb3a5d-1e2c-46e4-a670-83d8954ca0fb011",
@@ -10867,11 +9438,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f2003d0e-d30c-4e0b-b6cf-48acbd166b17": {
     name: "Company Page - melhorando a presença digital",
-    icon: "company-page.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438810228134009%2Ff2003d0e-d30c-4e0b-b6cf-48acbd166b17011",
@@ -10896,11 +9462,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d7fb461-5eb0-4218-92aa-dedbd58482cd": {
     name: "Compliance - destaque sua empresa no mercado",
-    icon: "compliance-destaque-empresa-mercado.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201438825218572349%2F4d7fb461-5eb0-4218-92aa-dedbd58482cd011",
@@ -10932,11 +9493,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ce632a7b-dd3d-4c8a-ad87-9bc13cf475ff": {
     name: "Comunicação - como se expressar bem e ser compreendido",
-    icon: "comunicacao-se-expressar-bem-ser-compreendido.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438853161037854%2Fce632a7b-dd3d-4c8a-ad87-9bc13cf475ff011",
@@ -10974,11 +9530,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "695c56c6-0a2b-490d-91f2-bc3a04351504": {
     name: "Comunicação assertiva - reduzindo conflitos e frustrações",
-    icon: "comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201438885104853002%2F695c56c6-0a2b-490d-91f2-bc3a04351504011",
@@ -11011,11 +9562,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "873654d7-739c-4943-9257-f28438cc31c5": {
     name: "Comunicação corporativa - usando PowerPoint de forma efetiva",
-    icon: "comunicacao-corporativa-powerpoint.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201438912292327465%2F873654d7-739c-4943-9257-f28438cc31c5011",
@@ -11047,11 +9593,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9361f6c3-17a1-479d-87fe-ee5097a6c833": {
     name: "Comunicação estratégica na liderança - como engajar e influenciar pessoas",
-    icon: "comunicacao-estrategica-lideranca-engajar-influenciar-pessoas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201438935872708638%2F9361f6c3-17a1-479d-87fe-ee5097a6c833011",
@@ -11080,11 +9621,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "35b0d4c8-8a59-464a-8c04-fe164af816ad": {
     name: "Comunicação não violenta - consciência para agir",
-    icon: "comunicacao-nao-violenta.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438963337003018%2F35b0d4c8-8a59-464a-8c04-fe164af816ad011",
@@ -11111,11 +9647,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "29b0e49b-d380-42a2-9bfa-23c858a57a01": {
     name: "Comunicação não violenta parte 2 - mantendo a empatia",
-    icon: "comunicacao-nao-violenta-mantendo-empatia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201438983427735592%2F29b0e49b-d380-42a2-9bfa-23c858a57a01011",
@@ -11139,11 +9670,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "007c644d-5062-4326-a492-212c79389faa": {
     name: "Comunicação participativa - liderança eficaz e motivadora",
-    icon: "comunicacao-participativa-lideranca-eficaz-motivadora.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201438997885485056%2F007c644d-5062-4326-a492-212c79389faa011",
@@ -11173,11 +9699,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d54e6d2-ec4f-4356-9e66-0ec64014773d": {
     name: "Comunicação persuasiva - habilidades e estratégias para atrair clientes",
-    icon: "comunicacao-persuasiva-habilidades-estrategias-atrair-clientes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201439020568289330%2F3d54e6d2-ec4f-4356-9e66-0ec64014773d011",
@@ -11213,11 +9734,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1863170d-5798-4e4a-866c-40c5c5ba1c47": {
     name: "Confiabilidade - centralizando logs com Grafana Loki",
-    icon: "confiabilidade-centralizando-logs-grafana-loki.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201439054701535232%2F1863170d-5798-4e4a-866c-40c5c5ba1c47011",
@@ -11264,11 +9780,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e8113666-44e6-4dc6-b4ed-fd219013850a": {
     name: "Confiabilidade - garantindo o estado de integridade de sistemas através de logs",
-    icon: "confiabilidade-garantindo-estado-integridade.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201430081021685811%2Fe8113666-44e6-4dc6-b4ed-fd219013850a011",
@@ -11313,11 +9824,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d8f8ccc-d1db-4250-a4b0-2bb621421b15": {
     name: "Confiança - crie uma cultura baseada em confiança",
-    icon: "confianca-crie-cultura-baseada-confianca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201430133198815283%2F3d8f8ccc-d1db-4250-a4b0-2bb621421b15011",
@@ -11345,11 +9851,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4e411445-108c-478e-ba77-a2194feec5bb": {
     name: "Consultas Multidimensionais - MDX com SQL Server",
-    icon: "business-intelligence-mdx-sql-server.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201430153948053504%2F4e411445-108c-478e-ba77-a2194feec5bb011",
@@ -11401,11 +9902,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "90d3ec81-cba8-407f-95e0-2c1e8027da24": {
     name: "Consultas SQL - avançando no SQL com MySQL",
-    icon: "mysql-consultas-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201430210902503434%2F90d3ec81-cba8-407f-95e0-2c1e8027da24011",
@@ -11452,11 +9948,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "84843436-dcd3-4905-9986-b1fce411c18a": {
     name: "Continuous Delivery for Machine Learning - completando o Pipeline",
-    icon: "continuous-delivery-machine-learning-pipeline-completo.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201430259116036116%2F84843436-dcd3-4905-9986-b1fce411c18a011",
@@ -11483,11 +9974,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ae554c7c-f94c-46ce-ae64-dbb51d219f1a": {
     name: "Cores - sistemas básicos e paletas",
-    icon: "fundamentos-da-cor.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201430277835206708%2Fae554c7c-f94c-46ce-ae64-dbb51d219f1a011",
@@ -11521,11 +10007,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e3caea3c-d4ee-4ae6-90a0-3e92ec4ba36b": {
     name: "Cores no design - teoria e prática",
-    icon: "cores-design-teoria-pratica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201430309116313600%2Fe3caea3c-d4ee-4ae6-90a0-3e92ec4ba36b011",
@@ -11560,11 +10041,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "924168ca-26d7-47b6-a049-49cfe40066a3": {
     name: "Corretor Ortográfico em Python - aplicando técnicas de NLP",
-    icon: "nlp-corretor-ortografico.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201430338421915749%2F924168ca-26d7-47b6-a049-49cfe40066a3011",
@@ -11615,11 +10091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "97bf8c7b-9798-40d0-9db5-25df90dd0acf": {
     name: "Criatividade - potencialize a partir das suas motivações",
-    icon: "criatividade-potencialize-motivacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201430383489720451%2F97bf8c7b-9798-40d0-9db5-25df90dd0acf011",
@@ -11657,11 +10128,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "91aaa27f-f25e-4dda-a2f9-35e2e160f6f0": {
     name: "Criatividade aplicada - aprimorando o processo criativo no mercado de trabalho",
-    icon: "criatividade-aplicada.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201430414812778516%2F91aaa27f-f25e-4dda-a2f9-35e2e160f6f0011",
@@ -11685,11 +10151,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "034fc3f7-bbf8-432f-9b39-f66e659c5390": {
     name: "Criatividade e adequação - aprendendo e aprimorando um processo criativo",
-    icon: "criatividade-adequacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201430432022024192%2F034fc3f7-bbf8-432f-9b39-f66e659c5390011",
@@ -11728,11 +10189,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a8110778-085b-4bd8-a140-925758a47902": {
     name: "Criação de conteúdo em vídeo - estratégias e otimizações",
-    icon: "criacao-conteudo-video-estrategias-otimizacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Conteúdo",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201430467413557279%2Fa8110778-085b-4bd8-a140-925758a47902011",
@@ -11763,11 +10219,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5f3033ec-ed2a-427c-8411-d557f1ab6b01": {
     name: "Criação de imagem - composição de um pôster de filme",
-    icon: "criacao-imagem-composicao-poster-filme.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201430495175647252%2F5f3033ec-ed2a-427c-8411-d557f1ab6b01011",
@@ -11806,11 +10257,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "98067a45-1b58-4ace-a4d8-bc69c1115cf5": {
     name: "Criação de personagem - Model Sheet",
-    icon: "criacao-personagem-model-sheet.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201430533029232640%2F98067a45-1b58-4ace-a4d8-bc69c1115cf5011",
@@ -11842,11 +10288,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80ef375a-810c-4d70-b22d-7634b01ec0fd": {
     name: "Criação de personagem - trabalhando no concept de um personagem",
-    icon: "concept-personagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201430561365954570%2F80ef375a-810c-4d70-b22d-7634b01ec0fd011",
@@ -11878,11 +10319,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "35fcb931-60b5-419a-b0c8-c6faf5eb7367": {
     name: "Criação de valor - conhecendo os conceitos-chave para gerenciamento de serviços",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Outros",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201430587123191868%2F35fcb931-60b5-419a-b0c8-c6faf5eb7367011",
@@ -11909,11 +10345,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c206625a-aa0b-4512-9172-e0ce40dcf769": {
     name: "CRM e Funil de Marketing - estratégias e funcionalidades",
-    icon: "crm-funil-marketing-estrategias-funcionalidades.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201430607792713749%2Fc206625a-aa0b-4512-9172-e0ce40dcf769011",
@@ -11949,11 +10380,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c4130a92-8da1-47d6-9f68-7fa943731e46": {
     name: "CSS - construindo layouts com Grid",
-    icon: "css-construindo-layouts-com-grid.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201430639413575740%2Fc4130a92-8da1-47d6-9f68-7fa943731e46011",
@@ -11985,11 +10411,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d38a644f-42a2-4613-a414-c1f5ae944e03": {
     name: "CSS - Flexbox e layouts responsivos",
-    icon: "css-flexbox-layouts-responsivos.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201430664579399690%2Fd38a644f-42a2-4613-a414-c1f5ae944e03011",
@@ -12022,11 +10443,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9755bd45-1813-4878-9696-b5bd85a1aede": {
     name: "Cultura e Métodos Ágeis - pilares para uma imersão avançada",
-    icon: "cultura-metodos-ageis-pilares-imersao-avancada.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201430701812228168%2F9755bd45-1813-4878-9696-b5bd85a1aede011",
@@ -12058,11 +10474,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ebc14109-5760-4dd6-bd66-00ed6b2ff2b3": {
     name: "Curiosidade, persistência e resiliência - da ideia à ação",
-    icon: "curiosidade-persistencia-resiliencia-ideia-acao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201430728517353572%2Febc14109-5760-4dd6-bd66-00ed6b2ff2b3011",
@@ -12095,11 +10506,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cfd5230d-bffa-44cb-87ff-cfb7ef67c749": {
     name: "Customer Success - cultura centrada em cliente",
-    icon: "customer-success-cultura-centrada-cliente.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201430758817009746%2Fcfd5230d-bffa-44cb-87ff-cfb7ef67c749011",
@@ -12128,11 +10534,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d2ed2fe0-1561-4863-854c-8b08a8350921": {
     name: "Cypress - automação de testes E2E",
-    icon: "cypress-automacao-de-testes-e2e.svg",
-    category: {
-      name: "Programação",
-      module: "Quality Assurance",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201430779448787027%2Fd2ed2fe0-1561-4863-854c-8b08a8350921011",
@@ -12165,11 +10566,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "10bf5946-f012-4845-93c2-6727826d6f96": {
     name: "Dados geográficos - visualização de mapas com Folium",
-    icon: "dados-geograficos-visualizacao-mapas-folium.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201430806627885106%2F10bf5946-f012-4845-93c2-6727826d6f96011",
@@ -12200,11 +10596,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7583b0b9-fc99-48ee-aea2-25decd09d399": {
     name: "Dart - criando e manipulando variáveis e listas",
-    icon: "dart-variaveis-listas.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201430835769909328%2F7583b0b9-fc99-48ee-aea2-25decd09d399011",
@@ -12238,11 +10629,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "71d6c37d-8f27-4494-b9c9-4f7793acbe35": {
     name: "Dart - entendendo a Orientação a Objetos",
-    icon: "dart-entendendo-orientacao-objetos.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201430863624294481%2F71d6c37d-8f27-4494-b9c9-4f7793acbe35011",
@@ -12277,11 +10663,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60cbf4b5-19d3-4380-8d21-e9f7071eb047": {
     name: "Dart - entendendo assincronismo",
-    icon: "dart-entendendo-assincronismo.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201430894892830790%2F60cbf4b5-19d3-4380-8d21-e9f7071eb047011",
@@ -12311,11 +10692,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "28abf3d2-bce4-4285-bcaa-39574d22ec35": {
     name: "Dart - lidando com Exceptions e Null Safety",
-    icon: "dart-lidando-exceptions-null-safety.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201430920645836911%2F28abf3d2-bce4-4285-bcaa-39574d22ec35011",
@@ -12350,11 +10726,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7fcf7c6c-f00f-4d9f-95cd-59436e81796a": {
     name: "Dart - sintaxe, coleções e dinamismo",
-    icon: "dart-sintaxe-colecoes-dinamismo.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201430956742017034%2F7fcf7c6c-f00f-4d9f-95cd-59436e81796a011",
@@ -12384,11 +10755,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a71f32c-9bd6-4c3a-aa69-545a5b6111f1": {
     name: "Dashboard com Power BI - visualizando dados",
-    icon: "dashboard-power-bi-visualizando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201430982927073320%2F1a71f32c-9bd6-4c3a-aa69-545a5b6111f1011",
@@ -12427,11 +10793,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "41882a41-c4b4-4faa-8f7b-c04885081d24": {
     name: "Dashboard com Tableau - conceitos essenciais",
-    icon: "tableau-conceitos-essenciais.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201431018754809876%2F41882a41-c4b4-4faa-8f7b-c04885081d24011",
@@ -12471,11 +10832,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bc4799e6-e5c6-4fa0-bcf4-49f052e244cf": {
     name: "Data Analysis - estatística com Google Sheets",
-    icon: "data-analysis-estatistica-google-sheets.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201431058177077318%2Fbc4799e6-e5c6-4fa0-bcf4-49f052e244cf011",
@@ -12509,11 +10865,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8c3821be-0a29-48e6-8d37-0c53cde757d7": {
     name: "Data Analysis - Google Sheets",
-    icon: "data-analysis-introducao-google-sheets.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201431086375378944%2F8c3821be-0a29-48e6-8d37-0c53cde757d7011",
@@ -12548,11 +10899,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "befaa58c-76d5-408c-aaba-d6d1f7c81d5e": {
     name: "Data Analysis - previsões com Google Sheets",
-    icon: "data-analysis-previsoes-google-sheets.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431123658551336%2Fbefaa58c-76d5-408c-aaba-d6d1f7c81d5e011",
@@ -12590,11 +10936,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "79d6c30b-1d5d-4c79-882d-f850ac91c149": {
     name: "Data Analytics - Machine Learning com Google Cloud Platform",
-    icon: "data-analytics-google-cloud.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201431163466694666%2F79d6c30b-1d5d-4c79-882d-f850ac91c149011",
@@ -12629,11 +10970,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7ca63680-518b-4f32-8945-971aa4fc21aa": {
     name: "Data Analytics - Machine Learning no Marketing Digital",
-    icon: "machine-learning-marketing-digital.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431194861064232%2F7ca63680-518b-4f32-8945-971aa4fc21aa011",
@@ -12672,11 +11008,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9d533520-7f95-4a21-a39e-ec678a2b5d03": {
     name: "Data Binding no Android - vinculando modelo com layout",
-    icon: "android-data-binding.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201431232291016734%2F9d533520-7f95-4a21-a39e-ec678a2b5d03011",
@@ -12709,11 +11040,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8ba3c1d-3115-4488-9e45-c20f6d71b44f": {
     name: "Data Lake e Integration Services - construindo e carregando as dimensões",
-    icon: "data-lake-integration-services-construindo-carregando-dimensoes.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201431259482693732%2Fc8ba3c1d-3115-4488-9e45-c20f6d71b44f011",
@@ -12758,11 +11084,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2b05add5-dc0e-4d4a-89b7-0f109b468e4a": {
     name: "Data Lake e Integration Services - construindo e carregando o tempo e as fatos",
-    icon: "data-lake-integration-services-construindo-carregando-tempo-fatos.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431304999284807%2F2b05add5-dc0e-4d4a-89b7-0f109b468e4a011",
@@ -12804,11 +11125,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b91f267-ee98-47f3-97e7-a3036d630957": {
     name: "Data Mart e Analysis Services - construindo um modelo OLAP multidimensional",
-    icon: "data-mart-analysis-services-modelo-olap-multidimensional.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431351631556658%2F7b91f267-ee98-47f3-97e7-a3036d630957011",
@@ -12847,11 +11163,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "00f2813c-303a-451b-ad99-63dec0e14fb4": {
     name: "Data Mart e Analysis Services - entendendo a linguagem de consultas MDX",
-    icon: "data-mart-analysis-services-linguagem-consultas-mdx.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201431388889554974%2F00f2813c-303a-451b-ad99-63dec0e14fb4011",
@@ -12894,11 +11205,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "df4ef9b4-cec9-4461-ad23-495dccb07a17": {
     name: "Data Mesh - dados como produtos",
-    icon: "data-mesh-dados-produtos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201431434003480636%2Fdf4ef9b4-cec9-4461-ad23-495dccb07a17011",
@@ -12929,11 +11235,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "860dcb55-cae6-40f6-a957-dff67db47a36": {
     name: "Data Mesh - gerenciando controle e dependências",
-    icon: "data-mesh-controle-dependencias.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431454723362866%2F860dcb55-cae6-40f6-a957-dff67db47a36011",
@@ -12963,11 +11264,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0dcacd0c-1b34-47f7-8c01-f7454215929a": {
     name: "Data Mesh - infraestrutura e planos",
-    icon: "data-mesh-infraestrutura-planos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201431476953161738%2F0dcacd0c-1b34-47f7-8c01-f7454215929a011",
@@ -12991,11 +11287,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c96bfc67-fe14-463a-a70e-857b54567f36": {
     name: "Data Mesh - uma abordagem distribuída para dados",
-    icon: "data-mesh-abordagem-distribuida-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201431493038325820%2Fc96bfc67-fe14-463a-a70e-857b54567f36011",
@@ -13021,11 +11312,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7c783980-f061-4ce0-94b7-6e92414f57b1": {
     name: "Data Science - analise e visualização de dados",
-    icon: "data-science-primeiros-passos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431508431413248%2F7c783980-f061-4ce0-94b7-6e92414f57b1011",
@@ -13054,11 +11340,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fbdc9f27-8d3a-4699-a747-e4ad5a6ee0bb": {
     name: "Data Science - análise de series temporais",
-    icon: "data-science-series-temporais.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201431529931423784%2Ffbdc9f27-8d3a-4699-a747-e4ad5a6ee0bb011",
@@ -13089,11 +11370,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3a35632a-bbc9-4d0b-ad84-10053e0557bd": {
     name: "Data Science - análises para saúde e medicina",
-    icon: "data-science-saude-e-medicina.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201431556519116876%2F3a35632a-bbc9-4d0b-ad84-10053e0557bd011",
@@ -13124,11 +11400,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "011a7a75-5b0d-411e-b746-cfe8bb63a2b7": {
     name: "Data Science - testes estatísticos com Python",
-    icon: "data-science-introducao-a-testes-estatisticos-com-python.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201431582532173916%2F011a7a75-5b0d-411e-b746-cfe8bb63a2b7011",
@@ -13161,11 +11432,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2521bfa6-d96b-450e-bf38-5b3877b710f9": {
     name: "Data Science - visualização de dados para saúde e medicina",
-    icon: "data-science-visualizacao-saude-e-medicina.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201431607433768980%2F2521bfa6-d96b-450e-bf38-5b3877b710f9011",
@@ -13194,11 +11460,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fbd5f719-ba01-456f-b62b-5e74bc83e9dc": {
     name: "Data Visualization - criando gráficos com bibliotecas Python",
-    icon: "data-visualization-graficos-bibliotecas-python.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431628728250458%2Ffbd5f719-ba01-456f-b62b-5e74bc83e9dc011",
@@ -13237,11 +11498,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a5a1edb8-75f1-4796-a51c-b7279af6d292": {
     name: "Data Visualization - criação de gráficos com o Matplotlib",
-    icon: "customizacao-matplot.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201431666246287421%2Fa5a1edb8-75f1-4796-a51c-b7279af6d292011",
@@ -13272,11 +11528,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "025bb851-5dcc-4d4d-945d-cb8484eeafb7": {
     name: "Data Visualization - estilização de tabelas com Python",
-    icon: "data-visualization-estilizacao-tabelas-python.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431689851850772%2F025bb851-5dcc-4d4d-945d-cb8484eeafb7011",
@@ -13312,11 +11563,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b2bd365c-d9a7-45d9-9aa0-3999a0ee572f": {
     name: "Data Visualization - gráficos de comparação e distribuição",
-    icon: "data-visualization-graficos-comparacao-distribuicao.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201431721762115628%2Fb2bd365c-d9a7-45d9-9aa0-3999a0ee572f011",
@@ -13355,11 +11601,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e75af108-c256-44d6-91f1-1c115aa6aca5": {
     name: "Data Visualization - gráficos de composição e relacionamento",
-    icon: "data-visualization-graficos-composicao-relacionamento.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201431763067617302%2Fe75af108-c256-44d6-91f1-1c115aa6aca5011",
@@ -13398,11 +11639,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ffc1e432-f2d1-47ef-a6a8-edef734ada9b": {
     name: "Data Visualization - técnicas de visualização com Google Sheets",
-    icon: "data-visualization-visualizacao-google-sheets.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201431803832062052%2Fffc1e432-f2d1-47ef-a6a8-edef734ada9b011",
@@ -13436,11 +11672,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "09f42f22-ae66-494f-b145-24743198c7b6": {
     name: "Data Visualization parte 1 - gráficos com uma variável",
-    icon: "data-visualization-graficos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201431831392825354%2F09f42f22-ae66-494f-b145-24743198c7b6011",
@@ -13482,11 +11713,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "454bb4a5-9d09-4a47-ac2c-e591a6d4b02b": {
     name: "Data Visualization parte 2 - gráficos com multivariáveis",
-    icon: "data-visualization-multivariaveis.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "10": {
         "1": "1199522377881620501%2F1201431880352936066%2F454bb4a5-9d09-4a47-ac2c-e591a6d4b02b101",
@@ -13540,11 +11766,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3bcc2421-1a08-4dbe-b061-cc8b8d5c7d83": {
     name: "Data Warehouse e Integration Services - carregando dados dimensionais",
-    icon: "data-warehouse-integration-services-dados-dimensionais.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201431928113479742%2F3bcc2421-1a08-4dbe-b061-cc8b8d5c7d83011",
@@ -13583,11 +11804,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "da7d73e5-b70b-4f48-97f4-7cdf0d879e33": {
     name: "Data Warehouse e Integration Services - carregando fatos e dimensão tempo",
-    icon: "data-warehouse-integration-services-carregando-fatos-dimensao-tempo.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201431964578750494%2Fda7d73e5-b70b-4f48-97f4-7cdf0d879e33011",
@@ -13636,11 +11852,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "82d82865-5c34-4bb2-8c23-4767862a7ced": {
     name: "Databricks - análise de dados",
-    icon: "databricks-analise-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201432016944648252%2F82d82865-5c34-4bb2-8c23-4767862a7ced011",
@@ -13671,11 +11882,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6cd9a2f0-f5b8-4be9-af68-cc8823fa07e2": {
     name: "Databricks - conhecendo a ferramenta",
-    icon: "databricks-conhecendo-ferramenta.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201432046275403786%2F6cd9a2f0-f5b8-4be9-af68-cc8823fa07e2011",
@@ -13710,11 +11916,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "954b8938-655a-4a94-8a7b-d92f098f66cb": {
     name: "Databricks - construindo pipelines de dados com Airflow e Azure Databricks",
-    icon: "databricks-pipelines-dados-airflow-azure-databricks.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201432078600912996%2F954b8938-655a-4a94-8a7b-d92f098f66cb011",
@@ -13750,11 +11951,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5b29b613-67c1-41f3-b6cb-ef7b18c62c8a": {
     name: "Databricks - criando um sistema de recomendação",
-    icon: "databricks-criando-sistema-recomendacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432110636990525%2F5b29b613-67c1-41f3-b6cb-ef7b18c62c8a011",
@@ -13790,11 +11986,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b5f001db-6355-4c4e-8ec5-21e3071735e0": {
     name: "Databricks - trabalhando com diversos formatos e tipos de arquivos",
-    icon: "databricks-formatos-tipos-arquivos.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201432145395195985%2Fb5f001db-6355-4c4e-8ec5-21e3071735e0011",
@@ -13824,11 +12015,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6d4b2cb4-9ae2-4555-8c83-b6c2d710b8bc": {
     name: "Databricks e Data Factory - criando e orquestrando pipelines na nuvem",
-    icon: "databricks-data-factory-pipelines-nuvem.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201432170699432017%2F6d4b2cb4-9ae2-4555-8c83-b6c2d710b8bc011",
@@ -13869,11 +12055,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "81645282-741d-415f-b0c4-802280e01c8e": {
     name: "Datomic - banco filtrado e histórico",
-    icon: "datomic-banco-filtrado-e-historico.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432208670474300%2F81645282-741d-415f-b0c4-802280e01c8e011",
@@ -13900,11 +12081,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0d7dc61d-c45e-4c62-be55-bc0a8cae28f2": {
     name: "Datomic - Bindings, transaction functions e filters",
-    icon: "datomic-bindings-transaction-functions-e-filters.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201432226445926451%2F0d7dc61d-c45e-4c62-be55-bc0a8cae28f2011",
@@ -13931,11 +12107,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78951f37-67ff-4e40-88c8-79b919aeafab": {
     name: "Datomic - geradores, schemas e índices",
-    icon: "datomic-geradores-schemas-e-indices.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201432243328004148%2F78951f37-67ff-4e40-88c8-79b919aeafab011",
@@ -13961,11 +12132,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd46514a-5f30-45f5-b59b-0757a297dc02": {
     name: "Datomic - Schemas e Regras",
-    icon: "datomic-schemas-regras.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201432264827998288%2Fdd46514a-5f30-45f5-b59b-0757a297dc02011",
@@ -13996,11 +12162,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ed7b4d4e-6e93-4b5c-9f41-e42202bc3c5b": {
     name: "Datomic - um banco cronológico",
-    icon: "introducao-ao-datomic.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201432290383904788%2Fed7b4d4e-6e93-4b5c-9f41-e42202bc3c5b011",
@@ -14032,11 +12193,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b59f2b8f-1192-4473-af38-5830c032ff4f": {
     name: "Datomic Queries - avançando com o modelo e pesquisas",
-    icon: "datomic-identidade-e-queries.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201432314270466149%2Fb59f2b8f-1192-4473-af38-5830c032ff4f011",
@@ -14071,11 +12227,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "911c893b-85bd-4adf-be2a-f3227506d6df": {
     name: "DaVinci Resolve - conhecendo o processo de colorização",
-    icon: "davinci-colorizacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Colorização",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201432340384198746%2F911c893b-85bd-4adf-be2a-f3227506d6df011",
@@ -14110,11 +12261,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "04d8e0b6-9e53-4740-9558-dfb0e9c690ea": {
     name: "DaVinci Resolve - correção de cor e colorização em vídeos",
-    icon: "davinci-resolve-cor-colorizacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Colorização",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432378057429072%2F04d8e0b6-9e53-4740-9558-dfb0e9c690ea011",
@@ -14148,11 +12294,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6a70a51a-cb9e-4f35-8d69-8a1138795ee4": {
     name: "DaVinci Resolve - Edição de vídeo",
-    icon: "edicao-de-video-davinci.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201432406419324968%2F6a70a51a-cb9e-4f35-8d69-8a1138795ee4011",
@@ -14183,11 +12324,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b20c70e2-20a5-4707-8a43-6c3079fe3e0f": {
     name: "DaVinci Resolve 16 - edição de vídeo",
-    icon: "davinci-resolve-16-edicao-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432436370841640%2Fb20c70e2-20a5-4707-8a43-6c3079fe3e0f011",
@@ -14218,11 +12354,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aee543f6-0207-4bf7-9989-e063076d1f02": {
     name: "Deep Learning - previsão com Keras",
-    icon: "deep-learning-previsao-keras.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201432466699862016%2Faee543f6-0207-4bf7-9989-e063076d1f02011",
@@ -14255,11 +12386,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "699dc59b-4c27-4587-9bf0-f033afcedc6e": {
     name: "Deep Learning parte 1 - Keras",
-    icon: "deep-learning-introducao-com-keras.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201432499318964305%2F699dc59b-4c27-4587-9bf0-f033afcedc6e011",
@@ -14299,11 +12425,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "db3e2cbe-1c95-4dca-8f3d-382d21413fd7": {
     name: "Deep Learning parte 2 - como a rede aprende",
-    icon: "deep-learning-como-a-rede-aprende.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201432533129240618%2Fdb3e2cbe-1c95-4dca-8f3d-382d21413fd7011",
@@ -14336,11 +12457,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0a9f2e16-95b7-4201-b367-6cad127f5dce": {
     name: "Delegação de tarefas - obtenha o melhor do seu time",
-    icon: "delegacao-tarefas-obtenha-melhor-time.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432562803945522%2F0a9f2e16-95b7-4201-b367-6cad127f5dce011",
@@ -14374,11 +12490,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1d33d580-c38f-444a-8542-a0536fdd75f5": {
     name: "Demandas de gerenciamento - apresentando o sistema de valores de serviço",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Outros",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432589974642708%2F1d33d580-c38f-444a-8542-a0536fdd75f5011",
@@ -14405,11 +12516,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e22dc578-0dd6-4b6a-8c99-f23e45a3ec05": {
     name: "Desempenho do Oracle Database - análise do ambiente",
-    icon: "desempenho-oracle-database-analise-ambiente.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432609599791166%2Fe22dc578-0dd6-4b6a-8c99-f23e45a3ec05011",
@@ -14446,11 +12552,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d1ad1221-c577-44b8-ae77-2a247f962c3b": {
     name: "Desempenho do Oracle Database - otimização de consultas",
-    icon: "desempenho-oracle-database-otimizacao-consultas.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201432644177625089%2Fd1ad1221-c577-44b8-ae77-2a247f962c3b011",
@@ -14494,11 +12595,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "46e04486-428c-44b4-b542-5f5c77856bb3": {
     name: "Desenhe um corpo humano - estruturas e proporções",
-    icon: "desenhe-corpo-humano-estruturas-proporcoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432688863739984%2F46e04486-428c-44b4-b542-5f5c77856bb3011",
@@ -14530,11 +12626,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b0d3d061-c5cc-4350-a306-2a8828eb2e6e": {
     name: "Desenho - a anatomia do torso",
-    icon: "desenho-anatomia-torso.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201432716953006090%2Fb0d3d061-c5cc-4350-a306-2a8828eb2e6e011",
@@ -14565,11 +12656,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0e5932d1-4058-4be0-83a2-27a799ce6b78": {
     name: "Desenho - acabamento e finalização",
-    icon: "desenho-acabamento-finalizacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201432746812260384%2F0e5932d1-4058-4be0-83a2-27a799ce6b78011",
@@ -14592,11 +12678,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60c47f9e-ff13-4e91-bf99-86e1de8c0dc8": {
     name: "Desenho - anatomia do braço e mão",
-    icon: "anatomia-braco-mao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201432765875376148%2F60c47f9e-ff13-4e91-bf99-86e1de8c0dc8011",
@@ -14628,11 +12709,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60f5e924-f2e2-4295-b853-41197dc41b45": {
     name: "Desenho - anatomia dos membros inferiores",
-    icon: "desenho-anatomia-perna-pe.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201432794098839592%2F60f5e924-f2e2-4295-b853-41197dc41b45011",
@@ -14667,11 +12743,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4ade1ebb-3529-4eb6-95f5-15581546da5d": {
     name: "Desenho - aplicando esboço e composição",
-    icon: "desenho-aplicando-esboco-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201432828781531186%2F4ade1ebb-3529-4eb6-95f5-15581546da5d011",
@@ -14703,11 +12774,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f7bf38ff-1e4e-46c5-8660-436c44124eb1": {
     name: "Desenho - descomplicando a estrutura humana",
-    icon: "desenhando-a-estrutura-humana.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201432855608299591%2Ff7bf38ff-1e4e-46c5-8660-436c44124eb1011",
@@ -14744,11 +12810,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a91ba63c-ec0a-45a8-9445-9a837136e564": {
     name: "Desenho - descomplicando a perspectiva",
-    icon: "desenho-descomplicando-perspectiva.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201432891868073985%2Fa91ba63c-ec0a-45a8-9445-9a837136e564011",
@@ -14781,11 +12842,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "36cd1c37-29db-4749-9254-63cd40e44983": {
     name: "Desenho - descomplicando o desenho do rosto",
-    icon: "desenho-rosto-humano.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201432918728392804%2F36cd1c37-29db-4749-9254-63cd40e44983011",
@@ -14828,11 +12884,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0e24beb2-4543-4681-aa05-ae4e2e4a30b7": {
     name: "Desenho - entendendo volumes e iluminação",
-    icon: "desenho-volumes-iluminacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201432959534780506%2F0e24beb2-4543-4681-aa05-ae4e2e4a30b7011",
@@ -14864,11 +12915,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30fb27ae-4702-4267-b086-73b19ce0e88e": {
     name: "Desenho - esboço e composição de imagens",
-    icon: "fundamentos-desenho-esboco-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432983853346866%2F30fb27ae-4702-4267-b086-73b19ce0e88e011",
@@ -14896,11 +12942,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ccc153f4-ceb7-46a2-9bad-0d36932d8a11": {
     name: "Desenho de rosto - anatomia criativa",
-    icon: "desenho-rosto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201433005802127432%2Fccc153f4-ceb7-46a2-9bad-0d36932d8a11011",
@@ -14943,11 +12984,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "518c7139-3a11-40b8-bbf8-2a8eb839084f": {
     name: "Desenvolvimento de carreira - a demanda do mercado",
-    icon: "desenvolvimento-de-carreira-a-demanda-do-mercado.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201433050911875082%2F518c7139-3a11-40b8-bbf8-2a8eb839084f011",
@@ -14984,11 +13020,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "75fecc6f-e684-4af5-ab15-1b7ebb3339e3": {
     name: "Desenvolvimento de carreira - como alcançar a posição desejada",
-    icon: "desenvolvimento-de-carreira-como-alcancar-a-posicao-desejada.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201433082411102278%2F75fecc6f-e684-4af5-ab15-1b7ebb3339e3011",
@@ -15015,11 +13046,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "011f3c53-78e1-4b50-8395-48167ea5e0de": {
     name: "Desenvolvimento Seguro - estratégias de segurança para dados de entrada",
-    icon: "desenvolvimento-seguro-estrategias-seguranca-dados-entrada.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201433105773371402%2F011f3c53-78e1-4b50-8395-48167ea5e0de011",
@@ -15054,11 +13080,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bac34bec-23ad-4fb8-b30d-5eea987e1d06": {
     name: "Desenvolvimento Seguro - lidando com erros e logs em uma aplicação",
-    icon: "desenvolvimento-seguro-lidando-erros-logs-aplicacao.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201433144797167626%2Fbac34bec-23ad-4fb8-b30d-5eea987e1d06011",
@@ -15084,11 +13105,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "82bba390-8b09-4832-a5bc-6decd54200cf": {
     name: "Desenvolvimento Seguro - implementando Secret Scanning e SAST na esteira de CI",
-    icon: "desenvolvimento-seguro-secret-scanning-sast-esteira-ci.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201433165202468956%2F82bba390-8b09-4832-a5bc-6decd54200cf011",
@@ -15124,11 +13140,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4f8b7007-1917-4151-8431-7b5d55a7f44d": {
     name: "Desenvolvimento seguro com DAST e SCA - protegendo as dependências e a aplicação em execução",
-    icon: "desenvolvimento-seguro-dast-sca-protegendo-dependencias-aplicacao-execucao.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201433197460860948%2F4f8b7007-1917-4151-8431-7b5d55a7f44d011",
@@ -15163,11 +13174,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "104da3f8-fbe3-4cf6-90b6-5d8b30173646": {
     name: "Design - desenvolvendo o seu portfólio",
-    icon: "portfolio-design.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201433226909073528%2F104da3f8-fbe3-4cf6-90b6-5d8b30173646011",
@@ -15203,11 +13209,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6070a2ba-bc4d-4570-ac89-3ca6dc9b1fe3": {
     name: "Design - entenda e conheça a área",
-    icon: "design-entenda-conheca-area.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201433260060840049%2F6070a2ba-bc4d-4570-ac89-3ca6dc9b1fe3011",
@@ -15237,11 +13238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "561cd3aa-c39a-4d9a-946a-c914ba71bffd": {
     name: "Design da proposta de valor - transformando produtos e serviços",
-    icon: "design-proposta-valor-produtos-servicos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201433286665310269%2F561cd3aa-c39a-4d9a-946a-c914ba71bffd011",
@@ -15283,11 +13279,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e42bf402-5d64-42d4-86ed-e14facb09b6d": {
     name: "Design de apresentações - trabalhando com o Power Point",
-    icon: "apresentacao-power-point.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201433322623090758%2Fe42bf402-5d64-42d4-86ed-e14facb09b6d011",
@@ -15334,11 +13325,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a81545f-7db5-46d0-951a-865ce2c7c565": {
     name: "Design de apresentações com IA - ferramentas, técnicas e melhores práticas",
-    icon: "design-apresentacoes-ia-ferramentas-tecnicas-melhores-praticas.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201433371176341525%2F1a81545f-7db5-46d0-951a-865ce2c7c565011",
@@ -15371,11 +13357,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "017fc255-adaf-4d8d-b7c9-57607c37f824": {
     name: "Design de cenários - ambientes externos",
-    icon: "design-cenarios-ambientes-externos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201433402621046864%2F017fc255-adaf-4d8d-b7c9-57607c37f824011",
@@ -15409,11 +13390,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "324c3c7a-643d-4150-bcb8-c3d84f49d7d4": {
     name: "Design de cenários - direção de arte",
-    icon: "design-cenarios-direcao-arte.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201433431465279589%2F324c3c7a-643d-4150-bcb8-c3d84f49d7d4011",
@@ -15446,11 +13422,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "874b27ae-8258-46dd-a04b-46433de14639": {
     name: "Design de cenários - ambientes internos",
-    icon: "design-cenarios-ambientes-internos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433458958930022%2F874b27ae-8258-46dd-a04b-46433de14639011",
@@ -15482,11 +13453,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f022ffbd-0fc0-4938-95f7-4ee4be339d3d": {
     name: "Design de personagem - concept de animais e criaturas",
-    icon: "design-personagem-concept-animais-criaturas.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201433483202007121%2Ff022ffbd-0fc0-4938-95f7-4ee4be339d3d011",
@@ -15520,11 +13486,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "058591f3-2f47-42ae-89e6-95ee98aab256": {
     name: "Design de ilustração - criando a partir de referências",
-    icon: "design-ilustracao-referencias.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201433510557270077%2F058591f3-2f47-42ae-89e6-95ee98aab256011",
@@ -15565,11 +13526,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3728f6a9-04d5-4737-9386-4ccda0b73eed": {
     name: "Design de personagem - concept de grupos para animação",
-    icon: "design-personagem-concept-grupos-animacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433567864037428%2F3728f6a9-04d5-4737-9386-4ccda0b73eed011",
@@ -15604,11 +13560,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f5c2981e-fd17-4367-822f-611fcb0bb352": {
     name: "Design de personagem - concept de protagonista para animação",
-    icon: "design-personagem-concept-protagonista-animacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201433600214704158%2Ff5c2981e-fd17-4367-822f-611fcb0bb352011",
@@ -15643,11 +13594,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ff5db6a5-8182-47ac-8dce-f63fc93eeaa4": {
     name: "Design de personagem - concept de robôs",
-    icon: "design-personagem-concept-robo.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201433631248355328%2Fff5db6a5-8182-47ac-8dce-f63fc93eeaa4011",
@@ -15681,11 +13627,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ed469bec-2201-4c61-84ad-55816d9e8b65": {
     name: "Design de personagem - Desenvolvendo personagens com a técnica Photobash",
-    icon: "design-personagem-photobash.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433660503638046%2Fed469bec-2201-4c61-84ad-55816d9e8b65011",
@@ -15724,11 +13665,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f2a06811-29b7-4bd9-8bd1-a784fc2fef97": {
     name: "Design Gráfico - conhecimentos de impressão",
-    icon: "design-grafico-conhecimento-de-impressao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201433698499825664%2Ff2a06811-29b7-4bd9-8bd1-a784fc2fef97011",
@@ -15753,11 +13689,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7217f0e9-1c77-4cc8-b46b-a4ce8d4304e3": {
     name: "Design emocional - tornando um produto amável",
-    icon: "design-emocional-tornando-produto-amavel.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433717537788074%2F7217f0e9-1c77-4cc8-b46b-a4ce8d4304e3011",
@@ -15799,11 +13730,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30e31fe7-6381-46eb-95be-26ed23fb9884": {
     name: "Design Gráfico - construindo os elementos de uma identidade visual",
-    icon: "design-grafico-elementos-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433767865237534%2F30e31fe7-6381-46eb-95be-26ed23fb9884011",
@@ -15841,11 +13767,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f14d3387-3d19-47fb-8e81-2c0cf8ee6d35": {
     name: "Design Gráfico - desenvolvendo identidade visual",
-    icon: "design-grafico-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201433802883469332%2Ff14d3387-3d19-47fb-8e81-2c0cf8ee6d35011",
@@ -15876,11 +13797,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b0efde9-c626-4488-9a3b-86b487d567d7": {
     name: "Design Gráfico - desenvolvendo layouts a partir dos grids",
-    icon: "design-grafico-layouts-grids.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201433830641377350%2F7b0efde9-c626-4488-9a3b-86b487d567d7011",
@@ -15909,11 +13825,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60011b99-f387-4585-8d90-f3d618a8a649": {
     name: "Design Gráfico - desenvolvendo Manual de Identidade Visual",
-    icon: "design-grafico-manual-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201433854792179813%2F60011b99-f387-4585-8d90-f3d618a8a649011",
@@ -15953,11 +13864,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c946cfbb-7457-48d5-82a9-0e7c7a17c4e5": {
     name: "Design Gráfico - design de apresentações",
-    icon: "design-apresentacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201433896156414013%2Fc946cfbb-7457-48d5-82a9-0e7c7a17c4e5011",
@@ -15987,11 +13893,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f72c4e73-ba16-4d02-9c73-d70bb3572c1b": {
     name: "Design Gráfico - design de embalagens",
-    icon: "design-grafico-embalagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201433923314520074%2Ff72c4e73-ba16-4d02-9c73-d70bb3572c1b011",
@@ -16030,11 +13931,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3001a79a-3ae8-4331-8bca-1ccec272ca1e": {
     name: "Design Gráfico - design de infográficos",
-    icon: "design-infografico.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201433965354033242%2F3001a79a-3ae8-4331-8bca-1ccec272ca1e011",
@@ -16068,11 +13964,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d8c7b1ea-07b1-43fe-8a47-24665b054373": {
     name: "Design Gráfico com Gestalt - desenvolva um projeto gráfico",
-    icon: "design-grafico-gestalt.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201433997557907496%2Fd8c7b1ea-07b1-43fe-8a47-24665b054373011",
@@ -16099,11 +13990,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "004dbb90-c817-449f-a1ea-4e62121068f7": {
     name: "Design Patterns em PHP - padrões comportamentais",
-    icon: "php-design-pattern-comportamental.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201434018944663602%2F004dbb90-c817-449f-a1ea-4e62121068f7011",
@@ -16148,11 +14034,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a66eea1b-aa18-4137-beef-3b8f2b41bc53": {
     name: "Design Patterns em PHP - padrões criacionais",
-    icon: "php-design-pattern-criacional.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201434059566497862%2Fa66eea1b-aa18-4137-beef-3b8f2b41bc53011",
@@ -16191,11 +14072,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c59c2742-b942-4183-8a5b-18559f418b7f": {
     name: "Design Patterns em PHP - padrões estruturais",
-    icon: "php-design-pattern-estrutural.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201434096035958805%2Fc59c2742-b942-4183-8a5b-18559f418b7f011",
@@ -16239,11 +14115,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ba65022a-f8c8-4680-81ac-2a9c3b183c54": {
     name: "Design Sprint 2.0 - crie produtos digitais rapidamente",
-    icon: "design-sprint.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201434136355811428%2Fba65022a-f8c8-4680-81ac-2a9c3b183c54011",
@@ -16280,11 +14151,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dc71cd39-b460-4b03-9ad5-f7536674e7a2": {
     name: "Design System - criando componentes e documentando",
-    icon: "design-system-componentes-documentando.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design System",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201434169713111101%2Fdc71cd39-b460-4b03-9ad5-f7536674e7a2011",
@@ -16315,11 +14181,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1f08b281-1688-49b7-9449-2d2bf0a9e5ac": {
     name: "Design System - criando um produto digital",
-    icon: "design-system-criando-produto-digital.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design System",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201434196921557122%2F1f08b281-1688-49b7-9449-2d2bf0a9e5ac011",
@@ -16352,11 +14213,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ca750ea8-34b8-434a-bef5-f5d2cc9a7db4": {
     name: "Design System - definindo estilos e tokens",
-    icon: "design-system-definindo-estilos-tokens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design System",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201434225103089746%2Fca750ea8-34b8-434a-bef5-f5d2cc9a7db4011",
@@ -16387,11 +14243,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e33abb2-5614-4c34-b318-aae5fa662ebb": {
     name: "Design System - documentando um design system",
-    icon: "design-system-documentando-design-system.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design System",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201434249702690867%2F2e33abb2-5614-4c34-b318-aae5fa662ebb011",
@@ -16427,11 +14278,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c648e5b-1584-417b-90f0-c176bf3e23fe": {
     name: "Design Thinking - inove ao focar no problema e crie soluções assertivas para seu negócio",
-    icon: "design-thinking-inove-solucoes-assertivas-negocio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201434282737029221%2F3c648e5b-1584-417b-90f0-c176bf3e23fe011",
@@ -16464,11 +14310,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "444baec6-4234-4047-81ee-71a1d59c94d7": {
     name: "Design Thinking em vendas - conhecendo seu cliente",
-    icon: "design-thinking-em-vendas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201434311895822376%2F444baec6-4234-4047-81ee-71a1d59c94d7011",
@@ -16499,11 +14340,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6032773b-b9ad-4e71-939e-1dc4c7de948e": {
     name: "Design Thinking - viabilizando soluções",
-    icon: "design-thinking-viabilizando-solucoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201434336176656404%2F6032773b-b9ad-4e71-939e-1dc4c7de948e011",
@@ -16540,11 +14376,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aba58428-e8f0-49d0-b2ce-794bf49e0ced": {
     name: "Design Visual - aplicando técnicas de composição",
-    icon: "design-visual-aplicando-tecnicas-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201434367986257970%2Faba58428-e8f0-49d0-b2ce-794bf49e0ced011",
@@ -16579,11 +14410,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dce44d99-3ae1-4b06-8cd7-a2d0d848c1cf": {
     name: "Design Visual - estratégias para planejar e construir seu portfólio",
-    icon: "design-visual-estrategias-planejar-construir-portfolio.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434401184165969%2Fdce44d99-3ae1-4b06-8cd7-a2d0d848c1cf011",
@@ -16612,11 +14438,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c61af69a-9f6d-4017-9548-dffdabbbce1d": {
     name: "Django - CRUD e persistência no S3",
-    icon: "django-crud-persistencia-s3.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201434426945585234%2Fc61af69a-9f6d-4017-9548-dffdabbbce1d011",
@@ -16649,11 +14470,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "905d9f68-f6cc-482b-a607-25db0154c547": {
     name: "Django - autenticação de formulários e alerta",
-    icon: "django-autenticacao-formularios-alerta.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201434456163102720%2F905d9f68-f6cc-482b-a607-25db0154c547011",
@@ -16689,11 +14505,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "06fbcb4e-d365-4afc-bf46-d0ab7fbd4523": {
     name: "Django - templates e boas práticas",
-    icon: "django-templates-boas-praticas.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201434490787074129%2F06fbcb4e-d365-4afc-bf46-d0ab7fbd4523011",
@@ -16728,11 +14539,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6ca7c350-c990-42ce-a317-e51171645b12": {
     name: "Django - persistência de dados e Admin",
-    icon: "django-persistencia-dados-admin.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201434521267093534%2F6ca7c350-c990-42ce-a317-e51171645b12011",
@@ -16768,11 +14574,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e8a7075-b56e-4d03-a9ee-ed7d4756add3": {
     name: "DNS - entenda a resolução de nomes na internet",
-    icon: "dns-resolucao-nomes-internet.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201434551122149466%2F6e8a7075-b56e-4d03-a9ee-ed7d4756add3011",
@@ -16807,11 +14608,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8045ffe6-154c-4a6e-a47b-e8e6b1eb1a62": {
     name: "DNS - domine os serviços na nuvem",
-    icon: "dns-como-servico-na-nuvem.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201434582608781342%2F8045ffe6-154c-4a6e-a47b-e8e6b1eb1a62011",
@@ -16848,11 +14644,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "92e4be40-b97e-4371-84cd-b7781556d65a": {
     name: "Doctrine - conhecendo um ORM PHP",
-    icon: "doctrine-conhecendo-orm-php.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434611662721094%2F92e4be40-b97e-4371-84cd-b7781556d65a011",
@@ -16887,11 +14678,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c69cdef9-59c0-4941-bfc8-3864d79bf580": {
     name: "Docker - criando e gerenciando containers",
-    icon: "docker-criando-gerenciando-containers.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201434642415353946%2Fc69cdef9-59c0-4941-bfc8-3864d79bf580011",
@@ -16934,11 +14720,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2201d78-4ca9-4c58-97aa-81927af04a1c": {
     name: "E-mail Marketing - da utilização às estratégias",
-    icon: "e-mail-marketing-utilizacao-estrategias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201434687478972448%2Fc2201d78-4ca9-4c58-97aa-81927af04a1c011",
@@ -16971,11 +14752,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b639fb45-077a-4e26-b746-48b22ecebcf8": {
     name: "Doctrine - Migrations, relatórios e performance",
-    icon: "doctrine-migrations-relatorios-performance.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201434713299103855%2Fb639fb45-077a-4e26-b746-48b22ecebcf8011",
@@ -17011,11 +14787,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "47cb6ae2-15ab-4c52-8d2b-1d7e55542b0d": {
     name: "E-mail Marketing - utilizando uma ferramenta de automação",
-    icon: "e-mail-marketing-ferramenta-automacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201434741971374110%2F47cb6ae2-15ab-4c52-8d2b-1d7e55542b0d011",
@@ -17048,11 +14819,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c94bdb3c-bb60-4ddf-b71c-3118a61b590e": {
     name: "Edição de Podcast - da captação ao render",
-    icon: "edicao-de-podcasts.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Áudio (Produção e Pós-Produção)",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201434769066565652%2Fc94bdb3c-bb60-4ddf-b71c-3118a61b590e011",
@@ -17082,11 +14848,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d2ab65dd-9a3f-4029-9d66-b47e1a852a23": {
     name: "Educação corporativa - engaje seu time na aprendizagem",
-    icon: "educacao-corporativa-engaje-time-aprendizagem.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ensino e Aprendizado",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201434792915374090%2Fd2ab65dd-9a3f-4029-9d66-b47e1a852a23011",
@@ -17116,11 +14877,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4afc0d91-2f3b-4f2e-9e5d-7f5ad4859785": {
     name: "Eficácia parte 1 - hábitos para sua proatividade",
-    icon: "habitos-eficazes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201434816608993321%2F4afc0d91-2f3b-4f2e-9e5d-7f5ad4859785011",
@@ -17152,11 +14908,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d67ed02-020d-4098-a00f-771edba62404": {
     name: "Eficácia parte 2 - hábitos para sua proatividade",
-    icon: "habitos-eficazes-2.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201434842106183682%2F8d67ed02-020d-4098-a00f-771edba62404011",
@@ -17185,11 +14936,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "741a887b-26e1-4000-ab73-3c0d9955672f": {
     name: "Elaboração de contratos - técnicas voltadas ao empreendedor",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Conformidade Legal",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434861517426759%2F741a887b-26e1-4000-ab73-3c0d9955672f011",
@@ -17223,11 +14969,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a8e281c0-b7a7-4cf2-aae7-c37f2a603f20": {
     name: "Elixir - Recursão, Enums e formas de execução",
-    icon: "elixir-recursao-enums-execucao.svg",
-    category: {
-      name: "Programação",
-      module: "Elixir",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201434890340675604%2Fa8e281c0-b7a7-4cf2-aae7-c37f2a603f20011",
@@ -17262,11 +15003,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ff635297-590b-482f-a698-325c61d0f407": {
     name: "Elixir - Sintaxe, Programação funcional e Pattern Matching",
-    icon: "elixir-sintaxe-programacao-funcional-pattern-matching.svg",
-    category: {
-      name: "Programação",
-      module: "Elixir",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201434921697292368%2Fff635297-590b-482f-a698-325c61d0f407011",
@@ -17307,11 +15043,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9b38e9c0-d380-4fb6-8596-bb9550bb2375": {
     name: "Elixir Parte 3 - Conhecendo o ecossistema Elixir",
-    icon: "elixir-conhecendo-ecossistema-elixir.svg",
-    category: {
-      name: "Programação",
-      module: "Elixir",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201434960544931840%2F9b38e9c0-d380-4fb6-8596-bb9550bb2375011",
@@ -17345,11 +15076,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9d8563ce-e15d-4305-b11d-523322a6bbc0": {
     name: "Empreendedorismo - abrindo sua empresa do jeito certo",
-    icon: "empreendedorismo-abra-sua-empresa.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201434987443003462%2F9d8563ce-e15d-4305-b11d-523322a6bbc0011",
@@ -17393,11 +15119,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e4a0623a-9ff2-4aa1-ae76-a45ad12f0c3f": {
     name: "Empreendedorismo - da ideia ao plano de negócios",
-    icon: "empreendedorismo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201435031038599288%2Fe4a0623a-9ff2-4aa1-ae76-a45ad12f0c3f011",
@@ -17425,11 +15146,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cc1ce6d8-e169-46d0-9a78-ffdb3c186fcf": {
     name: "Endless Runner - assets",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201435054480568360%2Fcc1ce6d8-e169-46d0-9a78-ffdb3c186fcf011",
@@ -17470,11 +15186,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e3522438-275f-422d-857d-633a7c284528": {
     name: "Empreendedorismo para Devs - transformando ideias em negócios",
-    icon: "empreendedorismo-devs-ideias-negocio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201435096356487228%2Fe3522438-275f-422d-857d-633a7c284528011",
@@ -17512,11 +15223,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "26fbcc55-9701-4cfe-8c53-0d3893a2d3f6": {
     name: "Endless Runner - cenário",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201435133757116466%2F26fbcc55-9701-4cfe-8c53-0d3893a2d3f6011",
@@ -17555,11 +15261,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "59022e1f-5925-4c6e-8843-f38de945f980": {
     name: "Endless Runner - criando um HUD",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201435170453065849%2F59022e1f-5925-4c6e-8843-f38de945f980011",
@@ -17598,11 +15299,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dbf6abf8-8231-45eb-a734-d61788e3ac49": {
     name: "A Empresa Ágil - implemente o Business Agility nas organizações",
-    icon: "empresa-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201435208386347038%2Fdbf6abf8-8231-45eb-a734-d61788e3ac49011",
@@ -17629,11 +15325,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "584aacd1-0bcd-447e-954d-196c989add3d": {
     name: "Endless Runner - design de personagem",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201435223603290185%2F584aacd1-0bcd-447e-954d-196c989add3d011",
@@ -17672,11 +15363,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f5b1bafe-3e09-413a-bf8e-062d32da3da5": {
     name: "Endless Runner - direção de arte para games",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201435258290192456%2Ff5b1bafe-3e09-413a-bf8e-062d32da3da5011",
@@ -17714,11 +15400,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7d9874e7-6fbd-4f0b-864a-22c1cb4164c0": {
     name: "Endless Runner - Splash Art",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201435293547503636%2F7d9874e7-6fbd-4f0b-864a-22c1cb4164c0011",
@@ -17755,11 +15436,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8396179-52fc-46c2-a86d-0dc28920116b": {
     name: "Engenharia de Dados - organizando dados na AWS",
-    icon: "engenharia-dados-organizando-dados-aws.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435335276646411%2Fc8396179-52fc-46c2-a86d-0dc28920116b011",
@@ -17785,11 +15461,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e68a612c-24ba-4913-a657-9a8c80b8cca3": {
     name: "Ensino e aprendizado remoto - elabore conteúdos encantadores",
-    icon: "ensino-aprendizado-remoto-conteudos-encantadores.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ensino e Aprendizado",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201435350460022834%2Fe68a612c-24ba-4913-a657-9a8c80b8cca3011",
@@ -17829,11 +15500,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5e479a1a-236e-4cab-bd26-445e8999e9a6": {
     name: "Entity Framework Core - banco de dados de forma eficiente",
-    icon: "entity-framework-core.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435386631688352%2F5e479a1a-236e-4cab-bd26-445e8999e9a6011",
@@ -17885,11 +15551,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "99a878ab-f0de-4a3b-b777-95f2a7324246": {
     name: "Entity Framework Core parte 1 - mapeando um banco pré-existente",
-    icon: "entity-framework-core-banco-pre-existente-parte1.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201435434148954112%2F99a878ab-f0de-4a3b-b777-95f2a7324246011",
@@ -17936,11 +15597,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "01ea694e-0fbe-4c5b-90f2-09cdfb13c755": {
     name: "Entity Framework Core parte 2 - mapeando um banco pré-existente",
-    icon: "entity-framework-core-banco-pre-existente-parte2.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201435478356922378%2F01ea694e-0fbe-4c5b-90f2-09cdfb13c755011",
@@ -17977,11 +15633,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e8f8e117-48e8-4eb1-819e-bbba685b0c6a": {
     name: "Entrega Contínua - confiabilidade e qualidade na implantação de software",
-    icon: "entrega-continua-confiabilidade-qualidade.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201435512230129714%2Fe8f8e117-48e8-4eb1-819e-bbba685b0c6a011",
@@ -18016,11 +15667,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1305433b-bc63-4aef-88f9-b3b27c08b423": {
     name: "Escalando Equipes Ágeis - como levar a agilidade adiante na organização",
-    icon: "escalando-equipes-ageis-v2.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201435538075418634%2F1305433b-bc63-4aef-88f9-b3b27c08b423011",
@@ -18048,11 +15694,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6701889e-fe27-4bb9-84e9-300a99cbeceb": {
     name: "Esp32 - detector de presença com Bluetooth Low Energy",
-    icon: "iot-detector-bluetooth-low-energy.svg",
-    category: {
-      name: "Programação",
-      module: "Embarcados e Robótica",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201435553317519460%2F6701889e-fe27-4bb9-84e9-300a99cbeceb011",
@@ -18086,11 +15727,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ffa18257-6ee8-4ad3-a07a-bf9ae89b4328": {
     name: "Estatística com Python - Correlação e Regressão",
-    icon: "estatistica-correlacao-regressao.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435583910785104%2Fffa18257-6ee8-4ad3-a07a-bf9ae89b4328011",
@@ -18126,11 +15762,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "40d39dde-0c42-4f75-aabe-b14e70cf14ad": {
     name: "Estatística com Python - frequências e medidas",
-    icon: "estatistica-distribuicoes-e-medidas.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435619008725023%2F40d39dde-0c42-4f75-aabe-b14e70cf14ad011",
@@ -18170,11 +15801,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "846b0ddd-9b95-4d65-bedc-2fb5d6f8724c": {
     name: "Estatística com Python - probabilidade e amostragem",
-    icon: "estatistica-probabilidade-e-amostragem.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435652399571034%2F846b0ddd-9b95-4d65-bedc-2fb5d6f8724c011",
@@ -18218,11 +15844,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4f4f01cd-bdbc-488b-af77-8cf2a9ce4c84": {
     name: "Estatística com Python - testes de hipóteses",
-    icon: "estatistica-testes-hipotestes.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201435689196212275%2F4f4f01cd-bdbc-488b-af77-8cf2a9ce4c84011",
@@ -18264,11 +15885,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "473b3945-05a7-4ecc-9b17-6f5236fe26c6": {
     name: "Estatística com R - correlação e regressão",
-    icon: "estatistica-r-correlacao-regressao.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201435726135443517%2F473b3945-05a7-4ecc-9b17-6f5236fe26c6011",
@@ -18303,11 +15919,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3841d330-86de-499d-821a-1ceaf300778c": {
     name: "Estatística com R - crie e compare modelos estatísticos",
-    icon: "estatistica-introducao-modelagem.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201435754996441128%2F3841d330-86de-499d-821a-1ceaf300778c011",
@@ -18336,11 +15947,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f93078ea-b6b0-46d9-b4f3-b08b98fad543": {
     name: "Estatística com R - frequências e medidas",
-    icon: "estatistica-r-frequencias-medidas.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201435774940348466%2Ff93078ea-b6b0-46d9-b4f3-b08b98fad543011",
@@ -18379,11 +15985,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "52681c00-b023-48c1-a0da-0666c3c2d73c": {
     name: "Estatística com R - probabilidade e amostragem",
-    icon: "estatistica-r-probabilidade-amostragem.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201435807932751872%2F52681c00-b023-48c1-a0da-0666c3c2d73c011",
@@ -18427,11 +16028,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "92a58f18-22f8-433d-a515-64318ce1081f": {
     name: "Estratégia Omnichannel - aumentando suas vendas",
-    icon: "estrategia-omnichannel-aumentando-vendas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201435848260989009%2F92a58f18-22f8-433d-a515-64318ce1081f011",
@@ -18465,11 +16061,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6f9dbcd7-47a9-4fb5-96f5-cbdbe8c2937c": {
     name: "Estatística com R - testes de hipóteses",
-    icon: "estatistica-r-testes-hipoteses.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435875368783922%2F6f9dbcd7-47a9-4fb5-96f5-cbdbe8c2937c011",
@@ -18509,11 +16100,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5a3c32fb-b51d-4815-8392-7aa32befcf7e": {
     name: "Estresse parte 2 - equilibre seu estilo de vida",
-    icon: "estresse-trabalho-equilibrio-no-estilo-de-vida.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201435906717007912%2F5a3c32fb-b51d-4815-8392-7aa32befcf7e011",
@@ -18541,11 +16127,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "433cdb4a-17db-4cc5-b9ee-7035c5265508": {
     name: "Estresse parte 1 - buscando qualidade de vida",
-    icon: "estresse-trabalho.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201435926547669115%2F433cdb4a-17db-4cc5-b9ee-7035c5265508011",
@@ -18572,11 +16153,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "91426de9-bb0b-44f8-9080-b13956eb2494": {
     name: "Excel - aprendendo lógica booleana e busca por valores",
-    icon: "excel-logica-booleana-busca-valores.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201435942884474940%2F91426de9-bb0b-44f8-9080-b13956eb2494011",
@@ -18608,11 +16184,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e97aa841-a663-44d7-9732-469a06fc3648": {
     name: "Excel - automatizando tarefas com Macros",
-    icon: "excel-automatizando-tarefas-macros.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201435967224033280%2Fe97aa841-a663-44d7-9732-469a06fc3648011",
@@ -18644,11 +16215,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2c2a2511-72fb-4255-b7d2-3097767cc37a": {
     name: "Excel - criação de macros e automatização de tarefas",
-    icon: "excel-criacao-de-macros-automacao-de-tarefas.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435994814165073%2F2c2a2511-72fb-4255-b7d2-3097767cc37a011",
@@ -18680,11 +16246,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "864809dc-2023-4cfc-981c-c0f6d64647f8": {
     name: "Excel - domine o editor de planilhas",
-    icon: "excel-domine-editor-planilhas.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201436021238276126%2F864809dc-2023-4cfc-981c-c0f6d64647f8011",
@@ -18722,11 +16283,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "349ecc74-d1cb-45a7-8b81-15d18dacf700": {
     name: "Excel - lógica booleana e busca por valores com IA",
-    icon: "excel-logica-booleana-busca-valores-ia.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201436050590019725%2F349ecc74-d1cb-45a7-8b81-15d18dacf700011",
@@ -18758,11 +16314,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e200ec8c-273e-4b95-80ba-5243eea9130a": {
     name: "Excel - personalizando e automatizando tarefas com VBA",
-    icon: "excel-vba-personalizacao-automacao-tarefas.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436079614607471%2Fe200ec8c-273e-4b95-80ba-5243eea9130a011",
@@ -18794,11 +16345,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "01d5a333-9a68-4953-9834-f3168a059708": {
     name: "Excel - simulação e análise de cenários",
-    icon: "excel-simulacao-e-analise-de-cenarios.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201436106009362543%2F01d5a333-9a68-4953-9834-f3168a059708011",
@@ -18829,11 +16375,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b609388d-05db-4025-8f23-25d26a02680a": {
     name: "Excel - utilizando tabelas dinâmicas e gráficos dinâmicos",
-    icon: "excel-utilizando-tabelas-dinamicas-graficos-dinamicos.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201436125902929920%2Fb609388d-05db-4025-8f23-25d26a02680a011",
@@ -18865,11 +16406,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8077ed1-abe7-43f6-99b7-4b02f251957d": {
     name: "Excel com IA - análise de negócios com a jornada de usuário",
-    icon: "excel-ia-analise-negocios-jornada-usuario.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Negócios",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201436151651770388%2Fc8077ed1-abe7-43f6-99b7-4b02f251957d011",
@@ -18901,11 +16437,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "91e55ed9-3364-40f5-bcf6-893ec24ccc3e": {
     name: "Excel com IA - mapeando e evoluindo processos",
-    icon: "excel-ia-mapeando-evoluindo-processos.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Negócios",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201436176163287142%2F91e55ed9-3364-40f5-bcf6-893ec24ccc3e011",
@@ -18937,11 +16468,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b63acc56-4bec-4eb1-9d10-ddeae02f8197": {
     name: "Excel e ChatGPT - analisando dados",
-    icon: "excel-chatgpt-analisando-dados.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201436202407034970%2Fb63acc56-4bec-4eb1-9d10-ddeae02f8197011",
@@ -18973,11 +16499,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "71eae6ad-6d1c-4e0f-ae31-03060c6a72fb": {
     name: "Excel VBA - automatize tarefas diárias mesmo não sendo programador",
-    icon: "excel-vba-automatizacao-tarefas-diarias.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436226843058266%2F71eae6ad-6d1c-4e0f-ae31-03060c6a72fb011",
@@ -19009,11 +16530,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d536896-d6a0-4c0a-a03e-a636b4162fa6": {
     name: "Excel VBA - criando Formulários para facilitar a entrada de dados nas planilhas",
-    icon: "excel-vba-formularios-facilitar-entrada-dados-planilhas.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201436258426159175%2F8d536896-d6a0-4c0a-a03e-a636b4162fa6011",
@@ -19045,11 +16561,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "419c634e-30f9-4964-a236-578ba60b5fe0": {
     name: "Excel VBA 3 - criando conexão com o Outlook Application",
-    icon: "excel-vba-conexao-outlook-application.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201436285072584716%2F419c634e-30f9-4964-a236-578ba60b5fe0011",
@@ -19082,11 +16593,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2fcea9d9-54ba-48b1-871b-6bedabc1fe27": {
     name: "Expressões Regulares - faça buscas, validações e substituições de textos",
-    icon: "expressoes-regulares-buscas-validacoes-substituicoes-textos.svg",
-    category: {
-      name: "Programação",
-      module: "Computação",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201436310825603182%2F2fcea9d9-54ba-48b1-871b-6bedabc1fe27011",
@@ -19121,11 +16627,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b88297ed-1d05-41fa-b740-05e7873e262f": {
     name: "Excel VBA 4 - criando conexão com Access",
-    icon: "excel-vba-4-criando-conexao-access.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201436340600975421%2Fb88297ed-1d05-41fa-b740-05e7873e262f011",
@@ -19159,11 +16660,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ae99d13e-ffdb-48a3-8b54-dbaec24e8bad": {
     name: "Facebook Ads - campanha de vídeo e mensagem",
-    icon: "facebook-ads-campanha-video-mensagem.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201436368929312860%2Fae99d13e-ffdb-48a3-8b54-dbaec24e8bad011",
@@ -19195,11 +16691,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "22166316-2056-48b1-8596-c4b7cb6f6b8e": {
     name: "Extreme Programming - metodologia de desenvolvimento ágil de software",
-    icon: "xp-extreme-programming.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201436406602539028%2F22166316-2056-48b1-8596-c4b7cb6f6b8e011",
@@ -19242,11 +16733,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "98f8f2fb-4004-4a33-90ca-11bec2468405": {
     name: "Facebook Ads - campanhas de remarketing",
-    icon: "facebook-ads-campanhas-remarketing.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201436446494568469%2F98f8f2fb-4004-4a33-90ca-11bec2468405011",
@@ -19272,11 +16758,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cefee773-8ea2-48fe-aeea-28d0e9bcb4fd": {
     name: "Facebook Ads - criando campanhas de sucesso",
-    icon: "facebook-ads-crie-primeiras-campanhas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201436465670922320%2Fcefee773-8ea2-48fe-aeea-28d0e9bcb4fd011",
@@ -19308,11 +16789,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b0cda497-077f-4d5d-9dc3-b28d666195ff": {
     name: "Facebook Ads - campanhas para e-commerce",
-    icon: "facebook-ads-campanhas-e-commerce.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201436492904542209%2Fb0cda497-077f-4d5d-9dc3-b28d666195ff011",
@@ -19350,11 +16826,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4d2800d-e54e-4a8a-a78c-3091ae1c6636": {
     name: "Feedback - a arte de orientar e ser orientado com sentido",
-    icon: "feedback.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201436535438983239%2Fa4d2800d-e54e-4a8a-a78c-3091ae1c6636011",
@@ -19385,11 +16856,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9cd38319-3ced-405a-bdb3-5fd16cfebf84": {
     name: "Facebook Marketing - crie uma página que atraia e encante clientes",
-    icon: "facebook-marketing-crie-pagina-atraia-encante-clientes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201436560806137949%2F9cd38319-3ced-405a-bdb3-5fd16cfebf84011",
@@ -19431,11 +16897,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ae35a1b6-92f9-4a0e-82b3-bbee85c4beef": {
     name: "Fidelização de clientes - estratégias para manter relacionamentos a longo prazo",
-    icon: "fidelizacao-clientes-estrategias-relacionamentos-longo-prazo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201436601214062643%2Fae35a1b6-92f9-4a0e-82b3-bbee85c4beef011",
@@ -19467,11 +16928,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "915c9edc-bc3a-49c1-9e43-cb5102d4ef7f": {
     name: "Ferramentas para agilidade - visão geral sobre controle de projetos e produtos",
-    icon: "ferramentas-agilidade-visao-sobre-controle-projetos-produtos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201436631417225236%2F915c9edc-bc3a-49c1-9e43-cb5102d4ef7f011",
@@ -19503,11 +16959,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "08d985e4-37d9-4fea-a543-fbbbbcc6b283": {
     name: "Figma - componentes, auto layout e máscaras",
-    icon: "figma-componentes-auto-layout-mascaras.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201436660336963635%2F08d985e4-37d9-4fea-a543-fbbbbcc6b283011",
@@ -19540,11 +16991,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "27406521-b2cd-450b-83ae-286c6aa1f5fa": {
     name: "Figma - conhecendo a ferramenta",
-    icon: "figma-conhecendo-ferramenta.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201436689034391653%2F27406521-b2cd-450b-83ae-286c6aa1f5fa011",
@@ -19585,11 +17031,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "be3e28e2-930b-444d-a63f-24bc997b6e6b": {
     name: "Figma - prototipagem interativa e animações",
-    icon: "figma-prototipagem-interativa-animacoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201436739542192279%2Fbe3e28e2-930b-444d-a63f-24bc997b6e6b011",
@@ -19622,11 +17063,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "19a95ad1-80fc-4947-ae64-27c08a1d5a15": {
     name: "Filmografia - bases para uma boa gravação",
-    icon: "fundamentos-filmografia-bases-gravacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Filmagem",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201436769158180864%2F19a95ad1-80fc-4947-ae64-27c08a1d5a15011",
@@ -19659,11 +17095,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "05d81094-6efd-4e26-9395-609d327592b3": {
     name: "Filmora X - edição de vídeos para a internet",
-    icon: "filmora-x-edicao-videos-internet.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436800288301096%2F05d81094-6efd-4e26-9395-609d327592b3011",
@@ -19696,11 +17127,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f5d80823-ad35-4d18-9e2f-da8b9f30003d": {
     name: "Final Cut - editando matéria jornalística",
-    icon: "final-cut-jornalistica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201436829321273344%2Ff5d80823-ad35-4d18-9e2f-da8b9f30003d011",
@@ -19727,11 +17153,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e638f9c0-6b67-4a17-83e5-afbb0800f9d7": {
     name: "Final Cut - processos de colorização e tratamento de imagem",
-    icon: "final-cut-colorizacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Colorização",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201436852004073502%2Fe638f9c0-6b67-4a17-83e5-afbb0800f9d7011",
@@ -19766,11 +17187,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f53c3e35-2858-43b1-aa81-ab4bdb38e125": {
     name: "Final Cut - Edição de vídeos",
-    icon: "final-cut-introducao-edicao-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201436886967791688%2Ff53c3e35-2858-43b1-aa81-ab4bdb38e125011",
@@ -19802,11 +17218,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f890431b-7ee6-428f-a71c-d1f2cf67c6e6": {
     name: "Final Cut Pro X - descomplicando à edição de vídeo",
-    icon: "final-cut-pro-x-introducao-edicao-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201436918827724810%2Ff890431b-7ee6-428f-a71c-d1f2cf67c6e6011",
@@ -19839,11 +17250,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e197c84a-136b-4ade-869a-f99fac4e08ed": {
     name: "Firebase Authentication - integração com apps Android",
-    icon: "firebase-authentication-apps-android.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201436953992757268%2Fe197c84a-136b-4ade-869a-f99fac4e08ed011",
@@ -19879,11 +17285,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50afeab7-9c99-4bac-9d54-ccbc30ed1d07": {
     name: "Firebase com Android - armazene imagens com o Cloud Storage",
-    icon: "firebase-android-cloud-storage.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201436987291344916%2F50afeab7-9c99-4bac-9d54-ccbc30ed1d07011",
@@ -19916,11 +17317,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ceaf19fa-0891-4978-8735-26c729b3b03d": {
     name: "Firebase com Android - Push Notification no Cloud Messaging",
-    icon: "firebase-android-push-notification-cloud-messaging.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201437019927220224%2Fceaf19fa-0891-4978-8735-26c729b3b03d011",
@@ -19954,11 +17350,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d16e19f0-d5fd-47f9-be38-311b5e784bf3": {
     name: "Firewall ASA - configuração de segurança",
-    icon: "firewall-asa-introducao.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201437060620357672%2Fd16e19f0-d5fd-47f9-be38-311b5e784bf3011",
@@ -19986,11 +17377,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6c4bb424-bbf5-4e54-9832-e53b24d80a50": {
     name: "Firebase com Android - salve os dados NoSQL no Firestore",
-    icon: "firebase-android-nosql-firestore.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201437078844624916%2F6c4bb424-bbf5-4e54-9832-e53b24d80a50011",
@@ -20023,11 +17409,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "921b764c-b100-4a14-b8c6-d9dc4994572e": {
     name: "Flask - crie uma webapp com Python",
-    icon: "flask-crie-webapp-python.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201437104824127508%2F921b764c-b100-4a14-b8c6-d9dc4994572e011",
@@ -20073,11 +17454,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8c72c682-bba4-456c-9911-9ae311a9d368": {
     name: "Flask - avançando no desenvolvimento web com Python",
-    icon: "flask-desenvolvimento-web.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201437149556387870%2F8c72c682-bba4-456c-9911-9ae311a9d368011",
@@ -20121,11 +17497,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e30cac55-4ad6-4ade-9886-db3ed49d8cc9": {
     name: "Flutter - aplicando BLoC com Cubit",
-    icon: "flutter-aplicando-bloc-cubit.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201437194506735667%2Fe30cac55-4ad6-4ade-9886-db3ed49d8cc9011",
@@ -20153,11 +17524,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aea66421-7394-4dc8-812e-7a8fedac20fd": {
     name: "Flutter - aplicando constraints e implementando layouts responsivos",
-    icon: "flutter-aplicando-constraints-layouts-responsivos.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201437216413581322%2Faea66421-7394-4dc8-812e-7a8fedac20fd011",
@@ -20191,11 +17557,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bae7944a-dcc8-4689-98d0-ee84be791a78": {
     name: "Flutter - aplicando gerenciamento de estados com MobX",
-    icon: "flutter-gerenciamento-estados-mobx.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201437251876442172%2Fbae7944a-dcc8-4689-98d0-ee84be791a78011",
@@ -20228,11 +17589,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "113d06a5-5d14-47d2-afb4-1b63257260f1": {
     name: "Flutter - aplicando integração contínua (CI)",
-    icon: "flutter-aplicando-integracao-continua-ci.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201437280703877120%2F113d06a5-5d14-47d2-afb4-1b63257260f1011",
@@ -20257,11 +17613,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8194b807-6b7c-4ff8-a740-68469bc29b3e": {
     name: "Flutter - aplicando persistência de dados",
-    icon: "flutter-aplicando-persistencia-dados.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437300727500870%2F8194b807-6b7c-4ff8-a740-68469bc29b3e011",
@@ -20298,11 +17649,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "777af3a0-e4e6-4405-b172-32ffe5e94801": {
     name: "Flutter - aplicando testes de unidade, de Widget e Mocks",
-    icon: "flutter-testes-unidade-widget-mocks.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201437339487055963%2F777af3a0-e4e6-4405-b172-32ffe5e94801011",
@@ -20334,11 +17680,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d52af852-eae8-4d81-88df-9ffd02e3685b": {
     name: "Flutter - Controller, navegação e estados",
-    icon: "flutter-controller-navegacao-estados.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201437370126450738%2Fd52af852-eae8-4d81-88df-9ffd02e3685b011",
@@ -20374,11 +17715,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ebc3d036-894d-4bce-b2cb-b4dc98e9f09d": {
     name: "Flutter - criando um app",
-    icon: "flutter-crie-primeiro-app.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437404863672402%2Febc3d036-894d-4bce-b2cb-b4dc98e9f09d011",
@@ -20413,11 +17749,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1e8a524b-955a-47e6-a0dc-46e0c98a6e78": {
     name: "Flutter - entendendo comunicação HTTP e utilizando Web API",
-    icon: "flutter-comunicacao-http.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437439462494248%2F1e8a524b-955a-47e6-a0dc-46e0c98a6e78011",
@@ -20447,11 +17778,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "babb9aaa-1464-4b72-ae75-7adfb21bc69b": {
     name: "Flutter - estilizando e reproduzindo layouts",
-    icon: "flutter-estilizando-reproduzindo-layouts.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201437468730347631%2Fbabb9aaa-1464-4b72-ae75-7adfb21bc69b011",
@@ -20492,11 +17818,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8fee86c3-5e1b-4bad-bf96-aa834df1023e": {
     name: "Flutter - Firebase Crashlytics, gere relatórios de erro em tempo real",
-    icon: "flutter-firebase-crashlytics-relatorios-tempo-real.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201437506940436500%2F8fee86c3-5e1b-4bad-bf96-aa834df1023e011",
@@ -20528,11 +17849,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e46683d-90a6-47af-a204-5ddd784e497b": {
     name: "Flutter - gerenciamento de estados com Provider",
-    icon: "flutter-gerenciamento-de-estados-provider.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201437535709171803%2F6e46683d-90a6-47af-a204-5ddd784e497b011",
@@ -20561,11 +17877,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd2aface-8dc1-4eea-9285-0a4a67252d9d": {
     name: "Flutter - implementando testes de integração",
-    icon: "flutter-implementando-testes-integracao.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437560182931526%2Fdd2aface-8dc1-4eea-9285-0a4a67252d9d011",
@@ -20596,11 +17907,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4891da1-1abb-4e54-afd3-adf7fde226a5": {
     name: "Flutter - praticando arquitetura e padrão MVC",
-    icon: "flutter-praticando-arquitetura-padrao-mvc.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201437586057613393%2Fd4891da1-1abb-4e54-afd3-adf7fde226a5011",
@@ -20633,11 +17939,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "79622e74-87a3-4e45-b833-347917fd154b": {
     name: "Flutter - praticando e adaptando arquitetura limpa",
-    icon: "flutter-praticando-adaptando-arquitetura-limpa.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437612875972689%2F79622e74-87a3-4e45-b833-347917fd154b011",
@@ -20677,11 +17978,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5a8f2638-e1be-4f1f-a0bb-2d47fd13f5b5": {
     name: "Flutter - praticando orientação a pacotes",
-    icon: "flutter-praticando-orientacao-pacotes.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201437783277965353%2F5a8f2638-e1be-4f1f-a0bb-2d47fd13f5b5011",
@@ -20712,11 +18008,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "38819113-6df2-4ab5-abac-21c1e26a3d8b": {
     name: "Flutter - Streams de programação reativa com BLoC",
-    icon: "flutter-bloc.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201437811639844864%2F38819113-6df2-4ab5-abac-21c1e26a3d8b011",
@@ -20742,11 +18033,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "be924286-bfee-4ca1-a9e8-86eae084aa4d": {
     name: "Flutter - Push Notifications com Firebase Cloud Messaging",
-    icon: "flutter-push-notifications-firebase-cloud-messaging.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201437833781575752%2Fbe924286-bfee-4ca1-a9e8-86eae084aa4d011",
@@ -20778,11 +18064,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "950c46cc-502c-4d35-b894-cf4420070711": {
     name: "Flutter com animações - personalize seu app com animações implícitas",
-    icon: "flutter-animacoes-personalize-app-animacoes-implicitas.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201437865368899604%2F950c46cc-502c-4d35-b894-cf4420070711011",
@@ -20815,11 +18096,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4176d563-4ec6-4de5-a1ff-bf2ac0a49b04": {
     name: "Flutter - Widgets, Stateless, Stateful, Imagens e Animações",
-    icon: "flutter-widgets-stateless-stateful-imagens-animacoes.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201437892883521616%2F4176d563-4ec6-4de5-a1ff-bf2ac0a49b04011",
@@ -20865,11 +18141,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f3e5427-9437-46da-8024-dd19489fa1fd": {
     name: "Flutter com Firebase - autenticando usuários com Authentication",
-    icon: "flutter-firebase-autenticando-usuarios-authenticator.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201437943013847181%2F3f3e5427-9437-46da-8024-dd19489fa1fd011",
@@ -20910,11 +18181,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "250af6a6-31d5-43db-b1a6-96d6df2f3812": {
     name: "Flutter com Firebase - evoluindo a aplicação com o Cloud Firestore",
-    icon: "flutter-firebase-evoluindo-aplicacao-cloud-firestores.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201437985636368384%2F250af6a6-31d5-43db-b1a6-96d6df2f3812011",
@@ -20952,11 +18218,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78bb6bc5-fc84-4d5d-9a62-39cfefcb4ab4": {
     name: "Flutter com Firebase - guardando arquivos na nuvem com Storage",
-    icon: "flutter-firebase-arquivos-nuvem-storage.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438021560569946%2F78bb6bc5-fc84-4d5d-9a62-39cfefcb4ab4011",
@@ -21000,11 +18261,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60bca7c6-9b1b-4a24-b251-50d0cd4a33a5": {
     name: "Flutter com Firebase - implementando banco de dados online com Cloud Firestore",
-    icon: "flutter-firebase-banco-dados-online-cloud-firestore.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201438063491027015%2F60bca7c6-9b1b-4a24-b251-50d0cd4a33a5011",
@@ -21030,11 +18286,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0657ff0b-cb7d-4c5e-a382-547f7531a62d": {
     name: "Flutter com Web API - integrando sua app mobile",
-    icon: "flutter-web-api.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438083393011784%2F0657ff0b-cb7d-4c5e-a382-547f7531a62d011",
@@ -21066,11 +18317,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78fe889b-a40f-4281-bd10-378eea71794f": {
     name: "Flutter com Web API - evoluindo na integração da aplicação",
-    icon: "flutter-web-api-integracao-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201438113935933520%2F78fe889b-a40f-4281-bd10-378eea71794f011",
@@ -21111,11 +18357,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "917b877d-0d54-43d2-80dd-4a57d9e8cb4f": {
     name: "Flutter i18n - entenda abordagens de internacionalização",
-    icon: "flutter-i18n-internacionalizacao.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201438157195968542%2F917b877d-0d54-43d2-80dd-4a57d9e8cb4f011",
@@ -21144,11 +18385,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8a2cb2f1-a570-410f-a1a3-36a9f022c06a": {
     name: "Flutter com WebAPI - integrando sua aplicação",
-    icon: "flutter-web-api-integrando-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438177907441715%2F8a2cb2f1-a570-410f-a1a3-36a9f022c06a011",
@@ -21181,11 +18417,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "04653072-15ad-4fdb-99cc-7392f9c23c87": {
     name: "Foco - trazendo mais resultados para o dia a dia",
-    icon: "foco-o-poder-do-habito-seu-dia-a-dia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201438210702725180%2F04653072-15ad-4fdb-99cc-7392f9c23c87011",
@@ -21216,11 +18447,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "95dfa8f1-2a5e-414f-b423-7027497e6012": {
     name: "Flutter Nuvigator - controle de rotas e navegação",
-    icon: "flutter-nuvigator-controle-rotas-navegacao.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201438236162138192%2F95dfa8f1-2a5e-414f-b423-7027497e6012011",
@@ -21255,11 +18481,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0b0c1b49-5971-496c-80d0-9418f4f77090": {
     name: "Fotografia - conhecendo o mundo da fotografia digital",
-    icon: "fotografia-digital-fundamentos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201438271247487036%2F0b0c1b49-5971-496c-80d0-9418f4f77090011",
@@ -21287,11 +18508,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c1d7f14-d3db-4a16-b2d6-9d2d811827ff": {
     name: "Fotografia - criando intimidade com a pessoa retratada",
-    icon: "fotografia-intimidade-pessoa-retratada.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438294135812106%2F4c1d7f14-d3db-4a16-b2d6-9d2d811827ff011",
@@ -21320,11 +18536,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4f072803-6647-4f59-8003-ab931730b554": {
     name: "Fotografia - fotografe usando seu celular",
-    icon: "fotografia-fotografe-usando-celular.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438320245342289%2F4f072803-6647-4f59-8003-ab931730b554011",
@@ -21354,11 +18565,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c006b3ed-7400-47d4-a794-6e955a0e0f64": {
     name: "Fotografia - melhorando suas imagens com a composição",
-    icon: "fotografia-melhorando-imagens-composicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201438350763098132%2Fc006b3ed-7400-47d4-a794-6e955a0e0f64011",
@@ -21387,11 +18593,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f9c617e-4eb8-4f1b-9c0b-50396607f351": {
     name: "Fotografia - usando a luz a seu favor",
-    icon: "fotografia-usando-luz-favor.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201438376411271208%2F3f9c617e-4eb8-4f1b-9c0b-50396607f351011",
@@ -21421,11 +18622,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1da5b4a4-0822-44af-8e75-1af222fe8712": {
     name: "Freelancer de sucesso - construa uma carreira autônoma",
-    icon: "freelancer-sucesso-construa-carreira-autonoma.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201438410951376976%2F1da5b4a4-0822-44af-8e75-1af222fe8712011",
@@ -21458,11 +18654,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9962c0a9-8b5b-41bd-8e61-d33ac7070d51": {
     name: "Freelancer parte 1 - estruture seu negócio",
-    icon: "freelancer-estruture-seu-negocio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201438439283900476%2F9962c0a9-8b5b-41bd-8e61-d33ac7070d51011",
@@ -21492,11 +18683,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "da092e3c-2d3a-4bbc-bdf3-374d9ded0d68": {
     name: "Freelancer parte 2 - profissionalize seu negócio",
-    icon: "freelancer-2.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201438461425619085%2Fda092e3c-2d3a-4bbc-bdf3-374d9ded0d68011",
@@ -21522,11 +18708,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "729e71c6-9889-4bae-b0dd-3e85560915b3": {
     name: "Fundamentos de desenho - luz e sombra",
-    icon: "fundamentos-desenho-luz-sombra.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201438479616331776%2F729e71c6-9889-4bae-b0dd-3e85560915b3011",
@@ -21557,11 +18738,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "77a24e54-60d9-467d-a073-ef4f0777658a": {
     name: "Fundamentos de desenho - composição de imagens",
-    icon: "desenho-composicao-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438505474207864%2F77a24e54-60d9-467d-a073-ef4f0777658a011",
@@ -21595,11 +18771,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ed6ffb32-3f10-4801-a859-2b0d99167ee9": {
     name: "Geopandas - trabalhando com dados geoespaciais",
-    icon: "geopandas-trabalhando-dados-geoespaciais.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201438534947586058%2Fed6ffb32-3f10-4801-a859-2b0d99167ee9011",
@@ -21626,11 +18797,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "73d5b872-c9bc-4100-ae1c-a19c30ecf5b4": {
     name: "Funções com Excel - operações matemáticas e filtros",
-    icon: "funcoes-excel-operacoes-matematicas-filtros.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438558435676180%2F73d5b872-c9bc-4100-ae1c-a19c30ecf5b4011",
@@ -21662,11 +18828,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fb65c79e-1f7a-474c-8412-dec412249745": {
     name: "Gerenciamento de conflitos - técnicas fundamentais",
-    icon: "gestao-de-conflitos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201438586365546506%2Ffb65c79e-1f7a-474c-8412-dec412249745011",
@@ -21701,11 +18862,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a865b42b-72f6-4df5-b3de-9d99b6d3b0e8": {
     name: "Gerenciamento de estresse - otimize sua liderança",
-    icon: "gerenciamento-estresse-otimizacao-lideranca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201438618770743367%2Fa865b42b-72f6-4df5-b3de-9d99b6d3b0e8011",
@@ -21741,11 +18897,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e53214d9-f402-4ddc-8c43-421a05d4e1bb": {
     name: "Gerenciamento de inovação organizacional parte 1 - técnicas de ideação",
-    icon: "gerenciamento-inovacao-organizacional.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201438648852299866%2Fe53214d9-f402-4ddc-8c43-421a05d4e1bb011",
@@ -21783,11 +18934,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d536195-d486-4100-912c-bf641598ee6a": {
     name: "Gerenciamento de inovação organizacional parte 2 - aplicações práticas",
-    icon: "gerenciamento-inovacao-aplicacoes-praticas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201438686609420358%2F3d536195-d486-4100-912c-bf641598ee6a011",
@@ -21824,11 +18970,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1e638238-f6c3-4f08-92db-0ef49e503ec8": {
     name: "Gestão de contratos - dicas e cuidados gerais",
-    icon: "fundamentos-gestao-contratos-dicas-cuidados.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438724353966172%2F1e638238-f6c3-4f08-92db-0ef49e503ec8011",
@@ -21866,11 +19007,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e827b260-eadf-4d68-8741-c8934ee6d1eb": {
     name: "Gestão de fornecedores - mobilização, acompanhamento e desmobilização",
-    icon: "gestao-fornecedores-mobilizacao-acompanhamento-desmobilizacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438767077130320%2Fe827b260-eadf-4d68-8741-c8934ee6d1eb011",
@@ -21901,11 +19037,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "00baecae-69e3-4930-882f-e9c6271fe8d9": {
     name: "Gestão de fornecedores - seleção e contratação",
-    icon: "gestao-fornecedores-selecao-contratacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201438792079380570%2F00baecae-69e3-4930-882f-e9c6271fe8d9011",
@@ -21934,11 +19065,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0e59d371-cbae-47e7-a832-d4ac0a235fa4": {
     name: "Gestão de mudanças - uma visão comportamental",
-    icon: "gestao-mudancas-visao-comportamental.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438819220738078%2F0e59d371-cbae-47e7-a832-d4ac0a235fa4011",
@@ -21970,11 +19096,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "09dbfde6-aa15-4fca-a078-674fc87cf66d": {
     name: "Gestão de negócios - governança, agilidade e métricas",
-    icon: "gestao-negocios-governanca-agilidade-metricas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201438845015691294%2F09dbfde6-aa15-4fca-a078-674fc87cf66d011",
@@ -22006,11 +19127,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "564b2d55-53df-48ee-9e5d-c4b82375a1e2": {
     name: "Gestão de negócios - visão geral de processos de negócios",
-    icon: "gestao-negocios-visao-geral-processos-negocios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438870080864337%2F564b2d55-53df-48ee-9e5d-c4b82375a1e2011",
@@ -22042,11 +19158,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "eb4c65ae-0ee8-42b4-af60-898f73f27691": {
     name: "Gestão de produtos digitais - aceleração",
-    icon: "gestao-produtos-aceleracao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201438896521760818%2Feb4c65ae-0ee8-42b4-af60-898f73f27691011",
@@ -22075,11 +19186,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "02b90466-cddd-4b6a-9b1c-5e5fee64738d": {
     name: "Gestão de produtos digitais - priorização",
-    icon: "gestao-produtos-priorizacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438911168266251%2F02b90466-cddd-4b6a-9b1c-5e5fee64738d011",
@@ -22108,11 +19214,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d66e6328-0f68-4d05-a4e5-a29ab7924d42": {
     name: "Gestão de produtos digitais - Product Discovery",
-    icon: "gestao-produtos-digitais-product-discovery.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201438925462437898%2Fd66e6328-0f68-4d05-a4e5-a29ab7924d42011",
@@ -22144,11 +19245,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b741f01c-ae4c-4748-9eac-d061752101e6": {
     name: "Gestão de produtos digitais - Produto vs. Projeto",
-    icon: "gestao-produtos-digitais-produto-vs-projeto.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201438943149834310%2Fb741f01c-ae4c-4748-9eac-d061752101e6011",
@@ -22177,11 +19273,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d9df12e-b4d0-440c-a0bd-ea24c97fd49c": {
     name: "Gestão de produtos digitais - validação",
-    icon: "gestao-produtos-digitais-validacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438963248922714%2F8d9df12e-b4d0-440c-a0bd-ea24c97fd49c011",
@@ -22210,11 +19301,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fc75be3b-4cd2-40a3-b761-9b69f3742bec": {
     name: "Gestão financeira - administre suas finanças na prática",
-    icon: "gestao-financeira-administre-financas-pratica.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438978079989800%2Ffc75be3b-4cd2-40a3-b761-9b69f3742bec011",
@@ -22244,11 +19330,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fe68e1bc-e6a7-4b3b-a438-14e72d39ba58": {
     name: "Gestão Ágil - explorando conceitos da agilidade",
-    icon: "gestao-agil-conceitos-agilidade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201439002339848212%2Ffe68e1bc-e6a7-4b3b-a438-14e72d39ba58011",
@@ -22280,11 +19361,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "221fc440-a0d5-42c3-9a7f-dd8069f168a8": {
     name: "Gestão Ágil - Gestão de Processos para Agilidade",
-    icon: "gestao-agil-gestao-processos-agilidade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201439032144572486%2F221fc440-a0d5-42c3-9a7f-dd8069f168a8011",
@@ -22316,11 +19392,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "55ddd4b6-9087-4d02-80b2-dd615e50f469": {
     name: "Gestão Ágil - liderando a mudança em um ambiente de agilidade",
-    icon: "gestao-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201439060862976050%2F55ddd4b6-9087-4d02-80b2-dd615e50f469011",
@@ -22353,11 +19424,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4333d1fd-0802-4537-9e8a-f0eab5bdd479": {
     name: "GIMP - edição e tratamento de imagens para identidade visual",
-    icon: "gimp-edicao-tratamento-imagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201439081050161242%2F4333d1fd-0802-4537-9e8a-f0eab5bdd479011",
@@ -22392,11 +19458,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c81aaa08-f332-4c3b-90dc-1815991a26e1": {
     name: "GIMP - edição e tratamento de imagens",
-    icon: "gimp-edicao-tratamento-imagem-parte-2.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Tratamento de Imagem",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201430060062736415%2Fc81aaa08-f332-4c3b-90dc-1815991a26e1011",
@@ -22431,11 +19492,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e633f03-3c28-43e7-a396-f3243496acc8": {
     name: "GIMP e Inkscape - criando composições para mídias sociais",
-    icon: "gimp-inkscape-composicoes-midias-sociais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201430090169466890%2F7e633f03-3c28-43e7-a396-f3243496acc8011",
@@ -22473,11 +19529,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f9321170-be08-49e7-bf4e-3743eceb0af4": {
     name: "GIMP e Inkscape - criando peças para uma identidade visual",
-    icon: "gimp-inkscape-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201430125305151578%2Ff9321170-be08-49e7-bf4e-3743eceb0af4011",
@@ -22512,11 +19563,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8efca027-5781-4832-97ff-98e0fe54eca7": {
     name: "Git e GitHub - compartilhando e colaborando em projetos",
-    icon: "git-github-compartilhando-colaborando-projetos.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201430160046567504%2F8efca027-5781-4832-97ff-98e0fe54eca7011",
@@ -22551,11 +19597,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7ecb4871-ac9b-4464-9b16-1a57745704ad": {
     name: "Git e Github - estratégias de ramificação, Conflitos e Pull Requests",
-    icon: "git-github-branching-conflitos-pull-requests.svg",
-    category: {
-      name: "DevOps",
-      module: "Builds e Controle de versão",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201430193823285298%2F7ecb4871-ac9b-4464-9b16-1a57745704ad011",
@@ -22588,11 +19629,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5805e5ad-e44d-4b80-a21e-93fd5caa8ec9": {
     name: "GitHub Copilot e ChatGPT - impulsionando seu desenvolvimento com IA",
-    icon: "github-copilot-chatgpt-desenvolvimento-ia.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201430221820276828%2F5805e5ad-e44d-4b80-a21e-93fd5caa8ec9011",
@@ -22618,11 +19654,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8b9cad7-b700-495f-9356-87f7ba794307": {
     name: "Go - a linguagem do Google",
-    icon: "golang.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201430240103247872%2Fc8b9cad7-b700-495f-9356-87f7ba794307011",
@@ -22675,11 +19706,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "400b46fe-1d5c-4ecc-b0f7-cd36fca4007a": {
     name: "Go - crie uma aplicação web",
-    icon: "go-lang-web.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201430295560335432%2F400b46fe-1d5c-4ecc-b0f7-cd36fca4007a011",
@@ -22714,11 +19740,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "46bc4ef7-7a19-47eb-8952-44361192f98c": {
     name: "Go - desenvolvendo uma API Rest",
-    icon: "go-desenvolvendo-api-rest.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430328351404213%2F46bc4ef7-7a19-47eb-8952-44361192f98c011",
@@ -22753,11 +19774,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "32a30026-cb7e-420f-931e-f022af1e1a42": {
     name: "Go - Orientação a Objetos",
-    icon: "go-lang-oo.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201430357652803615%2F32a30026-cb7e-420f-931e-f022af1e1a42011",
@@ -22789,11 +19805,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e53da54-2954-428a-b5fb-8301d7404d96": {
     name: "Go - validações, testes e páginas HTML",
-    icon: "go-validacoes-testes-paginas-html.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201430385515569162%2F7e53da54-2954-428a-b5fb-8301d7404d96011",
@@ -22829,11 +19840,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b27fc1b2-540b-4288-b63c-d94f076b76ba": {
     name: "Go e Gin - criando API rest com simplicidade",
-    icon: "go-gin-api-rest-simplicidade.svg",
-    category: {
-      name: "Programação",
-      module: "GoLang",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201430424602296423%2Fb27fc1b2-540b-4288-b63c-d94f076b76ba011",
@@ -22865,11 +19871,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a1f3bca2-d17f-4eab-94e3-e73e2d5ae2e7": {
     name: "Google Ads - aprenda a criar campanhas na rede de display",
-    icon: "google-ads-criar-campanhas-rede-display.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201430453522018324%2Fa1f3bca2-d17f-4eab-94e3-e73e2d5ae2e7011",
@@ -22903,11 +19904,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8cc24bf0-70fa-4a2b-a9b7-92b828faff74": {
     name: "Google Ads - campanha de Shopping",
-    icon: "google-ads-campanha-shopping.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201430487512657950%2F8cc24bf0-70fa-4a2b-a9b7-92b828faff74011",
@@ -22941,11 +19937,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e367a18-294d-4cd0-b31c-29131084aab2": {
     name: "Google Ads - campanhas de vídeo para Youtube",
-    icon: "google-ads-campanhas-video-youtube.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201430516264611900%2F2e367a18-294d-4cd0-b31c-29131084aab2011",
@@ -22979,11 +19970,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8680b5a6-0835-46a9-a4b1-e3baf8f10e1b": {
     name: "Google Ads - campanhas para aplicativos",
-    icon: "google-ads-campanhas-aplicativos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201430548355239956%2F8680b5a6-0835-46a9-a4b1-e3baf8f10e1b011",
@@ -23012,11 +19998,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0ffa412b-0a8b-4b69-8de6-cda7d62a40a7": {
     name: "Google Ads - criando uma campanha",
-    icon: "google-ads-criando-campanha.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201430572757692457%2F0ffa412b-0a8b-4b69-8de6-cda7d62a40a7011",
@@ -23054,11 +20035,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "25058875-0610-4ab8-aa6b-60efb4521c2a": {
     name: "Google Ads - otimização da rede de pesquisa",
-    icon: "google-ads-rede-pesquisa.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201430606295355402%2F25058875-0610-4ab8-aa6b-60efb4521c2a011",
@@ -23091,11 +20067,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5eb4e3bd-bad6-4693-a964-242aca49b6f5": {
     name: "Google Analytics 4 - eventos e parametrizações",
-    icon: "google-analytics-4-eventos-parametrizacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201430637647757352%2F5eb4e3bd-bad6-4693-a964-242aca49b6f5011",
@@ -23120,11 +20091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bb1ad668-fad6-4a4b-9700-128856a3a95c": {
     name: "Google Analytics 4 - implementação e relatórios",
-    icon: "google-analytics-implementacao-relatorios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201430659210686465%2Fbb1ad668-fad6-4a4b-9700-128856a3a95c011",
@@ -23158,11 +20124,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "13509c72-5c27-4ee4-830e-1ec22e4014a4": {
     name: "Google Associate Cloud Engineer - simulado comentado",
-    icon: "google-cloud-associate-engineer-certificacao-simulado.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201430725761695827%2F13509c72-5c27-4ee4-830e-1ec22e4014a4011",
@@ -23211,11 +20172,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "601a7707-8167-4618-8e33-d1df091406bf": {
     name: "Google Cloud - deploy de uma aplicação em Spring MVC",
-    icon: "google-cloud-spring.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201430775338369034%2F601a7707-8167-4618-8e33-d1df091406bf011",
@@ -23258,11 +20214,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "eb31a28a-fec5-49bc-a7c7-be9d77ac3b1b": {
     name: "Google Cloud Compute Engine - escalabilidade e alta disponibilidade",
-    icon: "google-cloud-compute-engine.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201430821756751902%2Feb31a28a-fec5-49bc-a7c7-be9d77ac3b1b011",
@@ -23295,11 +20246,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b49df367-3120-4af3-9e55-50ace84e00dc": {
     name: "Google Cloud Endpoints - integrando a API",
-    icon: "google-cloud-endpoints.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201430849699196998%2Fb49df367-3120-4af3-9e55-50ace84e00dc011",
@@ -23334,11 +20280,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4609f21-7ae9-4784-b4bf-8fbf29104090": {
     name: "Google Cloud Functions - código Serverless",
-    icon: "google-cloud-functions-codigo-serverless.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201430877603909722%2Fd4609f21-7ae9-4784-b4bf-8fbf29104090011",
@@ -23374,11 +20315,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd2bbe5f-8f02-4529-ae3a-aee3c373eea9": {
     name: "Google Cloud Serverless - crie aplicações robustas e escaláveis",
-    icon: "google-gke.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201430910902485003%2Fdd2bbe5f-8f02-4529-ae3a-aee3c373eea9011",
@@ -23412,11 +20348,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fe5a5e37-3d15-4ed2-aec6-82401e1a1566": {
     name: "Google Cloud Storage - armazenamento de objetos na Google Cloud",
-    icon: "google-cloud-storage.svg",
-    category: {
-      name: "DevOps",
-      module: "Google Cloud Platform",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201430941546065970%2Ffe5a5e37-3d15-4ed2-aec6-82401e1a1566011",
@@ -23451,11 +20382,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4da006f-eec9-461c-a13d-ed31bdda71f9": {
     name: "Google Kubernetes Engine - avançando com GKE",
-    icon: "google-kubernetes-engine-avancando-gke.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201430968809037866%2Fa4da006f-eec9-461c-a13d-ed31bdda71f9011",
@@ -23486,11 +20412,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1b114396-2ec6-4e1d-bed5-cc53da86fbe3": {
     name: "Google Data Studio - Parâmetros e Big Query",
-    icon: "google-data-studio-parametros-big-query.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201430997858795571%2F1b114396-2ec6-4e1d-bed5-cc53da86fbe3011",
@@ -23535,11 +20456,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d6be271c-c3ba-43fe-8a55-a4128a8ca639": {
     name: "Google Search Console - configurações e relatórios",
-    icon: "google-search-console-configuracoes-relatorios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201431043094360179%2Fd6be271c-c3ba-43fe-8a55-a4128a8ca639011",
@@ -23565,11 +20481,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e310c1a-23c8-477a-90f6-60c515ec4f1f": {
     name: "Google Kubernetes Engine",
-    icon: "google-kubernetes-engine-primeiros-passos.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201431063910682666%2F7e310c1a-23c8-477a-90f6-60c515ec4f1f011",
@@ -23603,11 +20514,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d967287-9285-46a4-b703-99ca88649038": {
     name: "Google Tag Manager - aplicação e gerenciamento de tags",
-    icon: "google-tag-manager-aplicacao-gerenciamento-de-tags.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201431093388247133%2F3d967287-9285-46a4-b703-99ca88649038011",
@@ -23635,11 +20541,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6ae01201-7b70-4ae4-b327-9af148e66507": {
     name: "Governança de TI - a importância da Gestão do Conhecimento",
-    icon: "governanca-ti-importancia-gestao-conhecimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201431118033997845%2F6ae01201-7b70-4ae4-b327-9af148e66507011",
@@ -23671,11 +20572,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2100958-0f54-40cb-864f-f9132f816c4c": {
     name: "Governança de TI - alinhamento estratégico",
-    icon: "governanca-ti-alinhamento-estrategico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431145406013440%2Fc2100958-0f54-40cb-864f-f9132f816c4c011",
@@ -23704,11 +20600,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3444516e-e2bb-4478-8c5d-de8fe2a73b88": {
     name: "Governança de TI - conheça os fundamentos da gestão de portfólios",
-    icon: "governanca-ti-fundamentos-gestao-portfolios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201431170185973820%2F3444516e-e2bb-4478-8c5d-de8fe2a73b88011",
@@ -23736,11 +20627,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "825ba27c-f888-4b52-8135-4c5a1e7b7c1d": {
     name: "Governança de TI - gerencie serviços e fortaleça a segurança",
-    icon: "governanca-ti-gerencie-servicos-fortaleca-seguranca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431188854820954%2F825ba27c-f888-4b52-8135-4c5a1e7b7c1d011",
@@ -23769,11 +20655,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "791b5d2a-1360-4163-9a57-d8aaa7801231": {
     name: "Governança de TI - Gestão de Mudanças Organizacionais e de TI",
-    icon: "governanca-ti-gestao-mudancas-organizacionais-ti.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431208198950954%2F791b5d2a-1360-4163-9a57-d8aaa7801231011",
@@ -23805,11 +20686,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0aed29dd-a18c-4774-8e78-556b4d743833": {
     name: "Governança de TI - gestão de programas, projetos e produtos",
-    icon: "governanca-ti-gestao-programas-projetos-produtos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201431232827904000%2F0aed29dd-a18c-4774-8e78-556b4d743833011",
@@ -23841,11 +20717,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9cb0e3d2-3df3-4723-9918-5451803ab871": {
     name: "Governança de TI - modelo de gestão, arquitetura e inovação",
-    icon: "governanca-ti-modelo-gestao-arquitetura-inovacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201431259310723172%2F9cb0e3d2-3df3-4723-9918-5451803ab871011",
@@ -23875,11 +20746,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3e484702-dd4d-49a4-ab53-340127c84512": {
     name: "Governança de TI - Gestão de Requisitos no Contexto Ágil",
-    icon: "governanca-ti-gestao-requisitos-contexto-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Governança Organizacional",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201431282282926140%2F3e484702-dd4d-49a4-ab53-340127c84512011",
@@ -23911,11 +20777,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3b3f3c56-f593-482a-aba3-fd5f1d3f9de4": {
     name: "GPT e Python - criando ferramentas com a API",
-    icon: "gpt-python-criando-ferramentas-com-api.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201431310938423296%2F3b3f3c56-f593-482a-aba3-fd5f1d3f9de4011",
@@ -23951,11 +20812,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd45d5c6-2a97-4c25-8032-bed38f94cc53": {
     name: "Grids - como organizar o conteúdo visual",
-    icon: "grids-organizar-conteudo-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201431349765083277%2Fdd45d5c6-2a97-4c25-8032-bed38f94cc53011",
@@ -23993,11 +20849,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "54c4a548-e228-4ddd-8380-d262c2145339": {
     name: "Growth Hacking - crescimento para negócios digitais",
-    icon: "introducao-growth-hacking.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431384372297769%2F54c4a548-e228-4ddd-8380-d262c2145339011",
@@ -24039,11 +20890,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "76953cff-6c78-4c57-9df2-93c0e4cf2571": {
     name: "Handoff - documentando a entrega do projeto",
-    icon: "handoff-documentando-entrega-projeto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201431426625703988%2F76953cff-6c78-4c57-9df2-93c0e4cf2571011",
@@ -24079,11 +20925,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "95914cb3-085d-4478-a3f4-ddbdce93d4ac": {
     name: "História em quadrinho - composição e narrativa",
-    icon: "historia-quadrinho-composicao-narrativa.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201431461845291078%2F95914cb3-085d-4478-a3f4-ddbdce93d4ac011",
@@ -24115,11 +20956,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f98f975b-e36d-4abc-8742-5dc4690a0fc9": {
     name: "História em quadrinho - princípios de uma narrativa sequencial",
-    icon: "historia-quadrinho-principio-narrativa-sequencial.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431492467904512%2Ff98f975b-e36d-4abc-8742-5dc4690a0fc9011",
@@ -24150,11 +20986,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c822cec7-2508-4ed7-bf64-5cc00c6f62ad": {
     name: "História em quadrinhos - arte final",
-    icon: "hq-arte-final.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201431516740341790%2Fc822cec7-2508-4ed7-bf64-5cc00c6f62ad011",
@@ -24187,11 +21018,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9a5071f8-febf-4730-aa34-1ce750395e05": {
     name: "História em quadrinhos - desenvolvendo roteiros",
-    icon: "historia-em-quadrinhos-roteiros.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201431550412202005%2F9a5071f8-febf-4730-aa34-1ce750395e05011",
@@ -24226,11 +21052,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "261f0765-ae89-4ee9-a0ed-846b2539461f": {
     name: "HTML e CSS - ambientes de desenvolvimento, estrutura de arquivos e tags",
-    icon: "html-css-ambiente-arquivos-tags.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201431584205701120%2F261f0765-ae89-4ee9-a0ed-846b2539461f011",
@@ -24260,11 +21081,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7d5dd9e4-28b5-4120-bb76-940a42772a0b": {
     name: "HTML e CSS - cabeçalho, footer e variáveis CSS",
-    icon: "html-css-cabecalho-footer-variaveis-css.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201431606209019955%2F7d5dd9e4-28b5-4120-bb76-940a42772a0b011",
@@ -24296,11 +21112,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "63f2c52b-c405-4aa9-bad4-dfb88139ff7b": {
     name: "HTML e CSS - Classes, posicionamento e Flexbox",
-    icon: "html-css-classes-posicionamento-flexbox.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201431640262590505%2F63f2c52b-c405-4aa9-bad4-dfb88139ff7b011",
@@ -24328,11 +21139,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9a6b544c-cfc9-42a7-a5ed-cbe0eea79b8d": {
     name: "HTML e CSS - praticando HTML/CSS",
-    icon: "html-css-praticando-html-css.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431659883548812%2F9a6b544c-cfc9-42a7-a5ed-cbe0eea79b8d011",
@@ -24367,11 +21173,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5370ead7-6526-40e9-b678-8bdf604e1d77": {
     name: "HTML e CSS - trabalhando com responsividade e publicação de projetos",
-    icon: "html-css-responsividade-publicacao-projetos.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201431689054924891%2F5370ead7-6526-40e9-b678-8bdf604e1d77011",
@@ -24399,11 +21200,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a9050c7a-2a26-4a9c-9377-924aaf8ac0de": {
     name: "HTML e CSS - responsividade com mobile-first",
-    icon: "html-css-responsividade-mobile-first.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201431708159975524%2Fa9050c7a-2a26-4a9c-9377-924aaf8ac0de011",
@@ -24446,11 +21242,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c7087744-01b0-4696-89f8-386890942630": {
     name: "Hábitos - da produtividade às metas pessoais",
-    icon: "habitos-produtividade-metas-pessoais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431747632582717%2Fc7087744-01b0-4696-89f8-386890942630011",
@@ -24479,11 +21270,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0ceeb09-6a36-4637-a032-8fa100837c18": {
     name: "HTTP - entendendo a web por baixo dos panos",
-    icon: "http-entendendo-web-por-baixo-dos-panos.svg",
-    category: {
-      name: "Front-End",
-      module: "Automação e Performance",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201431767207395368%2Fd0ceeb09-6a36-4637-a032-8fa100837c18011",
@@ -24518,11 +21304,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e43cb20f-caea-4cb8-b8a7-6207f6bc9284": {
     name: "Hábitos na liderança - boas práticas",
-    icon: "habitos-lideranca-boas-praticas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201431794420027422%2Fe43cb20f-caea-4cb8-b8a7-6207f6bc9284011",
@@ -24552,11 +21333,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4b5ca0b5-f715-41cb-a797-bae973558038": {
     name: "IA aumentada - aprimorando técnicas de otimização em um problema prático",
-    icon: "ia-aumentada-tecnicas-otimizacao-problema-pratico.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201431818390474843%2F4b5ca0b5-f715-41cb-a797-bae973558038011",
@@ -24580,11 +21356,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f062f3d1-9d70-4d51-98d1-5b2611e8d63a": {
     name: "IA aumentada - entendendo e praticando otimização com OR-Tools",
-    icon: "ia-aumentada-entendendo-praticando-otimizacao-or-tools.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201431837713649684%2Ff062f3d1-9d70-4d51-98d1-5b2611e8d63a011",
@@ -24612,11 +21383,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3a63b3d4-8924-4525-a548-c31aeaadb024": {
     name: "IA aumentada - prevendo atrasos de voos",
-    icon: "ia-aumentada-prevendo-atrasos-voos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201431857531727963%2F3a63b3d4-8924-4525-a548-c31aeaadb024011",
@@ -24644,11 +21410,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "49f23793-a7f1-4ffe-9bd2-9bd54cb8f316": {
     name: "IA generativa no Front-end - trabalhando com acessibilidade, semântica e HTML",
-    icon: "ia-generativa-front-end-acessibilidade-semantica-html.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Front End",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201431880587812915%2F49f23793-a7f1-4ffe-9bd2-9bd54cb8f316011",
@@ -24673,11 +21434,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b20d5c54-c61d-4aa9-900f-5ba87539951f": {
     name: "IA no front-end - criando testes de unidade com a Luri",
-    icon: "ia-front-end-testes-unidade-luri.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Front End",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201431906361802802%2Fb20d5c54-c61d-4aa9-900f-5ba87539951f011",
@@ -24704,11 +21460,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a331b32-0924-4141-842b-c9183e159936": {
     name: "IA no Photoshop - criando e editando imagens",
-    icon: "ia-photoshop-criando-editando-imagens.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201431927505301514%2F1a331b32-0924-4141-842b-c9183e159936011",
@@ -24743,11 +21494,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ed3e7923-9512-4319-82d1-e2175572b55c": {
     name: "Illustrator - acabamento final de personagem publicitário",
-    icon: "illustrator-finalizacao-e-apresentacao-de-personagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201431960262815804%2Fed3e7923-9512-4319-82d1-e2175572b55c011",
@@ -24771,11 +21517,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c4484fab-1938-482f-8862-bb87a1ca5e63": {
     name: "Illustrator - criando um logo",
-    icon: "illustrator-criando-logo.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201431978235404349%2Fc4484fab-1938-482f-8862-bb87a1ca5e63011",
@@ -24817,11 +21558,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2303b763-f963-4bad-bbe0-80429e51ca76": {
     name: "Ilustração - desenhando com referência",
-    icon: "fundamentos-ilustracao-desenho-referencia.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201432022120398858%2F2303b763-f963-4bad-bbe0-80429e51ca76011",
@@ -24857,11 +21593,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dadb70d5-7aa4-48f7-b019-9f8e688467ab": {
     name: "Ilustração digital - anatomia expressiva",
-    icon: "ilustracao-digital-anatomia-expressiva.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432059365818458%2Fdadb70d5-7aa4-48f7-b019-9f8e688467ab011",
@@ -24893,11 +21624,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c74e49ab-074f-406c-8a5f-48a41843caba": {
     name: "Ilustração digital - avançando nos conceitos de perspectiva",
-    icon: "ilustracao-digital-perspectiva-avancada.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201432084292575273%2Fc74e49ab-074f-406c-8a5f-48a41843caba011",
@@ -24929,11 +21655,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a8be431b-9007-4534-93f4-9cdf458989d5": {
     name: "Ilustração digital - criando a partir da perspectiva isométrica",
-    icon: "ilustracao-digital-perspectiva-isometrica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432109684895804%2Fa8be431b-9007-4534-93f4-9cdf458989d5011",
@@ -24966,11 +21687,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e4f8d1a-d72a-4fb2-9194-0b446813f669": {
     name: "Ilustração digital - criando assets para cenários de jogos isoméricos",
-    icon: "ilustracao-digital-assets-cenarios-jogos-isomericos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201432143943966840%2F6e4f8d1a-d72a-4fb2-9194-0b446813f669011",
@@ -25006,11 +21722,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ee720c20-8e55-4d8a-9275-7251760e0de4": {
     name: "Ilustração digital - criando cenários isométricos para games",
-    icon: "ilustracao-digital-cenario-isometrico-games.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201432175724220416%2Fee720c20-8e55-4d8a-9275-7251760e0de4011",
@@ -25045,11 +21756,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ec960e2a-4f0a-4bb5-8612-dd84f2bdf87b": {
     name: "Ilustração digital - criando mapas com a perspectiva isométrica",
-    icon: "ilustracao-digital-mapas-perspectiva-isometrica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432206405541948%2Fec960e2a-4f0a-4bb5-8612-dd84f2bdf87b011",
@@ -25083,11 +21789,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aa08ed7f-4dbd-47b2-be21-b0aec5762f9e": {
     name: "Ilustração digital - criando personagens com perspectiva isométrica",
-    icon: "Ilustracao-digital-personagens-perspectiva-isometrica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432235786633326%2Faa08ed7f-4dbd-47b2-be21-b0aec5762f9e011",
@@ -25123,11 +21824,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5ab7860d-7382-44ed-affb-163a57601acd": {
     name: "Ilustração digital - perspectiva",
-    icon: "ilustracao-digital-perspectiva-basica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201432268086980668%2F5ab7860d-7382-44ed-affb-163a57601acd011",
@@ -25160,11 +21856,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "59b00ec2-4b8c-4db4-83ea-34e5ca0f0a4b": {
     name: "Inbound Marketing parte 1 - estratégias e ações",
-    icon: "inbound-marketing-fundamentos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Conteúdo",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201432295853273108%2F59b00ec2-4b8c-4db4-83ea-34e5ca0f0a4b011",
@@ -25205,11 +21896,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ee4e626e-dd88-4b7d-ad4d-8274c78fce76": {
     name: "Inbound Marketing parte 2 - processos de automação",
-    icon: "inbound-marketing-automacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Conteúdo",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201432333488771132%2Fee4e626e-dd88-4b7d-ad4d-8274c78fce76011",
@@ -25241,11 +21927,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7d587352-a333-4e7a-b4bb-c14d4447c0f0": {
     name: "InDesign - construindo um design editorial",
-    icon: "indesign-design-editorial.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201432361515098192%2F7d587352-a333-4e7a-b4bb-c14d4447c0f0011",
@@ -25287,11 +21968,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a485823c-ffa4-4b7e-9696-df1aaf6cd6fa": {
     name: "InDesign - design editorial para e-book",
-    icon: "indesign-design-editorial-e-book.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201432403583971408%2Fa485823c-ffa4-4b7e-9696-df1aaf6cd6fa011",
@@ -25331,11 +22007,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c374d12-7d44-4bd7-b4a5-f6e4520814dd": {
     name: "InDesign - diagramação em grande escala",
-    icon: "indesign-escala-grande.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201432445766078574%2F3c374d12-7d44-4bd7-b4a5-f6e4520814dd011",
@@ -25361,11 +22032,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "de3d0bc8-9e9d-4efa-afb5-8b009b449061": {
     name: "InDesign - produção em pequena escala",
-    icon: "indesign-producao-pequena-escala.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201432462748811327%2Fde3d0bc8-9e9d-4efa-afb5-8b009b449061011",
@@ -25401,11 +22067,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "99de8472-bdca-419c-a196-7928e918fb20": {
     name: "Infraestrutura como código - Docker e Elastic Beanstalk na AWS",
-    icon: "infraestrutura-codigo-docker-elastic-beanstalk-aws.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201432495154020352%2F99de8472-bdca-419c-a196-7928e918fb20011",
@@ -25440,11 +22101,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "92f7e6a7-d57b-4788-bba3-83444c3d45bc": {
     name: "Infraestrutura como código - montando uma infraestrutura elástica na AWS",
-    icon: "infraestrutura-codigo-infraestrutura-elastica-aws.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432523759157348%2F92f7e6a7-d57b-4788-bba3-83444c3d45bc011",
@@ -25477,11 +22133,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30e8bef5-cc1e-483f-9a95-eb4c24c8d3c1": {
     name: "Infraestrutura como código - preparando máquinas na AWS com Ansible e Terraform",
-    icon: "infraestrutura-codigo-maquinas-aws-ansible-terraform.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201432554193031299%2F30e8bef5-cc1e-483f-9a95-eb4c24c8d3c1011",
@@ -25515,11 +22166,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "af7d1fd8-4461-472c-927e-603dfa7908f9": {
     name: "Infraestrutura como código - separando ambientes na AWS com Ansible e Terraform",
-    icon: "infraestrutura-codigo-aws-ansible-terraform.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201432585398657074%2Faf7d1fd8-4461-472c-927e-603dfa7908f9011",
@@ -25551,11 +22197,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "89804531-903b-4227-b665-6b48a8fb3cb9": {
     name: "Infraestrutura como código - Terraform e Kubernetes",
-    icon: "infraestrutura-codigo-terraform-kubernetes.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432608857395231%2F89804531-903b-4227-b665-6b48a8fb3cb9011",
@@ -25586,11 +22227,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "83ec5445-4736-4b10-bc9d-fe3132e74c95": {
     name: "Infraestrutura como código - Terraform, Docker e Elastic Container Service",
-    icon: "infraestrutura-codigo-terraform-docker-elastic-container-service-aws.svg",
-    category: {
-      name: "DevOps",
-      module: "Infraestrutura como Código",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201432639068962899%2F83ec5445-4736-4b10-bc9d-fe3132e74c95011",
@@ -25627,11 +22263,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "35320545-24dc-44fa-9764-c0365ede2593": {
     name: "Inkscape - construindo gráficos e objetos 3D",
-    icon: "inkscape-graficos-objetos-3d.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201432670509465610%2F35320545-24dc-44fa-9764-c0365ede2593011",
@@ -25669,11 +22300,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e9b23cd1-34bf-48c4-ab16-e03b2ab51496": {
     name: "Inkscape - desenvolvendo uma identidade visual",
-    icon: "inkscape-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201432703803850762%2Fe9b23cd1-34bf-48c4-ab16-e03b2ab51496011",
@@ -25712,11 +22338,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b55501b8-3edd-42ee-90e2-538253b75699": {
     name: "Inkscape - produzindo imagens para mídias sociais",
-    icon: "inkscape-imagens-midias-sociais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201432740378185788%2Fb55501b8-3edd-42ee-90e2-538253b75699011",
@@ -25754,11 +22375,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8c24f93-6aac-4de1-bf62-880aa96e6e5a": {
     name: "Inkscape - produção gráfica",
-    icon: "inkscape-producao-grafica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432775950094358%2Fc8c24f93-6aac-4de1-bf62-880aa96e6e5a011",
@@ -25797,11 +22413,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3123c58e-0d49-4b5e-bd99-a6aa3d4d8cff": {
     name: "Inkscape - vetorizando com a ferramenta Bezier e criando simulações",
-    icon: "inkscape-vetor-bezier-simulacoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Arte Vetorial",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201432816290910228%2F3123c58e-0d49-4b5e-bd99-a6aa3d4d8cff011",
@@ -25835,11 +22446,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a9d06603-534d-4e00-84bb-fabd009e64b8": {
     name: "Inovação - descubra como e onde inovar",
-    icon: "inovacao-descubra-inovar.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201432846598934548%2Fa9d06603-534d-4e00-84bb-fabd009e64b8011",
@@ -25872,11 +22478,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "74cdf098-51e4-47bb-9f4c-ad30694d0c8e": {
     name: "Inovação Aberta - táticas e ferramentas para implementação",
-    icon: "inovacao-aberta-taticas-ferramentas-implementacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201432876848255049%2F74cdf098-51e4-47bb-9f4c-ad30694d0c8e011",
@@ -25911,11 +22512,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aeefe45e-bf15-497f-a5a6-0ff210c3e46c": {
     name: "Inovação Social e Empreendedorismo - conduza a mudança e gere impacto",
-    icon: "inovacao-social-empreendedorismo-mudanca-impacto.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201432908527833179%2Faeefe45e-bf15-497f-a5a6-0ff210c3e46c011",
@@ -25948,11 +22544,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "56f7e0cd-6d38-462c-89f5-a6b4becd35c0": {
     name: "Inovação Ágil - gerencie projetos inovadores com eficiência e agilidade",
-    icon: "inovacao-agil-projetos-inovadores-eficiencia-agilidade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201432936323489883%2F56f7e0cd-6d38-462c-89f5-a6b4becd35c0011",
@@ -25985,11 +22576,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8ae0254e-3806-4130-9f8e-a3bf0b3a1ecf": {
     name: "Instagram para empresas - estratégia e planejamento",
-    icon: "instagram-empresas-primeiros-passos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432964559544380%2F8ae0254e-3806-4130-9f8e-a3bf0b3a1ecf011",
@@ -26019,11 +22605,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "023d6914-326e-4df0-9b82-10d6704b91c0": {
     name: "Integração Contínua - automatizando a entrega no Kubernetes",
-    icon: "integracao-continua-automatizando-entrega-kubernetes.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201432988244774982%2F023d6914-326e-4df0-9b82-10d6704b91c0011",
@@ -26056,11 +22637,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "42347d31-1e0d-4ec5-ad1f-c7484bfbd614": {
     name: "Integração Contínua - automatize o deploy no Amazon ECS",
-    icon: "integracao-continua-automatize-deploy-amazon-ecs.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433015352578098%2F42347d31-1e0d-4ec5-ad1f-c7484bfbd614011",
@@ -26092,11 +22668,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e9340f2-0769-49fe-938c-b80e7bf08a60": {
     name: "Integração Contínua - mais qualidade e menos risco no desenvolvimento",
-    icon: "desenvolvimento-software-integracao-continua.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433041285959680%2F6e9340f2-0769-49fe-938c-b80e7bf08a60011",
@@ -26128,11 +22699,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8c2ca96e-4045-4209-aa18-166f1212bc37": {
     name: "Integração Contínua - Pipeline de entrega e implementação contínua na EC2",
-    icon: "integracao-continua-pipeline-entrega-implementacao-continua-ec2.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201433069467471892%2F8c2ca96e-4045-4209-aa18-166f1212bc37011",
@@ -26165,11 +22731,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b2998de2-989c-4838-8c7b-01c003a1e05e": {
     name: "Integração Contínua - Pipeline Docker no Github Actions",
-    icon: "integracao-continua-pipeline-docker-github-actions.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201433096101318656%2Fb2998de2-989c-4838-8c7b-01c003a1e05e011",
@@ -26202,11 +22763,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b9514b28-f211-4a21-ba6c-6f1024c047bd": {
     name: "Integração Contínua - Rollback e teste de carga",
-    icon: "integracao-continua-rollback-teste-carga.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201433126040248423%2Fb9514b28-f211-4a21-ba6c-6f1024c047bd011",
@@ -26238,11 +22794,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "96f10101-4d29-4500-b26d-361026ca238c": {
     name: "Integração Contínua - testes automatizados e pipeline no Github Actions",
-    icon: "integracao-continua-testes-automatizados-pipeline-github-actions.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201433152858632202%2F96f10101-4d29-4500-b26d-361026ca238c011",
@@ -26274,11 +22825,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "88ab91b9-4586-4e2d-86cd-b3c38ab73874": {
     name: "Inteligência Artificial - campanhas de Marketing Digital",
-    icon: "inteligencia-artificial-campanhas-marketing-digital.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Marketing Digital",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201433177898627162%2F88ab91b9-4586-4e2d-86cd-b3c38ab73874011",
@@ -26313,11 +22859,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "993da3cd-400b-4ece-b67e-8fb3904131c9": {
     name: "Integridade corporativa - tomada de decisões éticas em ambientes empresariais",
-    icon: "integridade-corporativa-decisoes-eticas-ambientes-empresariais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201433207506219028%2F993da3cd-400b-4ece-b67e-8fb3904131c9011",
@@ -26350,11 +22891,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f9ae0a31-5837-4c73-be01-198f76ff7432": {
     name: "Inteligência Artificial - gestão de mídias sociais",
-    icon: "inteligencia-artificial-gestao-midias-sociais.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Marketing Digital",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433234358145024%2Ff9ae0a31-5837-4c73-be01-198f76ff7432011",
@@ -26388,11 +22924,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3da3008c-bb97-442d-b381-0e3478b4d539": {
     name: "Inteligência artificial e personas - acelerando o processo de criação",
-    icon: "inteligencia-artificial-personas-acelerando-processo-criacao.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201433259259744325%2F3da3008c-bb97-442d-b381-0e3478b4d539011",
@@ -26427,11 +22958,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b9e0f52c-8e26-4149-9512-19948a52fd4e": {
     name: "Inteligência Artificial e UX - otimize a construção de um produto digital",
-    icon: "Inteligencia-artificial-ux-construcao-produto-digital.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201433288624050206%2Fb9e0f52c-8e26-4149-9512-19948a52fd4e011",
@@ -26463,11 +22989,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ae09fc6c-17a3-47e5-8ad0-afaa062a77f8": {
     name: "Inteligência artificial Generativa - Midjourney e ChatGPT",
-    icon: "inteligencia-artificial-generativa-midjourney-chatgpt.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Criativos",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201433321889079316%2Fae09fc6c-17a3-47e5-8ad0-afaa062a77f8011",
@@ -26492,11 +23013,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d6622381-2248-4d3e-a061-0ce08f31d0d1": {
     name: "Inteligência emocional - aumente seu potencial de liderança",
-    icon: "inteligencia-emocional-aumentando-potencial-lideranca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201433338867634256%2Fd6622381-2248-4d3e-a061-0ce08f31d0d1011",
@@ -26528,11 +23044,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b4480532-2ac2-467a-b17c-48012376d351": {
     name: "Inteligência emocional - práticas para o cotidiano",
-    icon: "inteligencia-emocional.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433365245595668%2Fb4480532-2ac2-467a-b17c-48012376d351011",
@@ -26558,11 +23069,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "84d8d3c0-c3aa-4801-916e-9c2cc6dc6660": {
     name: "IOS - autenticação, GPS e mais recursos nativos",
-    icon: "ios-autenticacao-gps-recursos-nativos.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433384073826365%2F84d8d3c0-c3aa-4801-916e-9c2cc6dc6660011",
@@ -26591,11 +23097,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "87eaf05f-5ba3-410e-a8f1-c87d6baaab97": {
     name: "iOS - auto layout com Constraints",
-    icon: "ios-auto-layout-constraints.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201433405389279232%2F87eaf05f-5ba3-410e-a8f1-c87d6baaab97011",
@@ -26634,11 +23135,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "58a22a3b-8d55-4f1e-9093-c6e8aa85292c": {
     name: "iOS - construindo seu primeiro aplicativo",
-    icon: "ios-construindo-primeiro-aplicativo.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201433440252334122%2F58a22a3b-8d55-4f1e-9093-c6e8aa85292c011",
@@ -26674,11 +23170,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0abe9d0a-2ab8-430a-ab2f-d2a0b921fc5f": {
     name: "iOS - layouts com SwiftUI",
-    icon: "swift-ui.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201433474654019595%2F0abe9d0a-2ab8-430a-ab2f-d2a0b921fc5f011",
@@ -26715,11 +23206,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "de7007e6-3517-444f-ab4d-f296ee542cb8": {
     name: "iOS - testes de unidade e TDD",
-    icon: "ios-testes-unidade-tdd.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433510452412417%2Fde7007e6-3517-444f-ab4d-f296ee542cb8011",
@@ -26751,11 +23237,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3bf4d450-30c9-49cd-988b-d652f829927a": {
     name: "iOS - usando recursos nativos",
-    icon: "ios-usando-recursos-nativos.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433535265906740%2F3bf4d450-30c9-49cd-988b-d652f829927a011",
@@ -26784,11 +23265,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34aa46bb-696a-421b-8041-787a508d657c": {
     name: "iOS com SwiftUI - construindo aplicações interativas com CRUD e APIs REST",
-    icon: "ios-swiftui-aplicacoes-interativas-crud-apis-rest.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433559836139520%2F34aa46bb-696a-421b-8041-787a508d657c011",
@@ -26828,11 +23304,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "01bb7ef3-5d35-4d33-8abe-4eb7bcc2bd23": {
     name: "iOS com SwiftUI - construindo autenticação de usuários em uma aplicação",
-    icon: "ios-swiftui-autenticacao-usuarios-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201433597228351548%2F01bb7ef3-5d35-4d33-8abe-4eb7bcc2bd23011",
@@ -26868,11 +23339,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2b5ff80d-7f0c-4512-ad37-9607847881ca": {
     name: "iOS com SwiftUI - construindo componentes e layouts",
-    icon: "ios-swiftui-construindo-componentes-layouts.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201433630036201483%2F2b5ff80d-7f0c-4512-ad37-9607847881ca011",
@@ -26908,11 +23374,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "73d153e0-70d7-4b1a-a861-2776fe85a7c7": {
     name: "iOS com SwiftUI - fazendo requisições HTTP e conexão com API",
-    icon: "ios-swiftui-requisicoes-http-conexao-api.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201433658402287696%2F73d153e0-70d7-4b1a-a861-2776fe85a7c7011",
@@ -26946,11 +23407,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fe2b8fd1-42c2-44f5-982d-bc4201e37956": {
     name: "iOS com SwiftUI - trabalhando com animações e DragGesture",
-    icon: "ios-swiftui-trabalhando-animacoes-draggesture.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433687380733953%2Ffe2b8fd1-42c2-44f5-982d-bc4201e37956011",
@@ -26978,11 +23434,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8e3e579f-5dcb-4d96-ae97-314ac7363460": {
     name: "iOS com SwiftUI - implementando navegação e gerenciamento de estados",
-    icon: "ios-swiftui-navegacao-gerenciamento-estados.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201433709904134235%2F8e3e579f-5dcb-4d96-ae97-314ac7363460011",
@@ -27018,11 +23469,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7d0887dd-b66b-4785-b331-c54cf55622ac": {
     name: "iOS e HTTP - Web Services e sincronização offline",
-    icon: "ios-web-services-sincronizacao-offline.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201433740694540298%2F7d0887dd-b66b-4785-b331-c54cf55622ac011",
@@ -27049,11 +23495,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2fc5e3ed-86a4-460e-8529-81e0b9595a4c": {
     name: "iOS layout - mais recursos para criar telas responsivas",
-    icon: "ios-layout-parte-2-recursos-telas-responsivas.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201433759585673226%2F2fc5e3ed-86a4-460e-8529-81e0b9595a4c011",
@@ -27089,11 +23530,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fdb501e1-e5a2-4747-90db-e1f708debe45": {
     name: "Java - aplicando a Orientação a Objetos",
-    icon: "java-aplicando-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201433794884939877%2Ffdb501e1-e5a2-4747-90db-e1f708debe45011",
@@ -27127,11 +23563,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6c372068-81c9-4fed-8cc7-d45b0ae0145c": {
     name: "Java - consumindo API, gravando arquivos e lidando com erros",
-    icon: "java-consumindo-api-gravando-arquivos-lidando-erros.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201433824614158376%2F6c372068-81c9-4fed-8cc7-d45b0ae0145c011",
@@ -27163,11 +23594,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d64ebff1-9c50-4484-93be-44fbfdb60b86": {
     name: "Java - criando a sua primeira aplicação",
-    icon: "java-criando-primeira-aplicacao.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201433850098753586%2Fd64ebff1-9c50-4484-93be-44fbfdb60b86011",
@@ -27197,11 +23623,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "101b2a3a-d31b-46d0-817b-e59ea0463005": {
     name: "Java - persistência de dados e consultas com Spring Data JPA",
-    icon: "java-persistencia-dados-consultas-spring-data-jpa.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201433877638557706%2F101b2a3a-d31b-46d0-817b-e59ea0463005011",
@@ -27246,11 +23667,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9131072d-72de-47fb-8afe-ed2f55524a91": {
     name: "Java - trabalhando com lambdas, streams e Spring Framework",
-    icon: "java-trabalhando-lambdas-streams-spring-framework.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433921708113990%2F9131072d-72de-47fb-8afe-ed2f55524a91011",
@@ -27289,11 +23705,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9965f74a-640b-4b5d-97a0-307fb047b18e": {
     name: "Java - trabalhando com listas e coleções de dados",
-    icon: "java-listas-colecoes-dados.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201433957921722399%2F9965f74a-640b-4b5d-97a0-307fb047b18e011",
@@ -27323,11 +23734,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9a2327e7-1bca-4d01-928c-98160bb44be7": {
     name: "Java Collections - Dominando Listas, Sets e Mapas",
-    icon: "java-collections.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "10": {
         "1": "1198981876895985754%2F1201433984727523420%2F9a2327e7-1bca-4d01-928c-98160bb44be7101",
@@ -27363,11 +23769,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6a69a7ea-8f45-4940-ab54-bd1a3e84c231": {
     name: "Java e Domain Driven Design - apresentando os conceitos",
-    icon: "java-domain-driven-design-conceitos.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434001970311209%2F6a69a7ea-8f45-4940-ab54-bd1a3e84c231011",
@@ -27405,11 +23806,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b337d871-682c-4490-8d0b-7ae8c1edd09f": {
     name: "Java e Clean Architecture - descomplicando arquitetura de software",
-    icon: "java-clean-architecture.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201434031171047444%2Fb337d871-682c-4490-8d0b-7ae8c1edd09f011",
@@ -27450,11 +23846,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "43611b01-c566-4338-84e9-a7ebcb61c337": {
     name: "Java e java.lang - programe com a classe Object e String",
-    icon: "java-pacotes-e-java-lang.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201434067527290941%2F43611b01-c566-4338-84e9-a7ebcb61c337011",
@@ -27485,11 +23876,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9189005c-9b33-49bb-a3fd-03871c395eea": {
     name: "Java e JDBC - trabalhando com um banco de dados",
-    icon: "java-jdbc-banco-dados.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201434093783629854%2F9189005c-9b33-49bb-a3fd-03871c395eea011",
@@ -27522,11 +23908,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0dddc71b-9e1f-456a-b044-681f7c5abce8": {
     name: "Java e JPA - consultas avançadas, performance e modelos complexos",
-    icon: "java-jpa-consultas-avancadas-performance-modelos-complexos.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201434120014807190%2F0dddc71b-9e1f-456a-b044-681f7c5abce8011",
@@ -27559,11 +23940,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9af9b80f-7dd8-48b5-a106-3d856c5672e1": {
     name: "Java e refatoração - melhorando códigos com boas práticas",
-    icon: "java-refatoracao-melhorando-codigos-boas-praticas.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434148380876810%2F9af9b80f-7dd8-48b5-a106-3d856c5672e1011",
@@ -27600,11 +23976,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f452b13f-a051-421f-9801-e57244cb3e9d": {
     name: "Java exceções - aprenda a criar, lançar e controlar exceções",
-    icon: "java-excecoes-aprenda-criar-lancar-controlar-excecoes.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201434182258282496%2Ff452b13f-a051-421f-9801-e57244cb3e9d011",
@@ -27639,11 +24010,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f64f7c5a-3239-4094-bc95-36c794663518": {
     name: "Java Reflection parte 1 - entendendo a metaprogramação",
-    icon: "java-reflection-meta-programacao.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201434212776026172%2Ff64f7c5a-3239-4094-bc95-36c794663518011",
@@ -27675,11 +24041,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0c5eeaf6-7f13-4b16-a555-6fa5b6ecca0d": {
     name: "Java OO - entendendo a Orientação a Objetos",
-    icon: "java-introducao-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201434238717800468%2F0c5eeaf6-7f13-4b16-a555-6fa5b6ecca0d011",
@@ -27714,11 +24075,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ceda906d-3166-4988-8c57-e471a15f096d": {
     name: "Java Reflection parte 2 - Anotações e Injeção de Dependências",
-    icon: "java-reflection-anotacoes-injecao-dependencia.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201434266664439808%2Fceda906d-3166-4988-8c57-e471a15f096d011",
@@ -27747,11 +24103,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "708f6331-195b-447d-8343-960fedb3638b": {
     name: "JavaScript - conhecendo arrays",
-    icon: "javascript-conhecendo-arrays.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201434287765983262%2F708f6331-195b-447d-8343-960fedb3638b011",
@@ -27790,11 +24141,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "419836ba-2d7e-4dfe-b2f9-de8d99caa530": {
     name: "JavaScript - classes e heranças no desenvolvimento de aplicações com orientação a objetos",
-    icon: "javascript-orientacao-a-objetos.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201434329331552276%2F419836ba-2d7e-4dfe-b2f9-de8d99caa530011",
@@ -27828,11 +24174,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c9e1b09-5786-4acf-af3f-b9cf46e27aaf": {
     name: "JavaScript - consumindo e tratando dados de uma API",
-    icon: "javascript-consumindo-tratando-dados-uma-api.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201434357802471445%2F3c9e1b09-5786-4acf-af3f-b9cf46e27aaf011",
@@ -27862,11 +24203,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b192dc5-ba5f-4b12-b0c3-28cbd5432291": {
     name: "JavaScript - criando requisições",
-    icon: "javascript-criando-requisicoes.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434383391920169%2F7b192dc5-ba5f-4b12-b0c3-28cbd5432291011",
@@ -27901,11 +24237,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7a38177d-9e65-47d7-a58e-ba61feb83a94": {
     name: "JavaScript - de padrões a uma abordagem funcional",
-    icon: "javascript-padroes-abordagem-funcional.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201434419257430036%2F7a38177d-9e65-47d7-a58e-ba61feb83a94011",
@@ -27957,11 +24288,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "99fd6b9d-1937-4aa9-b9e7-044ed23a2b0d": {
     name: "JavaScript - explorando a linguagem",
-    icon: "javascript-introducao.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201434477101064283%2F99fd6b9d-1937-4aa9-b9e7-044ed23a2b0d011",
@@ -27993,11 +24319,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "326c87d5-ece7-45e7-9f3a-93c567d8e1a4": {
     name: "JavaScript - interfaces e Herança em Orientação a Objetos",
-    icon: "javascript-polimorfismo.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201434502568870000%2F326c87d5-ece7-45e7-9f3a-93c567d8e1a4011",
@@ -28028,11 +24349,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "11193785-ddc9-4168-846d-f289ce61574f": {
     name: "JavaScript - explorando a manipulação de elementos e da localStorage",
-    icon: "javascript-manipulacao-elementos-localstorage.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201434524878372895%2F11193785-ddc9-4168-846d-f289ce61574f011",
@@ -28066,11 +24382,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fec37fd6-4a9c-4e4d-a59a-5bbac6f5a213": {
     name: "JavaScript - manipulando elementos no DOM",
-    icon: "javascript-manipulando-elementos-dom.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434553231872050%2Ffec37fd6-4a9c-4e4d-a59a-5bbac6f5a213011",
@@ -28100,11 +24411,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "adcfd86e-e9d9-4d3d-9b45-898b49eb8d52": {
     name: "JavaScript - manipulando objetos",
-    icon: "javascript-manipulando-objetos.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201434576388636692%2Fadcfd86e-e9d9-4d3d-9b45-898b49eb8d52011",
@@ -28138,11 +24444,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "189ff026-0c00-44f6-aa09-f7f5d9b56d56": {
     name: "JavaScript - métodos de array",
-    icon: "javascript-metodos-array.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434604125573213%2F189ff026-0c00-44f6-aa09-f7f5d9b56d56011",
@@ -28177,11 +24478,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1f6993fd-a477-4824-a688-54e762162349": {
     name: "JavaScript - objetos",
-    icon: "javascript-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201434634374885416%2F1f6993fd-a477-4824-a688-54e762162349011",
@@ -28217,11 +24513,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e537e294-d8bb-4963-9026-2b76edaf187d": {
     name: "JavaScript - programando a Orientação a Objetos",
-    icon: "javascritpt-orientacao-objetos.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201434666121568357%2Fe537e294-d8bb-4963-9026-2b76edaf187d011",
@@ -28251,11 +24542,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fdaf49ba-de68-480a-95bc-39c80298aca2": {
     name: "JavaScript - programação orientada a objetos",
-    icon: "javascript-passos-programacao-orientada-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201434687529308170%2Ffdaf49ba-de68-480a-95bc-39c80298aca2011",
@@ -28289,11 +24575,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e19fcb6d-83de-40f2-a1e5-e0cba31791a1": {
     name: "JavaScript - utilizando tipos, variáveis e funções",
-    icon: "javascript-utilizando-tipos-variaveis-funcoes.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201434715912146964%2Fe19fcb6d-83de-40f2-a1e5-e0cba31791a1011",
@@ -28327,11 +24608,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "88a6fcc6-13db-4946-a094-7619f71838ae": {
     name: "JavaScript - trabalhando com threads para requisições simultâneas",
-    icon: "javascript-threads-requisicoes-simultaneas.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201434743414214716%2F88a6fcc6-13db-4946-a094-7619f71838ae011",
@@ -28365,11 +24641,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5fd1d8a7-7d83-4175-bada-f3e4eb37de1d": {
     name: "JavaScript - validando formulários",
-    icon: "javascript-validando-formularios.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201434772531068928%2F5fd1d8a7-7d83-4175-bada-f3e4eb37de1d011",
@@ -28403,11 +24674,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e5b4ccd7-723a-4206-be45-a0043990f58c": {
     name: "JavaScript - validações e reconhecimento de voz",
-    icon: "javascript-validacoes-reconhecimento-voz.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201434800939085835%2Fe5b4ccd7-723a-4206-be45-a0043990f58c011",
@@ -28438,11 +24704,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "81ed713c-8cf9-4e26-aed6-136eefe91178": {
     name: "JavaScript e HTML - pratique lógica com desenhos, animações e um jogo",
-    icon: "logica-programacao-pratica-com-desenho-animacoes-em-jogo.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201434824087441438%2F81ed713c-8cf9-4e26-aed6-136eefe91178011",
@@ -28475,11 +24736,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2c7e17e0-4b53-4b1f-b994-ce3ff059a383": {
     name: "JavaScript e HTML - desenvolva um jogo e pratique lógica de programação",
-    icon: "logica-programacao-javascript-html.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201434850649972737%2F2c7e17e0-4b53-4b1f-b994-ce3ff059a383011",
@@ -28535,11 +24791,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8ca7e953-6f2b-49da-b5ac-c557c4990361": {
     name: "JavaScript I - algoritmos de ordenação",
-    icon: "algoritmos-javascript-i-algoritmos-ordenacao.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201434905012351027%2F8ca7e953-6f2b-49da-b5ac-c557c4990361011",
@@ -28572,11 +24823,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "673c1152-7e7c-4220-8a47-15c39d8ab8de": {
     name: "Jenkins e Docker - Pipeline de entrega continua",
-    icon: "pipeline-ci-jenkins-docker.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434937132335204%2F673c1152-7e7c-4220-8a47-15c39d8ab8de011",
@@ -28614,11 +24860,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "026d63e8-0880-45d6-8306-0c700f15b0a2": {
     name: "JavaScript para Web - Crie páginas dinâmicas",
-    icon: "javascript-web-paginas-dinamicas.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201434969059364874%2F026d63e8-0880-45d6-8306-0c700f15b0a2011",
@@ -28656,11 +24897,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "85c6b28d-3192-4741-86a3-1a280b47c4be": {
     name: "Jetpack Compose - mantendo estados com ViewModel",
-    icon: "jetpack-compose-estados-viewmodel.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201435008259330129%2F85c6b28d-3192-4741-86a3-1a280b47c4be011",
@@ -28693,11 +24929,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "04653827-9deb-4e53-a8b8-bd7831fb70e1": {
     name: "Jetpack Compose - armazenamento de dados internos",
-    icon: "jetpack-compose-armazenamento-dados-internos.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201435035753009266%2F04653827-9deb-4e53-a8b8-bd7831fb70e1011",
@@ -28735,11 +24966,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6b3703ea-6179-4c91-8e81-f83a23c18607": {
     name: "Jetpack Compose - baixando e compartilhando arquivos no Android",
-    icon: "jepack-compose-baixando-compartilhando-arquivos-android.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201435074294448158%2F6b3703ea-6179-4c91-8e81-f83a23c18607011",
@@ -28773,11 +24999,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e25ef2c-25ff-4e15-b118-0c332ddfd0bd": {
     name: "Jetpack Compose - criando Deep links e testando o Navigation",
-    icon: "jetpack-compose-deep-links-testando-navigation.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201435107156819988%2F2e25ef2c-25ff-4e15-b118-0c332ddfd0bd011",
@@ -28817,11 +25038,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "770ff733-3dbe-430d-9ab7-7605a0c97448": {
     name: "Jetpack Compose - criando um app android",
-    icon: "jetpack-compose-app-android.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201435144272220250%2F770ff733-3dbe-430d-9ab7-7605a0c97448011",
@@ -28858,11 +25074,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8b5ec76d-ceeb-4c59-9668-cd06b01acbbc": {
     name: "Jetpack Compose - formulário e gerenciamento de estado",
-    icon: "jetpack-compose-formulario-gerenciamento-estado.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201435177168158790%2F8b5ec76d-ceeb-4c59-9668-cd06b01acbbc011",
@@ -28899,11 +25110,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fc60d3ca-d2f2-4cb6-b9fe-6cc3ec5b0006": {
     name: "Jetpack Compose - integrando a API da Open AI no App",
-    icon: "jetpack-compose-integrando-api-open-ai-app.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Mobile",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201435209241993226%2Ffc60d3ca-d2f2-4cb6-b9fe-6cc3ec5b0006011",
@@ -28937,11 +25143,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4ba039e-6f59-429c-8fd6-4ffaf618fe47": {
     name: "Jetpack Compose - lidando com armazenamento de arquivos no Android",
-    icon: "jetpack-compose-armazenamento-arquivos-android.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201435237461262426%2Fd4ba039e-6f59-429c-8fd6-4ffaf618fe47011",
@@ -28975,11 +25176,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9090e7c6-9910-4f62-96e3-6dcbf546bf8b": {
     name: "Jetpack Compose - navegando entre telas com o Navigation",
-    icon: "jetpack-compose-navegando-telas-navigation.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435266225803294%2F9090e7c6-9910-4f62-96e3-6dcbf546bf8b011",
@@ -29013,11 +25209,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f65881e8-79ec-4fd1-b0e5-5c7f3984c852": {
     name: "Jetpack Compose - Navigation com Type Safety",
-    icon: "jetpack-compose-navigation-type-safety.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201435293534916688%2Ff65881e8-79ec-4fd1-b0e5-5c7f3984c852011",
@@ -29049,11 +25240,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "15cfb6c2-3807-4a42-8c50-c2a64acbd9ba": {
     name: "Jetpack Compose - realizando a comunicação com REST API",
-    icon: "jetpack-compose-comunicacao-rest-api.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201435318574911579%2F15cfb6c2-3807-4a42-8c50-c2a64acbd9ba011",
@@ -29085,11 +25271,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "787a7717-f052-4324-aab3-2576dfa90da1": {
     name: "Jetpack Compose - utilizando Lazy Layout e estados",
-    icon: "jetpack-compose-lazy-layout-estados.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201435350732640266%2F787a7717-f052-4324-aab3-2576dfa90da1011",
@@ -29126,11 +25307,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e894d90a-dee3-4e94-9026-a0fafbdc3ac0": {
     name: "Jornada do cliente - aplique estratégias de engajamento no dia a dia",
-    icon: "jornada-cliente-estrategias-engajamento-dia-a-dia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201435382613561405%2Fe894d90a-dee3-4e94-9026-a0fafbdc3ac0011",
@@ -29161,11 +25337,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ab172f52-833b-4254-bd90-b24e69ac5efe": {
     name: "Jetpack Compose - utilizando Migrations e relacionamentos de tabelas com Room",
-    icon: "jetpack-compose-migrations-relacionamentos-tabelas-room.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201435406433001492%2Fab172f52-833b-4254-bd90-b24e69ac5efe011",
@@ -29199,11 +25370,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c01b15ab-388e-4e36-b697-df9ac965ab45": {
     name: "JS na web - CRUD com JavaScript assíncrono",
-    icon: "javascript-crud-assincrono.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201435438922088479%2Fc01b15ab-388e-4e36-b697-df9ac965ab45011",
@@ -29234,11 +25400,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "70afd31d-c6e5-4920-a8c3-1756e45f7e6e": {
     name: "Kafka - Batches, correlation ids e dead letters",
-    icon: "kafka-batches-correlation-ids-e-dead-letters.svg",
-    category: {
-      name: "DevOps",
-      module: "Mensageria/Streams",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201435468059902012%2F70afd31d-c6e5-4920-a8c3-1756e45f7e6e011",
@@ -29267,11 +25428,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6cac7f52-0e14-4313-81c4-673d01239ed3": {
     name: "Kafka - Fast delegate, evolução e cluster de brokers",
-    icon: "kafka-cluster-de-microservicos.svg",
-    category: {
-      name: "DevOps",
-      module: "Mensageria/Streams",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435487697641494%2F6cac7f52-0e14-4313-81c4-673d01239ed3011",
@@ -29297,11 +25453,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "baf17f30-4cee-4078-a748-f89f2ea0e32c": {
     name: "Kafka - idempotência e garantias",
-    icon: "kafka-idempotencia-e-garantias.svg",
-    category: {
-      name: "DevOps",
-      module: "Mensageria/Streams",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201435511294791680%2Fbaf17f30-4cee-4078-a748-f89f2ea0e32c011",
@@ -29331,11 +25482,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4aa90e60-7493-4202-864a-9cecdfd132fe": {
     name: "Kafka - produtores, consumidores e streams",
-    icon: "kafka-introducao-a-streams-em-microservicos.svg",
-    category: {
-      name: "DevOps",
-      module: "Mensageria/Streams",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435532866101359%2F4aa90e60-7493-4202-864a-9cecdfd132fe011",
@@ -29369,11 +25515,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80c7cd11-44e6-4824-be3d-82cef4b28ccf": {
     name: "Kafka e Spring - integrando aplicações e gerenciando fluxos de dados",
-    icon: "kafka-spring-aplicacoes-fluxos-dados.svg",
-    category: {
-      name: "DevOps",
-      module: "Mensageria/Streams",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435562268172318%2F80c7cd11-44e6-4824-be3d-82cef4b28ccf011",
@@ -29407,11 +25548,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f4fefd40-935b-41ed-9a40-b9452aa1b657": {
     name: "Kaizen - implemente uma estratégia de melhoria contínua",
-    icon: "kaizen-implemente-estrategia-melhoria-continua.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201435597680693299%2Ff4fefd40-935b-41ed-9a40-b9452aa1b657011",
@@ -29442,11 +25578,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3fba2204-f7a1-4e91-a612-27f4a9277c1d": {
     name: "Kanban - análises para implementação",
-    icon: "kanban-analises-implementacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435619507851276%2F3fba2204-f7a1-4e91-a612-27f4a9277c1d011",
@@ -29478,11 +25609,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b9828bb2-1088-436f-b13c-5cf004d242f1": {
     name: "Kanban - evolua suas entregas com métricas",
-    icon: "kanban-evolua-entregas-metricas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201435644963065906%2Fb9828bb2-1088-436f-b13c-5cf004d242f1011",
@@ -29519,11 +25645,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3efbaab0-9edf-40a5-897a-95eece352000": {
     name: "Kanban - implementação sistêmica em múltiplas equipes",
-    icon: "kanban-implementacao-sistemica-multiplas-equipes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201435673522090014%2F3efbaab0-9edf-40a5-897a-95eece352000011",
@@ -29556,11 +25677,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b3d69fcc-e8c9-4c0b-bb51-a6e8246107c7": {
     name: "Kanban - marque o ritmo com cadências",
-    icon: "kanban-marque-ritmo-cadencias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201435705562374155%2Fb3d69fcc-e8c9-4c0b-bb51-a6e8246107c7011",
@@ -29593,11 +25709,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f4007e00-3b10-463d-a2c3-93cf0d5d4936": {
     name: "Kanban - práticas avançadas incluindo gestão de portfólio",
-    icon: "kanban-praticas-incluindo-gestao-portfolio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201435731965513728%2Ff4007e00-3b10-463d-a2c3-93cf0d5d4936011",
@@ -29629,11 +25740,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "25485c62-e95b-416e-929f-9a73005a5d1d": {
     name: "KCS - implementando o serviço centrado no conhecimento",
-    icon: "kcs-implementando-servico-centrado-conhecimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201435755885637663%2F25485c62-e95b-416e-929f-9a73005a5d1d011",
@@ -29669,11 +25775,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b39d33eb-088c-43f2-8fe0-cef71c6a53c8": {
     name: "Keras - primeiros passos em redes neurais",
-    icon: "keras-primeiros-passos-redes-neurais.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201435785619058779%2Fb39d33eb-088c-43f2-8fe0-cef71c6a53c8011",
@@ -29706,11 +25807,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0107ad16-aef3-4014-8279-7c18c1e1625b": {
     name: "Kotlin - aplicações resilientes e assíncronas",
-    icon: "kotlin-aplicacoes-resilientes-assincronas.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201435812357754881%2F0107ad16-aef3-4014-8279-7c18c1e1625b011",
@@ -29740,11 +25836,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ef3ecbf2-7459-4152-afd1-6cc70c7b29bb": {
     name: "Kotlin - evoluindo a aplicação com OO",
-    icon: "kotlin-evoluindo-aplicacao-oo.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201435837053804635%2Fef3ecbf2-7459-4152-afd1-6cc70c7b29bb011",
@@ -29781,11 +25872,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "005ac5ed-f50f-472d-a9f3-39562dfee5e6": {
     name: "Kotlin - desenvolvendo sua primeira aplicação",
-    icon: "kotlin-desenvolvendo-primeira-aplicacao.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201435868733374485%2F005ac5ed-f50f-472d-a9f3-39562dfee5e6011",
@@ -29822,11 +25908,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ba181c71-6de2-404a-b4d4-d3c225f3d974": {
     name: "Kotlin - lidando com exceptions e referências nulas",
-    icon: "kotlin-exceptions-null-safety.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435902312972338%2Fba181c71-6de2-404a-b4d4-d3c225f3d974011",
@@ -29858,11 +25939,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2dd4f565-b2be-428c-85a2-6e304bedf37f": {
     name: "Kotlin - persistindo dados com Hibernate",
-    icon: "kotlin-persistindo-dados-hibernate.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201435927994708028%2F2dd4f565-b2be-428c-85a2-6e304bedf37f011",
@@ -29901,11 +25977,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "98639dc0-d865-4ec6-a4e0-8bc28f320853": {
     name: "Kotlin - preparando a aplicação para Cloud",
-    icon: "kotlin-preparando-aplicacao-cloud.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201435962773864488%2F98639dc0-d865-4ec6-a4e0-8bc28f320853011",
@@ -29936,11 +26007,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d676f36c-8086-4c83-b412-c4acff0b9cdb": {
     name: "Kotlin - recursos da linguagem com pacotes e composição",
-    icon: "kotlin-recursos-da-linguagem-com-pacotes-e-composicao.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435993878839306%2Fd676f36c-8086-4c83-b412-c4acff0b9cdb011",
@@ -29972,11 +26038,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a347470-bbbe-4983-9d87-d8e3e734a868": {
     name: "Kotlin - recursos do paradigma funcional",
-    icon: "kotlin-recursos-do-paradigma-funcional.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201436017656348712%2F1a347470-bbbe-4983-9d87-d8e3e734a868011",
@@ -30010,11 +26071,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3409d32d-2b65-4a04-8b0d-ab233c3d8aa4": {
     name: "Kotlin Collections - Set e Map",
-    icon: "kotlin-collections-set-map.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201436045066125362%2F3409d32d-2b65-4a04-8b0d-ab233c3d8aa4011",
@@ -30044,11 +26100,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f2826793-83bc-49e7-a73b-58ce231c1be0": {
     name: "Kotlin e Spring - recursos avançados",
-    icon: "kotlin-spring-recursos-avancados.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201436068159946803%2Ff2826793-83bc-49e7-a73b-58ce231c1be0011",
@@ -30086,11 +26137,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9d11a988-8835-4ec2-8704-b718be1b6261": {
     name: "Kotlin e Spring - segurança e infraestrutura",
-    icon: "kotlin-spring-seguranca-infraestrutura.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201436101320134706%2F9d11a988-8835-4ec2-8704-b718be1b6261011",
@@ -30133,11 +26179,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30b08b84-5117-43b1-b864-a9d5e0f54b3a": {
     name: "Kotlin e Spring - testes automatizados e documentação de API",
-    icon: "kotlin-spring-testes-automatizados-documentacao-api.svg",
-    category: {
-      name: "Programação",
-      module: "Kotlin",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201436140616560650%2F30b08b84-5117-43b1-b864-a9d5e0f54b3a011",
@@ -30169,11 +26210,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2810b249-52d6-49e8-bca3-925f3c662e8b": {
     name: "Krita - criando uma animação",
-    icon: "krita-primeiros-passos-animacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201436164452790273%2F2810b249-52d6-49e8-bca3-925f3c662e8b011",
@@ -30207,11 +26243,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e1beeaa6-6d74-4b05-b8cc-850490ae2e81": {
     name: "Krita - criando um cenário animado",
-    icon: "krita-cenario-animado.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201436191262777414%2Fe1beeaa6-6d74-4b05-b8cc-850490ae2e81011",
@@ -30249,11 +26280,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b6e742d1-1777-42fc-aaf4-cde6ed1afd59": {
     name: "Krita - desenvolvendo uma pintura digital",
-    icon: "introducao-krita-pintura-digital.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201436225744162898%2Fb6e742d1-1777-42fc-aaf4-cde6ed1afd59011",
@@ -30295,11 +26321,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8be6e22-4dc6-4ed2-9b78-5061f50d5de6": {
     name: "Krita - ilustração editorial",
-    icon: "krita-ilustracao-editorial.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201436263937491006%2Fc8be6e22-4dc6-4ed2-9b78-5061f50d5de6011",
@@ -30333,11 +26354,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0ad2a566-e9df-424a-bed7-efbdc431032e": {
     name: "Krita - refinando o processo de pintura",
-    icon: "krita-refinamento-processo-pintura.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201436291691200592%2F0ad2a566-e9df-424a-bed7-efbdc431032e011",
@@ -30376,11 +26392,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ce400d3-7f23-4ab4-9229-625976e14813": {
     name: "Kubernetes - Deployments, Volumes e Escalabilidade",
-    icon: "kubernetes-deployments-volumes-escalabilidade.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201436331688071238%2F2ce400d3-7f23-4ab4-9229-625976e14813011",
@@ -30413,11 +26424,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "46385d39-56e3-4e7c-ba76-bbd2375587a2": {
     name: "Kubernetes - Pods, Services e ConfigMaps",
-    icon: "kubernetes-pods-services-configmap.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201436359622131742%2F46385d39-56e3-4e7c-ba76-bbd2375587a2011",
@@ -30456,11 +26462,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "00bece07-a429-46c3-be49-3ae1a85eea0f": {
     name: "Kubernetes - prática, Helm e Cloud",
-    icon: "kubernetes-pratica-helm-cloud.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201436396557189240%2F00bece07-a429-46c3-be49-3ae1a85eea0f011",
@@ -30499,11 +26500,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b0d7e543-bac0-41f6-9acc-ba494181c99e": {
     name: "Kubernetes na Digital Ocean - gerenciando aplicações conteinerizadas",
-    icon: "kubernetes-digital-ocean.svg",
-    category: {
-      name: "DevOps",
-      module: "Containers",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201436430476513410%2Fb0d7e543-bac0-41f6-9acc-ba494181c99e011",
@@ -30546,11 +26542,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30bbb610-0848-40eb-a489-d8c5ea11f6cd": {
     name: "Landing Page - construindo sua campanha",
-    icon: "landingpage-construindo-campanha.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201436464160985088%2F30bbb610-0848-40eb-a489-d8c5ea11f6cd011",
@@ -30580,11 +26571,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3eff65a9-d5f4-49c1-ae27-4e2beacbad51": {
     name: "Landing Page com IA - construindo uma página web funcional",
-    icon: "landing-page-ia-construindo-pagina-web-funcional.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436487829442600%2F3eff65a9-d5f4-49c1-ae27-4e2beacbad51011",
@@ -30615,11 +26601,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "24d762ba-1242-4f0f-930c-a0327f3da82c": {
     name: "Laravel - construindo APIs",
-    icon: "laravel-construindo-apis.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201436511946682408%2F24d762ba-1242-4f0f-930c-a0327f3da82c011",
@@ -30654,11 +26635,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4860eee0-00d3-4c35-b3db-1b7240a01aac": {
     name: "Laravel - criando uma aplicação com MVC",
-    icon: "laravel-criando-aplicacao-mvc.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201436547417907300%2F4860eee0-00d3-4c35-b3db-1b7240a01aac011",
@@ -30693,11 +26669,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f1f1b367-3804-4102-9140-b80f8eb06d6f": {
     name: "Laravel - e-mails, eventos assíncronos, uploads e testes",
-    icon: "laravel-e-mails-eventos-uploads-testes.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201436578350911619%2Ff1f1b367-3804-4102-9140-b80f8eb06d6f011",
@@ -30732,11 +26703,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5b68ac5f-b084-412a-9cb6-13bd5624ea47": {
     name: "Laravel - transações, service container e autenticação",
-    icon: "laravel-transacoes-service-container-autenticacao.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436640145575936%2F5b68ac5f-b084-412a-9cb6-13bd5624ea47011",
@@ -30770,11 +26736,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a664e32c-8804-476f-b582-0a3ef668da97": {
     name: "Laravel - validando formulários, usando sessões e definindo relacionamentos",
-    icon: "laravel-formularios-sessoes-relacionamentos.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201436670227128371%2Fa664e32c-8804-476f-b582-0a3ef668da97011",
@@ -30810,11 +26771,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0d488f54-5baf-4634-9381-082c527dff03": {
     name: "Layouts Android parte 1 - criando telas com Constraint Layouts",
-    icon: "layout-android-1.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201436707237671083%2F0d488f54-5baf-4634-9381-082c527dff03011",
@@ -30856,11 +26812,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "66d4447a-faa8-4f35-a376-271e952567c5": {
     name: "Layouts Android parte 2 - boas práticas para criação de telas",
-    icon: "layout-android-2.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201436742708887582%2F66d4447a-faa8-4f35-a376-271e952567c5011",
@@ -30896,11 +26847,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c3724fe2-8fd0-41c3-9f90-d5d50791a8ab": {
     name: "Lean Six Sigma - um guia para melhoria de processos",
-    icon: "lean-six-sigma-guia-melhoria-processos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201436779274846239%2Fc3724fe2-8fd0-41c3-9f90-d5d50791a8ab011",
@@ -30930,11 +26876,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4476446a-02ca-4f44-a9dd-210a4c9133a5": {
     name: "Lean Agile Budgeting - princípios para a orçamentação eficaz na era digital",
-    icon: "lean-agile-budgeting-principios-orcamentacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201436801668231248%2F4476446a-02ca-4f44-a9dd-210a4c9133a5011",
@@ -30976,11 +26917,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c1894232-06d7-41f3-bdc0-482ed1ef4492": {
     name: "Lean Startup - primeiros passos da sua Startup enxuta",
-    icon: "lean.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201436846434045952%2Fc1894232-06d7-41f3-bdc0-482ed1ef4492011",
@@ -31008,11 +26944,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "24f505fb-49d2-4155-baf0-8578e84ae23a": {
     name: "Lean-Ágil - expanda horizontes para a organização toda",
-    icon: "lean-agil-expanda-horizontes-organizacao-toda.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436860010987560%2F24f505fb-49d2-4155-baf0-8578e84ae23a011",
@@ -31042,11 +26973,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "58233e05-0abd-4fb8-8951-921ffaafb742": {
     name: "Liderança - aprendendo sobre a missão e propósito de liderar pessoas",
-    icon: "lideranca-missao-proposito-liderar-pessoas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201436885436874793%2F58233e05-0abd-4fb8-8951-921ffaafb742011",
@@ -31077,11 +27003,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6feaa0aa-c72b-4f96-9431-50148a468c59": {
     name: "LGPD - entendendo direitos de uso e responsabilidades",
-    icon: "lgpd-entendendo-direitos-uso-responsabilidades.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201436910787235922%2F6feaa0aa-c72b-4f96-9431-50148a468c59011",
@@ -31113,11 +27034,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "74e2bee7-5b31-4fa6-b9be-063a6c4f8b78": {
     name: "Liderança ambidestra - buscando inovação e resultados",
-    icon: "lideranca-ambidestra-inovacao-resultados.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201436951149035520%2F74e2bee7-5b31-4fa6-b9be-063a6c4f8b78011",
@@ -31154,11 +27070,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2384c244-2608-45b3-a266-6e9ae1059c80": {
     name: "Liderança - práticas de gestão e melhorias",
-    icon: "lideranca-praticas-gestao-melhorias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201437004097917011%2F2384c244-2608-45b3-a266-6e9ae1059c80011",
@@ -31193,11 +27104,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9e69c971-c9e9-4a86-a5d7-2b36934ca577": {
     name: "Liderança pessoal - desenvolvendo habilidades de autogestão",
-    icon: "lideranca-pessoal-desenvolvendo-habilidades-autogestao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201437040806461450%2F9e69c971-c9e9-4a86-a5d7-2b36934ca577011",
@@ -31230,11 +27136,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "150bfaa8-26b8-4761-a209-0f264ebf5478": {
     name: "Liderança transformacional - criando uma cultura de excelência",
-    icon: "lideranca-transformacional-criando-cultura-excelencia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201437068769906779%2F150bfaa8-26b8-4761-a209-0f264ebf5478011",
@@ -31271,11 +27172,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "575dacab-f2cc-41db-9af1-44af21e4e34d": {
     name: "Liderança Ágil - aprimoramento de soft skills",
-    icon: "lideranca-agil-aprimoramento-soft-skills.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201437100772442234%2F575dacab-f2cc-41db-9af1-44af21e4e34d011",
@@ -31305,11 +27201,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4d57af4-6daf-4f07-a40f-fec09bc0bf47": {
     name: "LightRoom - usando seu celular para editar fotos",
-    icon: "lightroom-usando-celular-editar-fotos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201437124273111122%2Fa4d57af4-6daf-4f07-a40f-fec09bc0bf47011",
@@ -31338,11 +27229,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cd7766df-4ab6-40ca-b060-490fec0d36e0": {
     name: "LightRoom Mobile - tratando imagens no app",
-    icon: "lightroom-mobile-tratando-imagens-app.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201437150684655677%2Fcd7766df-4ab6-40ca-b060-490fec0d36e0011",
@@ -31378,11 +27264,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5c9322ac-43b0-417c-b7a3-ee0733025983": {
     name: "Linguagem Natural parte 1 - NLP com análise de sentimento",
-    icon: "introducao-a-nlp-com-analise-de-sentimento.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201437184247480421%2F5c9322ac-43b0-417c-b7a3-ee0733025983011",
@@ -31415,11 +27296,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "610d12eb-57b9-4f0d-9b0e-a975a4e4deea": {
     name: "Linguagem Natural parte 2 - continuando com a análise de sentimento",
-    icon: "nlp-com-analise-de-sentimento.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201437213477589002%2F610d12eb-57b9-4f0d-9b0e-a975a4e4deea011",
@@ -31449,11 +27325,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "03b94fb3-20b4-4ec4-9dda-5e6eae8eabb6": {
     name: "Linux II - programas, processos e pacotes",
-    icon: "linux-ubuntu-processos.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "10": {
         "1": "1198981980444958810%2F1201437238605664296%2F03b94fb3-20b4-4ec4-9dda-5e6eae8eabb6101",
@@ -31499,11 +27370,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9e252a02-d891-4882-b810-37eec1de4f26": {
     name: "LinkedIn Ads - criando uma campanha",
-    icon: "linkedin-ads-crie-primeira-campanha.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201437263700185119%2F9e252a02-d891-4882-b810-37eec1de4f26011",
@@ -31538,11 +27404,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0d83e6be-47d1-404c-b972-a28d2eb2c92e": {
     name: "Linux Onboarding - localizando arquivos e conteúdos",
-    icon: "linux-onboarding-arquivos-conteudos.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201437294545084446%2F0d83e6be-47d1-404c-b972-a28d2eb2c92e011",
@@ -31573,11 +27434,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "150a7992-31fe-496a-84fc-f839ce6a19e0": {
     name: "Linux Onboarding - obtendo e tratando informações do sistema",
-    icon: "linux-onboarding-informacoes-sistema.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201437322995044382%2F150a7992-31fe-496a-84fc-f839ce6a19e0011",
@@ -31608,11 +27464,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "271e2083-1205-402d-a71d-e3e0c12b236a": {
     name: "Linux Onboarding - trabalhe com usuários, permissões e dispositivos",
-    icon: "linux-onboarding-usuarios-permissoes-dispositivos.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201437349213646848%2F271e2083-1205-402d-a71d-e3e0c12b236a011",
@@ -31644,11 +27495,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c4a8ef2c-34e8-496b-99ec-994145f0b0ab": {
     name: "Linux Onboarding - usando a CLI de uma forma rápida e prática",
-    icon: "linux-onboarding-utilizar-cli-forma-rapida-pratica.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201437375516123166%2Fc4a8ef2c-34e8-496b-99ec-994145f0b0ab011",
@@ -31684,11 +27530,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5ece333-2fa7-42b5-9902-bd784a22d007": {
     name: "Looker Studio - criando o primeiro relatório",
-    icon: "looker-studio-primeiro-relatorio.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201437409238331403%2Fd5ece333-2fa7-42b5-9902-bd784a22d007011",
@@ -31724,11 +27565,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "beeb5dd7-d0ab-4df9-9932-1f4245902c34": {
     name: "Looker Studio - parâmetros e combinações de dados",
-    icon: "looker-studio-parametros-combinacoes-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201437443321249832%2Fbeeb5dd7-d0ab-4df9-9932-1f4245902c34011",
@@ -31755,11 +27591,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f63c941f-519e-44ab-8416-faf188aaf725": {
     name: "Looker Studio - trabalhando com funções e filtros",
-    icon: "looker-studio-funcoes-filtros.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437465332940860%2Ff63c941f-519e-44ab-8416-faf188aaf725011",
@@ -31793,11 +27624,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2fe35656-4caf-453e-8757-f6e5c3011923": {
     name: "Looker Studio - visualização de dados",
-    icon: "looker-studio-visualizacao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201437495880073316%2F2fe35656-4caf-453e-8757-f6e5c3011923011",
@@ -31830,11 +27656,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "069c6ad5-902e-4148-9a68-25f8e36ad8fd": {
     name: "Lógica de programação - mergulhe em programação com JavaScript",
-    icon: "logica-programacao-mergulhe-programacao-javascript.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201437523566665758%2F069c6ad5-902e-4148-9a68-25f8e36ad8fd011",
@@ -31867,11 +27688,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d1713c33-6761-42fe-ad38-dd2c532007ed": {
     name: "Lógica de programação - explore funções e listas",
-    icon: "logica-programacao-funcoes-listas.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201437552150843392%2Fd1713c33-6761-42fe-ad38-dd2c532007ed011",
@@ -31903,11 +27719,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6df10b09-8bcd-4a15-9790-6ec74a13187e": {
     name: "Lógica de programação - praticando com desafios",
-    icon: "logica-programacao-praticando-desafios.svg",
-    category: {
-      name: "Programação",
-      module: "Lógica de programação",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201437579854225439%2F6df10b09-8bcd-4a15-9790-6ec74a13187e011",
@@ -31945,11 +27756,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "da556f75-2e2f-4a65-afda-02935621bf7f": {
     name: "Machine Learning - Credit Scoring",
-    icon: "machine-learning-credit-scoring.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201437735215452240%2Fda556f75-2e2f-4a65-afda-02935621bf7f011",
@@ -31988,11 +27794,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "09d88300-a170-45ab-8749-2f71a937f662": {
     name: "Machine Learning - intro a sistemas de recomendação em Python",
-    icon: "introducao-a-sistemas-de-recomendacao-com-python.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437778844602368%2F09d88300-a170-45ab-8749-2f71a937f662011",
@@ -32024,11 +27825,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4ebdadc3-7e1e-4cb2-bea8-dcb9c31c26fb": {
     name: "Machine Learning parte 1 - otimização de modelos através de hiperparâmetros",
-    icon: "machine-learning-otimizacao-de-modelos-atraves-de-hiperparametros.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437804069146654%2F4ebdadc3-7e1e-4cb2-bea8-dcb9c31c26fb011",
@@ -32056,11 +27852,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4286fc26-ccca-47f7-aa8a-936f31d4e621": {
     name: "Machine Learning - utilizando ChatGPT como assistente",
-    icon: "machine-learning-utilizando-chatgpt-assistente.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201437824155668501%2F4286fc26-ccca-47f7-aa8a-936f31d4e621011",
@@ -32101,11 +27892,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd827994-2fa2-4c77-9e05-a430c809b835": {
     name: "Machine Learning com Oracle ADS - produtividade na criação de modelos",
-    icon: "machine-learning-oracle-ads-criacao-modelos.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201437869059887155%2Fdd827994-2fa2-4c77-9e05-a430c809b835011",
@@ -32143,11 +27929,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aa25a0e3-4617-47ee-845e-13cf3c7077e3": {
     name: "Machine Learning parte 2 - otimização com exploração aleatória",
-    icon: "machine-learning-otimizacao-com-exploracao-aleatoria.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201437911162298428%2Faa25a0e3-4617-47ee-845e-13cf3c7077e3011",
@@ -32171,11 +27952,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "23c053ea-c67f-43ea-a8b8-bc98397ff220": {
     name: "Management 3.0 - gerencie o ambiente, não as pessoas",
-    icon: "management-3-0-gerencie-ambiente-nao-pessoas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437924672163931%2F23c053ea-c67f-43ea-a8b8-bc98397ff220011",
@@ -32206,11 +27982,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6b8aba1f-ffba-46d4-9a49-21fd3bf68bf3": {
     name: "Marketing Analytics - técnicas e análise de dados",
-    icon: "marketing-analytics-tecnicas-analise-dados.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201437952635572326%2F6b8aba1f-ffba-46d4-9a49-21fd3bf68bf3011",
@@ -32241,11 +28012,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "67829ea0-3c9e-42a8-a24a-9255040a90db": {
     name: "Manifesto NoProjects - desprojetização",
-    icon: "fundamentos-desprojetizacao-manifesto-noprojects.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Práticas de Gestão - Waterfall & Híbridas",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201437979298766848%2F67829ea0-3c9e-42a8-a24a-9255040a90db011",
@@ -32283,11 +28049,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fe5f4363-e9c9-4382-8ce9-c7f6026c00fd": {
     name: "Marketing Digital - explorando os conceitos",
-    icon: "marketing-digital-explorando-conceitos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201438013515890689%2Ffe5f4363-e9c9-4382-8ce9-c7f6026c00fd011",
@@ -32320,11 +28081,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3770daaf-f76a-4545-a88d-8b1ee74f26da": {
     name: "Marketing Digital para lançamentos de Infoprodutos - do conteúdo à conversão",
-    icon: "marketing-digital-lancamentos-infoprodutos-conteudo-conversao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201438043198992414%2F3770daaf-f76a-4545-a88d-8b1ee74f26da011",
@@ -32358,11 +28114,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a2599da3-9cef-4243-bba4-a6fc6f18ec67": {
     name: "Marketing Digital - análise de métricas",
-    icon: "marketing-digital-metricas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Analytics",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201438076434657320%2Fa2599da3-9cef-4243-bba4-a6fc6f18ec67011",
@@ -32395,11 +28146,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6ad78963-b8d0-41fb-a0c0-f4a94a4e01be": {
     name: "Marketing Viral - Os elementos que podem promover a sua ação digital",
-    icon: "marketing-viral-elementos-promover-acao-digital.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201438110639194173%2F6ad78963-b8d0-41fb-a0c0-f4a94a4e01be011",
@@ -32434,11 +28180,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8adb469-a1a4-4021-911c-6631ff185dd9": {
     name: "Marketplace - estratégias de vendas",
-    icon: "marketplace-estrategias-vendas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "E-commerce",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201438145581944842%2Fb8adb469-a1a4-4021-911c-6631ff185dd9011",
@@ -32470,11 +28211,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b59bc266-bcb5-4f24-9d32-bf009b6a6493": {
     name: "Marmoset e Substance - Bakes de mapas para jogos",
-    icon: "marmoset-substance-bakes-mapas-jogos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201438173469888582%2Fb59bc266-bcb5-4f24-9d32-bf009b6a6493011",
@@ -32502,11 +28238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a3534ef5-82e2-4a26-a56d-4beaad9026c0": {
     name: "Maven - gerenciamento de dependências e build de aplicações Java",
-    icon: "maven-gerenciamento-dependencias-build-aplicacoes-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438198346305626%2Fa3534ef5-82e2-4a26-a56d-4beaad9026c0011",
@@ -32537,11 +28268,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3453ae10-daf1-4ac5-bcd6-35be507a5ab5": {
     name: "Mentalidade de crescimento - potencializando sua carreira",
-    icon: "mentalidade-crescimento-potencializando-carreira.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438223398875146%2F3453ae10-daf1-4ac5-bcd6-35be507a5ab5011",
@@ -32572,11 +28298,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e84dcf99-51c4-4dc7-851f-529be976c13d": {
     name: "Mentoria - desenvolvendo pessoas e compartilhando experiências",
-    icon: "mentoria-desenvolvendo-pessoas-compartilhando-experiencias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438249370009750%2Fe84dcf99-51c4-4dc7-851f-529be976c13d011",
@@ -32605,11 +28326,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3c65603a-cf5c-437a-a4a2-a2fb0ab13dca": {
     name: "Mediação de conflitos - construa soluções efetivas",
-    icon: "mediacao-conflitos-solucoes-efetivas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201438271100690432%2F3c65603a-cf5c-437a-a4a2-a2fb0ab13dca011",
@@ -32641,11 +28357,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8dd00213-e5c4-48dc-9271-6ead076a98d9": {
     name: "Metaprogramação com PHP - API de Reflection",
-    icon: "metaprogramacao-php-api-reflection.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438298992807946%2F8dd00213-e5c4-48dc-9271-6ead076a98d9011",
@@ -32679,11 +28390,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ebeeec96-1d7f-4296-aee3-9e9afddb1cd5": {
     name: "Microsoft AZ-900 parte 1 - Azure Fundamentals",
-    icon: "Microsoft-az-900-parte-1-azure-fundamentals.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438341611130951%2Febeeec96-1d7f-4296-aee3-9e9afddb1cd5011",
@@ -32718,11 +28424,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "602e4d10-6d18-4b96-9556-785ba8b95744": {
     name: "Microsoft AZ-900 - simulado comentado",
-    icon: "microsoft-az-900-azure-fundamentals-simulado.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "10": {
         "1": "1196519393761448027%2F1201438371508125766%2F602e4d10-6d18-4b96-9556-785ba8b95744101",
@@ -32779,11 +28480,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d7ca3036-cd26-48b8-835c-f6cee950baa2": {
     name: "Microsoft AZ-900 parte 2 - Azure Fundamentals",
-    icon: "microsoft-az-900-parte-2-azure-fundamentals.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201438420640210994%2Fd7ca3036-cd26-48b8-835c-f6cee950baa2011",
@@ -32822,11 +28518,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9712e8b4-e274-415a-a26a-f746737eeb74": {
     name: "Microsoft AZ-900 parte 3 - Azure Fundamentals",
-    icon: "microsoft-az-900-parte-3-azure-fundamentals.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201438457315213402%2F9712e8b4-e274-415a-a26a-f746737eeb74011",
@@ -32860,11 +28551,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "867ff09e-45d2-48d6-b0ec-61d02a680494": {
     name: "Microsoft AZ-900 parte 4 - Azure Fundamentals",
-    icon: "microsoft-az-900-parte-4-azure-fundamentals.svg",
-    category: {
-      name: "DevOps",
-      module: "Azure",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201438485802930276%2F867ff09e-45d2-48d6-b0ec-61d02a680494011",
@@ -32901,11 +28587,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2f9bc2d-5e0c-44fe-9294-89f0cf3c75a4": {
     name: "Microsoft SQL Server 2022 - aprofundando em procedures e funções",
-    icon: "microsoft-sql-server-2022-procedures-funcoes.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201438520573706240%2Fc2f9bc2d-5e0c-44fe-9294-89f0cf3c75a4011",
@@ -32938,11 +28619,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0d767a80-808e-48e4-8b87-df96386c511e": {
     name: "Microsoft SQL Server 2022 - administrando o banco de dados",
-    icon: "microsoft-sql-server-2022-administrando-banco-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438554803413002%2F0d767a80-808e-48e4-8b87-df96386c511e011",
@@ -32983,11 +28659,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4077ef08-a5a7-4b8b-966e-93e599f1ddab": {
     name: "Microsoft SQL Server 2022 - conhecendo o T-SQL",
-    icon: "microsoft-sql-server-2022-conhecendo-t-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438605818736640%2F4077ef08-a5a7-4b8b-966e-93e599f1ddab011",
@@ -33034,11 +28705,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39c78268-69b3-4ef6-90ff-b8eb3762f7b4": {
     name: "Microsoft SQL Server 2022 - conhecendo SQL",
-    icon: "microsoft-sql-server-conhecendo-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201438657836494848%2F39c78268-69b3-4ef6-90ff-b8eb3762f7b4011",
@@ -33077,11 +28743,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "253e7eeb-b0e3-4d32-b0f1-4a60698e5578": {
     name: "Microsoft SQL Server 2022 - manipulando dados",
-    icon: "microsoft-sql-server-2022-manipulando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201438700609998959%2F253e7eeb-b0e3-4d32-b0f1-4a60698e5578011",
@@ -33123,11 +28784,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e1e7bec8-7496-4802-af29-b2c025280fd5": {
     name: "Microsoft SQL Server 2022 - consultas avançadas",
-    icon: "microsoft-sql-server-2022-consultas-avancadas.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201438743161225216%2Fe1e7bec8-7496-4802-af29-b2c025280fd5011",
@@ -33178,11 +28834,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5df726f7-0d48-4358-8c85-1e3c66242aef": {
     name: "Microsoft SQL Server 2022 - performance",
-    icon: "microsoft-sql-server-2022-performance.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438798693806120%2F5df726f7-0d48-4358-8c85-1e3c66242aef011",
@@ -33222,11 +28873,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3dc10e10-7cad-4866-8991-4d7883dec12f": {
     name: "Microsserviços - padrões de projeto",
-    icon: "microsservicos-padroes-projeto.svg",
-    category: {
-      name: "DevOps",
-      module: "Arquitetura",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201438842276827208%2F3dc10e10-7cad-4866-8991-4d7883dec12f011",
@@ -33259,11 +28905,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "302e0e92-cf1a-4cb3-b341-813e9061b318": {
     name: "Microsserviços e .NET6 - deploy na AWS",
-    icon: "microsservicos-dotnet6-deploy-aws.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438869871140904%2F302e0e92-cf1a-4cb3-b341-813e9061b318011",
@@ -33294,11 +28935,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "806d4268-d9af-48c4-847f-e4c54f3b659e": {
     name: "Microsserviços - explorando os conceitos",
-    icon: "fundamentos-microsservicos-aprofundando-conceitos.svg",
-    category: {
-      name: "DevOps",
-      module: "Arquitetura",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438899457761330%2F806d4268-d9af-48c4-847f-e4c54f3b659e011",
@@ -33334,11 +28970,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2560ca50-2326-4f67-a4ac-1a061856cdcb": {
     name: "Microsserviços e .NET6 - implementando a comunicação",
-    icon: "microsservicos-dotnet6-implementando-comunicacao.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438929623191612%2F2560ca50-2326-4f67-a4ac-1a061856cdcb011",
@@ -33373,11 +29004,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "28735a43-9cf9-424a-ad14-286ce56a2796": {
     name: "Microsserviços na prática - entendendo a tomada de decisões",
-    icon: "Microsservicos-pratica-tomada-decisoes.svg",
-    category: {
-      name: "DevOps",
-      module: "Arquitetura",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201438969016090735%2F28735a43-9cf9-424a-ad14-286ce56a2796011",
@@ -33417,11 +29043,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c877fe8f-67c9-433b-8b48-03bcb7678c9b": {
     name: "Microsserviços na prática - IaC com CDK e deploy na AWS",
-    icon: "microsservicos-pratica-iac-cdk-deploy-aws.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201439006798385272%2Fc877fe8f-67c9-433b-8b48-03bcb7678c9b011",
@@ -33456,11 +29077,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "215d822c-336f-4368-9e25-e350cdc83f76": {
     name: "Microsserviços na prática - implementando com Java e Spring",
-    icon: "microsservicos-implementando-java-spring.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201439040671584357%2F215d822c-336f-4368-9e25-e350cdc83f76011",
@@ -33498,11 +29114,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "efe2f1ac-e063-4896-9ac5-3eadc6c01b74": {
     name: "Microsserviços na prática - mensageria com RabbitMQ",
-    icon: "microsservicos-pratica-mensageria-rabbitmq.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201439074674802808%2Fefe2f1ac-e063-4896-9ac5-3eadc6c01b74011",
@@ -33536,11 +29147,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9d4a1440-95ed-464a-b9bd-eb2d374eda3f": {
     name: "MicroStrategy Workstation - conhecendo a ferramenta",
-    icon: "microstrategy-workstation-ferramenta.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201439109604978768%2F9d4a1440-95ed-464a-b9bd-eb2d374eda3f011",
@@ -33573,11 +29179,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7058c5c3-8632-4356-8aa7-ef2dd940da61": {
     name: "MicroStrategy Workstation - elaborando uma apresentação",
-    icon: "microstrategy-workstation-elaborando-apresentacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201439138952519840%2F7058c5c3-8632-4356-8aa7-ef2dd940da61011",
@@ -33612,11 +29213,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7adfd568-7003-45b3-865c-7538614643db": {
     name: "Mindset digital - técnicas e habilidades para liderança remota",
-    icon: "mindset-digital-tecnicas-habilidades-para-lideranca-remota.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201439172699885658%2F7adfd568-7003-45b3-865c-7538614643db011",
@@ -33645,11 +29241,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "05f87d8a-1d7e-4ce6-9445-bcd32addc3bd": {
     name: "MicroStrategy Workstation - transformações e métricas",
-    icon: "microstrategy-workstation-transformacoes-metricas.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201430062772264991%2F05f87d8a-1d7e-4ce6-9445-bcd32addc3bd011",
@@ -33683,11 +29274,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e241930-b758-47bc-a8c0-00d78f2fb171": {
     name: "MLflow - gestão do ciclo de vidas de modelos de ML",
-    icon: "mlflow-gestao-ciclo-vidas-modelos-ml.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201430100273541140%2F6e241930-b758-47bc-a8c0-00d78f2fb171011",
@@ -33720,11 +29306,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e961989c-b13a-48da-ba79-2b29ed3439aa": {
     name: "MLOps - deploy de modelos",
-    icon: "mlops-deploy-modelos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201430127653961778%2Fe961989c-b13a-48da-ba79-2b29ed3439aa011",
@@ -33758,11 +29339,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9ffff210-2159-4e66-ac3d-1913ff3dd518": {
     name: "MLOps - Machine Learning e APIs",
-    icon: "mlops-machine-learning-e-apis.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201430163511070790%2F9ffff210-2159-4e66-ac3d-1913ff3dd518011",
@@ -33795,11 +29371,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bc967017-1c83-4f2e-a2d5-3422f100911b": {
     name: "Mobile Marketing - como engajar seu cliente",
-    icon: "mobile-marketing-engajar-cliente.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201430194267893830%2Fbc967017-1c83-4f2e-a2d5-3422f100911b011",
@@ -33832,11 +29403,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "930465d3-7dae-42c8-8b09-677e108b6d20": {
     name: "Mocks em PHP - entenda os dublês de testes",
-    icon: "php-mocks.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201430226232684574%2F930465d3-7dae-42c8-8b09-677e108b6d20011",
@@ -33866,11 +29432,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "99e9a18a-b754-46e9-8e3a-6bf6e9b9ef28": {
     name: "Modelagem de banco de dados relacional - entendendo SQL",
-    icon: "modelagem-banco-dados-relacional-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201430248504438855%2F99e9a18a-b754-46e9-8e3a-6bf6e9b9ef28011",
@@ -33904,11 +29465,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6cc4a45f-f214-41e2-a5f0-d4a3f01ddf5d": {
     name: "Modelagem de banco de dados - entidades, relacionamentos e atributos",
-    icon: "modelagem-banco-dados-entidades-relacionamentos-atributos.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430278434996235%2F6cc4a45f-f214-41e2-a5f0-d4a3f01ddf5d011",
@@ -33946,11 +29502,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8cd30df-71a4-483b-80ab-4697ec9804db": {
     name: "Modelagem de ameaças - identifique riscos na concepção do software",
-    icon: "modelagem-ameacas-identifique-riscos-concepcao-software.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201430314896064574%2Fb8cd30df-71a4-483b-80ab-4697ec9804db011",
@@ -33991,11 +29542,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7908dcf2-bfbd-4210-8e51-222700cb796c": {
     name: "Modelagem de banco de dados relacional - modelagem lógica e física",
-    icon: "modelagem-banco-dados-relacional-modelagem-logica-fisica.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201430354154758214%2F7908dcf2-bfbd-4210-8e51-222700cb796c011",
@@ -34027,11 +29573,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "df26929f-08c9-498b-a15a-62807c92a785": {
     name: "Modelagem de banco de dados relacional - álgebra relacional",
-    icon: "modelagem-banco-dados-relacional-algebra-relacional.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201430379400282192%2Fdf26929f-08c9-498b-a15a-62807c92a785011",
@@ -34064,11 +29605,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f71223dd-1983-4e8f-a832-bc0e4b4aed56": {
     name: "Modelagem de banco de dados relacional - normalização",
-    icon: "modelagem-de-banco-de-dados-relacional-normalizacao.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201430407707627530%2Ff71223dd-1983-4e8f-a832-bc0e4b4aed56011",
@@ -34103,11 +29639,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2c994481-ad1f-4910-a618-d3da01ed5614": {
     name: "Modelos de Gestão parte 1 - componentes essenciais",
-    icon: "modelos-de-gestao-componentes-essenciais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201430441354330202%2F2c994481-ad1f-4910-a618-d3da01ed5614011",
@@ -34141,11 +29672,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ec6040f-2165-4bff-944d-48bd01a2cb0a": {
     name: "Modelagem do Data Warehouse - atributos, hierarquia e indicadores",
-    icon: "modelagem-data-warehouse-atributos-hierarquia-indicadores.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201430472031486064%2F2ec6040f-2165-4bff-944d-48bd01a2cb0a011",
@@ -34187,11 +29713,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "05ffb734-4192-4df8-a22e-9dd606b0882a": {
     name: "Modelos preditivos em dados - detecção de fraude",
-    icon: "modelos-preditivos-dados-deteccao-fraude.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201430520119185410%2F05ffb734-4192-4df8-a22e-9dd606b0882a011",
@@ -34223,11 +29744,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d7b9417-fc6b-4c62-afd6-96b55e8256d0": {
     name: "MongoDB - conhecendo um banco de dados NoSQL",
-    icon: "mongodb-banco-dados-nosql.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201430547310850108%2F8d7b9417-fc6b-4c62-afd6-96b55e8256d0011",
@@ -34263,11 +29779,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "830850ce-30f5-43c0-8975-54c3ceccf14a": {
     name: "MongoDB - modelagem de dados",
-    icon: "mongodb-modelagem-de-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201430581465071677%2F830850ce-30f5-43c0-8975-54c3ceccf14a011",
@@ -34303,11 +29814,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3e06e857-3efe-487d-be4a-ff64a3d5c36a": {
     name: "MongoDB - realizando consultas",
-    icon: "mongodb-realizando-consultas.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201430615510237214%2F3e06e857-3efe-487d-be4a-ff64a3d5c36a011",
@@ -34347,11 +29853,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f175116a-b559-46a0-8729-f1feb99f6354": {
     name: "MongoDB - trabalhando com armazenamento, backups e otimização de consulta",
-    icon: "mongodb-armazenamento-backups-otimizacao-consulta.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201430654286573578%2Ff175116a-b559-46a0-8729-f1feb99f6354011",
@@ -34383,11 +29884,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e9c9df0d-3bdd-4a62-bf61-6230203a9559": {
     name: "MongoDB - segurança e disponibilidade dos dados",
-    icon: "mongodb-seguranca-disponibilidade-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201430687316717620%2Fe9c9df0d-3bdd-4a62-bf61-6230203a9559011",
@@ -34427,11 +29923,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8dd844e0-df9f-4f08-9697-36882884a112": {
     name: "MongoDB - validando dados",
-    icon: "mongodb-validando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "NoSQL",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201430730035699782%2F8dd844e0-df9f-4f08-9697-36882884a112011",
@@ -34467,11 +29958,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fb8084e4-9e9f-4766-b5c8-9d317dfc2ba9": {
     name: "Métricas Ágeis - como medir resultados em um Ambiente Ágil",
-    icon: "metricas-ageis-medir-resultados-ambiente-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Métodos Ágeis",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201430762780639252%2Ffb8084e4-9e9f-4766-b5c8-9d317dfc2ba9011",
@@ -34496,11 +29982,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d247ca3d-c4f6-4e34-b606-ef28962612be": {
     name: "MySQL e JSON - persistindo JSON de maneira eficiente",
-    icon: "mysql-json-persistencia.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201430782699393024%2Fd247ca3d-c4f6-4e34-b606-ef28962612be011",
@@ -34541,11 +30022,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fd658f48-c96c-4df1-a9bc-62ada2a398ba": {
     name: "Monitoramento - Prometheus, Grafana e Alertmanager",
-    icon: "monitoramento-prometheus-grafana-alertmanager.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201430825980403722%2Ffd658f48-c96c-4df1-a9bc-62ada2a398ba011",
@@ -34580,11 +30056,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a6421a34-a43b-44ad-b327-b095388033ff": {
     name: "Mídias sociais - design de posts com o Canva",
-    icon: "midias-sociais-design-posts-canva.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201430860147195924%2Fa6421a34-a43b-44ad-b327-b095388033ff011",
@@ -34618,11 +30089,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5cbe8a41-0eab-4b04-a34e-1d6d486ea80b": {
     name: "Mídias Sociais - estratégias para engajar o público",
-    icon: "midias-sociais-estrategias-engajar-publico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201430890379755621%2F5cbe8a41-0eab-4b04-a34e-1d6d486ea80b011",
@@ -34658,11 +30124,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0da97bdb-3761-40a6-8497-9600f9c01df8": {
     name: "Navigation parte 1 - transição de telas no Android",
-    icon: "android-navigation.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201430924353605663%2F0da97bdb-3761-40a6-8497-9600f9c01df8011",
@@ -34693,11 +30154,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e4f91ea-6635-45db-9041-a5c8cba58af9": {
     name: "Navigation parte 2 - novas features e reutilização de código",
-    icon: "android-navigation-features.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430950723194900%2F2e4f91ea-6635-45db-9041-a5c8cba58af9011",
@@ -34730,11 +30186,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "255f2576-a59e-483d-aec4-4116399716f1": {
     name: "Negociação para líderes - desenvolva a habilidade e consiga bons acordos",
-    icon: "negociacao-lideres-habilidade-bons-acordos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201430981891080262%2F255f2576-a59e-483d-aec4-4116399716f1011",
@@ -34767,11 +30218,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5e0680e-db12-4284-9605-63736f489aba": {
     name: "Negociação parte 2 - técnicas avançadas",
-    icon: "negociacao-avancada.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201431016741543936%2Fd5e0680e-db12-4284-9605-63736f489aba011",
@@ -34802,11 +30248,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ddb30735-e7a3-4d34-b0cf-71dee4d2801b": {
     name: "Negociação parte 1 - práticas essenciais",
-    icon: "negociacao-praticas-essenciais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201431040032522292%2Fddb30735-e7a3-4d34-b0cf-71dee4d2801b011",
@@ -34848,11 +30289,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dade3f9f-c508-41c2-95d5-b3169a1be5c2": {
     name: "Negociações de sucesso - convencendo e fechando negócios com excelência",
-    icon: "negociacoes-sucesso-convencendo-fechando-negocios-excelencia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431086392156170%2Fdade3f9f-c508-41c2-95d5-b3169a1be5c2011",
@@ -34885,11 +30321,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "00d5ece2-8c9f-4737-a8dc-dbedf5635bc6": {
     name: "Nest.js - adicionando funcionalidades com Redis, JWT e logging",
-    icon: "nest-js-funcionalidades-redis-jwt-logging.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201431116742152242%2F00d5ece2-8c9f-4737-a8dc-dbedf5635bc6011",
@@ -34925,11 +30356,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9ac4f626-efda-4483-a5cf-cb601b88e8f8": {
     name: "Nest.js - criando uma API Restful",
-    icon: "nestjs-criando-api-resftul.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201431152213360712%2F9ac4f626-efda-4483-a5cf-cb601b88e8f8011",
@@ -34961,11 +30387,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ada6579-e4a1-4729-aae5-418ae870c3e0": {
     name: "Nest.js - lidando com migrações, relacionamentos ORM e erros em uma API",
-    icon: "nest-js-migracoes-relacionamentos-orm-erros-api.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201431177337241620%2F2ada6579-e4a1-4729-aae5-418ae870c3e0011",
@@ -35002,11 +30423,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b0e297b8-f167-4c86-bd2a-65ec17c99de7": {
     name: "Nest.js - Persistindo dados com TypeORM e PostgreSQL",
-    icon: "nest-js-typeorm.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201431213127249930%2Fb0e297b8-f167-4c86-bd2a-65ec17c99de7011",
@@ -35040,11 +30456,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b7da47e8-593d-4156-8e19-a74234e426a5": {
     name: ".NET 6 - criando uma web API",
-    icon: "dotnet-criando-web-api.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431242629988402%2Fb7da47e8-593d-4156-8e19-a74234e426a5011",
@@ -35081,11 +30492,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4dc32796-6850-44a3-be72-ab0d3dbfc721": {
     name: ".NET 6 - relacionando entidades",
-    icon: "dotnet-relacionando-entidades.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201431275483971594%2F4dc32796-6850-44a3-be72-ab0d3dbfc721011",
@@ -35117,11 +30523,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a920f96-b1da-47db-9358-d532f19aaaa8": {
     name: ".NET 6 e Identity - implementando controle de usuário",
-    icon: "dot-net-6-identity-controle-usuario.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201431301723521034%2F1a920f96-b1da-47db-9358-d532f19aaaa8011",
@@ -35153,11 +30554,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fa5b64bc-e7fe-4a03-bf54-87e6dd1be9ec": {
     name: "Networking - expanda sua rede de contatos",
-    icon: "networking-expanda-rede-contatos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201431327006797884%2Ffa5b64bc-e7fe-4a03-bf54-87e6dd1be9ec011",
@@ -35185,11 +30581,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6059ee1e-fab3-4a81-84c1-fd0ca6f924d9": {
     name: "Neuromarketing - estratégias e ações através do estudo da mente",
-    icon: "neuromarketing-estrategias-acoes-estudo-mente.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201431349580550175%2F6059ee1e-fab3-4a81-84c1-fd0ca6f924d9011",
@@ -35230,11 +30621,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f0655623-bd30-4d5d-b19e-af8765cbed5b": {
     name: "NextJS - CI e CD para Front-end com o Github Actions",
-    icon: "nextjs-ci-cd-front-end-github-actions.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201431388809871420%2Ff0655623-bd30-4d5d-b19e-af8765cbed5b011",
@@ -35263,11 +30649,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cc696821-c83e-41a0-8ea8-285365262f46": {
     name: "Next.js - autenticação e gerenciamento de Tokens",
-    icon: "nextjs-autenticacao-gerenciamento-tokens.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201431409546514473%2Fcc696821-c83e-41a0-8ea8-285365262f46011",
@@ -35301,11 +30682,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9573e183-e2c3-4a45-81b0-d9338086c88f": {
     name: "NextJS - documentando seu Front-end com o Storybook",
-    icon: "nextjs-documentando-front-end-storybook.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201431443268698112%2F9573e183-e2c3-4a45-81b0-d9338086c88f011",
@@ -35335,11 +30711,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e8923690-45aa-4c91-8e05-c6b3abedbf40": {
     name: "Next.JS - full stack com lambdas",
-    icon: "nextjs-full-stack-lambdas.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201431464307327046%2Fe8923690-45aa-4c91-8e05-c6b3abedbf40011",
@@ -35364,11 +30735,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b46a99d5-2fe9-4c90-bf03-c8d4324f3975": {
     name: "Next.js - explorando o framework",
-    icon: "next-js-iniciando-framework.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201431482703560784%2Fb46a99d5-2fe9-4c90-bf03-c8d4324f3975011",
@@ -35401,11 +30767,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39090620-8e77-47c7-a1f1-e4035303166e": {
     name: "Next.js - tour pelo Next.js",
-    icon: "next-js-tour-next-js.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201431508968288256%2F39090620-8e77-47c7-a1f1-e4035303166e011",
@@ -35438,11 +30799,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6f21ca8f-8755-4598-8f70-6e556f4bf3f1": {
     name: "Next.js - trabalhando com arquitetura Front-end",
-    icon: "nextjs-arquitetura-front-end.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431541948096572%2F6f21ca8f-8755-4598-8f70-6e556f4bf3f1011",
@@ -35472,11 +30828,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "54213729-9ebc-4361-b259-57af3845f65d": {
     name: "Next.js - trabalhando com um CMS",
-    icon: "next-js-trabalhando-cms.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201431565377482782%2F54213729-9ebc-4361-b259-57af3845f65d011",
@@ -35508,11 +30859,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9882772b-d994-4b11-ba1d-a7539320b16a": {
     name: "Next.js Full stack - gerenciando conteúdo em build time com File System",
-    icon: "nextjs-fullstack-conteudo-build-time-file-system.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431592212631562%2F9882772b-d994-4b11-ba1d-a7539320b16a011",
@@ -35541,11 +30887,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "07275b9c-63cb-4b50-9316-be7852242374": {
     name: "NGINX - servidor Web, Proxy Reverso e API Gateway",
-    icon: "nginx-servidor-web-proxy-reverso-api-gateway.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201431617235857418%2F07275b9c-63cb-4b50-9316-be7852242374011",
@@ -35579,11 +30920,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e68b33b-3238-43ef-8bbe-f6c35ebdf089": {
     name: "Next.js Full stack - arquitetura de componentes Front-end",
-    icon: "nextjs-fullstack-arquitetura-componentes-front-end.svg",
-    category: {
-      name: "Front-End",
-      module: "Next.JS",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201431646067503174%2F7e68b33b-3238-43ef-8bbe-f6c35ebdf089011",
@@ -35615,11 +30951,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9f9e2ecb-f8aa-4de8-8edf-b76dacf01fb8": {
     name: "NGINX Parte 2 - performance, FastCGI e HTTPS",
-    icon: "nginx-parte-2-performance-fastcgi-https.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201431671510138910%2F9f9e2ecb-f8aa-4de8-8edf-b76dacf01fb8011",
@@ -35652,11 +30983,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f03a40b1-145d-4a8c-b247-2e0ef717c22c": {
     name: "Node.js - continue seu projeto full stack criando uma API com Express",
-    icon: "node-primeira-api-express.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431698668261456%2Ff03a40b1-145d-4a8c-b247-2e0ef717c22c011",
@@ -35689,11 +31015,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f9fdd732-cabc-4df9-830a-bf8e8ebcdcbb": {
     name: "Node.js - criando API Rest com autenticação, perfis de usuários e permissões",
-    icon: "node-js-api-rest-autenticacao-perfis-usuarios-permissoes.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431726686224414%2Ff9fdd732-cabc-4df9-830a-bf8e8ebcdcbb011",
@@ -35731,11 +31052,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f066095a-3413-47c8-951c-443aed87fafe": {
     name: "NLP - regex e modelos de linguagem",
-    icon: "nlp-modelos-linguagem.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201431761536700427%2Ff066095a-3413-47c8-951c-443aed87fafe011",
@@ -35785,11 +31101,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c69364fd-acb2-4e5c-9ec2-37f6317ab4b4": {
     name: "Node.js - criando sua primeira biblioteca",
-    icon: "nodejs-criando-primeira-biblioteca.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431807573368833%2Fc69364fd-acb2-4e5c-9ec2-37f6317ab4b4011",
@@ -35826,11 +31137,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7c331e9b-26e9-4c4f-a222-055cf6fca0a2": {
     name: "Node.js - criando uma API Rest com Express e MongoDB",
-    icon: "node-js-api-rest-express-mongodb.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431841031336008%2F7c331e9b-26e9-4c4f-a222-055cf6fca0a2011",
@@ -35868,11 +31174,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d817ef95-43df-45f2-beac-4a6a5081256c": {
     name: "Node.js - criptografia e tokens JWT",
-    icon: "nodejs-criptografia-tokens-jwt.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431878536802366%2Fd817ef95-43df-45f2-beac-4a6a5081256c011",
@@ -35916,11 +31217,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "284303d6-92f4-41ff-852c-59865c58bea3": {
     name: "Node.js - implementando testes em uma API Rest",
-    icon: "node-js-implementando-testes-api-rest.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201431918743388250%2F284303d6-92f4-41ff-852c-59865c58bea3011",
@@ -35949,11 +31245,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6d34673c-a1eb-4d63-b8a8-e33056a3dc3d": {
     name: "Node.js - lidando com buscas, filtros, paginação e erros em uma API",
-    icon: "node-js-buscas-filtros-paginacao-erros-api.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201431938976731196%2F6d34673c-a1eb-4d63-b8a8-e33056a3dc3d011",
@@ -35989,11 +31280,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a19c74c3-926c-4f73-825c-471ff1f73dd9": {
     name: "Node.JS - melhorando o fluxo de desenvolvimento e integração de sua equipe",
-    icon: "node-js-fluxo-desenvolvimento-integracao-equipe.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201431972166246410%2Fa19c74c3-926c-4f73-825c-471ff1f73dd9011",
@@ -36031,11 +31317,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2cb6845f-b09d-43e0-994d-c06a842a313a": {
     name: "Node.js - testes unitários e de integração",
-    icon: "nodejs-testes-unitarios-integracao.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201432009612988456%2F2cb6845f-b09d-43e0-994d-c06a842a313a011",
@@ -36071,11 +31352,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "511c8e65-73ab-4f62-8c13-89ecfe0af630": {
     name: "NodeMcu e Esp8266 - medindo e publicando dados com MQTT",
-    icon: "iot-com-nodemcu.svg",
-    category: {
-      name: "Programação",
-      module: "Embarcados e Robótica",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201432042555056188%2F511c8e65-73ab-4f62-8c13-89ecfe0af630011",
@@ -36111,11 +31387,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "961061ad-7acf-43d7-ba33-a4ea13726899": {
     name: "NumPy - análise numérica eficiente com Python",
-    icon: "numpy-analise-numerica-eficiente-pythons.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201432075027369984%2F961061ad-7acf-43d7-ba33-a4ea13726899011",
@@ -36143,11 +31414,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b82e472f-81c8-41f5-9034-6aa6bb228ea5": {
     name: "NodeMcu e Esp8266 - monte um brinquedo interativo para seu Pet",
-    icon: "robotica-brinquedo-interativo.svg",
-    category: {
-      name: "Programação",
-      module: "Embarcados e Robótica",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201432097571749908%2Fb82e472f-81c8-41f5-9034-6aa6bb228ea5011",
@@ -36184,11 +31450,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f6343e8f-bb8f-40b2-b301-ddad66baa008": {
     name: "Object Calisthenics - exercitando a Orientação a Objetos",
-    icon: "object-calisthenics-exercitando-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201432133655330846%2Ff6343e8f-bb8f-40b2-b301-ddad66baa008011",
@@ -36224,11 +31485,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d7bf128e-679e-406c-a1ac-e84808e648c4": {
     name: "OBS Studio - configurando sua gravação",
-    icon: "obs-studio-configurando-primeira-gravacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Stream",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201432164802252852%2Fd7bf128e-679e-406c-a1ac-e84808e648c4011",
@@ -36262,11 +31518,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3b3a8545-bd4a-4019-90b6-9aa915ba1801": {
     name: "Observabilidade - coletando métricas de uma aplicação com Prometheus",
-    icon: "observabilidade-prometheus.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201432197098377236%2F3b3a8545-bd4a-4019-90b6-9aa915ba1801011",
@@ -36297,11 +31548,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d770cbe-23db-4778-9850-a05387c0f195": {
     name: "OBS Studio - configurando seu stream",
-    icon: "obs-studio-configurando-primeiro-stream.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Stream",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201432224759812256%2F8d770cbe-23db-4778-9850-a05387c0f195011",
@@ -36344,11 +31590,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4b04ea1f-17b4-4a72-aafa-c855626dd46e": {
     name: "Observabilidade na AWS - utilizando o CloudWatch",
-    icon: "observabilidade-aws-utilizando-cloudwatch.svg",
-    category: {
-      name: "DevOps",
-      module: "AWS",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201432265100623943%2F4b04ea1f-17b4-4a72-aafa-c855626dd46e011",
@@ -36382,11 +31623,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cf7c685b-8f55-4541-a8f8-7e897c4c4c4b": {
     name: "OKR - construindo metas ágeis",
-    icon: "okr-construindo-metas-ageis.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201432294305574982%2Fcf7c685b-8f55-4541-a8f8-7e897c4c4c4b011",
@@ -36418,11 +31654,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ad05f049-7f9a-41a7-a8dd-6cc8d2b9dc37": {
     name: "OKR - direcionando seu negócio para resultados",
-    icon: "okr-direcionando-negocio-resultados.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201432322721980436%2Fad05f049-7f9a-41a7-a8dd-6cc8d2b9dc37011",
@@ -36459,11 +31690,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39c89835-4a5e-4f3e-9838-97184fca317f": {
     name: "OpenAI - criando uma postagem para o Instagram com IA Generativa",
-    icon: "openai-criando-postagem-instagram-ia-generativa.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432356410626048%2F39c89835-4a5e-4f3e-9838-97184fca317f011",
@@ -36491,11 +31717,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dcba48b6-3034-431c-9f53-5731172936ef": {
     name: "OLAP com SQL Server - construção do Data Warehouse",
-    icon: "business-intelligence-olap-sql-server.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432378497831003%2Fdcba48b6-3034-431c-9f53-5731172936ef011",
@@ -36537,11 +31758,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "15eb0c1f-0684-48c3-ae7e-c68d15d5ddc8": {
     name: "Oracle ADS - análise de dados na nuvem",
-    icon: "oracle-ads-analise-dados-nuvem.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201432419958521946%2F15eb0c1f-0684-48c3-ae7e-c68d15d5ddc8011",
@@ -36581,11 +31797,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "10aefc4e-61e1-4b25-a575-fdf7a640d7ad": {
     name: "Oracle Analytics - visualizando dados",
-    icon: "oracle-analytics-visualizando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201432461578604584%2F10aefc4e-61e1-4b25-a575-fdf7a640d7ad011",
@@ -36620,11 +31831,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "321f18e9-8e1e-41c4-8dd1-ac73a8e484bf": {
     name: "Oracle Cloud Infrastructure - implantação de uma aplicação na nuvem",
-    icon: "oracle-cloud-infrastructure-aplicacao-nuvem.svg",
-    category: {
-      name: "DevOps",
-      module: "OCI",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201432502460481536%2F321f18e9-8e1e-41c4-8dd1-ac73a8e484bf011",
@@ -36659,11 +31865,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9083ecd2-5217-419a-81a5-6f7361bedadd": {
     name: "Oracle Cloud Infrastructure - banco de dados e infraestrutura como código",
-    icon: "oracle-cloud-infrastructure-dados-infraestrutura-codigo.svg",
-    category: {
-      name: "DevOps",
-      module: "OCI",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201432538212732959%2F9083ecd2-5217-419a-81a5-6f7361bedadd011",
@@ -36694,11 +31895,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5170cffe-aa27-4b9d-906b-23aae8058357": {
     name: "Oracle PL/SQL - cursor e exceções",
-    icon: "oracle-pl-sql-cursor-excecoes.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432562556481587%2F5170cffe-aa27-4b9d-906b-23aae8058357011",
@@ -36745,11 +31941,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0372d12b-892b-466c-83fa-dcf042a01121": {
     name: "Oracle Database - manipulando dados com comandos DML",
-    icon: "manipulacao-dados-oracle-dml.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432610665148437%2F0372d12b-892b-466c-83fa-dcf042a01121011",
@@ -36797,11 +31988,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34e08c46-1053-4dca-bacc-dae862050ff0": {
     name: "Oracle Database - projeções, seleções, joins e views",
-    icon: "sql-oracle-projecoes-selecoes-joins-views.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432662229930025%2F34e08c46-1053-4dca-bacc-dae862050ff0011",
@@ -36855,11 +32041,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c668cf7-f9c3-4f2a-ae58-85848b38fef1": {
     name: "Oracle PL/SQL - dominando packages",
-    icon: "oracle-pl-sql-dominando-packages.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201432730659979274%2F4c668cf7-f9c3-4f2a-ae58-85848b38fef1011",
@@ -36899,11 +32080,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "adb07e99-cef1-4f40-8863-fc2701f017c4": {
     name: "Oracle PL/SQL - procedures, funções e exceções",
-    icon: "oracle-pl-sql-procedures-funcoes-excecoes.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201432767192375367%2Fadb07e99-cef1-4f40-8863-fc2701f017c4011",
@@ -36945,11 +32121,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f6206826-d5d3-43cf-8ee4-88fdd8edcac1": {
     name: "Oratória - conquiste a atenção do seu público",
-    icon: "oratoria-conquiste-atencao-seu-publico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432812948045894%2Ff6206826-d5d3-43cf-8ee4-88fdd8edcac1011",
@@ -36977,11 +32148,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d52e196-8d7c-4fc1-9998-d1f5e2831f28": {
     name: "Oratória - supere desafios com confiança",
-    icon: "oratoria-supere-desafios-confianca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Negociação e Comunicação",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432833550467162%2F8d52e196-8d7c-4fc1-9998-d1f5e2831f28011",
@@ -37008,11 +32174,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b4a41019-20d0-4a9e-8650-0037f8e73ba2": {
     name: "Oratória para líderes - como se comunicar profissionalmente",
-    icon: "oratoria-lideres-comunicacao-profissional.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201432851636297829%2Fb4a41019-20d0-4a9e-8650-0037f8e73ba2011",
@@ -37044,11 +32205,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1421dcce-1cd6-49ce-8973-1c93442147e6": {
     name: "Equipes ágeis - organizando os papéis em uma equipe",
-    icon: "equipes-ageis-organizando-papeis-equipe.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432878765051944%2F1421dcce-1cd6-49ce-8973-1c93442147e6011",
@@ -37081,11 +32237,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "56ff1bbb-254e-46f2-bafd-b6622da2ecfb": {
     name: "Orientação a Objetos com C++ - Classes, métodos e atributos",
-    icon: "c-plus-plus-orientacao-objetos-classes-metodos-atributos.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201432898088214549%2F56ff1bbb-254e-46f2-bafd-b6622da2ecfb011",
@@ -37128,11 +32279,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "81f54872-69c3-44db-8cba-6edaf52cf585": {
     name: "Orientação a Objetos com C++ - trabalhando com herança",
-    icon: "c-plus-plus-orientacao-objetos-heranca.svg",
-    category: {
-      name: "Programação",
-      module: "C e C++",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432934238916609%2F81f54872-69c3-44db-8cba-6edaf52cf585011",
@@ -37173,11 +32319,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "05d62947-0922-4ca2-8a96-e4ded6aac782": {
     name: "Orientação a Objetos com PHP - Classes, métodos e atributos",
-    icon: "orientacao-objetos-php-classes-metodos-atributos.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201432971601793024%2F05d62947-0922-4ca2-8a96-e4ded6aac782011",
@@ -37218,11 +32359,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f88f1a0a-6a62-41fc-ae01-6c3052cc87c2": {
     name: "Outbound Marketing - pré-vendas de alta performance",
-    icon: "outbound-marketing-pre-vendas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433011959373835%2Ff88f1a0a-6a62-41fc-ae01-6c3052cc87c2011",
@@ -37270,11 +32406,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "082a142a-63e7-443d-977d-d51bfc810e63": {
     name: "ORM com Node.js - desenvolvendo uma API com Sequelize e SQLite",
-    icon: "orm-node-js-desenvolvendo-api-sequelize-sqlite.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433063180218418%2F082a142a-63e7-443d-977d-d51bfc810e63011",
@@ -37310,11 +32441,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c0876696-9c56-4160-b744-2e5845963250": {
     name: "ORM com Node.js - avançando nas funcionalidades do Sequelize",
-    icon: "orm-node-js-funcionalidades-sequelize.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201433093043666965%2Fc0876696-9c56-4160-b744-2e5845963250011",
@@ -37352,11 +32478,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b1a7d928-0069-4317-8e23-54c65be25a54": {
     name: "OWASP - melhorando a segurança com Clojure",
-    icon: "owasp-clojure.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201433131442520155%2Fb1a7d928-0069-4317-8e23-54c65be25a54011",
@@ -37393,11 +32514,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fb6f987a-914b-4a4b-8569-4fff5a904669": {
     name: "OWASP - padrão de verificação de segurança de aplicações V9 a V14",
-    icon: "owasp-application-security-verification-standard-v9-a-v14.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201433155618484305%2Ffb6f987a-914b-4a4b-8569-4fff5a904669011",
@@ -37439,11 +32555,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "65aff563-cd31-47f2-8e6a-3bb331210a64": {
     name: "OWASP - padrão de verificação de segurança de aplicações V5 a V8",
-    icon: "owasp-security-verification-standard-v5-a-v8.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201433192935215226%2F65aff563-cd31-47f2-8e6a-3bb331210a64011",
@@ -37477,11 +32588,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3bf109fa-2114-40aa-9d6d-ba5ff1b16dcf": {
     name: "OWASP - padrão de verificação de segurança de aplicações",
-    icon: "owasp-application-security-verification-standard.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201433223750750258%2F3bf109fa-2114-40aa-9d6d-ba5ff1b16dcf011",
@@ -37517,11 +32623,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "11d0d3ec-77ea-4d96-a560-7905366f7ee9": {
     name: "OWASP Top 10 - Security misconfiguration, logging e monitoramento",
-    icon: "owasp-top10-security-misconfiguration-logging.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201433260731936859%2F11d0d3ec-77ea-4d96-a560-7905366f7ee9011",
@@ -37551,11 +32652,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "73682f7f-e53d-40bf-92d6-86e1a2bcfa78": {
     name: "OWASP Top 10 - de Injections a Broken Access Control",
-    icon: "owasp10-a5-broken-access-control.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201433283586707496%2F73682f7f-e53d-40bf-92d6-86e1a2bcfa78011",
@@ -37585,11 +32681,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "aa11ed16-7307-42e1-9385-4300dca4738b": {
     name: "Pandas - conhecendo a biblioteca",
-    icon: "pandas-conhecendo-biblioteca.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433307959799808%2Faa11ed16-7307-42e1-9385-4300dca4738b011",
@@ -37618,11 +32709,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0ab66f8-c708-427d-9d8b-c18cd9384cb3": {
     name: "Pandas - limpeza e tratamento de dados",
-    icon: "pandas-limpeza-tratamento-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201433330634207262%2Fd0ab66f8-c708-427d-9d8b-c18cd9384cb3011",
@@ -37653,11 +32739,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7313e1c6-d1b4-430f-ac51-1c248cea8f81": {
     name: "Pandas - selecionando e agrupando dados",
-    icon: "pandas-selecao-agrupamento-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201433353618989067%2F7313e1c6-d1b4-430f-ac51-1c248cea8f81011",
@@ -37685,11 +32766,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2b8d0e00-b8d5-46dc-b5e7-4303e4f4cfd9": {
     name: "Pandas - transformação e manipulação de dados",
-    icon: "pandas-transformacao-manipulacao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201433376037539941%2F2b8d0e00-b8d5-46dc-b5e7-4303e4f4cfd9011",
@@ -37716,11 +32792,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cdbc8a49-6e81-4453-b8ea-8cea4d16be5b": {
     name: "Pandas I/O - trabalhando com diferentes formatos de arquivos",
-    icon: "pandas-io-trabalhando-diferentes-formatos-arquivos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201433397575286895%2Fcdbc8a49-6e81-4453-b8ea-8cea4d16be5b011",
@@ -37755,11 +32826,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e8568bf3-f6b7-4701-9884-b76d052a252c": {
     name: "Pentest - combinando vulnerabilidades e acessando o Shell",
-    icon: "pentest-combinando-vulnerabilidades-acessando-shell.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201433434757791766%2Fe8568bf3-f6b7-4701-9884-b76d052a252c011",
@@ -37801,11 +32867,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "81c595a7-071d-4852-934a-69d2702390d1": {
     name: "Pentest - explorando vulnerabilidades em aplicações web",
-    icon: "pentest-explorando-vulnerabilidades-aplicacoes-web.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201433475379638272%2F81c595a7-071d-4852-934a-69d2702390d1011",
@@ -37839,11 +32900,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1d134c82-8cf8-467e-ab14-15d73b9864f2": {
     name: "People Analytics - RH orientado a dados",
-    icon: "people-analytics-rh-orientado-dados.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201433505058541568%2F1d134c82-8cf8-467e-ab14-15d73b9864f2011",
@@ -37873,11 +32929,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "32642877-e4ef-4da6-96cc-26f144e7bc09": {
     name: "Pentest - investigando vulnerabilidades em um servidor de aplicações web",
-    icon: "pentest-vulnerabilidades-servidor-aplicacoes-web.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201433528588587018%2F32642877-e4ef-4da6-96cc-26f144e7bc09011",
@@ -37912,11 +32963,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d79c3ad-14a3-412c-a9c4-04f66ad2ca03": {
     name: "Persistência com Flutter - crie um app com armazenamento interno",
-    icon: "flutter-persistencia-interna.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433560419155978%2F4d79c3ad-14a3-412c-a9c4-04f66ad2ca03011",
@@ -37950,11 +32996,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f04be9b5-d0d4-46e9-ba51-21473ffcc2b0": {
     name: "Persistência poliglota com PHP - conectando-se a diferentes tipos de bancos de dados",
-    icon: "persistencia-poliglota-php-diferentes-tipos-bancos-dados.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201433590798495764%2Ff04be9b5-d0d4-46e9-ba51-21473ffcc2b0011",
@@ -37987,11 +33028,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e7206b17-4e7d-4aae-a7fb-24519196db5d": {
     name: "Persistência com JPA - Hibernate",
-    icon: "persistencia-jpa-introducao-hibernate.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201433620750008320%2Fe7206b17-4e7d-4aae-a7fb-24519196db5d011",
@@ -38024,11 +33060,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e1defa96-9729-45d3-a241-bc853ac00e13": {
     name: "Perspectiva - distorções visuais",
-    icon: "perspectiva.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201433648033976392%2Fe1defa96-9729-45d3-a241-bc853ac00e13011",
@@ -38054,11 +33085,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1998577a-b0c4-4361-b13c-55d1a82de969": {
     name: "Personal Branding - como utilizar sua Marca Pessoal a favor da sua carreira",
-    icon: "personal-branding-utilizar-marca-pessoal-favor-carreira.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing Pessoal",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433669450072064%2F1998577a-b0c4-4361-b13c-55d1a82de969011",
@@ -38088,11 +33114,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "87c60c7b-0880-4e14-9e4f-c43d69facfae": {
     name: "Photoshop - conceitue e esboce um personagem publicitário",
-    icon: "esboco-personagens-publicitario.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433694511054929%2F87c60c7b-0880-4e14-9e4f-c43d69facfae011",
@@ -38114,11 +33135,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "30e75dbe-1268-442c-91c2-1a268e33c232": {
     name: "Pesquisa operacional - entendendo as bases dos métodos de otimização",
-    icon: "pesquisa-operacional-bases-metodos-otimizacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201433711074349066%2F30e75dbe-1268-442c-91c2-1a268e33c232011",
@@ -38153,11 +33169,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "78c2d4b9-7ed8-40b9-ac73-25f057dec6dd": {
     name: "Photoshop - acabamento e entrega de um poster de super herói",
-    icon: "photoshop-acabamento-entrega-de-poster-super-heroi.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433745610248282%2F78c2d4b9-7ed8-40b9-ac73-25f057dec6dd011",
@@ -38192,11 +33203,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2a1d3751-a21f-44a3-bd38-89fcbf136fda": {
     name: "Photoshop - contando histórias por meio de uma imagem",
-    icon: "photoshop-contando-historias-por-meio-de-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201433775540797530%2F2a1d3751-a21f-44a3-bd38-89fcbf136fda011",
@@ -38225,11 +33231,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "557c58b8-2d07-458d-aea3-21b8241bb7ce": {
     name: "Photoshop - crie um esboço de um poster de super herói",
-    icon: "photoshop-esboco-de-um-poster-de-super-heroi.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201433814073880656%2F557c58b8-2d07-458d-aea3-21b8241bb7ce011",
@@ -38262,11 +33263,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "36761285-5cae-42ba-82f1-e5cfc4bcdb8c": {
     name: "Photoshop - edite suas fotos pelo celular",
-    icon: "photoshop-edite-fotos-celular.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Fotografia",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201433843991846952%2F36761285-5cae-42ba-82f1-e5cfc4bcdb8c011",
@@ -38295,11 +33291,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "83009d69-5c6b-4ffe-8737-7b33ab525bb1": {
     name: "Photoshop 2022 - criando composições gráficas",
-    icon: "photoshop-2022-composicoes-graficas.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201433866901143564%2F83009d69-5c6b-4ffe-8737-7b33ab525bb1011",
@@ -38330,11 +33321,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2d19dd2-d484-44ce-a1f2-48d6cdf428db": {
     name: "Photoshop 2022 - manipulando imagens",
-    icon: "photoshop-2022-manipulando-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201433894394789910%2Fc2d19dd2-d484-44ce-a1f2-48d6cdf428db011",
@@ -38366,11 +33352,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f9481280-5ba1-4e46-8a34-9ac74a21d3cb": {
     name: "Photoshop 2022 - tratando fotografias de modelos",
-    icon: "photoshop-2022-tratando-fotografias-modelos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201433936744697916%2Ff9481280-5ba1-4e46-8a34-9ac74a21d3cb011",
@@ -38407,11 +33388,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f712a69a-7083-4c61-9146-67d4e3807f91": {
     name: "Photoshop Camera e Express - edição de imagens",
-    icon: "photoshop-camera-express-passos-edicao-imagens.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433973616816238%2Ff712a69a-7083-4c61-9146-67d4e3807f91011",
@@ -38445,11 +33421,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2d5f3055-8952-4efa-8ee7-11a6360b2b0a": {
     name: "Photoshop e Illustrator - unificando a identidade visual em peças publicitárias",
-    icon: "photoshop-illustrator-identidade-publicitaria.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201434002024845353%2F2d5f3055-8952-4efa-8ee7-11a6360b2b0a011",
@@ -38477,11 +33448,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "18526e56-1311-4059-a9eb-30961aef70b6": {
     name: "Photoshop Mobile - editando imagens no tablet",
-    icon: "photoshop-mobile-editando-tablet.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201434023935889438%2F18526e56-1311-4059-a9eb-30961aef70b6011",
@@ -38515,11 +33481,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "73c5de33-c3bf-48ce-88d3-0b940306c7a5": {
     name: "PHP - conceitos, lidando com dados, loops e mais",
-    icon: "php-primeiros-passos.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201434051756691486%2F73c5de33-c3bf-48ce-88d3-0b940306c7a5011",
@@ -38560,11 +33521,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1473ebb4-0b98-4a35-9076-dbe5fb9a23ad": {
     name: "PHP - manipulando coleções com Arrays",
-    icon: "php-manipulando-colecoes-arrays.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201434089983582258%2F1473ebb4-0b98-4a35-9076-dbe5fb9a23ad011",
@@ -38599,11 +33555,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8d644dd-b38b-4827-8178-a15571c9995e": {
     name: "PHP - dominando as Collections",
-    icon: "php-dominando-collections.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201434125274447892%2Fc8d644dd-b38b-4827-8178-a15571c9995e011",
@@ -38641,11 +33592,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "82597e78-18f6-498d-98df-82f8b64bf40a": {
     name: "PHP - Programação Funcional",
-    icon: "php-programacao-funcional.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434158765985842%2F82597e78-18f6-498d-98df-82f8b64bf40a011",
@@ -38679,11 +33625,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2990ee2e-f98d-41c8-9653-246527db5518": {
     name: "PHP e Behavior Driven Development - BDD com Behat",
-    icon: "php-introducao-bdd.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201434194451111937%2F2990ee2e-f98d-41c8-9653-246527db5518011",
@@ -38722,11 +33663,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "eba422d1-23b0-4782-af92-1d7ff952349e": {
     name: "PHP Composer - Dependências, Autoload e Publicação",
-    icon: "php-composer.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201434228848603246%2Feba422d1-23b0-4782-af92-1d7ff952349e011",
@@ -38767,11 +33703,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7b88dbe5-943e-4db7-8699-5c99c3f5114b": {
     name: "PHP e Clean Architecture - descomplicando arquitetura de software",
-    icon: "php-introducao-clean-achitecture.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201434265984958594%2F7b88dbe5-943e-4db7-8699-5c99c3f5114b011",
@@ -38812,11 +33743,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e36755cc-3a71-42c6-b710-721c1ea767ed": {
     name: "PHP e Domain Driven Design - apresentando os conceitos",
-    icon: "domain-driven-design-php.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201434302987116576%2Fe36755cc-3a71-42c6-b710-721c1ea767ed011",
@@ -38854,11 +33780,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e45f4dc8-1f1b-4574-aa89-89117c2a4648": {
     name: "PHP e MySQL - criando sua primeira aplicação web",
-    icon: "php-mysql-criando-primeira-aplicacao-web.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201434338097643540%2Fe45f4dc8-1f1b-4574-aa89-89117c2a4648011",
@@ -38895,11 +33816,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5aa69061-5236-468c-97ae-85bee08412a3": {
     name: "PHP e Selenium - testes de ponta a ponta",
-    icon: "php-testes-end-to-end.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201434373438840915%2F5aa69061-5236-468c-97ae-85bee08412a3011",
@@ -38939,11 +33855,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7a19b81e-4395-4856-9ec4-fe0f98a9bff3": {
     name: "PHP e PDO - trabalhando com bancos de dados",
-    icon: "php-pdo-banco-de-dados.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201434412865310780%2F7a19b81e-4395-4856-9ec4-fe0f98a9bff3011",
@@ -38992,11 +33903,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9a24aad1-3b3e-4a3d-8144-1bc06708154b": {
     name: "PHP e TDD - testes com PHPUnit",
-    icon: "phpunit-tdd.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201434461535997982%2F9a24aad1-3b3e-4a3d-8144-1bc06708154b011",
@@ -39038,11 +33944,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9dc2922e-710d-4860-9560-0dc39fb62e4b": {
     name: "PHP Exceptions - tratamento de erros",
-    icon: "php-exceptions-tratamento-erros.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201434500958261268%2F9dc2922e-710d-4860-9560-0dc39fb62e4b011",
@@ -39084,11 +33985,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80f8e199-7a70-4519-907e-08b3a0754bae": {
     name: "PHP I/O - trabalhando com arquivos e streams",
-    icon: "php-io-arquivos-streams.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201434538384040057%2F80f8e199-7a70-4519-907e-08b3a0754bae011",
@@ -39129,11 +34025,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9e8a02f0-0fa4-4274-ac1a-7ff94c0cc89b": {
     name: "PHP na Web - aplicando boas práticas e PSRs",
-    icon: "php-web-aplicando-boas-praticas-psrs.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201434574706724964%2F9e8a02f0-0fa4-4274-ac1a-7ff94c0cc89b011",
@@ -39167,11 +34058,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5f19ef43-9e3e-4e9e-bd8b-f256d8c35ba2": {
     name: "PHP na Web - conhecendo o padrão MVC",
-    icon: "php-web-conhecendo-padrao-mvc.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201434604222042162%2F5f19ef43-9e3e-4e9e-bd8b-f256d8c35ba2011",
@@ -39206,11 +34092,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5be262fe-dbe8-4bb6-a47d-4bebfb3b3108": {
     name: "PHP na Web - lidando com segurança e API",
-    icon: "php-web-lidando-seguranca-api.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201434634018365461%2F5be262fe-dbe8-4bb6-a47d-4bebfb3b3108011",
@@ -39245,11 +34126,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f724c668-65aa-4ef6-b45f-923ea96df9da": {
     name: "PHP Parallel - Processos, Threads e Channels",
-    icon: "php-parallel-programacao-paralela.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201434665878302770%2Ff724c668-65aa-4ef6-b45f-923ea96df9da011",
@@ -39287,11 +34163,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "94de25ba-8f76-4c55-bfd3-c75e544d29c6": {
     name: "PHP Strings - manipulando textos com PHP",
-    icon: "php-strings-manipulando-textos-php.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201434701781549126%2F94de25ba-8f76-4c55-bfd3-c75e544d29c6011",
@@ -39326,11 +34197,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dd64b852-b111-4e1b-97a3-7fe85602727c": {
     name: "PHP Reativo - programação assíncrona em tempo real",
-    icon: "php-reativo-programacao-assincrona-tempo-real.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201434737164693534%2Fdd64b852-b111-4e1b-97a3-7fe85602727c011",
@@ -39364,11 +34230,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f6588171-2282-415e-9d92-e3fa996d096f": {
     name: "Pintura digital - montando e refinando o shading",
-    icon: "scenery-painting.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201434778709270590%2Ff6588171-2282-415e-9d92-e3fa996d096f011",
@@ -39400,11 +34261,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0697658-8bfa-42ea-aab6-c906050830f0": {
     name: "Pintura digital - textura e shading",
-    icon: "pintura-digital-texture-shading.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434803325644880%2Fa0697658-8bfa-42ea-aab6-c906050830f0011",
@@ -39434,11 +34290,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2d1bf1f7-3757-449a-a117-9c96c6b34a6f": {
     name: "Pintura digital - pintando através do reconhecimento de valores",
-    icon: "painting-value.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201434829858803773%2F2d1bf1f7-3757-449a-a117-9c96c6b34a6f011",
@@ -39469,11 +34320,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d1f3308-c2ee-49df-af9d-3e3a2413c4e6": {
     name: "Pintura digital - trabalhando na pintura dos assets",
-    icon: "painting-assets.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434853523062794%2F8d1f3308-c2ee-49df-af9d-3e3a2413c4e6011",
@@ -39508,11 +34354,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6658404c-03ec-4978-90f3-202c4d19dcf7": {
     name: "Pintura Digital parte 1 - Criando para publicidade no Photoshop",
-    icon: "pintura-digital-parte-1.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201434885672419439%2F6658404c-03ec-4978-90f3-202c4d19dcf7011",
@@ -39539,11 +34380,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1aefcaf3-bc1f-464b-924f-cc67a028ed01": {
     name: "Pintura Digital parte 2 - Acabamento de publicidade com Photoshop.",
-    icon: "pintura-digital-parte-2.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Pintura Digital",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201434910620127232%2F1aefcaf3-bc1f-464b-924f-cc67a028ed01011",
@@ -39568,11 +34404,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6041483f-c394-4456-973e-fba3b9387efc": {
     name: "Pixel Art - animação de sprite de um RPG",
-    icon: "pixel-art-animacao-sprite.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Animação",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201434928026492999%2F6041483f-c394-4456-973e-fba3b9387efc011",
@@ -39602,11 +34433,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d8f3b315-cdf6-4b4e-81b3-6ca8bec655eb": {
     name: "Pipeline de dados - integrando Python com MongoDB e MySQL",
-    icon: "pipeline-dados-integrando-python-mongodb-mysql.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201434953590775868%2Fd8f3b315-cdf6-4b4e-81b3-6ca8bec655eb011",
@@ -39640,11 +34466,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5987c223-6845-4a32-9584-53a770864af8": {
     name: "Pipeline de dados - combinando Python e orientação a objeto",
-    icon: "pipeline-dados-combinando-python-orientacao-objeto.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201434982145601587%2F5987c223-6845-4a32-9584-53a770864af8011",
@@ -39687,11 +34508,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "29410992-8070-42ea-a189-69a46e55bba7": {
     name: "Pixel Art - desenhando um cenário de jogo top-down",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201435022394142730%2F29410992-8070-42ea-a189-69a46e55bba7011",
@@ -39727,11 +34543,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e94b02a4-0c95-4aa4-ba9d-94712eab2ec3": {
     name: "Pixel Art - criando um avatar",
-    icon: "pixel-art-games.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Ilustração Digital",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435056183447623%2Fe94b02a4-0c95-4aa4-ba9d-94712eab2ec3011",
@@ -39765,11 +34576,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "265754a0-dcf1-4158-ae06-4f5cefcea8bc": {
     name: "Pixel Art parte 1 - sprite de personagem de RPG",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435085723938847%2F265754a0-dcf1-4158-ae06-4f5cefcea8bc011",
@@ -39802,11 +34608,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5e367b3b-f5ff-4832-a0de-343a8b9e206c": {
     name: "Plano de Marketing Digital - como criar e coordenar estratégias",
-    icon: "plano-marketing-digital-criar-coordenar-estrategias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201435115847422003%2F5e367b3b-f5ff-4832-a0de-343a8b9e206c011",
@@ -39834,11 +34635,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b6f4b936-b246-4b9a-8180-7f6fa0881acb": {
     name: "Pixel Art parte 2 - aprimorando o seu sprite de personagem",
-    icon: "game-design-viabilizando-jogo-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design de Jogos",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201435138433765406%2Fb6f4b936-b246-4b9a-8180-7f6fa0881acb011",
@@ -39870,11 +34666,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1cdcac13-fa39-4247-96ee-df346d402d41": {
     name: "PNL - comunicação efetiva para o dia a dia",
-    icon: "pnl-comunicacao-efetiva.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201435167982616576%2F1cdcac13-fa39-4247-96ee-df346d402d41011",
@@ -39911,11 +34702,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0c14b4a-e816-46b7-95f2-f478ca0af509": {
     name: "PMP e CAPM - fundamentos do gerenciamento de projetos",
-    icon: "pmp-capm-fundamentos-gerenciamento-projetos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Certificação PMP e CAPM",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201435207375519774%2Fd0c14b4a-e816-46b7-95f2-f478ca0af509011",
@@ -39946,11 +34732,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8fa1cda-0399-4f03-a5bd-b619c4c82411": {
     name: "Pontos fortes parte 1 - descubra os seus e aprenda a gerenciá-los",
-    icon: "pontos-fortes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201435230704238592%2Fb8fa1cda-0399-4f03-a5bd-b619c4c82411011",
@@ -39978,11 +34759,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "44913e28-f1ef-42cf-929d-bb5b6c4d21d4": {
     name: "Pontos fortes parte 2 - habilidades e competências",
-    icon: "pontos-fortes-habilidades-competencias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201435249998049280%2F44913e28-f1ef-42cf-929d-bb5b6c4d21d4011",
@@ -40009,11 +34785,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7f32b5a7-2484-4f2b-8e9c-864bda85be62": {
     name: "Portfólio em UX/UI - montando um projeto",
-    icon: "portfolio-ux-ui-montando-primeiro-projeto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201435269304430692%2F7f32b5a7-2484-4f2b-8e9c-864bda85be62011",
@@ -40045,11 +34816,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e63f897f-c5fa-42c0-956b-165d9ac444b7": {
     name: "PostgreSQL - comandos DML e DDL",
-    icon: "pgsql-comandos-dml-ddl.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201435299813806100%2Fe63f897f-c5fa-42c0-956b-165d9ac444b7011",
@@ -40084,11 +34850,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2f9c6366-14fb-4422-8d78-fff055d3fa87": {
     name: "PostgreSQL - administração e otimização do banco",
-    icon: "postgresql-administracao-otimizacao.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201435333913481236%2F2f9c6366-14fb-4422-8d78-fff055d3fa87011",
@@ -40131,11 +34892,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "46b0c2b1-704a-4f57-96f7-560bd17a1d41": {
     name: "PostgreSQL - Views, Sub-Consultas e Funções",
-    icon: "postgresql-views-sub-consultas-funcoes.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201435371083419781%2F46b0c2b1-704a-4f57-96f7-560bd17a1d41011",
@@ -40169,11 +34925,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c33ddbe7-9224-4d91-a5b5-3ead5f8a09ae": {
     name: "PostgreSQL - desenvolva com PL/pgSQL",
-    icon: "postgresql-procedures.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201435399969591296%2Fc33ddbe7-9224-4d91-a5b5-3ead5f8a09ae011",
@@ -40215,11 +34966,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c77f557-f93b-4085-9574-f17464361a2c": {
     name: "PostgreSQL - Triggers, transações, erros e cursores",
-    icon: "postgresql-triggers-transacoes-erros-cursores.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435437290508298%2F4c77f557-f93b-4085-9574-f17464361a2c011",
@@ -40255,11 +35001,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b24a34f0-5dd1-421e-a24b-8e9be2d495a6": {
     name: "PostgreSQL",
-    icon: "introducao-postgresql-primeiros-passos.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201435470261919765%2Fb24a34f0-5dd1-421e-a24b-8e9be2d495a6011",
@@ -40300,11 +35041,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9c8a5bbd-9ee6-4b2a-853c-3f59f5cb611a": {
     name: "Power BI - aplicando DAX ao negócio",
-    icon: "power-bi-aplicando-dax-negocio.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201435505716375552%2F9c8a5bbd-9ee6-4b2a-853c-3f59f5cb611a011",
@@ -40338,11 +35074,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "972a14a0-29fb-4bcd-b494-1be7f98d7d53": {
     name: "Power BI - aprofundando na linguagem DAX",
-    icon: "power-bi-aprofundando-linguagem-dax.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201435531859460096%2F972a14a0-29fb-4bcd-b494-1be7f98d7d53011",
@@ -40369,11 +35100,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d7ff52e1-11ed-4c67-965b-9e72ff1a6bbf": {
     name: "Power BI - criando relatórios com auxílio de IA",
-    icon: "power-bi-criando-relatorios-auxilio-ia.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201435554034749541%2Fd7ff52e1-11ed-4c67-965b-9e72ff1a6bbf011",
@@ -40410,11 +35136,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4574a68-b833-4f2d-a882-3323be2a90f0": {
     name: "Power BI - conhecendo o serviço",
-    icon: "power-bi-conhecendo-servico.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201435587014578266%2Fd4574a68-b833-4f2d-a882-3323be2a90f0011",
@@ -40448,11 +35169,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8caf4669-c6a8-4143-9280-a0fc41a1bfab": {
     name: "Power BI - DAX contextos e iteração",
-    icon: "power-bi-dax-contextos-iteracao.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201435616852848640%2F8caf4669-c6a8-4143-9280-a0fc41a1bfab011",
@@ -40489,11 +35205,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "65fd5e95-b05e-4372-ba3d-991a054f5128": {
     name: "Power BI - explorando recursos visuais",
-    icon: "power-bi-recursos-visuais.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201435643885146143%2F65fd5e95-b05e-4372-ba3d-991a054f5128011",
@@ -40527,11 +35238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cb3183f7-fcb9-42e6-a8af-022cac290661": {
     name: "Power BI - mergulhando na linguagem M",
-    icon: "power-bi-mergulhando-linguagem-m.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201435672104402954%2Fcb3183f7-fcb9-42e6-a8af-022cac290661011",
@@ -40567,11 +35273,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bc389cda-e37d-41a4-9967-2b59b02a2888": {
     name: "Power BI - modelagem de dados",
-    icon: "power-bi-modelagem-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435702412451850%2Fbc389cda-e37d-41a4-9967-2b59b02a2888011",
@@ -40606,11 +35307,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8eccb987-675b-4b5b-b535-64a89eb4e0ee": {
     name: "Power BI - Report Builder",
-    icon: "power-bi-report-builder.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201435732804386826%2F8eccb987-675b-4b5b-b535-64a89eb4e0ee011",
@@ -40645,11 +35341,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e27e42db-8e05-4b47-bec8-49fa78d68770": {
     name: "Power BI Desktop - tratamento de dados no Power Query",
-    icon: "power-bi-desktop-tratamento-de-dados-power-query.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435766216204288%2Fe27e42db-8e05-4b47-bec8-49fa78d68770011",
@@ -40677,11 +35368,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "40f2fcd9-ece3-4328-9d88-08ae3d2e86b7": {
     name: "Power BI Desktop - construindo meu primeiro dashboard",
-    icon: "power-bi-desktop-construindo-primeiro-dashboard.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201435790111154237%2F40f2fcd9-ece3-4328-9d88-08ae3d2e86b7011",
@@ -40717,11 +35403,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4ad3226d-6e69-4e65-ac3c-0e96ab0e0391": {
     name: "Praticando CSS - Grid e Flexbox",
-    icon: "praticando-css-grid-flexbox.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201435821346140190%2F4ad3226d-6e69-4e65-ac3c-0e96ab0e0391011",
@@ -40755,11 +35436,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c4b466b8-b980-46af-b3b9-f7f2e1cbac92": {
     name: "PowerShell parte 1 - a linguagem de scripting moderna",
-    icon: "powershell-parte1.svg",
-    category: {
-      name: "DevOps",
-      module: "Windows",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201435848814645278%2Fc4b466b8-b980-46af-b3b9-f7f2e1cbac92011",
@@ -40796,11 +35472,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "10789774-4473-4d6c-b87d-4502688a6d60": {
     name: "Premiere - processos de colorização e tratamento de imagem",
-    icon: "adobe-premiere-correcao-cor.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Colorização",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201435881198858291%2F10789774-4473-4d6c-b87d-4502688a6d60011",
@@ -40830,11 +35501,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b5afb960-ce16-4eb3-885a-a54279d3b0e7": {
     name: "Premiere - ritmo de edição e manipulando emoções",
-    icon: "adobe-premiere-ritmo-de-edicao-manipulando-emocoes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435902568828948%2Fb5afb960-ce16-4eb3-885a-a54279d3b0e7011",
@@ -40860,11 +35526,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "159b6d56-10c6-4005-a49a-5f6bbf831bfe": {
     name: "PowerShell parte 2 - Sessões, Jobs e Administração Remota",
-    icon: "powershell-parte2.svg",
-    category: {
-      name: "DevOps",
-      module: "Windows",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201435924739936327%2F159b6d56-10c6-4005-a49a-5f6bbf831bfe011",
@@ -40904,11 +35565,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "62d943b2-c72e-4d5d-a0fb-f4465e8c1b43": {
     name: "Premiere Pro - como lidar e criar efeitos de vídeo",
-    icon: "premiere-pro-lidar-criar-efeitos-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201435963675639859%2F62d943b2-c72e-4d5d-a0fb-f4465e8c1b43011",
@@ -40946,11 +35602,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "773b02e2-df8b-4b90-aae6-d9e7e5fe4fc5": {
     name: "Premiere Pro - editando um vídeo com roteiro",
-    icon: "premiere-pro-editando-video-roteiro.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201435999885086720%2F773b02e2-df8b-4b90-aae6-d9e7e5fe4fc5011",
@@ -40986,11 +35637,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "68d0e3a0-f6ca-4eeb-9daa-4a15952a0f80": {
     name: "Premiere Pro - criando vídeos para web",
-    icon: "premiere-pro-criando-videos-web.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201436031875031050%2F68d0e3a0-f6ca-4eeb-9daa-4a15952a0f80011",
@@ -41025,11 +35671,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b5ad9f54-14e6-459c-9759-e4704265cc31": {
     name: "Premiere Pro - edição com foco em timing e ritmo",
-    icon: "premiere-pro-edicao-foco-timing-ritmo.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201436064548663366%2Fb5ad9f54-14e6-459c-9759-e4704265cc31011",
@@ -41072,11 +35713,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b78cec65-4658-4923-b168-38a775e29c0c": {
     name: "Princípios da influência - persuasão com foco em negócios",
-    icon: "principios-influencia-persuasao-foco-negocios.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201436117153628160%2Fb78cec65-4658-4923-b168-38a775e29c0c011",
@@ -41112,11 +35748,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a8f50ebf-6b76-4816-b890-c6ba99c392f7": {
     name: "Princípios do trabalho em equipe - relações colaborativas",
-    icon: "principios-trabalho-equipe-relacao-colaborativa.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201436145666490419%2Fa8f50ebf-6b76-4816-b890-c6ba99c392f7011",
@@ -41144,11 +35775,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5cca6dcf-2a0d-42f8-a1d5-3798f87adc34": {
     name: "Procedures SQL - executando código no MySQL",
-    icon: "mysql-procedures.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201436164935135272%2F5cca6dcf-2a0d-42f8-a1d5-3798f87adc34011",
@@ -41194,11 +35820,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ce4fe8a4-ce8e-4b5a-bdbd-a6c06e3e64c4": {
     name: "Product Design - métricas e ciclo de vida do produto",
-    icon: "product-design-metricas-ciclo-vida-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201436211051495565%2Fce4fe8a4-ce8e-4b5a-bdbd-a6c06e3e64c4011",
@@ -41232,11 +35853,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0298986-d828-4e05-bd18-d5aa50e05e91": {
     name: "Product Design - o papel do designer de produtos",
-    icon: "product-design-papel-designer-produtos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201436242236166164%2Fa0298986-d828-4e05-bd18-d5aa50e05e91011",
@@ -41273,11 +35889,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "20bd9d31-9097-48a6-8cbc-b39f8c1a9609": {
     name: "Product Design - realizando o processo de Product Discovery",
-    icon: "product-design-processo-product-discovery.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201436275425689610%2F20bd9d31-9097-48a6-8cbc-b39f8c1a9609011",
@@ -41310,11 +35921,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "35e65359-9b1e-48bc-bb23-efac1c8bff90": {
     name: "Product Manager - uma jornada em gestão de produto",
-    icon: "product-manager-jornada-gestao-produto.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201436306727772160%2F35e65359-9b1e-48bc-bb23-efac1c8bff90011",
@@ -41347,11 +35953,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f23b9149-343c-4c57-b956-29cd2b990429": {
     name: "Product Management - agilize o desenvolvimento de produtos",
-    icon: "product-management-desenvolvimento-produtos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201436336331182111%2Ff23b9149-343c-4c57-b956-29cd2b990429011",
@@ -41384,11 +35985,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c5c6a012-35c8-41e3-8f3e-44eba8557cad": {
     name: "Produtividade - hábitos e práticas para o dia a dia",
-    icon: "produtividade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201436363657064458%2Fc5c6a012-35c8-41e3-8f3e-44eba8557cad011",
@@ -41418,11 +36014,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d96361e7-22a2-480c-bee9-92ef5b621c0a": {
     name: "Produtividade parte 1 - estratégias para o dia a dia",
-    icon: "produtividade-administre-tempo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436387459739679%2Fd96361e7-22a2-480c-bee9-92ef5b621c0a011",
@@ -41449,11 +36040,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5f303e3f-2389-45d2-a550-68132f527d46": {
     name: "Produtividade parte 2 - organização e prioridade",
-    icon: "produtividade-organizacao-e-prioridade.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201436406287962182%2F5f303e3f-2389-45d2-a550-68132f527d46011",
@@ -41480,11 +36066,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ee2464aa-27f3-4729-bcc0-8a0629ee0379": {
     name: "Produção de conteúdo - estratégias, planejamento e gestão",
-    icon: "producao-de-conteudo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Conteúdo",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201436424671612978%2Fee2464aa-27f3-4729-bcc0-8a0629ee0379011",
@@ -41514,11 +36095,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "494acb25-c98e-46a0-937b-61a4386a7501": {
     name: "Produção de Podcasts - da concepção à publicação",
-    icon: "producao-podcast.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Áudio (Produção e Pós-Produção)",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201436445798309918%2F494acb25-c98e-46a0-937b-61a4386a7501011",
@@ -41564,11 +36140,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "25e99452-7231-41e6-a213-1d4c3e81582f": {
     name: "Produção de vídeo - conceitos essenciais de uma produção audiovisual",
-    icon: "producao-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201436490551537716%2F25e99452-7231-41e6-a213-1d4c3e81582f011",
@@ -41594,11 +36165,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4c19febf-8fbe-47a7-85da-413f5477c31d": {
     name: "Produção de vídeo - o que há por trás do mundo do audiovisual",
-    icon: "producao-audiovisual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201436507093880853%2F4c19febf-8fbe-47a7-85da-413f5477c31d011",
@@ -41631,11 +36197,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e3926f9f-e769-464c-8955-d55cf8085f04": {
     name: "Produção de vídeos - entenda os conceitos essenciais",
-    icon: "producao-videos-conceitos-essenciais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201436526161166426%2Fe3926f9f-e769-464c-8955-d55cf8085f04011",
@@ -41672,11 +36233,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8dc079f1-2c91-46b9-9e4f-eee8802a5f4d": {
     name: "Produção de áudio",
-    icon: "producao-audio-fundamentos-basicos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Áudio (Produção e Pós-Produção)",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201436564744577085%2F8dc079f1-2c91-46b9-9e4f-eee8802a5f4d011",
@@ -41724,11 +36280,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ca8282b-0a69-470c-a08a-bd20420d90f3": {
     name: "Propósito profissional - seja protagonista da sua carreira",
-    icon: "proposito-profissional-protagonista-carreira.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201436622013616138%2F2ca8282b-0a69-470c-a08a-bd20420d90f3011",
@@ -41757,11 +36308,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "968ee0b2-cd15-425b-a063-2f2825af2e3f": {
     name: "Propriedade intelectual - aplicada em Startups e negócios em geral",
-    icon: "propriedade-intelectual-startups.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201436643714924614%2F968ee0b2-cd15-425b-a063-2f2825af2e3f011",
@@ -41793,11 +36339,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a2bce4cc-ca60-4acf-906f-548db0b4f379": {
     name: "Práticas de desprojetização - Flow Framework",
-    icon: "praticas-desprojetizacao-flow-framework.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Práticas de Gestão - Waterfall & Híbridas",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201436673276379286%2Fa2bce4cc-ca60-4acf-906f-548db0b4f379011",
@@ -41835,11 +36376,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "14575f14-d978-400d-a6d7-6c62006db60e": {
     name: "Programação em R - desenvolva dashboards online com Shiny",
-    icon: "programacao-r-dashboard-online-shiny.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201436711419387995%2F14575f14-d978-400d-a6d7-6c62006db60e011",
@@ -41880,11 +36416,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "67dc32d4-561c-4552-9603-001652b31b51": {
     name: "Práticas gerais - descobrindo as práticas de gerenciamento de serviços",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Outros",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201436746278248468%2F67dc32d4-561c-4552-9603-001652b31b51011",
@@ -41921,11 +36452,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3b6f2d39-1446-4f5a-8a58-9e2e5a46a74c": {
     name: "Práticas Ágeis - construa um ambiente ágil",
-    icon: "praticas-ageis.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Transformação Ágil",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201436780466020422%2F3b6f2d39-1446-4f5a-8a58-9e2e5a46a74c011",
@@ -41954,11 +36480,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d033ddea-8e39-4505-a791-781680813963": {
     name: "Psicologia positiva - liderança autêntica a partir de forças pessoais",
-    icon: "psicologia-positiva-lideranca-forcas-pessoais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201436800435114004%2Fd033ddea-8e39-4505-a791-781680813963011",
@@ -41990,11 +36511,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e7e55d48-31cb-4040-a7b0-a180e0be3945": {
     name: "Psicologia financeira - maximizando o potencial financeiro",
-    icon: "psicologia-financeira-maximizando-potencial-financeiro.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201436827710656572%2Fe7e55d48-31cb-4040-a7b0-a180e0be3945011",
@@ -42021,11 +36537,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bc1d3dd7-1d3c-4d96-bdfb-a782bcd47169": {
     name: "Python - análise de dados com SQL",
-    icon: "python-analise-dados-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201436848803815434%2Fbc1d3dd7-1d3c-4d96-bdfb-a782bcd47169011",
@@ -42054,11 +36565,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "83703c0f-4e6b-4b21-a3d9-961de27c1f70": {
     name: "Python - avançando na linguagem",
-    icon: "python-3-avancando-na-linguagem.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201436875114680371%2F83703c0f-4e6b-4b21-a3d9-961de27c1f70011",
@@ -42097,11 +36603,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "38268f6e-e137-4413-855e-d9476976ebdd": {
     name: "Python - avançando na orientação a objetos",
-    icon: "python-3-avancando-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201436915572949013%2F38268f6e-e137-4413-855e-d9476976ebdd011",
@@ -42139,11 +36640,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "064d69cd-c59d-44df-9ff4-2a5e6bc9a036": {
     name: "Python - começando com a linguagem",
-    icon: "python-introducao-a-linguagem.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436993666686976%2F064d69cd-c59d-44df-9ff4-2a5e6bc9a036011",
@@ -42191,11 +36687,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "474a8569-49c1-4e7c-ac9d-bf802258dd65": {
     name: "Python - entendendo a Orientação a Objetos",
-    icon: "python-entendendo-orientacao-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201437040076656650%2F474a8569-49c1-4e7c-ac9d-bf802258dd65011",
@@ -42231,11 +36722,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4156d1dc-e0c2-4b52-a71e-69b3ffeddc1e": {
     name: "Python Brasil - validação de dados no padrão nacional",
-    icon: "python-validacao-dados.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201437068576968704%2F4156d1dc-e0c2-4b52-a71e-69b3ffeddc1e011",
@@ -42268,11 +36754,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e19b8f8-09a1-468f-aed2-42f1b1d03b4d": {
     name: "Python Collections parte 1 - listas e tuplas",
-    icon: "python-collections-listas-e-tuplas.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437098067103744%2F2e19b8f8-09a1-468f-aed2-42f1b1d03b4d011",
@@ -42311,11 +36792,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "14df62bc-73ea-4f28-ab5e-d3560dfe5cb7": {
     name: "Python Collections parte 2 - conjuntos e dicionários",
-    icon: "python-collections-conjuntos-e-dicionarios.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201437126273794139%2F14df62bc-73ea-4f28-ab5e-d3560dfe5cb7011",
@@ -42341,11 +36817,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cdca30b8-27eb-4d32-9559-408321221207": {
     name: "Python com IAs - acelerando a produtividade em data science",
-    icon: "python-ias-produtividade-data-science.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201437141511712768%2Fcdca30b8-27eb-4d32-9559-408321221207011",
@@ -42377,11 +36848,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "129eda51-7392-4637-8fb9-27c6a325a0fd": {
     name: "Python e GPT - crie seu chatbot com IA",
-    icon: "python-gpt-crie-chatbot-com-ia.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Programação",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201437177205248000%2F129eda51-7392-4637-8fb9-27c6a325a0fd011",
@@ -42415,11 +36881,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c6c4eddb-be8d-4ac7-b76b-12e420fe0c1d": {
     name: "Python e APIs - conhecendo a biblioteca Requests",
-    icon: "python-apis-conhecendo-biblioteca-requests.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201437207622336542%2Fc6c4eddb-be8d-4ac7-b76b-12e420fe0c1d011",
@@ -42451,11 +36912,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f12e649-3163-459d-b623-0ef8ce5c922c": {
     name: "Python e Power BI - analisando dados do mercado financeiro",
-    icon: "python-power-bi-dados-mercado-financeiro.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201437234562334801%2F3f12e649-3163-459d-b623-0ef8ce5c922c011",
@@ -42493,11 +36949,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "264f1008-abea-4b0b-9776-4f9a807098fb": {
     name: "Python e TDD - explorando testes unitários",
-    icon: "python-tdd-explorando-testes-unitarios.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201437269672874014%2F264f1008-abea-4b0b-9776-4f9a807098fb011",
@@ -42531,11 +36982,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fad4c31c-da80-405d-9cce-eb7ce744e94c": {
     name: "Python para Data Science - primeiros passos",
-    icon: "python-data-science-primeiros-passos.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201437298881998950%2Ffad4c31c-da80-405d-9cce-eb7ce744e94c011",
@@ -42572,11 +37018,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "12ba80e2-06e6-4d22-8f36-81e613741d83": {
     name: "Python para Data Science - trabalhando com funções, estruturas de dados e exceções",
-    icon: "python-data-science-funcoes-estruturas-dados-excecoes.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201437339596103680%2F12ba80e2-06e6-4d22-8f36-81e613741d83011",
@@ -42606,11 +37047,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c78691dd-89b4-4637-a3a3-0784b783d373": {
     name: "Qlik Sense - conexões SQL",
-    icon: "qlik-sense-conexoes-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201437365609189396%2Fc78691dd-89b4-4637-a3a3-0784b783d373011",
@@ -42651,11 +37087,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d4bc9b1d-2db0-49a1-842a-0c5d68e0d497": {
     name: "Qlik Sense - analisando dados",
-    icon: "qlik-sense-analisando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201437409309638747%2Fd4bc9b1d-2db0-49a1-842a-0c5d68e0d497011",
@@ -42704,11 +37135,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "60a014be-af71-4983-9e0e-2af9b2253364": {
     name: "Qlik Sense - conhecendo a ferramenta",
-    icon: "qlik-sense-conhecendo-ferramenta.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201437463143522304%2F60a014be-af71-4983-9e0e-2af9b2253364011",
@@ -42758,11 +37184,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39d0a273-a945-4930-a92b-1bbbec12dcc2": {
     name: "Qlik Sense - histórias e gráficos",
-    icon: "qlik-sense-historias-graficos.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437514934800404%2F39d0a273-a945-4930-a92b-1bbbec12dcc2011",
@@ -42803,11 +37224,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cf00c50c-7fe0-423a-a3b5-5488247961c7": {
     name: "Qlik Sense - expressões avançadas",
-    icon: "qlik-sense-expressoes-avancadas.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201437555674066995%2Fcf00c50c-7fe0-423a-a3b5-5488247961c7011",
@@ -42850,11 +37266,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "47fd55d2-adf5-4900-a2b3-c884920e6d08": {
     name: "Quality Assurance - plano de testes e gestão de bugs",
-    icon: "quality-assurance-plano-testes-gestao-bugs.svg",
-    category: {
-      name: "Programação",
-      module: "Quality Assurance",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201437595960344617%2F47fd55d2-adf5-4900-a2b3-c884920e6d08011",
@@ -42898,11 +37309,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2bef3a3-0cc1-4518-b174-ce671284d704": {
     name: "Qlik Sense - manipulando dados",
-    icon: "qlik-sense-manipulando-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201437638293459034%2Fc2bef3a3-0cc1-4518-b174-ce671284d704011",
@@ -42953,11 +37359,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "810f3bc6-640d-4212-a03d-677a2436dc34": {
     name: "Rastreamento - fazendo tracing com Jaeger e OpenTelemetry",
-    icon: "rastreamento-tracing-jaeger-opentelemetry.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201437690676125756%2F810f3bc6-640d-4212-a03d-677a2436dc34011",
@@ -42988,11 +37389,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3bf28ee2-ecf9-4fef-9d21-98aa087550dc": {
     name: "React - autenticando usuários",
-    icon: "react-autenticando-usuarios.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201437713514102986%2F3bf28ee2-ecf9-4fef-9d21-98aa087550dc011",
@@ -43027,11 +37423,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b0af4ff3-6dc5-4c37-99f8-f8c5d8ef3977": {
     name: "React - avançando em Middlewares com Listener Middleware",
-    icon: "react-avancando-middlewares-listener-middleware.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201437742991679518%2Fb0af4ff3-6dc5-4c37-99f8-f8c5d8ef3977011",
@@ -43064,11 +37455,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9fd31778-d0fc-4a29-bbb2-07bc9efabafe": {
     name: "React - arquitetando soluções de roteamento e gestão de estado com React Router e Context API",
-    icon: "solucoes-roteamento-gestao-estado-react-router-context-api.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201437774469931078%2F9fd31778-d0fc-4a29-bbb2-07bc9efabafe011",
@@ -43105,11 +37491,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "69ba2385-2ca7-4d6f-b386-7822481fdbf9": {
     name: "React - combinando Context API e Apollo Client",
-    icon: "react-combinando-context-api-apollo-client.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201437809874063430%2F69ba2385-2ca7-4d6f-b386-7822481fdbf9011",
@@ -43142,11 +37523,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "69a2eb5e-1ec1-4f14-93d5-8bd86a6bea71": {
     name: "React - avançando em testes e2e com Cypress",
-    icon: "react-avancando-testes-e2e-cypress.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201437838978338846%2F69a2eb5e-1ec1-4f14-93d5-8bd86a6bea71011",
@@ -43183,11 +37559,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bde12af5-a99b-4094-9a23-480af12061c5": {
     name: "React - como os componentes funcionam",
-    icon: "react-componentes-funcionam.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437873124155472%2Fbde12af5-a99b-4094-9a23-480af12061c5011",
@@ -43219,11 +37590,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3d5c2d1d-1b1a-4b6d-b154-2b7f2830069d": {
     name: "React - comece seu projeto full stack",
-    icon: "react-crie-primeira-pagina-web.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201437898583576646%2F3d5c2d1d-1b1a-4b6d-b154-2b7f2830069d011",
@@ -43260,11 +37626,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "deedd512-ca73-42df-a27b-270fc660e7bc": {
     name: "React - conhecendo a biblioteca React Router",
-    icon: "react-biblioteca-react-router.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201437934482636901%2Fdeedd512-ca73-42df-a27b-270fc660e7bc011",
@@ -43306,11 +37667,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0b69346-2666-45cc-9a72-f980a8249ac6": {
     name: "React - criando um Design System com TailwindCSS",
-    icon: "react-criando-design-system-tailwind.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201437976245317663%2Fa0b69346-2666-45cc-9a72-f980a8249ac6011",
@@ -43351,11 +37707,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9851b045-8914-4053-8ee6-d2cbc11291b4": {
     name: "React - desenvolvendo componentes customizados e acessíveis com Emotion",
-    icon: "react-componentes-customizados-acessiveis-emotion.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438014619013120%2F9851b045-8914-4053-8ee6-d2cbc11291b4011",
@@ -43392,11 +37743,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "75ff7f65-2497-454a-990e-c52d7d4c2ad9": {
     name: "React - desenvolvendo com JavaScript",
-    icon: "react-desenvolvendo-javascript.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201438047447814204%2F75ff7f65-2497-454a-990e-c52d7d4c2ad9011",
@@ -43436,11 +37782,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3ed44c19-93ed-4d71-bf9b-ce54b49d0785": {
     name: "React - desenvolvendo em React Router com JavaScript",
-    icon: "React-desenvolvendo-react-router-javaScript.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201438088128368800%2F3ed44c19-93ed-4d71-bf9b-ce54b49d0785011",
@@ -43475,11 +37816,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "359a1a68-c818-4bc9-bcf8-f229ee63cb4a": {
     name: "React - desenvolvendo uma biblioteca de componentes",
-    icon: "react-desenvolvendo-biblioteca-componentes.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438120068001802%2F359a1a68-c818-4bc9-bcf8-f229ee63cb4a011",
@@ -43512,11 +37848,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "afc550e3-88c5-46a8-b034-b6978e01f455": {
     name: "React - eleve o nível da sua documentação no Storybook",
-    icon: "react-eleve-nivel-documentacao-storybook.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201438149793021962%2Fafc550e3-88c5-46a8-b034-b6978e01f455011",
@@ -43547,11 +37878,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0123bb98-e224-4f84-9788-5ba69947091b": {
     name: "React - entendendo Middlewares com Redux Thunk",
-    icon: "react-entendendo-middlewares-redux-thunk.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201438178981195816%2F0123bb98-e224-4f84-9788-5ba69947091b011",
@@ -43583,11 +37909,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b3680d5d-b039-4b98-b10a-366449e77b30": {
     name: "React - escreva testes end to end com Cypress",
-    icon: "react-escreva-testes-end-to-end-cypress.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201438205728260136%2Fb3680d5d-b039-4b98-b10a-366449e77b30011",
@@ -43623,11 +37944,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bcee13b6-0771-425a-84df-8c15dbb6b665": {
     name: "React - estilize componentes com Styled Components e manipule arquivos estáticos",
-    icon: "react-estilize-componentes-styled-components-manipule-arquivos-estaticos.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201438240171892847%2Fbcee13b6-0771-425a-84df-8c15dbb6b665011",
@@ -43663,11 +37979,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "38fbcb30-9b57-4bb0-957c-028f323d9bac": {
     name: "React - escrevendo com Typescript",
-    icon: "react-modernizando-escrever-typescript.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438273067819069%2F38fbcb30-9b57-4bb0-957c-028f323d9bac011",
@@ -43714,11 +38025,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2ae371db-9154-4d09-ae5b-66cfa08d61ca": {
     name: "React - evolua o seu Design System com TailwindCSS",
-    icon: "react-evolua-design-system-tailwindcss.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201438319351955466%2F2ae371db-9154-4d09-ae5b-66cfa08d61ca011",
@@ -43757,11 +38063,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "148a2dda-5dbc-468c-8c17-3930a8e049cd": {
     name: "React - gerencie estados globalmente com Context API",
-    icon: "react-gerencie-estados-globalmente-context-api.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201438356702253096%2F148a2dda-5dbc-468c-8c17-3930a8e049cd011",
@@ -43800,11 +38101,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2f66c3e0-d8ef-488f-b664-335e5738e303": {
     name: "React - gerenciamento de estados globais com Redux",
-    icon: "react-gerenciamento-estados-globais-redux.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201438391229747210%2F2f66c3e0-d8ef-488f-b664-335e5738e303011",
@@ -43842,11 +38138,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "eddf4f81-64d0-4fca-a2c7-082e5e960b6d": {
     name: "React - gerenciando estado com Recoil",
-    icon: "react-gerenciando-estado-recoil.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201438425094574160%2Feddf4f81-64d0-4fca-a2c7-082e5e960b6d011",
@@ -43880,11 +38171,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "429e3765-6942-4935-af4f-970d36c4e17a": {
     name: "React - integrando seu projeto React com APIs",
-    icon: "react-integrando-projeto-react-apis.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201438456484728842%2F429e3765-6942-4935-af4f-970d36c4e17a011",
@@ -43920,11 +38206,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d266321a-dffb-4cc5-9364-763806592e0b": {
     name: "React - migrando para TypeScript",
-    icon: "react-migrando-typescript.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438487153492088%2Fd266321a-dffb-4cc5-9364-763806592e0b011",
@@ -43957,11 +38238,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b9d223bf-83c4-42f8-b1fb-bfd1e890825a": {
     name: "React - migrando para o Vite e implementando autenticação baseada em Token",
-    icon: "react-migrando-vite-implementando-autenticacao-baseada-token.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201438519491575808%2Fb9d223bf-83c4-42f8-b1fb-bfd1e890825a011",
@@ -43997,11 +38273,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dad3b0bb-ecbb-4e3e-b4a8-f9fd78136777": {
     name: "React - Mutabilidade x Imutabilidade no Redux Toolkit com Immer",
-    icon: "react-mutabilidade-imutabilidade-redux-toolkit-immer.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201438555893927998%2Fdad3b0bb-ecbb-4e3e-b4a8-f9fd78136777011",
@@ -44039,11 +38310,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2cd8c39b-8bbd-4e94-984d-86562bbcbba4": {
     name: "React - obtendo dados com React Query",
-    icon: "react-obtendo-dados-react-query.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201438586931781642%2F2cd8c39b-8bbd-4e94-984d-86562bbcbba4011",
@@ -44078,11 +38344,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f345a961-242a-43f4-9ae0-bb56f2fdcdcd": {
     name: "React - otimizando a performance",
-    icon: "react-otimizando-performance.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201438636000956426%2Ff345a961-242a-43f4-9ae0-bb56f2fdcdcd011",
@@ -44116,11 +38377,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "91449204-7d24-476a-9932-187b1a484c41": {
     name: "React - praticando React com Js",
-    icon: "react-praticando-react-js.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438669198872646%2F91449204-7d24-476a-9932-187b1a484c41011",
@@ -44160,11 +38416,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8322d846-2579-46fe-a290-fbfcbaaa866d": {
     name: "React - testando um projeto com bibliotecas externas",
-    icon: "react-testando-projeto-bibliotecas-externas.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201438708918919228%2F8322d846-2579-46fe-a290-fbfcbaaa866d011",
@@ -44196,11 +38447,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c5bd1580-b596-4aec-822d-5ff43659e827": {
     name: "React - testando os seus componentes",
-    icon: "react-testando-componentes.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201438734655168552%2Fc5bd1580-b596-4aec-822d-5ff43659e827011",
@@ -44241,11 +38487,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a254563-98a9-4314-88ad-da6a017e26a7": {
     name: "React - testes de integração e mocks no Front-end",
-    icon: "react-testes-integracao-mocks-front-end.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201438777655185490%2F1a254563-98a9-4314-88ad-da6a017e26a7011",
@@ -44276,11 +38517,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34547a9a-5f0a-40a7-972e-63680eea78ef": {
     name: "React - versione e publique o seu Design System",
-    icon: "react-versione-publique-design-system.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201438801520771132%2F34547a9a-5f0a-40a7-972e-63680eea78ef011",
@@ -44310,11 +38546,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8e261ed6-ff4f-4c49-92e7-75005b16bd65": {
     name: "React - utilizando a arquitetura Saga com Redux Saga",
-    icon: "react-utilizando-arquitetura-saga-redux-saga.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201438825482825811%2F8e261ed6-ff4f-4c49-92e7-75005b16bd65011",
@@ -44352,11 +38583,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39e560b8-2dc6-4b7a-9ff4-4f106bee8ca7": {
     name: "React com TailwindCSS - estilizando componentes",
-    icon: "react-tailwindcss-estilizando-componentes.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438861008584704%2F39e560b8-2dc6-4b7a-9ff4-4f106bee8ca7011",
@@ -44395,11 +38621,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9325d79e-7ad0-45e6-93c5-02853190f02b": {
     name: "React com Typescript - desenvolvendo uma área administrativa",
-    icon: "react-typescript-area-administrativa.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201438899176734791%2F9325d79e-7ad0-45e6-93c5-02853190f02b011",
@@ -44434,11 +38655,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d000dd3e-6536-42d4-adf3-de522aa81acc": {
     name: "React com Typescript - desenvolva um sistema de cadastro e autenticação",
-    icon: "react-typescript-sistema-cadastro-autenticacao.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201438935063203881%2Fd000dd3e-6536-42d4-adf3-de522aa81acc011",
@@ -44473,11 +38689,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e9674a19-5662-4fff-aad6-7d2a9d4e2e3e": {
     name: "React e Node.js - consumindo APIs no React no projeto full stack",
-    icon: "react-node-consumindo-apis-react.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201438970643501136%2Fe9674a19-5662-4fff-aad6-7d2a9d4e2e3e011",
@@ -44506,11 +38717,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4167c6d3-d85b-43e2-a3f4-5f003964fb43": {
     name: "React Native - aplicando Middlewares com Redux Thunk",
-    icon: "react-native-middlewares-redux-thunk.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201438993632464946%2F4167c6d3-d85b-43e2-a3f4-5f003964fb43011",
@@ -44541,11 +38747,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e97a931a-e016-4b37-b342-5b30435823b9": {
     name: "React JS - crie testes com Jest e Testing Library e garanta o funcionamento do Front-end",
-    icon: "react-js-testes-automatizados-front-end.svg",
-    category: {
-      name: "Front-End",
-      module: "React",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201439015992315934%2Fe97a931a-e016-4b37-b342-5b30435823b9011",
@@ -44581,11 +38782,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cb342079-b127-4651-bc1a-39da87faf863": {
     name: "React Native - armazenando dados no Firestore",
-    icon: "react-native-armazenando-dados-firestore.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430068300357703%2Fcb342079-b127-4651-bc1a-39da87faf863011",
@@ -44616,11 +38812,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d1b50c3c-6b8f-4ca7-9e08-2dac452820c8": {
     name: "React Native - armazenando imagens com Cloud Storage",
-    icon: "react-native-armazenamento-imagens-cloud-storage.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201430099203993600%2Fd1b50c3c-6b8f-4ca7-9e08-2dac452820c8011",
@@ -44653,11 +38844,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0d657a74-d31c-41eb-877d-eeb3e255e031": {
     name: "React Native - autenticação com Firebase",
-    icon: "react-native-autenticacao-firebase.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201430129864355950%2F0d657a74-d31c-41eb-877d-eeb3e255e031011",
@@ -44692,11 +38878,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6ec6f77c-c0a9-40ac-a27d-46c0c19da42c": {
     name: "React Native - criando cache em chamadas assíncronas com RTK Query",
-    icon: "react-native-cache-chamadas-assincronas-rtk-query.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201430172474294272%2F6ec6f77c-c0a9-40ac-a27d-46c0c19da42c011",
@@ -44727,11 +38908,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "08f804bf-e586-4374-a624-386598acf7e3": {
     name: "React Native - Construindo um App com Native-base",
-    icon: "react-native-typescript-app-consultas-medicas.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201430196432150538%2F08f804bf-e586-4374-a624-386598acf7e3011",
@@ -44766,11 +38942,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "794a4f2e-a53e-4666-be5c-1cb167dfc1ef": {
     name: "React Native - criando menu e navegando entre telas",
-    icon: "react-native-criando-testes-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201430226119426048%2F794a4f2e-a53e-4666-be5c-1cb167dfc1ef011",
@@ -44804,11 +38975,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "125dfe3c-6cbe-4ba6-96fd-9da38e53e571": {
     name: "React Native - criando testes para sua aplicação",
-    icon: "react-native-criando-testes-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201430258285547612%2F125dfe3c-6cbe-4ba6-96fd-9da38e53e571011",
@@ -44838,11 +39004,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0575406d-ff3f-4356-8c6f-b1b7f1d0dff9": {
     name: "React Native - criando um app",
-    icon: "react-native-criando-testes-aplicacao.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201430287108804639%2F0575406d-ff3f-4356-8c6f-b1b7f1d0dff9011",
@@ -44872,11 +39033,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "871b49d2-0a47-4a82-9512-a0ed8446da9b": {
     name: "React Native - gerenciando estados globais com Redux Toolkit",
-    icon: "react-native-gerenciando-estados-globais-redux-toolkit.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201430314011070464%2F871b49d2-0a47-4a82-9512-a0ed8446da9b011",
@@ -44907,11 +39063,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "46fa45d4-8c72-4c9a-af70-520179644a45": {
     name: "React Native - guardando informações localmente",
-    icon: "react-native-informacoes-localmente.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201430339218845776%2F46fa45d4-8c72-4c9a-af70-520179644a45011",
@@ -44942,11 +39093,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0db3ac1e-0a2b-446e-ad22-38f501a24a7e": {
     name: "React Native - imutabilidade simplificada no Redux Toolkit com Immer",
-    icon: "react-native-imutabilidade-simplificada-redux-toolkit-immer.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201430366611849267%2F0db3ac1e-0a2b-446e-ad22-38f501a24a7e011",
@@ -44976,11 +39122,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0c0b9d1-afc7-4dd8-94db-e6e9b750c32e": {
     name: "React Native - integrando um App à Web API",
-    icon: "react-native-integrando-app-web-api.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201430387977625680%2Fd0c0b9d1-afc7-4dd8-94db-e6e9b750c32e011",
@@ -45013,11 +39154,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9a3fd3d9-aabe-4ba0-9db3-1dcd0dd0d4f1": {
     name: "React Native - personalize apps com animações",
-    icon: "react-native-personalize-apps-animacoes.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201430419581714503%2F9a3fd3d9-aabe-4ba0-9db3-1dcd0dd0d4f1011",
@@ -45044,11 +39180,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "757a40f4-b964-470e-a266-173e7b3f2754": {
     name: "React Native - utilizando e criando Hooks",
-    icon: "react-native-utilizando-criando-hooks.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201430439265566780%2F757a40f4-b964-470e-a266-173e7b3f2754011",
@@ -45081,11 +39212,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "704ec580-8ab8-442b-90d0-61894ab384e5": {
     name: "React Native - utilizando o Context API nas suas aplicações",
-    icon: "react-native-context-api-aplicacoes.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201430471851122789%2F704ec580-8ab8-442b-90d0-61894ab384e5011",
@@ -45117,11 +39243,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dc36c908-6e39-48cf-8b7a-a5f758f54fd5": {
     name: "React Native - utilizando o Push Notification no Cloud Messaging",
-    icon: "react-native-push-notification-cloud-messaging.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201430500103966740%2Fdc36c908-6e39-48cf-8b7a-a5f758f54fd5011",
@@ -45154,11 +39275,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9fd7a6e3-bdfe-4a28-ad7a-4cff7768ece4": {
     name: "React Native - utilizando Web API",
-    icon: "react-native-utilizando-web-api.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201430530588168263%2F9fd7a6e3-bdfe-4a28-ad7a-4cff7768ece4011",
@@ -45186,11 +39302,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d3dfca3d-65da-4590-85f2-f6a207918923": {
     name: "React Native com Expo - navegação com menu e suporte às telas",
-    icon: "react-native-expo-navegacao-menu-suporte-telas.svg",
-    category: {
-      name: "Mobile",
-      module: "React Native",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201430552658591764%2Fd3dfca3d-65da-4590-85f2-f6a207918923011",
@@ -45222,11 +39333,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d14f060-c44d-4ec0-8325-39041454c6e7": {
     name: "Rebranding - mude, transforme e recrie marcas para o século 21",
-    icon: "rebranding-mude-transforme-recrie-marcas-seculo-21.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201430580907225128%2F8d14f060-c44d-4ec0-8325-39041454c6e7011",
@@ -45254,11 +39360,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "044eded1-d3fd-4934-8171-96efd2cff699": {
     name: "Reconhecimento de imagens - Twitter e Computer Vision API",
-    icon: "reconhecimento-imagens.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201430608405074002%2F044eded1-d3fd-4934-8171-96efd2cff699011",
@@ -45290,11 +39391,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1d5be6b7-3b77-4e22-8162-d56cec29ffe1": {
     name: "Recrutamento e seleção - uma estratégia com foco em competências",
-    icon: "recrutamento-selecao-estrategia-foco-competencias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201430635257012304%2F1d5be6b7-3b77-4e22-8162-d56cec29ffe1011",
@@ -45325,11 +39421,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "da0ba4f2-3b04-4e99-b3c5-132844833fe9": {
     name: "Recursos Visuais com Excel - explorando gráficos e formatos",
-    icon: "recursos-visuais-excel-graficos-formatos.svg",
-    category: {
-      name: "DataScience",
-      module: "Excel",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201430657973371003%2Fda0ba4f2-3b04-4e99-b3c5-132844833fe9011",
@@ -45361,11 +39452,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8ebbd44-87cb-44b3-912f-1d2d368bba9a": {
     name: "Recycler View parte 2 - Listeners, animações e boas práticas",
-    icon: "recyclerview-listeners-animacoes.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201430684892409866%2Fb8ebbd44-87cb-44b3-912f-1d2d368bba9a011",
@@ -45396,11 +39482,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e7bfc0aa-b11f-4985-a8cd-e0816ab095c5": {
     name: "Recycler View parte 1 - listas flexíveis e performáticas",
-    icon: "recyclerview-listas-flexiveis-e-performaticas.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201430712985849866%2Fe7bfc0aa-b11f-4985-a8cd-e0816ab095c5011",
@@ -45438,11 +39519,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "338ca65b-4529-4872-8b07-36cd87d62857": {
     name: "Redação - boas práticas para marketing digital",
-    icon: "redacao-boas-praticas-marketing-digital.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201430746330583150%2F338ca65b-4529-4872-8b07-36cd87d62857011",
@@ -45470,11 +39546,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "72d46a1a-5277-4584-adb1-c326df535817": {
     name: "Redes - construindo um projeto com VLANs, políticas de acesso e conexão com internet",
-    icon: "redes-projeto-vlans-politicas-acesso-conexao-internet.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201430773908131932%2F72d46a1a-5277-4584-adb1-c326df535817011",
@@ -45503,11 +39574,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4e984d18-5329-4fc4-9d35-cefb240dc988": {
     name: "Redes - dos conceitos iniciais à criação de uma intranet",
-    icon: "redes-conceitos-iniciais-criacao-intranet.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201430801510834306%2F4e984d18-5329-4fc4-9d35-cefb240dc988011",
@@ -45544,11 +39610,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "48f71874-1098-4fd7-b92d-989e8a42ecf7": {
     name: "Redes - implementando roteamento, DNS e IPv6",
-    icon: "redes-implementando-roteamento-dns-ipv6.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201430840199090287%2F48f71874-1098-4fd7-b92d-989e8a42ecf7011",
@@ -45579,11 +39640,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cb644501-48a0-4df1-9301-07a3e191a7f6": {
     name: "Redes Neurais - Deep Learning com PyTorch",
-    icon: "pln-deep-learning.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201430863066447892%2Fcb644501-48a0-4df1-9301-07a3e191a7f6011",
@@ -45614,11 +39670,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a3480dab-f94a-4943-9a96-c4d3d4413761": {
     name: "Redes Neurais Recorrentes - Deep Learning com Pytorch",
-    icon: "rnn-redes-neurais-recorrentes-deep-learning-pytorch.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201430887024312410%2Fa3480dab-f94a-4943-9a96-c4d3d4413761011",
@@ -45658,11 +39709,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "94e9eb16-5bba-48be-8d70-a59608d81e80": {
     name: "Redes Neurais Convolucionais - Deep Learning com PyTorch",
-    icon: "cnn-redes-neurais-convolucionais-deep-learning-pytorch.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201430927419641896%2F94e9eb16-5bba-48be-8d70-a59608d81e80011",
@@ -45704,11 +39750,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4114c04a-1760-469a-912e-81a1c1ef0e33": {
     name: "Redes onboarding - uma perspectiva prática",
-    icon: "redes-onboarding-rede-forma-pratica.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201430967093559367%2F4114c04a-1760-469a-912e-81a1c1ef0e33011",
@@ -45741,11 +39782,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c2cc1574-2aa4-4462-85fd-b82c033e124f": {
     name: "Reengenharia e qualidade - mudando e aperfeiçoando processos",
-    icon: "reengenharia-qualidade-mudando-aperfeicoando-processos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201430999859474442%2Fc2cc1574-2aa4-4462-85fd-b82c033e124f011",
@@ -45772,11 +39808,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d885c33b-1856-4f9c-a7bb-59b2d9017faf": {
     name: "Redes parte 5 - Wi-FI",
-    icon: "redes-wifi.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201431020122165279%2Fd885c33b-1856-4f9c-a7bb-59b2d9017faf011",
@@ -45801,11 +39832,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d0e29fa0-734e-4de8-b610-063fffef5285": {
     name: "Redes Wi-Fi - criando uma rede sem fio de modo seguro",
-    icon: "redes-wi-fi-rede-sem-fio-modo-seguro.svg",
-    category: {
-      name: "DevOps",
-      module: "Redes",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201431038577102899%2Fd0e29fa0-734e-4de8-b610-063fffef5285011",
@@ -45834,11 +39860,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5cbcda74-7286-46ef-8b24-2a9c20da220a": {
     name: "Refatoração em PHP - boas práticas no seu código",
-    icon: "refatoracao-php-boas-praticas-codigo.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201431059540230214%2F5cbcda74-7286-46ef-8b24-2a9c20da220a011",
@@ -45871,11 +39892,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "90f2aefd-d538-4cf4-9108-87db1bcb38d3": {
     name: "Regressão com Sklearn - desenvolvimento, previsão e otimização",
-    icon: "regressao-sklearn-desenvolvimento-previsao-otimizacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201431086488633406%2F90f2aefd-d538-4cf4-9108-87db1bcb38d3011",
@@ -45911,11 +39927,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "23cad81a-b9f2-4c13-a64d-2cf59ddadd6a": {
     name: "Regressão linear - testando relações e prevendo resultados",
-    icon: "data-science-modelo-regressao-linear.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201431122165370990%2F23cad81a-b9f2-4c13-a64d-2cf59ddadd6a011",
@@ -45958,11 +39969,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bd5b67d0-aea8-405b-8d4a-5ccbc530fa21": {
     name: "Regressão Linear - técnicas avançadas de modelagem",
-    icon: "data-science-modelo-regressao-linear-assimetria-statsmodel.svg",
-    category: {
-      name: "DataScience",
-      module: "Estatística",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201431159939280906%2Fbd5b67d0-aea8-405b-8d4a-5ccbc530fa21011",
@@ -45995,11 +40001,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "341517b5-21fa-4ea7-8e6a-1c75d2e1317f": {
     name: "Relacionamento interpessoal parte 2 - melhore seu potencial",
-    icon: "relacionamento-interpessoal.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201431188515065888%2F341517b5-21fa-4ea7-8e6a-1c75d2e1317f011",
@@ -46025,11 +40026,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e59942c4-17d3-4cf1-a189-82d2180d0402": {
     name: "Relacionamento interpessoal - aprenda a lidar melhor com você e com o outro",
-    icon: "relacionamento-pessoal.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201431204159828038%2Fe59942c4-17d3-4cf1-a189-82d2180d0402011",
@@ -46062,11 +40058,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "051dad9e-0625-4d0b-a4cd-bca9463833cf": {
     name: "Report Analysis com Power BI - gerando relatórios empresariais",
-    icon: "business-intelligence-power-bi.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201431233704509491%2F051dad9e-0625-4d0b-a4cd-bca9463833cf011",
@@ -46104,11 +40095,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "905cf448-bf9a-4f91-964a-8af0b8607a96": {
     name: "RH na Educação Corporativa - visualizando novos paradigmas",
-    icon: "rh-educacao-corporativa-novos-paradigmas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201431267695149127%2F905cf448-bf9a-4f91-964a-8af0b8607a96011",
@@ -46139,11 +40125,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "08216f55-4ac4-455b-b739-05994d4a01d0": {
     name: "Responsabilidade corporativa - como lidar com divergências e julgamentos",
-    icon: "responsabilidade-corporativa-divergencias-julgamentos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201431292022099979%2F08216f55-4ac4-455b-b739-05994d4a01d0011",
@@ -46172,11 +40153,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "43c9de49-4be1-4643-8cf4-952870474941": {
     name: "RH Ágil - desenvolvendo competências profissionais",
-    icon: "rh-agil-desenvolvendo-competencias-profissionais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201431312368668712%2F43c9de49-4be1-4643-8cf4-952870474941011",
@@ -46211,11 +40187,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "52075e10-72f5-45b4-8e9f-7b0a32825a24": {
     name: "RH Ágil - Employee Experience",
-    icon: "rh-agil-employee-experience.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201431343482015764%2F52075e10-72f5-45b4-8e9f-7b0a32825a24011",
@@ -46251,11 +40222,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4159b6c2-3006-4b31-b598-561a95ba9c12": {
     name: "RH Ágil - Employer Branding",
-    icon: "rh-agil-employer-branding.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201431388273004565%2F4159b6c2-3006-4b31-b598-561a95ba9c12011",
@@ -46293,11 +40259,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c5970da9-5910-4e75-a9c7-99e8cc06b4a4": {
     name: "RH Ágil - estratégia ou sobrevivência",
-    icon: "rh-agil-estrategia-sobrevivencia.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201431430220238918%2Fc5970da9-5910-4e75-a9c7-99e8cc06b4a4011",
@@ -46332,11 +40293,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fa775038-49e8-489b-8088-4218aff6cf11": {
     name: "Robot Framework - automatizando testes no padrão BDD",
-    icon: "robot-framework-testes-padrao-bdd.svg",
-    category: {
-      name: "Programação",
-      module: "Quality Assurance",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201431463065833564%2Ffa775038-49e8-489b-8088-4218aff6cf11011",
@@ -46367,11 +40323,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bc0849b4-3135-4ab6-b7ab-4cf9b83e168a": {
     name: "Roadmap - como criar e manter o mapa de produto",
-    icon: "roadmap-criar-manter-mapa-produto.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Produtos",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201431486734278747%2Fbc0849b4-3135-4ab6-b7ab-4cf9b83e168a011",
@@ -46403,11 +40354,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e79622c7-d064-4edb-89f9-40e201ce6bd0": {
     name: "RPA - automatize processos com ferramentas No/Low Code",
-    icon: "rpa-automatize-processos-ferramentas-no-low-code.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201431510729891871%2Fe79622c7-d064-4edb-89f9-40e201ce6bd0011",
@@ -46439,11 +40385,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6d021faa-0ec3-415b-86b7-82668b9f9590": {
     name: "Rust - aprenda mais sobre tipos",
-    icon: "csharp-arrays-colecoes.svg",
-    category: {
-      name: "Programação",
-      module: "Rust",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201431540689801226%2F6d021faa-0ec3-415b-86b7-82668b9f9590011",
@@ -46477,11 +40418,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0b9e5b4b-5609-4553-b37a-a724e9857aeb": {
     name: "Rust - a linguagem de programação performática e segura",
-    icon: "csharp-aplique-principios-solid.svg",
-    category: {
-      name: "Programação",
-      module: "Rust",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201431570951712869%2F0b9e5b4b-5609-4553-b37a-a724e9857aeb011",
@@ -46516,11 +40452,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "130aaf7b-7dd1-4ef7-ae4b-0ce681979fce": {
     name: "RxJS e Angular - programando de forma reativa",
-    icon: "rxjs-angular-programando-forma-reativa.svg",
-    category: {
-      name: "Front-End",
-      module: "Angular",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201431599221325844%2F130aaf7b-7dd1-4ef7-ae4b-0ce681979fce011",
@@ -46561,11 +40492,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "030825d5-b348-4076-9560-4713b79de86a": {
     name: "SAP - entendendo suas características gerais",
-    icon: "sap-caracteristicas-gerais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201431638668742666%2F030825d5-b348-4076-9560-4713b79de86a011",
@@ -46599,11 +40525,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f411e80-e849-4ac6-ae27-4941a4cb44f5": {
     name: "SAP Activate - gestão ágil em projetos SAP",
-    icon: "sap-activate-fundamentos-essenciais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201431667995328542%2F3f411e80-e849-4ac6-ae27-4941a4cb44f5011",
@@ -46635,11 +40556,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b9757221-50a9-4459-9f43-f6c60501e82a": {
     name: "SASS e CSS - estilizando um site",
-    icon: "sass-css-estilizando-site.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201431697661636768%2Fb9757221-50a9-4459-9f43-f6c60501e82a011",
@@ -46672,11 +40588,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4a9eabfa-8a66-4035-b9a7-784134f96c14": {
     name: "Scrum - agilidade em seu projeto",
-    icon: "scrum-agilidade-seu-projeto.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Métodos Ágeis",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201431725805420635%2F4a9eabfa-8a66-4035-b9a7-784134f96c14011",
@@ -46706,11 +40617,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "35174703-652b-418c-ba5d-d0f1ba770b6b": {
     name: "Scrum escalado - LeSS Framework",
-    icon: "scrum-escalado-less-framework.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201431747116666911%2F35174703-652b-418c-ba5d-d0f1ba770b6b011",
@@ -46754,11 +40660,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e32c65cb-376c-4690-b609-79690bd5fc96": {
     name: "Scribus - criando um manual de identidade visual",
-    icon: "scribus-manual-identidade-visual.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201431792742309938%2Fe32c65cb-376c-4690-b609-79690bd5fc96011",
@@ -46798,11 +40699,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6dd2d776-1b19-4d73-807c-7582e45ec3a9": {
     name: "Segurança de rede - firewall, WAF e SIEM",
-    icon: "seguranca-rede-firewall-waf-siem.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201431834542735360%2F6dd2d776-1b19-4d73-807c-7582e45ec3a9011",
@@ -46840,11 +40736,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bab6cc39-3064-4ccc-86d4-a486efe3d36e": {
     name: "Segurança de rede - manipule logs e dashboards",
-    icon: "seguranca-rede-manipule-logs-dashboards.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201431872287297636%2Fbab6cc39-3064-4ccc-86d4-a486efe3d36e011",
@@ -46874,11 +40765,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3f664875-d9e1-440a-add6-19ee2cb968e4": {
     name: "Segurança de rede - proxy reverso, SSH e DNS",
-    icon: "seguranca-rede-proxy-reverso-ssh-dns.svg",
-    category: {
-      name: "DevOps",
-      module: "Segurança",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201431898757537834%2F3f664875-d9e1-440a-add6-19ee2cb968e4011",
@@ -46907,11 +40793,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "709a9a3e-2b21-45a2-a6ae-a71387dc2eb5": {
     name: "Segurança web em Java parte 2 - XSS, Mass Assignment e Uploads de arquivos!",
-    icon: "seguranca-web-em-java-parte-2.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201431922837049416%2F709a9a3e-2b21-45a2-a6ae-a71387dc2eb5011",
@@ -46938,11 +40819,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "725a6610-29f2-48c8-8caf-0ffcd6ea36ad": {
     name: "Segurança web em Java - evitando SQL Injection, força bruta e outros ataques",
-    icon: "seguranca-web-em-java-parte-1.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201431951219884072%2F725a6610-29f2-48c8-8caf-0ffcd6ea36ad011",
@@ -46974,11 +40850,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34de852f-2a1a-4a61-b598-924d16b6cbff": {
     name: "Selenium - testes automatizados de aceitação em Java",
-    icon: "selenium-testes-automatizados-aceitacao-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201431976935182346%2F34de852f-2a1a-4a61-b598-924d16b6cbff011",
@@ -47010,11 +40881,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d73d140-d9a6-4669-886e-5433455ab5d9": {
     name: "Selenium WebDriver e C# parte 1 - testes da sua web app",
-    icon: "selenium-csharp-webdriver.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201432001631232030%2F4d73d140-d9a6-4669-886e-5433455ab5d9011",
@@ -47049,11 +40915,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2cbe2bcb-4acd-4f34-90b4-fd77b5d28845": {
     name: "Selenium WebDriver e C# parte 2 - outros recursos",
-    icon: "selenium-csharp-mais-recursos.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201432030961995807%2F2cbe2bcb-4acd-4f34-90b4-fd77b5d28845011",
@@ -47091,11 +40952,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fa38f65b-6302-46a3-b9e6-be5fa148ac04": {
     name: "SEO - dominando estratégias e ferramentas para aumento de conversões",
-    icon: "seo-estrategias-ferramentas-aumento-conversoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "SEO",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201432063513997354%2Ffa38f65b-6302-46a3-b9e6-be5fa148ac04011",
@@ -47127,11 +40983,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a2e6e526-fd3d-4763-8973-3a87f9f5b151": {
     name: "SEO - otimização de sites",
-    icon: "seo-otimizacao-de-sites.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "SEO",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201432089459970088%2Fa2e6e526-fd3d-4763-8973-3a87f9f5b151011",
@@ -47166,11 +41017,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "82c9630e-6ef1-4e2c-a671-612fa98964f2": {
     name: "SEO - plataformas CMS",
-    icon: "seo-plataformas-cms.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "SEO",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201432121630273586%2F82c9630e-6ef1-4e2c-a671-612fa98964f2011",
@@ -47207,11 +41053,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5e3f0e30-cb02-4cda-b68c-054c8adcaf8d": {
     name: "SEO para e-commerce - estratégias para alcançar um bom posicionamento nos sites de busca",
-    icon: "seo-e-commerce-estrategias-alcancar-bom-posicionamento-sites-busca.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "E-commerce",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201432159928459344%2F5e3f0e30-cb02-4cda-b68c-054c8adcaf8d011",
@@ -47250,11 +41091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bfe7393b-3887-4f88-9053-e6a24ce42b0d": {
     name: "Serverless com Node.js - aplicações eficientes na Cloud",
-    icon: "serverless-node-js-aplicacoes-eficientes-cloud.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201432197941432361%2Fbfe7393b-3887-4f88-9053-e6a24ce42b0d011",
@@ -47288,11 +41124,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4277ca61-cc11-44fe-9cd4-89db95293fc9": {
     name: "Serverless com Node.js - integrando serviços com AWS",
-    icon: "serverless-node-js-integrando-servicos-aws.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201432226483666964%2F4277ca61-cc11-44fe-9cd4-89db95293fc9011",
@@ -47328,11 +41159,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5ee93540-ea4b-433f-a85b-beea6f99cf1b": {
     name: "Service Design - a implementação na prática",
-    icon: "service-design-implementacao-pratica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201432259316699196%2F5ee93540-ea4b-433f-a85b-beea6f99cf1b011",
@@ -47368,11 +41194,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "507de548-96ba-4285-b9c8-a64301e43fe4": {
     name: "Serverless com Node.js - integrando serviços com mensageria",
-    icon: "serverless-node-js-servicos-mensageria.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201432291428282438%2F507de548-96ba-4285-b9c8-a64301e43fe4011",
@@ -47411,11 +41232,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "79f181f0-efe9-4e10-b478-6783b01db411": {
     name: "Service Design - criando o Blueprint de um serviço digital",
-    icon: "service-design-blueprint-servico-digital.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201432334860296263%2F79f181f0-efe9-4e10-b478-6783b01db411011",
@@ -47451,11 +41267,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "76157c1d-bfab-4668-bba2-f2a1ef50ffeb": {
     name: "Service Design - desenvolvimento de produtos digitais com experiência de serviços",
-    icon: "service-design-produtos-digitais-experiencia-servicos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201432371933745232%2F76157c1d-bfab-4668-bba2-f2a1ef50ffeb011",
@@ -47492,11 +41303,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3fbd9d69-d061-48d6-bf90-fefecc4051be": {
     name: "Service Design - exploração em Design de Serviço",
-    icon: "service-design-exploracao-design-servico.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432408721985576%2F3fbd9d69-d061-48d6-bf90-fefecc4051be011",
@@ -47537,11 +41343,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "008d64d6-422f-46df-bb49-21d991d410f9": {
     name: "SharePoint 1 - criando um site de colaboração para a equipe",
-    icon: "sharepoint-1-site-colaboracao-equipe.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201432452590215238%2F008d64d6-422f-46df-bb49-21d991d410f9011",
@@ -47573,11 +41374,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8db58067-4cac-4641-ba2a-a1c291d57ca1": {
     name: "SharePoint 2 - montando uma estrutura de rede usando SharePoint e OneDrive",
-    icon: "sharepoint-2-estrutura-rede-sharepoint-onedrive.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201432479333093416%2F8db58067-4cac-4641-ba2a-a1c291d57ca1011",
@@ -47609,11 +41405,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e946cd3a-069a-44d3-9b9d-d70593824975": {
     name: "Shell Scripting parte 1 - scripts de automação de tarefas",
-    icon: "shellscripting.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201432505883041872%2Fe946cd3a-069a-44d3-9b9d-d70593824975011",
@@ -47642,11 +41433,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e8d88763-d7f8-49c2-9750-bb46057dcdc7": {
     name: "Sharepoint 3 - criando listas personalizadas",
-    icon: "sharepoint-3-criando-listas-personalizadas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Ferramentas de Apoio à Gestão",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201432525512376340%2Fe8d88763-d7f8-49c2-9750-bb46057dcdc7011",
@@ -47680,11 +41466,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d95481c8-b184-4e60-a591-792068a9345c": {
     name: "Shell Scripting parte 2 - fazendo monitoramento, agendando tarefas e backup",
-    icon: "shellscripting-parte-2.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201432556155965480%2Fd95481c8-b184-4e60-a591-792068a9345c011",
@@ -47714,11 +41495,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "897e9746-b3f7-481b-91bb-e78ed9f9417a": {
     name: "Shotcut - editando gratuitamente com computadores de baixo rendimento",
-    icon: "shotcut-edicao-gratuita-computadores-baixo-rendimento.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201432578985578577%2F897e9746-b3f7-481b-91bb-e78ed9f9417a011",
@@ -47755,11 +41531,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4d572a38-7af5-440a-96f5-090636fea074": {
     name: "Sketch - aprimore sua interface com dark mode",
-    icon: "sketch-aprimore-interface-dark-mode.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201432612342865920%2F4d572a38-7af5-440a-96f5-090636fea074011",
@@ -47787,11 +41558,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d167b6aa-ad07-4767-b271-db88e2740949": {
     name: "Sketch - incrementando e melhorando a UI",
-    icon: "sketch-incrementando-melhorando-ui.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201432637517078568%2Fd167b6aa-ad07-4767-b271-db88e2740949011",
@@ -47820,11 +41586,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a97d2b1c-6df1-475c-83c6-dbc5ad41bedf": {
     name: "Sketch - design visual de um website",
-    icon: "sketch-design-visual-website.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201432663492399104%2Fa97d2b1c-6df1-475c-83c6-dbc5ad41bedf011",
@@ -47860,11 +41621,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f76d5ca8-b3fc-4c78-bd53-27289fd73ac3": {
     name: "SOLID com PHP - princípios da programação orientada a objetos",
-    icon: "solid-php-principios-orientacao-a-objetos.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201432699521470494%2Ff76d5ca8-b3fc-4c78-bd53-27289fd73ac3011",
@@ -47895,11 +41651,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c539ea6f-a29f-42b2-8936-e5930ca7a0a3": {
     name: "Social Listening - como ouvir sua audiência nas redes",
-    icon: "social-listening-ouvir-audiencia-redes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201432722481086474%2Fc539ea6f-a29f-42b2-8936-e5930ca7a0a3011",
@@ -47930,11 +41681,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5bde5f8e-22dc-4fbc-8408-c21098092790": {
     name: "Social Commerce - como alavancar suas vendas nas redes sociais",
-    icon: "social-commerce-alavancar-vendas-redes-sociais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "E-commerce",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201432749379174400%2F5bde5f8e-22dc-4fbc-8408-c21098092790011",
@@ -47969,11 +41715,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2803f484-df56-4079-bcd0-1ef201f0ed1c": {
     name: "Spark - processamento de linguagem natural",
-    icon: "spark-processamento-linguagem-natural.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201432783151698020%2F2803f484-df56-4079-bcd0-1ef201f0ed1c011",
@@ -48006,11 +41747,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cef389a3-de6d-4e21-9167-7b7ac6e32224": {
     name: "Spark - criando modelos de classificação",
-    icon: "spark-modelos-classificacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201432809475149964%2Fcef389a3-de6d-4e21-9167-7b7ac6e32224011",
@@ -48045,11 +41781,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2e4d6542-38d5-4d30-903e-8f5694529bd7": {
     name: "Spark - apresentando a ferramenta",
-    icon: "spark-apresentando-ferramenta.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201432839393124402%2F2e4d6542-38d5-4d30-903e-8f5694529bd7011",
@@ -48090,11 +41821,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e4b566e-7325-4a51-be91-6b223e83361d": {
     name: "Spark - trabalhando com regressão",
-    icon: "spark-trabalhando-regressao.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201432881055158272%2F6e4b566e-7325-4a51-be91-6b223e83361d011",
@@ -48131,11 +41857,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f0f48fec-21e1-4891-8991-fab84480b1e8": {
     name: "Spark AR",
-    icon: "spark-ar-fundamentos-basicos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201432914089488394%2Ff0f48fec-21e1-4891-8991-fab84480b1e8011",
@@ -48171,11 +41892,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "24ee9a16-8072-4445-b145-0f06a67e1ed7": {
     name: "Spark - sistema de recomendação",
-    icon: "spark-sistema-recomendacao.svg",
-    category: {
-      name: "DataScience",
-      module: "Engenharia de Dados",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201432945509027841%2F24ee9a16-8072-4445-b145-0f06a67e1ed7011",
@@ -48210,11 +41926,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3551ab8e-3cd9-4861-ba8e-6867984c961d": {
     name: "Spring Boot 3 - desenvolva uma API Rest em Java",
-    icon: "spring-boot-3-desenvolva-api-rest-java.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201432976395874344%2F3551ab8e-3cd9-4861-ba8e-6867984c961d011",
@@ -48252,11 +41963,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b507d595-81fb-483d-aefe-3204819147ad": {
     name: "Spring Boot 3 - aplique boas práticas e proteja uma API Rest",
-    icon: "spring-boot-aplique-boas-praticas-proteja-api-rest.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201433015168016414%2Fb507d595-81fb-483d-aefe-3204819147ad011",
@@ -48295,11 +42001,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f3359538-4538-4dc2-8792-bd8fdd9167e0": {
     name: "Spring Boot 3 - documente, teste e prepare uma API para o deploy",
-    icon: "spring-boot-3-documente-teste-prepare-api-deploy.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201433053604614238%2Ff3359538-4538-4dc2-8792-bd8fdd9167e0011",
@@ -48333,11 +42034,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ed3fb799-4d34-462d-9fe0-6e45e648d54b": {
     name: "Spring Data JPA - Repositórios, Consultas, Projeções e Specifications",
-    icon: "spring-data-jpa.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201433085376479302%2Fed3fb799-4d34-462d-9fe0-6e45e648d54b011",
@@ -48380,11 +42076,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "03ea998c-cfe3-4c1c-87f7-e98d20300e50": {
     name: "SQL com MySQL - manipule e consulte dados",
-    icon: "mysql-manipule-dados-com-sql.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201433125524361286%2F03ea998c-cfe3-4c1c-87f7-e98d20300e50011",
@@ -48426,11 +42117,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "afc143a8-7377-4dc7-b46d-2103947b6238": {
     name: "SQL com Oracle Database - manipule e consulte dados",
-    icon: "introducao-sql-oracle-manipule-consulte-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201433171586203758%2Fafc143a8-7377-4dc7-b46d-2103947b6238011",
@@ -48474,11 +42160,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6c8f941d-e272-4df2-9f3e-caf60e1ddaac": {
     name: "SRE - entenda a confiabilidade dos sistemas",
-    icon: "sre-entenda-confiabilidade-sistemas.svg",
-    category: {
-      name: "DevOps",
-      module: "Confiabilidade",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433216452677733%2F6c8f941d-e272-4df2-9f3e-caf60e1ddaac011",
@@ -48514,11 +42195,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50037690-ad1e-4d19-8a6f-46bc73adcaec": {
     name: "Startupismo - a importância do Produto Mínimo Viável",
-    icon: "startupismo-produto-minimo-viavel.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201433245905063997%2F50037690-ad1e-4d19-8a6f-46bc73adcaec011",
@@ -48557,11 +42233,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "126ed541-cc63-45f3-8a4e-78d841c9fbdd": {
     name: "SQL Server - construção do Data Warehouse",
-    icon: "sql-server-construcao-data-warehouse.svg",
-    category: {
-      name: "DataScience",
-      module: "SQL e Banco de Dados",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201433280218677249%2F126ed541-cc63-45f3-8a4e-78d841c9fbdd011",
@@ -48598,11 +42269,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b92ee846-ca9f-4900-a1a7-6af4cb221e3a": {
     name: "Startupismo - comece do jeito certo",
-    icon: "startupismo-comece-jeito-certo.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433312841969776%2Fb92ee846-ca9f-4900-a1a7-6af4cb221e3a011",
@@ -48631,11 +42297,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b09cbc88-2885-4b11-94b9-dc2270629071": {
     name: "Startupismo - descubra o Product-Market Fit",
-    icon: "startupismo-product-market-fit.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201433333209518141%2Fb09cbc88-2885-4b11-94b9-dc2270629071011",
@@ -48671,11 +42332,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4aacb847-bfab-441b-baa7-8c8fe8438b64": {
     name: "Startupismo - Product Discovery",
-    icon: "startupismo-product-discovery.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201433365123969084%2F4aacb847-bfab-441b-baa7-8c8fe8438b64011",
@@ -48706,11 +42362,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "608804be-659e-4aa3-976e-0c849f07db0c": {
     name: "Startupismo - quando e como buscar investimento",
-    icon: "startupismo-quando-como-buscar-investimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433392768630856%2F608804be-659e-4aa3-976e-0c849f07db0c011",
@@ -48740,11 +42391,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "df26a7c4-b9a3-4845-bcfe-ab57fd40954a": {
     name: "Storytelling - visão de negócios e desenvolvimento pessoal",
-    icon: "storytelling-negocios-desenvolvimento-pessoal.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201433415208157274%2Fdf26a7c4-b9a3-4845-bcfe-ab57fd40954a011",
@@ -48773,11 +42419,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "24a938a6-a0a8-42c0-aadc-b1c3318dcc7b": {
     name: "Stop Motion - produção de vídeo para mídia social",
-    icon: "video-stop-motion.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Motion Design",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201433438360711219%2F24a938a6-a0a8-42c0-aadc-b1c3318dcc7b011",
@@ -48800,11 +42441,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c7acacd7-0d80-477f-9861-dd6691524055": {
     name: "Streamlabs - produzindo conteúdo em vídeo",
-    icon: "streamlabs-produzindo-conteudo-video.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Stream",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201433451983818772%2Fc7acacd7-0d80-477f-9861-dd6691524055011",
@@ -48846,11 +42482,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d96b7d9e-e192-42fa-be80-ce8057727e1b": {
     name: "Streamlabs - produzindo uma LiveStream profissional",
-    icon: "streamlabs-configurando-livestream-profissional.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Stream",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201433495667482644%2Fd96b7d9e-e192-42fa-be80-ce8057727e1b011",
@@ -48893,11 +42524,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2599c302-80e1-456c-b3fa-635b2e2a2d43": {
     name: "Streamlit - construindo um dashboard interativo",
-    icon: "streamlit-construindo-dashboard-interativo.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Visualization",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433542593359943%2F2599c302-80e1-456c-b3fa-635b2e2a2d43011",
@@ -48930,11 +42556,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0ba12d29-64a4-451d-8f21-821a4a9d7127": {
     name: "String em Python - extraindo informações de uma URL",
-    icon: "string-python-extraindo-informacoes-url.svg",
-    category: {
-      name: "Programação",
-      module: "Python web",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201433573740253194%2F0ba12d29-64a4-451d-8f21-821a4a9d7127011",
@@ -48966,11 +42587,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c1b57c38-da5e-4462-8eda-a3cef7d9451d": {
     name: "Substance Painter - texturizando um modelo 3D",
-    icon: "substance-painter-texturizando-modelo-3d.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "3D",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201433597857509507%2Fc1b57c38-da5e-4462-8eda-a3cef7d9451d011",
@@ -48999,11 +42615,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "00a36bf4-f7ee-45c1-8209-87924db16273": {
     name: "SvelteKit - criando uma SPA",
-    icon: "sveltekit-criando-spa.svg",
-    category: {
-      name: "Front-End",
-      module: "Svelte",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201433622511632495%2F00a36bf4-f7ee-45c1-8209-87924db16273011",
@@ -49034,11 +42645,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "183c7dfc-b676-4abe-b583-750ca6b9ed60": {
     name: "Svelte - diretivas e componentes com TypeScript",
-    icon: "svelte-typescript-conhecendo-compilador.svg",
-    category: {
-      name: "Front-End",
-      module: "Svelte",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201433645928415272%2F183c7dfc-b676-4abe-b583-750ca6b9ed60011",
@@ -49078,11 +42684,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f30cd3d2-122e-44fa-863c-0b94c793e81b": {
     name: "SvelteKit - trabalhando com store",
-    icon: "sveltekit-trabalhando-store.svg",
-    category: {
-      name: "Front-End",
-      module: "Svelte",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201433685296152638%2Ff30cd3d2-122e-44fa-863c-0b94c793e81b011",
@@ -49117,11 +42718,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8bada9c1-f62a-4b63-8974-a854261f5e37": {
     name: "Swagger - documentando suas APIs",
-    icon: "swagger-documentando-apis.svg",
-    category: {
-      name: "Programação",
-      module: "Computação",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201433718947061781%2F8bada9c1-f62a-4b63-8974-a854261f5e37011",
@@ -49160,11 +42756,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "9481258c-9ee6-4384-845d-b23475c7456c": {
     name: "Swift - Entendendo a linguagem",
-    icon: "swift-entendendo-linguagem.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201433753491345428%2F9481258c-9ee6-4384-845d-b23475c7456c011",
@@ -49201,11 +42792,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3217afb4-d356-4d88-9433-0587d12f3717": {
     name: "Swoole PHP - servidor assíncrono e corrotinas com PHP",
-    icon: "swoole-php-servidor-assincrono-corrotinas-php.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201433787410694277%2F3217afb4-d356-4d88-9433-0587d12f3717011",
@@ -49239,11 +42825,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d18516d4-5f09-460a-809d-b51416b38649": {
     name: "Swift - entendendo e praticando orientação a objetos",
-    icon: "swift-entendendo-praticando-orientacao-objetos.svg",
-    category: {
-      name: "Mobile",
-      module: "iOS",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201433817928433764%2Fd18516d4-5f09-460a-809d-b51416b38649011",
@@ -49273,11 +42854,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a63ef249-cdc8-4baa-83b4-1ec82fbb328c": {
     name: "Symfony Framework - cache e segurança",
-    icon: "symfony-framework-cache-seguranca.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201433848345542706%2Fa63ef249-cdc8-4baa-83b4-1ec82fbb328c011",
@@ -49312,11 +42888,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "51a17907-d337-4b91-b61c-8eaf65c5a872": {
     name: "Symfony Framework - criando uma aplicação com MVC",
-    icon: "symfony-framework-criando-aplicacao-mvc.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201433877512720485%2F51a17907-d337-4b91-b61c-8eaf65c5a872011",
@@ -49349,11 +42920,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "784c25f6-af41-4473-b951-0c72f522899c": {
     name: "Symfony Framework - e-mail, processamento assíncrono, uploads e testes",
-    icon: "elaboracao-contratos-empreendedor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Outros",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201433903811014656%2F784c25f6-af41-4473-b951-0c72f522899c011",
@@ -49389,11 +42955,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "47556292-4432-4a79-bd3b-6c1bcb7c2215": {
     name: "Symfony Framework - formulários, validação e sessão",
-    icon: "symfony-framework-formularios-validacao-sessao.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201433936115539988%2F47556292-4432-4a79-bd3b-6c1bcb7c2215011",
@@ -49429,11 +42990,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "352dc12b-55e2-4e31-854f-0b99ef539c64": {
     name: "Symfony Framework - lidando com eventos, tradução, logs e deploy",
-    icon: "symfony-framework-eventos-traducao-logs-deploy.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201433971972653186%2F352dc12b-55e2-4e31-854f-0b99ef539c64011",
@@ -49468,11 +43024,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "12886fb7-4c92-46b8-8c71-1fb567284914": {
     name: "Síndrome do Impostor - reconheça seu sucesso e resultados",
-    icon: "sindrome-do-impostor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Habilidades Interpessoais",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434000556834906%2F12886fb7-4c92-46b8-8c71-1fb567284914011",
@@ -49499,11 +43050,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3eeadf27-b9f7-4bae-8fba-b794ec41d684": {
     name: "Tableau - como trabalhar com mapas",
-    icon: "tableau-como-trabalhar-mapas.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201434018026111077%2F3eeadf27-b9f7-4bae-8fba-b794ec41d684011",
@@ -49545,11 +43091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d6c7598e-7da0-449c-80d3-6f25fc087877": {
     name: "Tableau - construindo dashboards e histórias",
-    icon: "tableau-construindo-dashboards-historias.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201434056710180924%2Fd6c7598e-7da0-449c-80d3-6f25fc087877011",
@@ -49592,11 +43133,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "580dadb4-d399-4711-8e77-0144906101cd": {
     name: "Tableau - executando um projeto de BI",
-    icon: "tableau-executando-projeto-bi.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201434103388586004%2F580dadb4-d399-4711-8e77-0144906101cd011",
@@ -49641,11 +43177,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d16ab948-a0c2-4319-b0d2-588b1318e9ec": {
     name: "Tableau - funções e cálculos LoD",
-    icon: "tableau-funcoes-calculos-lod.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434149265887232%2Fd16ab948-a0c2-4319-b0d2-588b1318e9ec011",
@@ -49693,11 +43224,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "39fb593e-97be-4959-a02f-5e30d95d1674": {
     name: "Tableau - gráficos simples e avançados",
-    icon: "tableau-graficos-simples-avancados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201434206744621116%2F39fb593e-97be-4959-a02f-5e30d95d1674011",
@@ -49746,11 +43272,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "413ce4ee-74db-4306-8140-a5159eb48293": {
     name: "Tableau - preparação e transformação de dados",
-    icon: "tableau-preparacao-transformacao-dados.svg",
-    category: {
-      name: "DataScience",
-      module: "Business Intelligence",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434261157318666%2F413ce4ee-74db-4306-8140-a5159eb48293011",
@@ -49804,11 +43325,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5304490c-aa20-4df4-aeb6-1ba6d3faf3d3": {
     name: "Tailwind CSS - estilizando a sua página com classes utilitárias",
-    icon: "tailwind-css-estilizando-pagina-classes-utilitarias.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201434313275756585%2F5304490c-aa20-4df4-aeb6-1ba6d3faf3d3011",
@@ -49841,11 +43357,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fdad93e9-c3a5-4426-8f01-a43537c079aa": {
     name: "Teoria U - desenvolva soluções práticas para problemas complexos",
-    icon: "teoria-u-solucoes-praticas-problemas-complexos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201434340979130418%2Ffdad93e9-c3a5-4426-8f01-a43537c079aa011",
@@ -49875,11 +43386,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "29e4b3e0-f780-4afc-a2da-5bc527892925": {
     name: "Tech Recruiter - desenvolva sua carreira",
-    icon: "tech-recruiter-desenvolva-carreira.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201434364005851146%2F29e4b3e0-f780-4afc-a2da-5bc527892925011",
@@ -49910,11 +43416,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80a7ec31-a643-4422-85e4-f0612f76e069": {
     name: "Terminal - aprenda comandos para executar tarefas",
-    icon: "terminal-comandos-executar-tarefas.svg",
-    category: {
-      name: "DevOps",
-      module: "Linux",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201434390757122129%2F80a7ec31-a643-4422-85e4-f0612f76e069011",
@@ -49946,11 +43447,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5ac2688f-e0dc-4b6e-bc25-421b90a01a71": {
     name: "Testes de integração com PHP - testando o acesso à API e ao banco de dados",
-    icon: "php-testes-integracao.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201434415415431249%2F5ac2688f-e0dc-4b6e-bc25-421b90a01a71011",
@@ -49982,11 +43478,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "33ad5f23-42a4-487f-a4d8-0c8444af8257": {
     name: "Team Building - técnicas e práticas para times ágeis",
-    icon: "team-building-tecnicas-praticas-times-ageis.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201434441579515935%2F33ad5f23-42a4-487f-a4d8-0c8444af8257011",
@@ -50020,11 +43511,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2431de08-4b5d-4a9d-a6c1-a2c449ace7c8": {
     name: "Testes em .NET - integrando a aplicação com um banco de dados",
-    icon: "testes-net-integrando-aplicacao-banco-dados.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201434481765122118%2F2431de08-4b5d-4a9d-a6c1-a2c449ace7c8011",
@@ -50054,11 +43540,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34640bc7-68d1-46a7-a2f8-df525a614973": {
     name: "Testes em .NET - integração e entrega contínua com Azure DevOps",
-    icon: "testes-net-integracao-entrega-continua-azure-devops.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522453970497586%2F1201434505089650748%2F34640bc7-68d1-46a7-a2f8-df525a614973011",
@@ -50091,11 +43572,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6520602e-5535-44c3-8aff-ffc3c4b5fd8b": {
     name: "Testes de unidade e Widget com Mocks - boas práticas no Flutter",
-    icon: "testes-widgets-flutter.svg",
-    category: {
-      name: "Mobile",
-      module: "Flutter",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201434531631210556%2F6520602e-5535-44c3-8aff-ffc3c4b5fd8b011",
@@ -50128,11 +43604,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "937d4c69-3bdc-4826-8caf-cc0b2b228b2d": {
     name: "Testes em .NET - testando software",
-    icon: "testes-net-teste-software.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201434561767276636%2F937d4c69-3bdc-4826-8caf-cc0b2b228b2d011",
@@ -50168,11 +43639,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7591320f-cba7-4091-b908-204a2f14ae09": {
     name: "Testes em .NET - testes de interface usando Selenium",
-    icon: "testes-net-testes-interface-selenium.svg",
-    category: {
-      name: "Programação",
-      module: ".NET",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201434593308463144%2F7591320f-cba7-4091-b908-204a2f14ae09011",
@@ -50202,11 +43668,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6e4eb40b-3462-454c-9aa8-b031a3b96456": {
     name: "Testes no Android - Mocks e integrações",
-    icon: "testes-android-mockito-e-integracoes.svg",
-    category: {
-      name: "Mobile",
-      module: "Android",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201434618126151680%2F6e4eb40b-3462-454c-9aa8-b031a3b96456011",
@@ -50244,11 +43705,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c7914574-b2c6-43c2-a43c-f45f237d4a62": {
     name: "The Twelve-Factor App - Metodologia para construção de aplicações robustas",
-    icon: "the-twelve-factor-app.svg",
-    category: {
-      name: "DevOps",
-      module: "Entrega Contínua",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201434648585175101%2Fc7914574-b2c6-43c2-a43c-f45f237d4a62011",
@@ -50281,11 +43737,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "909bfe42-9036-4d3c-99b1-e26c989b2e23": {
     name: "Threads em Java 1 - programação paralela",
-    icon: "threads-java-1.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201434676557000794%2F909bfe42-9036-4d3c-99b1-e26c989b2e23011",
@@ -50320,11 +43771,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a0a666b7-423c-40e2-b432-730087f45670": {
     name: "Threads em Java 2 - programação concorrente avançada",
-    icon: "threads-java-2.svg",
-    category: {
-      name: "Programação",
-      module: "Java",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201434701144006696%2Fa0a666b7-423c-40e2-b432-730087f45670011",
@@ -50362,11 +43808,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0677312e-576d-4397-b524-e395199c3308": {
     name: "Tipografia - conceitos e prática",
-    icon: "tipografia-conceitos-pratica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Gráfico",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201434731561099316%2F0677312e-576d-4397-b524-e395199c3308011",
@@ -50398,11 +43839,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50e5d06c-e4b0-4ec7-abc6-ef2dd50398df": {
     name: "TikTok Ads - funcionalidades e configurações para criar campanhas",
-    icon: "tiktok-ads-funcionalidades-configuracoes-campanhas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201434761135132782%2F50e5d06c-e4b0-4ec7-abc6-ef2dd50398df011",
@@ -50433,11 +43869,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f7978b54-6dd6-40e3-bbff-10431a896b71": {
     name: "Tipografia - conhecendo o que há por trás dos tipos",
-    icon: "tipografia-conceito.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Design Editorial",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201434791464157234%2Ff7978b54-6dd6-40e3-bbff-10431a896b71011",
@@ -50469,11 +43900,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7fd6d5e9-0878-40cd-b789-e576b7e505b3": {
     name: "Tipos de lançamentos - estratégias e técnicas para produtos digitais",
-    icon: "tipos-lancamentos-estrategias-tecnicas-produtos-digitais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201434815484940338%2F7fd6d5e9-0878-40cd-b789-e576b7e505b3011",
@@ -50509,11 +43935,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7c856bd9-4901-41d5-9f2d-4b5d21842dd1": {
     name: "Transformação Digital - a organização Lean-Ágil",
-    icon: "transformacao-digital-organizacao-lean-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201434847760089098%2F7c856bd9-4901-41d5-9f2d-4b5d21842dd1011",
@@ -50544,11 +43965,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2db85234-4f78-4608-ae31-aa4cc919ebcf": {
     name: "Transformação digital - alinhamento estratégico",
-    icon: "transformacao-digital-alinhamento-estrategico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201434870476451890%2F2db85234-4f78-4608-ae31-aa4cc919ebcf011",
@@ -50579,11 +43995,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c0852551-d924-403f-b5c6-799905aaacf6": {
     name: "Tomada de decisão - pensar, analisar e agir",
-    icon: "tomada-de-decisao-pensar-analisar-agir.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201434896577609838%2Fc0852551-d924-403f-b5c6-799905aaacf6011",
@@ -50613,11 +44024,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34827dfa-84a2-4e5d-81c5-bc3be0540fa6": {
     name: "Transformação Digital - cultura de experimentação",
-    icon: "transformacao-digital-cultura-experimentacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201434923450499122%2F34827dfa-84a2-4e5d-81c5-bc3be0540fa6011",
@@ -50648,11 +44054,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a1bf5c3c-fbc8-4c8e-a1d1-59f1106494ee": {
     name: "Transformação Digital - inicie a implementação do movimento",
-    icon: "transformacao-digital-implementacao-movimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201434948133982258%2Fa1bf5c3c-fbc8-4c8e-a1d1-59f1106494ee011",
@@ -50679,11 +44080,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1bbfd54a-c09f-40c4-a733-db17909beca6": {
     name: "Transformação Digital - fluxo, DevOps e abordagem product-based",
-    icon: "transformacao-digital-fluxo-devops-product-based.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201434968379899934%2F1bbfd54a-c09f-40c4-a733-db17909beca6011",
@@ -50713,11 +44109,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a60cefc4-7816-450c-b1f3-dc99d9a0c9dc": {
     name: "Transformação Digital - tecnologias",
-    icon: "transformacao-digital-tecnologias.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201434992425844776%2Fa60cefc4-7816-450c-b1f3-dc99d9a0c9dc011",
@@ -50747,11 +44138,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "215ee938-9ba0-4d4d-ba17-57f0d94ad623": {
     name: "Transição de carreira - um guia para a área da tecnologia",
-    icon: "transicao-carreira-tecnologia-guia-basico.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Produtividade e Qualidade de Vida",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201435014827618314%2F215ee938-9ba0-4d4d-ba17-57f0d94ad623011",
@@ -50785,11 +44171,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4ac6d641-b05c-4387-9c2e-8dd88c04ee12": {
     name: "Transformação digital - pilares culturais",
-    icon: "transformacao-digital-pilares-culturais.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Estratégica",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201435048218476554%2F4ac6d641-b05c-4387-9c2e-8dd88c04ee12011",
@@ -50821,11 +44202,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c7c3fa90-08e8-480f-af92-1c49bd81fb50": {
     name: "Treinando uma Rede Neural - Deep Learning com PyTorch",
-    icon: "treinando-rede-neural-pytorch.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435085388394537%2Fc7c3fa90-08e8-480f-af92-1c49bd81fb50011",
@@ -50856,11 +44232,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d5cfcf39-e447-40df-9a03-2eb84ddbe59b": {
     name: "Transformação organizacional - Lean-Ágil além da TI",
-    icon: "transformacao-organizacional-lean-agil.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201435115008557136%2Fd5cfcf39-e447-40df-9a03-2eb84ddbe59b011",
@@ -50901,11 +44272,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8ea20f84-20b2-4679-943c-2bb4e253d765": {
     name: "Tráfego pago - estratégias e aplicações",
-    icon: "trafego-pago-estrategias-aplicacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201435154372108328%2F8ea20f84-20b2-4679-943c-2bb4e253d765011",
@@ -50938,11 +44304,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fbb5e979-04b2-46ef-bb78-624d22809b85": {
     name: "Treinamento e desenvolvimento - atue com técnicas e diretrizes",
-    icon: "treinamento-desenvolvimento-atue-tecnicas-diretrizes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Liderança",
-    },
     modules: {
       "01": {
         "1": "1196519270000099338%2F1201435182738178048%2Ffbb5e979-04b2-46ef-bb78-624d22809b85011",
@@ -50980,11 +44341,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50670a71-d501-420f-a7c5-19f930fb1d99": {
     name: "Twitter Ads - criando campanhas",
-    icon: "twitter-ads-primeiras-campanhas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Tráfego Pago",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201435216045146252%2F50670a71-d501-420f-a7c5-19f930fb1d99011",
@@ -51018,11 +44374,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6659366a-dc60-4e20-bca7-89a6357f7dd0": {
     name: "TypeScript - aplicando orientação a objetos no Front-end",
-    icon: "typescript-orientado-objetos.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201435245761789952%2F6659366a-dc60-4e20-bca7-89a6357f7dd0011",
@@ -51052,11 +44403,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3aed7eb7-3bcf-4460-b993-ad7e9e5890c5": {
     name: "TypeScript - o paradigma funcional no front-end",
-    icon: "typescript-paradigma-funcional-front-end.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201435267488296960%2F3aed7eb7-3bcf-4460-b993-ad7e9e5890c5011",
@@ -51081,11 +44427,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3713b8b1-bc57-4704-9011-5dacdf7dd3a9": {
     name: "Typescript - construção de uma API com tipagem segura",
-    icon: "typescript-construcao-api-tipagem-segura.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201435284777226240%2F3713b8b1-bc57-4704-9011-5dacdf7dd3a9011",
@@ -51123,11 +44464,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d137c004-3543-4910-8b78-ff217f815385": {
     name: "TypeScript parte 1 - evoluindo seu JavaScript",
-    icon: "typescript-evoluindo-javascript.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201435320885977168%2Fd137c004-3543-4910-8b78-ff217f815385011",
@@ -51179,11 +44515,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5dafb613-67a5-48a5-8a9a-96f2220e9289": {
     name: "TypeScript na prática - implemente um projeto completo com TypeScript e módulos",
-    icon: "typescript-pratica-projeto-completo-typescript-modulos.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201435379270688768%2F5dafb613-67a5-48a5-8a9a-96f2220e9289011",
@@ -51226,11 +44557,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "66f409e2-93a7-4ba8-85e3-7a5005fb27d1": {
     name: "TypeScript parte 2 - avançando na linguagem",
-    icon: "typescript-avancando-linguagem.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201435422857895956%2F66f409e2-93a7-4ba8-85e3-7a5005fb27d1011",
@@ -51280,11 +44606,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "6d456f44-1dfb-4954-8cb8-056bb3de7fb5": {
     name: "Técnicas de facilitação de RH - interações e envolvimento de colaboradores",
-    icon: "tecnicas-facilitacao-rh-interacoes-envolvimento-colaboradores.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão de Pessoas",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201435481406193674%2F6d456f44-1dfb-4954-8cb8-056bb3de7fb5011",
@@ -51322,11 +44643,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "70be5e5f-2445-48d9-8e3d-cefd3d7ff24f": {
     name: "Typescript parte 3 - mais técnicas e boas práticas",
-    icon: "typescript-tecnicas-boas-praticas.svg",
-    category: {
-      name: "Front-End",
-      module: "JavaScript",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201435517292646440%2F70be5e5f-2445-48d9-8e3d-cefd3d7ff24f011",
@@ -51374,11 +44690,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "25a74c0a-5fb8-414a-97bd-192d44be2101": {
     name: "Tópicos avançados da agilidade - aprofunde seus conhecimentos em qualidade, valor e contratações",
-    icon: "topicos-avancados-agilidade-qualidade-valor-contratacoes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1195877026192699544%2F1201435566600892537%2F25a74c0a-5fb8-414a-97bd-192d44be2101011",
@@ -51408,11 +44719,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "71801aa9-5458-4a1c-a91a-c9c8eeac8fda": {
     name: "UI Design - criando o design de um protótipo",
-    icon: "ui-design-criando-design-prototipo.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201435589283688499%2F71801aa9-5458-4a1c-a91a-c9c8eeac8fda011",
@@ -51438,11 +44744,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "89b291ed-d4ba-42d8-912e-3070263a2814": {
     name: "UI Design - construindo o produto final",
-    icon: "ui-design-construindo-produto-final.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522744782561350%2F1201435608313237504%2F89b291ed-d4ba-42d8-912e-3070263a2814011",
@@ -51470,11 +44771,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3705a6c3-1ec9-4324-bff5-da8d88c74029": {
     name: "UI Design - melhorando a experiência de um app com UI Patterns",
-    icon: "ui-design-experiencia-app-ui-patterns.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201435632577290280%2F3705a6c3-1ec9-4324-bff5-da8d88c74029011",
@@ -51512,11 +44808,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "04c2d3f7-7eaa-45bc-aea3-801f3c196e05": {
     name: "UI Design - mergulhando nas interfaces digitais",
-    icon: "ui-design-mergulhando-interfaces-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201435668228874270%2F04c2d3f7-7eaa-45bc-aea3-801f3c196e05011",
@@ -51541,11 +44832,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "93f9c457-8873-4026-99a2-918f9f3ad220": {
     name: "UI Design - teste de usabilidade",
-    icon: "ui-design-teste-usabilidade.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1198982062078697562%2F1201435689112326174%2F93f9c457-8873-4026-99a2-918f9f3ad220011",
@@ -51573,11 +44859,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "be30449b-990a-427b-99cb-fbc94034c73d": {
     name: "Unity 2D parte 1 - criando um jogo 2D",
-    icon: "flappybirdunity1.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201435718875103302%2Fbe30449b-990a-427b-99cb-fbc94034c73d011",
@@ -51614,11 +44895,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0a774cab-d44f-4c8d-8270-6f8e4beac231": {
     name: "Unity 2D parte 2 - adicionando efeitos visuais ao seu jogo",
-    icon: "flappybirdunity2.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201435752773451847%2F0a774cab-d44f-4c8d-8270-6f8e4beac231011",
@@ -51651,11 +44927,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0a6119d6-48ce-4cb4-898f-c8558508cb3c": {
     name: "Unity 2D parte 3 - criando um jogo multiplayer",
-    icon: "unity-2d-criando-jogo-multiplayer.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201435776563544084%2F0a6119d6-48ce-4cb4-898f-c8558508cb3c011",
@@ -51692,11 +44963,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a5721c17-01fa-4920-8c7d-da3172979750": {
     name: "Unity Mobile parte 2 - interface responsiva e desempenho",
-    icon: "unity-mobile-interface-responsiva-desempenho.svg",
-    category: {
-      name: "Mobile",
-      module: "Jogos",
-    },
     modules: {
       "01": {
         "1": "1196347571656986644%2F1201435812852662332%2Fa5721c17-01fa-4920-8c7d-da3172979750011",
@@ -51729,11 +44995,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4cb2b0b1-1772-439e-b001-36ac8adb1f3d": {
     name: "Unity Mobile parte 1 - jogos para celular com persistência de dados",
-    icon: "trabalhando-unity-mobile.svg",
-    category: {
-      name: "Mobile",
-      module: "Jogos",
-    },
     modules: {
       "01": {
         "1": "1199522307891269803%2F1201435840556040242%2F4cb2b0b1-1772-439e-b001-36ac8adb1f3d011",
@@ -51771,11 +45032,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8d508f1a-18d0-4a0c-a238-cc5ccdfabb40": {
     name: "Unity parte 4 - Chefão, partículas e menu",
-    icon: "criacao-de-jogos-com-unity-4.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201435880246743040%2F8d508f1a-18d0-4a0c-a238-cc5ccdfabb40011",
@@ -51802,11 +45058,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7e090045-161f-42d7-b784-e6d5b9e69e93": {
     name: "Unity Mobile parte 3 - aprofundando em jogos Mobile",
-    icon: "unity-mobile-aprofundando-jogos.svg",
-    category: {
-      name: "Mobile",
-      module: "Jogos",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201435901054689300%2F7e090045-161f-42d7-b784-e6d5b9e69e93011",
@@ -51849,11 +45100,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2bfdf2f2-4800-447c-a057-e56616660c0c": {
     name: "Unity parte 1 - criação de um jogo de sobrevivência à zumbis para Web",
-    icon: "criacao-de-jogos-com-unity.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201435941621997591%2F2bfdf2f2-4800-447c-a057-e56616660c0c011",
@@ -51895,11 +45141,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "58736024-3ae7-408d-8062-4440a120263a": {
     name: "UX - entenda a experiência de usuário",
-    icon: "fundamentos-ux-entendendo-experiencia-usuario.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982106995507270%2F1201435983380480000%2F58736024-3ae7-408d-8062-4440a120263a011",
@@ -51930,11 +45171,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8551b214-ac19-49a1-b9a3-0029c5bc48f4": {
     name: "UX - metodologias práticas para designers",
-    icon: "ux-metodologias-praticas-designers.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201436007652937798%2F8551b214-ac19-49a1-b9a3-0029c5bc48f4011",
@@ -51970,11 +45206,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d69885c1-45da-4f46-8e5c-3e3605302168": {
     name: "User Interface - conceitos de UI para Product Designers",
-    icon: "user-interface-conceitos-ui-product-designers.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522498614657085%2F1201436042423709836%2Fd69885c1-45da-4f46-8e5c-3e3605302168011",
@@ -52011,11 +45242,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "20399cf5-3862-48bf-ac7a-8ceabcee97b6": {
     name: "UX Design - como construir uma persona",
-    icon: "ux-design-construir-persona.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201436077274189894%2F20399cf5-3862-48bf-ac7a-8ceabcee97b6011",
@@ -52052,11 +45278,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "34792993-8eb7-48ca-9c8f-06af024115c1": {
     name: "UX Design - concepção do produto pós-pesquisa",
-    icon: "ux-design-concepcao-produto-pos-pesquisa.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201436116985860176%2F34792993-8eb7-48ca-9c8f-06af024115c1011",
@@ -52084,11 +45305,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4fdb221c-87eb-4b5e-b6c6-e7a7c627454b": {
     name: "UX Design - criando dashboard com Data Studio",
-    icon: "ux-design-criando-dashboard-data-studio.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522429362524251%2F1201436139005943859%2F4fdb221c-87eb-4b5e-b6c6-e7a7c627454b011",
@@ -52127,11 +45343,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0ea63029-c8ca-4d27-a24d-9f98a3c1d22d": {
     name: "UX Design - criando um portfólio em UX",
-    icon: "ux-design-criando-portfolio-ux.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201436175517360178%2F0ea63029-c8ca-4d27-a24d-9f98a3c1d22d011",
@@ -52160,11 +45371,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "bde3718d-c3ab-4ef4-8b31-5f5d3555da6e": {
     name: "UX Design - entenda a área da User Experience",
-    icon: "ux-design-entenda-area-user-experience.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201436200829984798%2Fbde3718d-c3ab-4ef4-8b31-5f5d3555da6e011",
@@ -52200,11 +45406,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "08f13644-d3e1-48d0-8ce6-313e15669f73": {
     name: "UX Design - elaborando projetos estratégicos",
-    icon: "ux-design-elaborando-projetos-estrategicos.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201436235130994719%2F08f13644-d3e1-48d0-8ce6-313e15669f73011",
@@ -52244,11 +45445,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a49d473-9280-477f-810c-6163d1bb50e0": {
     name: "UX Design - transição de carreira em áreas de tecnologia",
-    icon: "ux-design-transicao-carreira-areas-tecnologia.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201436275538939954%2F1a49d473-9280-477f-810c-6163d1bb50e0011",
@@ -52282,11 +45478,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "de3c3d89-ec89-49d8-9768-7541b7d3fe4e": {
     name: "UX Design Patterns - navegação e informação",
-    icon: "ux-design-patterns-navegacao-informacao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201436308560691310%2Fde3c3d89-ec89-49d8-9768-7541b7d3fe4e011",
@@ -52327,11 +45518,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "62ddd888-2869-43a7-9792-b0c32a724195": {
     name: "UX Design Patterns - pesquisa e busca",
-    icon: "ux-design-patterns-pesquisa-busca.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201436349966848051%2F62ddd888-2869-43a7-9792-b0c32a724195011",
@@ -52367,11 +45553,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ee6acbd2-2c96-4a05-8cd1-b1a4c3bb0f06": {
     name: "UX Produto - monitore, mensure e teste o seu projeto",
-    icon: "ux-melhorias-de-produto.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201436385500999740%2Fee6acbd2-2c96-4a05-8cd1-b1a4c3bb0f06011",
@@ -52403,11 +45584,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "c8611ec7-94e3-4c10-a3b0-86d2d58034de": {
     name: "UX Research - análise de concorrentes",
-    icon: "ux-research-analise-concorrentes.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201436412805926974%2Fc8611ec7-94e3-4c10-a3b0-86d2d58034de011",
@@ -52442,11 +45618,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b07cc427-2d58-424c-8f05-26f9c2ab02ab": {
     name: "UX Research - avaliando interfaces com heurísticas",
-    icon: "ux-research-interfaces-heuristicas.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1199522716475215962%2F1201436442396721173%2Fb07cc427-2d58-424c-8f05-26f9c2ab02ab011",
@@ -52479,11 +45650,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "da68de1a-93df-41fb-af83-d957a12c7bf2": {
     name: "UX Research - imersão em artefatos de pesquisas quantitativas",
-    icon: "ux-research-imersao-artefatos-pesquisas-quantitativas.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1198982008207069344%2F1201436476198633552%2Fda68de1a-93df-41fb-af83-d957a12c7bf2011",
@@ -52520,11 +45686,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "32301e70-a35a-4f39-990e-f44e00255cfc": {
     name: "UX Research - construindo o Benchmarking estratégico",
-    icon: "ux-research-benchmarking-estrategico.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201436509602074765%2F32301e70-a35a-4f39-990e-f44e00255cfc011",
@@ -52553,11 +45714,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "faaa14c0-5c1f-4b34-af02-1600c40d4842": {
     name: "UX Research - entrevistando pessoas usuárias",
-    icon: "ux-research-entrevistando-usuarias.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201436535883579413%2Ffaaa14c0-5c1f-4b34-af02-1600c40d4842011",
@@ -52600,11 +45756,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4b272675-c212-48ce-bebe-4ea586ddcdc0": {
     name: "UX Research - metodologias e imersão em pesquisa",
-    icon: "ux-research-metodologias-imersao-pesquisa.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1198982035432276108%2F1201436580020244541%2F4b272675-c212-48ce-bebe-4ea586ddcdc0011",
@@ -52638,11 +45789,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "cdab403e-8718-40ff-bf41-b8cc4fcbc9cd": {
     name: "UX Research - mapeando a experiência da pessoa usuária",
-    icon: "ux-research-mapeando-experiencia-usuaria.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201436616795881516%2Fcdab403e-8718-40ff-bf41-b8cc4fcbc9cd011",
@@ -52679,11 +45825,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e89cdf40-ee45-4de0-b27e-9b1b8c875b55": {
     name: "UX Research - otimização de sites",
-    icon: "ux-research-conversao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201436654666256425%2Fe89cdf40-ee45-4de0-b27e-9b1b8c875b55011",
@@ -52718,11 +45859,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "06078e86-ee02-4f68-8012-3695786a4b61": {
     name: "UX Research - pesquisa etnográfica",
-    icon: "ux-research-pesquisa-etnografica.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201436689009234031%2F06078e86-ee02-4f68-8012-3695786a4b61011",
@@ -52756,11 +45892,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8cf00971-a7f8-4e6d-889e-4a6125bdf419": {
     name: "Ux Research - utilizando IA na pesquisa com usuário",
-    icon: "ux-research-ia-pesquisa-usuario.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para UX & Design",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201436723738071081%2F8cf00971-a7f8-4e6d-889e-4a6125bdf419011",
@@ -52796,11 +45927,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4f6a0fc2-8d3f-448c-a833-f8aa4e25ec77": {
     name: "Ux Strategy - analisando dados com analytics",
-    icon: "ux-strategy-analisando-dados-analytics.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201436760484347904%2F4f6a0fc2-8d3f-448c-a833-f8aa4e25ec77011",
@@ -52834,11 +45960,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "051da009-54e9-4585-b9ce-cdea4f7db76a": {
     name: "UX Research - trazendo a acessibilidade para projetos digitais",
-    icon: "ux-research-trazendo-acessibilidade-projetos-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Research",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201436802112815114%2F051da009-54e9-4585-b9ce-cdea4f7db76a011",
@@ -52881,11 +46002,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e61f605e-3a91-4440-be43-14ee74329969": {
     name: "Ux Strategy - análise de dados em um MVP",
-    icon: "ux-strategy-analise-dados-mvp.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201436847541329940%2Fe61f605e-3a91-4440-be43-14ee74329969011",
@@ -52917,11 +46033,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5c2fe1e2-c3e7-4aa4-a587-992e5d8266a6": {
     name: "UX strategy - criando a modelagem de negócios",
-    icon: "ux-strategy-criando-modelagem-negocios.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201436878642106408%2F5c2fe1e2-c3e7-4aa4-a587-992e5d8266a6011",
@@ -52956,11 +46067,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4b3840a-035e-4c32-bb76-d0442dacd87e": {
     name: "UX Strategy - conhecendo o mercado e testando ideias",
-    icon: "ux-strategy-conhecendo-mercado-testando-ideias.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196348692999962684%2F1201436963010523157%2Fa4b3840a-035e-4c32-bb76-d0442dacd87e011",
@@ -52995,11 +46101,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2a0f7f2a-5af8-4e85-8f7e-3a933cae849a": {
     name: "UX Strategy - conhecendo o perfil da pessoa usuária",
-    icon: "ux-strategy-perfil-pessoa-usuaria.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201436993142398976%2F2a0f7f2a-5af8-4e85-8f7e-3a933cae849a011",
@@ -53031,11 +46132,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5d36089d-f09a-4f19-a874-aff3c35b9e68": {
     name: "UX Strategy - visão estratégica do negócio",
-    icon: "ux-strategy-visao-estrategico-negocio.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1196519343660482670%2F1201437027879628800%2F5d36089d-f09a-4f19-a874-aff3c35b9e68011",
@@ -53069,11 +46165,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "0bd7f1a4-0109-46a0-ae0a-bb5c8840c5bc": {
     name: "UX Usability - facilite a vida do seu usuário no mobile",
-    icon: "ux-usabilidade.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201437058909077536%2F0bd7f1a4-0109-46a0-ae0a-bb5c8840c5bc011",
@@ -53118,11 +46209,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d2ca3d9a-84c5-4a6a-a502-37e72ca3e669": {
     name: "UX Writing - Arquitetura da Informação em Writing",
-    icon: "ux-writing-arquitetura-informacao-writing.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UI Design",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437102710206524%2Fd2ca3d9a-84c5-4a6a-a502-37e72ca3e669011",
@@ -53150,11 +46236,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d6647c7f-e2e5-4ecc-bca1-38f582c13abd": {
     name: "UX Strategy - divergindo e afunilando ideias",
-    icon: "ux-strategy.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Design",
-    },
     modules: {
       "10": {
         "1": "1196519321321615400%2F1201437126290591786%2Fd6647c7f-e2e5-4ecc-bca1-38f582c13abd101",
@@ -53216,11 +46297,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "838ce93b-ee05-4c6a-b479-db104b1834cb": {
     name: "UX Writing - escrevendo textos para usuários",
-    icon: "ux-writing-escrevendo-textos-usuarios.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Writing",
-    },
     modules: {
       "01": {
         "1": "1196519440024621179%2F1201437182385201222%2F838ce93b-ee05-4c6a-b479-db104b1834cb011",
@@ -53259,11 +46335,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "44c9806b-a6b4-43cb-bad8-967aab78f44f": {
     name: "UX Writing - definindo o tom e voz da sua marca",
-    icon: "ux-writing-tom-voz-sua-marca.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Writing",
-    },
     modules: {
       "01": {
         "1": "1196348125665837086%2F1201437218842095657%2F44c9806b-a6b4-43cb-bad8-967aab78f44f011",
@@ -53296,11 +46367,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d2368e0d-d6dd-4e00-8eb7-ef72f0e1ea63": {
     name: "UX Writing - pesquisa e testagem em UX Writing",
-    icon: "ux-writing-pesquisa-testagem.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Writing",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437250093858816%2Fd2368e0d-d6dd-4e00-8eb7-ef72f0e1ea63011",
@@ -53338,11 +46404,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8e330fb3-64d4-4f77-ac30-d38469fdb5ae": {
     name: "Value Stream Mapping (VSM) - conheça o mapeamento de Fluxo de Valor",
-    icon: "vsm-mapeamento-fluxo-valor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201437289281228871%2F8e330fb3-64d4-4f77-ac30-d38469fdb5ae011",
@@ -53374,11 +46435,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "80435e56-3987-400f-94b7-4894acae1f48": {
     name: "UX Writing - projetando um chatbot",
-    icon: "ux-writing-projetando-chatbot.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Writing",
-    },
     modules: {
       "01": {
         "1": "1199522873363157053%2F1201437315038445610%2F80435e56-3987-400f-94b7-4894acae1f48011",
@@ -53407,11 +46463,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "7f49fd11-fa1f-4a82-b85c-c6e291eacc01": {
     name: "UX Writing - redação para experiências digitais",
-    icon: "ux-writing-redacao-experiencias-digitais.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "UX Writing",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201437340015534142%2F7f49fd11-fa1f-4a82-b85c-c6e291eacc01011",
@@ -53452,11 +46503,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ef80856c-b18d-4fa9-bfbf-9e3013c67214": {
     name: "Value Stream Mapping (VSM) - desenhe um Mapa de Valor",
-    icon: "vsm-desenhe-mapa-valor.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Modelagem e Processos de Negócios",
-    },
     modules: {
       "01": {
         "1": "1196519321321615400%2F1201437383581761556%2Fef80856c-b18d-4fa9-bfbf-9e3013c67214011",
@@ -53488,11 +46534,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8e426631-81d3-44a9-a4f9-c5d3d205d736": {
     name: "VBA e ChatGPT - potencializando as automações",
-    icon: "vba-chatgpt-potencializando-automacoes.svg",
-    category: {
-      name: "Inteligência Artificial",
-      module: "IA para Dados",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437410123317300%2F8e426631-81d3-44a9-a4f9-c5d3d205d736011",
@@ -53525,11 +46566,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "438cf160-ac9b-4afd-85c0-e25ea9303b3e": {
     name: "Vegas - edição de vídeo",
-    icon: "vegas-edicao.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201437442843103242%2F438cf160-ac9b-4afd-85c0-e25ea9303b3e011",
@@ -53558,11 +46594,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5412a9ab-5c22-4744-bda7-ba5a49dbfa53": {
     name: "Vendas de alta performance - gestão de carteira",
-    icon: "vendas-alta-performance-gestao-carteira.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201437468155727983%2F5412a9ab-5c22-4744-bda7-ba5a49dbfa53011",
@@ -53596,11 +46627,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d51d6a99-f42e-43da-b001-b01976231084": {
     name: "Vendas de alta performance - entendendo a necessidade do cliente",
-    icon: "vendas-entendendo-a-necessidade-do-cliente.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201437497276772402%2Fd51d6a99-f42e-43da-b001-b01976231084011",
@@ -53643,11 +46669,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "4f3e55ce-f420-4536-9537-578ed6dd10a6": {
     name: "Vendas de alta performance - perguntas poderosas",
-    icon: "vendas-perguntas-poderosas.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437541115625562%2F4f3e55ce-f420-4536-9537-578ed6dd10a6011",
@@ -53681,11 +46702,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "17a8f493-1d2a-461d-9a2b-66aed9e578ec": {
     name: "Vendas de alta performance - Pitch e dicas de negociação",
-    icon: "vendas-alta-performance-pitch-dicas-negociacao.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201437571167830086%2F17a8f493-1d2a-461d-9a2b-66aed9e578ec011",
@@ -53725,11 +46741,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3b4bbafd-cb53-4e7e-9fa0-840d787a9c70": {
     name: "Vendas de alta performance - Social Selling",
-    icon: "vendas-de-alta-performance-social-selling.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437611286339635%2F3b4bbafd-cb53-4e7e-9fa0-840d787a9c70011",
@@ -53766,11 +46777,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "33049259-c42d-4f61-96fb-52ad10e6d814": {
     name: "Vendas de alta performance - prospecção de clientes",
-    icon: "vendas-prospeccao-de-clientes.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201437642366144603%2F33049259-c42d-4f61-96fb-52ad10e6d814011",
@@ -53804,11 +46810,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b3908547-5189-4c30-bfd3-7131f136bd41": {
     name: "Vendas de alta performance - solução e proposta",
-    icon: "vendas-solucao-e-proposta.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201437666596634644%2Fb3908547-5189-4c30-bfd3-7131f136bd41011",
@@ -53842,11 +46843,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "e1399245-ef7f-4bd8-9358-54ab7f434fbf": {
     name: "Vendas de alta performance - técnicas para melhorar seu aprendizado",
-    icon: "vendas-aprenda-a-aprender.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1198981876895985754%2F1201437691313664070%2Fe1399245-ef7f-4bd8-9358-54ab7f434fbf011",
@@ -53880,11 +46876,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "580801f7-98e3-46a0-8c82-b881f0563f32": {
     name: "Viabilidade de Projetos & Negócios - fluxo de caixa, juros, VPL, TIR e payback",
-    icon: "viabilidade-projetos-negocios-fluxo-caixa-juros-vpl-tir-payback.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1199522657146773545%2F1201437718379515965%2F580801f7-98e3-46a0-8c82-b881f0563f32011",
@@ -53915,11 +46906,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "dcfbf8e1-5c0d-4857-8375-6dcb041e4c25": {
     name: "Vendas de alta performance - vendas na era digital",
-    icon: "vendas-alta-performance.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Vendas",
-    },
     modules: {
       "01": {
         "1": "1196348841306378312%2F1201437742479966208%2Fdcfbf8e1-5c0d-4857-8375-6dcb041e4c25011",
@@ -53973,11 +46959,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a111b45-2bd7-4d68-a135-55dc38c608b0": {
     name: "Viabilidade de Projetos & Negócios - seleção de alternativas de investimento",
-    icon: "viabilidade-projetos-negocios-alternativas-investimento.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Startups e Empreendedorismo",
-    },
     modules: {
       "01": {
         "1": "1196348022519517248%2F1201437791242944564%2F1a111b45-2bd7-4d68-a135-55dc38c608b0011",
@@ -54011,11 +46992,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "50c5071c-2e9e-490f-ae7b-3d8232a0b52e": {
     name: "Vetores e Animação com SVG - trabalhando com CSS e JavaScript",
-    icon: "svg-css-animacao.svg",
-    category: {
-      name: "Front-End",
-      module: "HTML e CSS",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437821504860180%2F50c5071c-2e9e-490f-ae7b-3d8232a0b52e011",
@@ -54063,11 +47039,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d62b9ced-fcdc-4668-ac9f-785d612db340": {
     name: "Visão computacional - detecção de texto em placas de carro",
-    icon: "visao-computacional-deteccao-texto-placas-carro.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522404259602503%2F1201437874218868787%2Fd62b9ced-fcdc-4668-ac9f-785d612db340011",
@@ -54101,11 +47072,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b52034ff-bb66-4ea9-837a-16b46462b536": {
     name: "Visão Computacional - análise facial",
-    icon: "visao-computacional-analise-facial.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196519393761448027%2F1201437906267541584%2Fb52034ff-bb66-4ea9-837a-16b46462b536011",
@@ -54137,11 +47103,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d04080bb-228f-4a38-8951-4e2f8bbc51a8": {
     name: "Visão Computacional - detecção de movimento com OpenCV",
-    icon: "visao-computacional-deteccao-movimento-opencv.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201437935388610701%2Fd04080bb-228f-4a38-8951-4e2f8bbc51a8011",
@@ -54179,11 +47140,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8fc0667d-bfc8-40a3-8681-15cbd82152d5": {
     name: "VSCode - aprendendo dicas e truques",
-    icon: "vscode-dicas-truques.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1199522377881620501%2F1201437976832524378%2F8fc0667d-bfc8-40a3-8681-15cbd82152d5011",
@@ -54199,11 +47155,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3fe52851-a4ea-4f8e-8438-d4603b6f8a20": {
     name: "Visão computacional - Hand Tracking com OpenCV",
-    icon: "visao-computacional-hand-tracking-opencv.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1199522847694012528%2F1201437989717418014%2F3fe52851-a4ea-4f8e-8438-d4603b6f8a20011",
@@ -54238,11 +47189,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a997e83b-3ee0-486e-a683-371b0f7436b5": {
     name: "Visão Computacional - reconhecimento de texto com OCR e OpenCV",
-    icon: "visao-computacional-reconhecimento-texto-ocr-opencv.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438019287273543%2Fa997e83b-3ee0-486e-a683-371b0f7436b5011",
@@ -54279,11 +47225,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4d81546-918a-4a8a-9c35-3707a85ebc11": {
     name: "Vue 3 - entendendo componentes, diretivas e reatividade no framework",
-    icon: "vue-3-componentes-diretivas-reatividade-framework.svg",
-    category: {
-      name: "Front-End",
-      module: "VueJS",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201438054615883796%2Fa4d81546-918a-4a8a-9c35-3707a85ebc11011",
@@ -54318,11 +47259,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "3abe00a0-1fe4-4058-9a6a-e0b4a39a731e": {
     name: "Vue3 - composition API e Vuex",
-    icon: "vue3-composition-api-vuex.svg",
-    category: {
-      name: "Front-End",
-      module: "VueJS",
-    },
     modules: {
       "01": {
         "1": "1199522785505058936%2F1201438086920413194%2F3abe00a0-1fe4-4058-9a6a-e0b4a39a731e011",
@@ -54356,11 +47292,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a4266015-da40-435f-a380-4ae886407a4e": {
     name: "Vue3 - avançando no framework",
-    icon: "vue3-avancando-framework.svg",
-    category: {
-      name: "Front-End",
-      module: "VueJS",
-    },
     modules: {
       "01": {
         "1": "1198981788891099137%2F1201438117433987093%2Fa4266015-da40-435f-a380-4ae886407a4e011",
@@ -54395,11 +47326,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "b8f7d52e-b8dc-428c-a47f-339d00861801": {
     name: "Vue3 - explorando o framework",
-    icon: "vue3-comecando-framework.svg",
-    category: {
-      name: "Front-End",
-      module: "VueJS",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201438150380224633%2Fb8f7d52e-b8dc-428c-a47f-339d00861801011",
@@ -54433,11 +47359,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "26a3fb3d-42ae-47a0-af90-402250bbc54a": {
     name: "Webpack - trabalhando com módulos na sua webapp",
-    icon: "webpack-modulos-webapp.svg",
-    category: {
-      name: "Front-End",
-      module: "Automação e Performance",
-    },
     modules: {
       "01": {
         "1": "1199522331085774899%2F1201438180109459476%2F26a3fb3d-42ae-47a0-af90-402250bbc54a011",
@@ -54481,11 +47402,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "01332490-9a13-43f8-9778-9a8eaf57e5eb": {
     name: "WebSockets - implemente autenticação e avance no Socket.IO",
-    icon: "websockets-implemente-autenticacao-avance-socket-io.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1198982129850253432%2F1201438229694525551%2F01332490-9a13-43f8-9778-9a8eaf57e5eb011",
@@ -54520,11 +47436,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "100f00f7-abc3-42e0-b796-02a5111c6132": {
     name: "WebSockets - implemente comunicações em tempo real com Socket.IO e MongoDB",
-    icon: "websockets-comunicacoes-tempo-real-socket-io-mongodb.svg",
-    category: {
-      name: "Programação",
-      module: "Node.JS",
-    },
     modules: {
       "01": {
         "1": "1196519244486152253%2F1201438260799471626%2F100f00f7-abc3-42e0-b796-02a5111c6132011",
@@ -54562,11 +47473,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "96e50ce7-d7d7-462a-bc73-c2ea8e3500bd": {
     name: "Unity parte 3 - criando um chefão e refinando o jogo",
-    icon: "criacao-de-jogos-com-unity-3.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1199522807705518171%2F1201438295096307783%2F96e50ce7-d7d7-462a-bc73-c2ea8e3500bd011",
@@ -54602,11 +47508,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "226f7047-37e1-4843-a409-2273ce454ecc": {
     name: "WhatsApp Business - estratégias e funcionalidades para alavancar o seu negócio",
-    icon: "whatsapp-business-estrategias-funcionalidades-negocio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Marketing",
-    },
     modules: {
       "01": {
         "1": "1196519466071236799%2F1201438319268081684%2F226f7047-37e1-4843-a409-2273ce454ecc011",
@@ -54644,11 +47545,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "1a49c227-c356-4262-87bf-41d307e5f70e": {
     name: "Unity parte 2 - iluminação, interface e boas práticas",
-    icon: "criacao-de-jogos-com-unity-2.svg",
-    category: {
-      name: "Programação",
-      module: "Desenvolvimento de jogos",
-    },
     modules: {
       "01": {
         "1": "1196347846987878492%2F1201438357134262312%2F1a49c227-c356-4262-87bf-41d307e5f70e011",
@@ -54690,11 +47586,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ce422868-cea3-43de-8c4c-d696ac036dea": {
     name: "Windows Forms com C# - acesso ao banco de dados SQL Server",
-    icon: "windows-forms-csharp-banco-de-dados-sql-server.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522828219842591%2F1201438404177571881%2Fce422868-cea3-43de-8c4c-d696ac036dea011",
@@ -54739,11 +47630,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "5d2f592b-e403-4394-b31b-f68eb88dc4e7": {
     name: "Windows Forms com C# - barra de ferramentas, trabalhando com classes e JSON",
-    icon: "windows-forms-csharp-barra-ferramentas-classes-json.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522765162692608%2F1201438454085595186%2F5d2f592b-e403-4394-b31b-f68eb88dc4e7011",
@@ -54781,11 +47667,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "96bb3047-6a18-4752-9345-9d5bfec61e46": {
     name: "Windows Forms com C# - eventos do mouse e mais componentes",
-    icon: "windows-forms-csharp-eventos-mouse-componentes.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438491163238470%2F96bb3047-6a18-4752-9345-9d5bfec61e46011",
@@ -54828,11 +47709,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8684e5b0-7617-433f-9956-7145fb4c9899": {
     name: "Windows Forms com C# - manipulando os dados do cliente",
-    icon: "windows-forms-csharp-manipulacao-dados.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1198981980444958810%2F1201438537262825532%2F8684e5b0-7617-433f-9956-7145fb4c9899011",
@@ -54876,11 +47752,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "37fd9311-5c90-4d82-82c6-c8507ed0bc00": {
     name: "Windows Forms com C# - Formulários, componentes e eventos",
-    icon: "windows-forms-csharp-formularios-componentes-eventos.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201438583144329236%2F37fd9311-5c90-4d82-82c6-c8507ed0bc00011",
@@ -54925,11 +47796,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f604edee-468e-4d66-aecd-01c6c6819134": {
     name: "Windows Forms com C# - persista os dados no banco de dados",
-    icon: "windows-forms-csharp-introducao-banco-de-dados.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1196348345149562961%2F1201438627071275038%2Ff604edee-468e-4d66-aecd-01c6c6819134011",
@@ -54972,11 +47838,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "d87ce1ea-6326-41c2-a13f-9f351aaeae27": {
     name: "Windows Prompt - utilizando o CMD",
-    icon: "windows-prompt-utilizando-cmd.svg",
-    category: {
-      name: "DevOps",
-      module: "Windows",
-    },
     modules: {
       "01": {
         "1": "1195928391908601986%2F1201438675704233984%2Fd87ce1ea-6326-41c2-a13f-9f351aaeae27011",
@@ -55009,11 +47870,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "8af3c5e4-9ed5-4b4a-af14-e147d367f061": {
     name: "Windows Forms com C# - Menus, outros formulários e validação com login e senha",
-    icon: "windows-forms-csharp-menus-formularios-validacao.svg",
-    category: {
-      name: "Programação",
-      module: "C#",
-    },
     modules: {
       "01": {
         "1": "1199522265302310932%2F1201438706733678612%2F8af3c5e4-9ed5-4b4a-af14-e147d367f061011",
@@ -55061,11 +47917,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "2817fe42-d7f0-460f-8b1c-2bc2ade84354": {
     name: "Word2Vec - treinamento de Word Embedding",
-    icon: "word2vec-treinamento-word-embedding.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1198982085155766282%2F1201438755576369162%2F2817fe42-d7f0-460f-8b1c-2bc2ade84354011",
@@ -55100,11 +47951,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "a3e08da4-3cd5-45d1-a90e-86e59873b9d7": {
     name: "Word2Vec - interpretação da linguagem humana com Word embedding",
-    icon: "introducao-word-embedding.svg",
-    category: {
-      name: "DataScience",
-      module: "Machine Learning",
-    },
     modules: {
       "01": {
         "1": "1196518837256990810%2F1201438788229005413%2Fa3e08da4-3cd5-45d1-a90e-86e59873b9d7011",
@@ -55145,11 +47991,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "72344a73-a78b-4ae1-bdea-8f6e3e7e1f72": {
     name: "Wordpress - integrando responsividade, efeitos visuais e explorando plugins",
-    icon: "wordpress-responsividade-efeitos-visuais-plugins.svg",
-    category: {
-      name: "Front-End",
-      module: "WordPress",
-    },
     modules: {
       "01": {
         "1": "1199522894812815410%2F1201438829320622130%2F72344a73-a78b-4ae1-bdea-8f6e3e7e1f72011",
@@ -55179,11 +48020,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "443870bf-6af9-4663-b374-8f584707ca4e": {
     name: "WordPress - crie sites com Elementor e Figma",
-    icon: "wordpress-crie-sites-elementor-figma.svg",
-    category: {
-      name: "Front-End",
-      module: "WordPress",
-    },
     modules: {
       "01": {
         "1": "1198981953941159997%2F1201438853886640201%2F443870bf-6af9-4663-b374-8f584707ca4e011",
@@ -55222,11 +48058,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "02dc6f52-f81e-4c6f-835b-93356e5ed2b0": {
     name: "XDebug - ferramenta de debug e profiling",
-    icon: "xdebug-ferramenta-debug-profiling.svg",
-    category: {
-      name: "Programação",
-      module: "PHP",
-    },
     modules: {
       "01": {
         "1": "1196348525634666506%2F1201438888632270868%2F02dc6f52-f81e-4c6f-835b-93356e5ed2b0011",
@@ -55260,11 +48091,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "fa1ca521-e481-4cec-9736-9f970a277b90": {
     name: "YouTube - da concepção de um canal ao upload",
-    icon: "edicao-de-videos-para-youtube.svg",
-    category: {
-      name: "UX & Desgin",
-      module: "Edição de Vídeo",
-    },
     modules: {
       "01": {
         "1": "1199522476045123685%2F1201438917908496504%2Ffa1ca521-e481-4cec-9736-9f970a277b90011",
@@ -55295,11 +48121,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "96f4122b-24f7-4b7c-8f8c-a6d18d2adb26": {
     name: "Ágil Escalado - conheça frameworks para grandes desenvolvimentos",
-    icon: "agil-escalado-frameworks-grandes-desenvolvimentos.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Gestão Ágil",
-    },
     modules: {
       "01": {
         "1": "1196519294855553164%2F1201438946438152244%2F96f4122b-24f7-4b7c-8f8c-a6d18d2adb26011",
@@ -55328,11 +48149,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "ecfb7972-fdcc-4a13-a8d0-9d15c44e646c": {
     name: "YouTube - estratégias de sucesso para o seu negócio",
-    icon: "youtube-estrategias-sucesso-negocio.svg",
-    category: {
-      name: "Inovação & Gestão",
-      module: "Social Media",
-    },
     modules: {
       "01": {
         "1": "1199522356113195140%2F1201438969607499866%2Fecfb7972-fdcc-4a13-a8d0-9d15c44e646c011",
@@ -55368,11 +48184,6 @@ export const NestCoursesData: INestCoursesData = {
   },
   "f6afac08-489d-459d-8692-97fbde342bf5": {
     name: "Árvores de Decisão - aprofundando em modelos de Machine Learning",
-    icon: "arvores-decisao-aprofundando-modelos-machine-learning.svg",
-    category: {
-      name: "DataScience",
-      module: "Data Science",
-    },
     modules: {
       "01": {
         "1": "1196519416343576696%2F1201439003992412210%2Ff6afac08-489d-459d-8692-97fbde342bf5011",
@@ -55411,13 +48222,2912 @@ export const NestCoursesData: INestCoursesData = {
   },
 };
 
-export const NestPreloadedCategoriesData: string[] = [
-  "Programação",
-  "Front-End",
-  "DataScience",
-  "Inteligência Artificial",
-  "DevOps",
-  "UX & Desgin",
-  "Mobile",
-  "Inovação & Gestão",
-]
+export const NestCategoriesData: INestCategoriesLegacyData = {
+  Programação: {
+    "Lógica de programação": {
+      "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação":
+        "logica-programacao-javascript-html.svg",
+      "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo":
+        "logica-programacao-pratica-com-desenho-animacoes-em-jogo.svg",
+      "Lógica de programação: mergulhe em programação com JavaScript":
+        "logica-programacao-mergulhe-programacao-javascript.svg",
+      "Lógica de programação: explore funções e listas":
+        "logica-programacao-funcoes-listas.svg",
+      "Lógica de programação: praticando com desafios":
+        "logica-programacao-praticando-desafios.svg",
+      "Git e GitHub: compartilhando e colaborando em projetos":
+        "git-github-compartilhando-colaborando-projetos.svg",
+    },
+    "Python web": {
+      "Flask: crie uma webapp com Python": "flask-crie-webapp-python.svg",
+      "Flask: avançando no desenvolvimento web com Python":
+        "flask-desenvolvimento-web.svg",
+      "Django: templates e boas práticas": "django-templates-boas-praticas.svg",
+      "Django: persistência de dados e Admin":
+        "django-persistencia-dados-admin.svg",
+      "Django: autenticação de formulários e alerta":
+        "django-autenticacao-formularios-alerta.svg",
+      "Django: CRUD e persistência no S3": "django-crud-persistencia-s3.svg",
+      "API com Django 3: Django Rest Framework":
+        "api-django-3-rest-framework.svg",
+      "API com Django 3: Validações, buscas, filtros e deploy":
+        "api-django-3-validacoes-buscas-filtros-deploy.svg",
+      "API com Django 3: Versionamento, cabeçalhos e CORS":
+        "api-django-3-versionamento-cabecalhos-cors.svg",
+      "API com Django 3: Testes, segurança e lapidações":
+        "api-django-3-testes-seguranca-lapidacoes.svg",
+      "API com Django 3: Aprofundando em testes e documentação":
+        "api-django-3-testes-documentacao.svg",
+      "Boas práticas no Django: apps, pastas e paginação":
+        "django-2-boas-praticas.svg",
+      "Python: avançando na linguagem": "python-3-avancando-na-linguagem.svg",
+      "Python: entendendo a Orientação a Objetos":
+        "python-entendendo-orientacao-objetos.svg",
+      "Python: avançando na orientação a objetos":
+        "python-3-avancando-orientacao-objetos.svg",
+      "Python Collections parte 1: listas e tuplas":
+        "python-collections-listas-e-tuplas.svg",
+      "Python Collections parte 2: conjuntos e dicionários":
+        "python-collections-conjuntos-e-dicionarios.svg",
+      "Python: começando com a linguagem": "python-introducao-a-linguagem.svg",
+      "Python Brasil: validação de dados no padrão nacional":
+        "python-validacao-dados.svg",
+      "String em Python: extraindo informações de uma URL":
+        "string-python-extraindo-informacoes-url.svg",
+      "Python e TDD: explorando testes unitários":
+        "python-tdd-explorando-testes-unitarios.svg",
+    },
+    "Node.JS": {
+      "Node.js: criando sua primeira biblioteca":
+        "nodejs-criando-primeira-biblioteca.svg",
+      "Node.js: continue seu projeto full stack criando uma API com Express":
+        "node-primeira-api-express.svg",
+      "ORM com Node.js: desenvolvendo uma API com Sequelize e SQLite":
+        "orm-node-js-desenvolvendo-api-sequelize-sqlite.svg",
+      "ORM com Node.js: avançando nas funcionalidades do Sequelize":
+        "orm-node-js-funcionalidades-sequelize.svg",
+      "Nest.js: criando uma API Restful": "nestjs-criando-api-resftul.svg",
+      "Nest.js: Persistindo dados com TypeORM e PostgreSQL":
+        "nest-js-typeorm.svg",
+      "Nest.js: lidando com migrações, relacionamentos ORM e erros em uma API":
+        "nest-js-migracoes-relacionamentos-orm-erros-api.svg",
+      "Nest.js: adicionando funcionalidades com Redis, JWT e logging":
+        "nest-js-funcionalidades-redis-jwt-logging.svg",
+      "Node.js: criptografia e tokens JWT":
+        "nodejs-criptografia-tokens-jwt.svg",
+      "Node.js: testes unitários e de integração":
+        "nodejs-testes-unitarios-integracao.svg",
+      "Node.js: lidando com buscas, filtros, paginação e erros em uma API":
+        "node-js-buscas-filtros-paginacao-erros-api.svg",
+      "Node.js: criando API Rest com autenticação, perfis de usuários e permissões":
+        "node-js-api-rest-autenticacao-perfis-usuarios-permissoes.svg",
+      "Node.JS: melhorando o fluxo de desenvolvimento e integração de sua equipe":
+        "node-js-fluxo-desenvolvimento-integracao-equipe.svg",
+      "Node.js: criando uma API Rest com Express e MongoDB":
+        "node-js-api-rest-express-mongodb.svg",
+      "Node.js: implementando testes em uma API Rest":
+        "node-js-implementando-testes-api-rest.svg",
+      "React e Node.js: consumindo APIs no React no projeto full stack":
+        "react-node-consumindo-apis-react.svg",
+      "JavaScript: objetos": "javascript-objetos.svg",
+      "JavaScript I: algoritmos de ordenação":
+        "algoritmos-javascript-i-algoritmos-ordenacao.svg",
+      "Algoritmos com JavaScript II: aprofundando em algoritmos de ordenação e busca":
+        "algoritmos-javascript-ii-aprofundando-ordenacao-busca.svg",
+      "JavaScript: programação orientada a objetos":
+        "javascript-passos-programacao-orientada-objetos.svg",
+      "Typescript: construção de uma API com tipagem segura":
+        "typescript-construcao-api-tipagem-segura.svg",
+      "VSCode: aprendendo dicas e truques": "vscode-dicas-truques.svg",
+      "WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB":
+        "websockets-comunicacoes-tempo-real-socket-io-mongodb.svg",
+      "WebSockets: implemente autenticação e avance no Socket.IO":
+        "websockets-implemente-autenticacao-avance-socket-io.svg",
+      "Serverless com Node.js: aplicações eficientes na Cloud":
+        "serverless-node-js-aplicacoes-eficientes-cloud.svg",
+      "Serverless com Node.js: integrando serviços com AWS":
+        "serverless-node-js-integrando-servicos-aws.svg",
+      "Serverless com Node.js: integrando serviços com mensageria":
+        "serverless-node-js-servicos-mensageria.svg",
+      "JavaScript: utilizando tipos, variáveis e funções":
+        "javascript-utilizando-tipos-variaveis-funcoes.svg",
+      "JavaScript: conhecendo arrays": "javascript-conhecendo-arrays.svg",
+    },
+    PHP: {
+      "PHP: conceitos, lidando com dados, loops e mais":
+        "php-primeiros-passos.svg",
+      "Avançando com PHP: Arrays, Strings, Função e Web":
+        "php-arrays-strings-funcoes.svg",
+      "PHP Strings: manipulando textos com PHP":
+        "php-strings-manipulando-textos-php.svg",
+      "PHP: manipulando coleções com Arrays":
+        "php-manipulando-colecoes-arrays.svg",
+      "PHP: dominando as Collections": "php-dominando-collections.svg",
+      "Orientação a Objetos com PHP: Classes, métodos e atributos":
+        "orientacao-objetos-php-classes-metodos-atributos.svg",
+      "Avançando com Orientação a Objetos com PHP: Herança, Polimorfismo e Interfaces":
+        "php-oo-heranca-polimorfirmo-interfaces.svg",
+      "PHP Composer: Dependências, Autoload e Publicação": "php-composer.svg",
+      "PHP: Programação Funcional": "php-programacao-funcional.svg",
+      "PHP Exceptions: tratamento de erros":
+        "php-exceptions-tratamento-erros.svg",
+      "PHP I/O: trabalhando com arquivos e streams":
+        "php-io-arquivos-streams.svg",
+      "PHP e Behavior Driven Development: BDD com Behat":
+        "php-introducao-bdd.svg",
+      "PHP Parallel: Processos, Threads e Channels":
+        "php-parallel-programacao-paralela.svg",
+      "PHP e Clean Architecture: descomplicando arquitetura de software":
+        "php-introducao-clean-achitecture.svg",
+      "PHP e Domain Driven Design: apresentando os conceitos":
+        "domain-driven-design-php.svg",
+      "PHP Reativo: programação assíncrona em tempo real":
+        "php-reativo-programacao-assincrona-tempo-real.svg",
+      "PHP e PDO: trabalhando com bancos de dados":
+        "php-pdo-banco-de-dados.svg",
+      "PHP e Selenium: testes de ponta a ponta": "php-testes-end-to-end.svg",
+      "Object Calisthenics: exercitando a Orientação a Objetos":
+        "object-calisthenics-exercitando-orientacao-objetos.svg",
+      "Metaprogramação com PHP: API de Reflection":
+        "metaprogramacao-php-api-reflection.svg",
+      "Swoole PHP: servidor assíncrono e corrotinas com PHP":
+        "swoole-php-servidor-assincrono-corrotinas-php.svg",
+      "Refatoração em PHP: boas práticas no seu código":
+        "refatoracao-php-boas-praticas-codigo.svg",
+      "Laravel: criando uma aplicação com MVC":
+        "laravel-criando-aplicacao-mvc.svg",
+      "Laravel: validando formulários, usando sessões e definindo relacionamentos":
+        "laravel-formularios-sessoes-relacionamentos.svg",
+      "Laravel: transações, service container e autenticação":
+        "laravel-transacoes-service-container-autenticacao.svg",
+      "Laravel: e-mails, eventos assíncronos, uploads e testes":
+        "laravel-e-mails-eventos-uploads-testes.svg",
+      "Laravel: construindo APIs": "laravel-construindo-apis.svg",
+      "XDebug: ferramenta de debug e profiling":
+        "xdebug-ferramenta-debug-profiling.svg",
+      "PHP e TDD: testes com PHPUnit": "phpunit-tdd.svg",
+      "SOLID com PHP: princípios da programação orientada a objetos":
+        "solid-php-principios-orientacao-a-objetos.svg",
+      "Mocks em PHP: entenda os dublês de testes": "php-mocks.svg",
+      "PHP na Web: lidando com segurança e API":
+        "php-web-lidando-seguranca-api.svg",
+      "PHP na Web: aplicando boas práticas e PSRs":
+        "php-web-aplicando-boas-praticas-psrs.svg",
+      "Testes de integração com PHP: testando o acesso à API e ao banco de dados":
+        "php-testes-integracao.svg",
+      "Design Patterns em PHP: padrões comportamentais":
+        "php-design-pattern-comportamental.svg",
+      "Design Patterns em PHP: padrões estruturais":
+        "php-design-pattern-estrutural.svg",
+      "Design Patterns em PHP: padrões criacionais":
+        "php-design-pattern-criacional.svg",
+      "Doctrine: conhecendo um ORM PHP": "doctrine-conhecendo-orm-php.svg",
+      "Doctrine: Migrations, relatórios e performance":
+        "doctrine-migrations-relatorios-performance.svg",
+      "Symfony Framework: cache e segurança":
+        "symfony-framework-cache-seguranca.svg",
+      "Symfony Framework: criando uma aplicação com MVC":
+        "symfony-framework-criando-aplicacao-mvc.svg",
+      "Symfony Framework: formulários, validação e sessão":
+        "symfony-framework-formularios-validacao-sessao.svg",
+      "Symfony Framework: lidando com eventos, tradução, logs e deploy":
+        "symfony-framework-eventos-traducao-logs-deploy.svg",
+      "PHP na Web: conhecendo o padrão MVC":
+        "php-web-conhecendo-padrao-mvc.svg",
+      "PHP e MySQL: criando sua primeira aplicação web":
+        "php-mysql-criando-primeira-aplicacao-web.svg",
+      "Persistência poliglota com PHP: conectando-se a diferentes tipos de bancos de dados":
+        "persistencia-poliglota-php-diferentes-tipos-bancos-dados.svg",
+      "Arquitetura com PHP: escalando uma aplicação monolítica":
+        "arquitetura-php-escalando-aplicacao-monolitica.svg",
+      "Arquitetura e Escalabilidade com PHP: garantindo a disponibilidade de uma aplicação":
+        "arquitetura-escalabilidade-php-disponibilidade-aplicacao.svg",
+    },
+    Java: {
+      "Java OO: entendendo a Orientação a Objetos":
+        "java-introducao-orientacao-objetos.svg",
+      "Java e java.lang: programe com a classe Object e String":
+        "java-pacotes-e-java-lang.svg",
+      "Java: criando a sua primeira aplicação":
+        "java-criando-primeira-aplicacao.svg",
+      "Java: aplicando a Orientação a Objetos":
+        "java-aplicando-orientacao-objetos.svg",
+      "Java: trabalhando com listas e coleções de dados":
+        "java-listas-colecoes-dados.svg",
+      "Java: consumindo API, gravando arquivos e lidando com erros":
+        "java-consumindo-api-gravando-arquivos-lidando-erros.svg",
+      "Java: trabalhando com lambdas, streams e Spring Framework":
+        "java-trabalhando-lambdas-streams-spring-framework.svg",
+      "Java Collections: Dominando Listas, Sets e Mapas":
+        "java-collections.svg",
+      "Threads em Java 1: programação paralela": "threads-java-1.svg",
+      "Threads em Java 2: programação concorrente avançada":
+        "threads-java-2.svg",
+      "Java Reflection parte 1: entendendo a metaprogramação":
+        "java-reflection-meta-programacao.svg",
+      "Java Reflection parte 2: Anotações e Injeção de Dependências":
+        "java-reflection-anotacoes-injecao-dependencia.svg",
+      "Java e Clean Architecture: descomplicando arquitetura de software":
+        "java-clean-architecture.svg",
+      "Java e Domain Driven Design: apresentando os conceitos":
+        "java-domain-driven-design-conceitos.svg",
+      "Agilidade e TDD: um dia no desenvolvimento de software":
+        "agilidade-tdd-desenvolvimento-software.svg",
+      "Agilidade e DevOps: um dia no desenvolvimento de software":
+        "agilidade-devops-desenvolvimento-software.svg",
+      "Microsserviços na prática: implementando com Java e Spring":
+        "microsservicos-implementando-java-spring.svg",
+      "Microsserviços na prática: IaC com CDK e deploy na AWS":
+        "microsservicos-pratica-iac-cdk-deploy-aws.svg",
+      "Microsserviços na prática: mensageria com RabbitMQ":
+        "microsservicos-pratica-mensageria-rabbitmq.svg",
+      "Certificação Java SE 7 Programmer I": "certificacao-java-basico.svg",
+      "Certificação Java SE 7 Programmer I: criando e usando Arrays":
+        "certificacao-java-usando-arrays.svg",
+      "Certificação Java SE 7 Programmer I: Laços":
+        "certificacao-java-loops.svg",
+      "Certificação Java SE 7 Programmer I: lidando com exceções":
+        "certificacao-java-excecoes.svg",
+      "Certificação Java SE 7 Programmer I: métodos e encapsulamento":
+        "certificacao-java-metodos-encapsulamento.svg",
+      "Certificação Java SE 7 Programmer I: Operadores":
+        "certificacao-java-operadores-decisao.svg",
+      "Certificação Java SE 7 Programmer I: relações entre classes":
+        "certificacao-java-heranca.svg",
+      "Certificação Java SE 7 Programmer I: tipos de Dados":
+        "certificacao-java-tipos-de-dados.svg",
+      "Certificação Java SE 8 Programmer I: conteúdo além da prova":
+        "certificacao-java-lambdas-api-de-datas.svg",
+      "Java e JDBC: trabalhando com um banco de dados":
+        "java-jdbc-banco-dados.svg",
+      "Spring Data JPA: Repositórios, Consultas, Projeções e Specifications":
+        "spring-data-jpa.svg",
+      "Persistência com JPA: Hibernate":
+        "persistencia-jpa-introducao-hibernate.svg",
+      "Java e JPA: consultas avançadas, performance e modelos complexos":
+        "java-jpa-consultas-avancadas-performance-modelos-complexos.svg",
+      "Segurança web em Java: evitando SQL Injection, força bruta e outros ataques":
+        "seguranca-web-em-java-parte-1.svg",
+      "Segurança web em Java parte 2: XSS, Mass Assignment e Uploads de arquivos!":
+        "seguranca-web-em-java-parte-2.svg",
+      "Java e refatoração: melhorando códigos com boas práticas":
+        "java-refatoracao-melhorando-codigos-boas-praticas.svg",
+      "Java: persistência de dados e consultas com Spring Data JPA":
+        "java-persistencia-dados-consultas-spring-data-jpa.svg",
+      "Spring Boot 3: documente, teste e prepare uma API para o deploy":
+        "spring-boot-3-documente-teste-prepare-api-deploy.svg",
+      "Spring Boot 3: aplique boas práticas e proteja uma API Rest":
+        "spring-boot-aplique-boas-praticas-proteja-api-rest.svg",
+      "Spring Boot 3: desenvolva uma API Rest em Java":
+        "spring-boot-3-desenvolva-api-rest-java.svg",
+      "BDD e Java: Behavior Driven Development com Cucumber":
+        "bdd-cucumber-java.svg",
+      "Selenium: testes automatizados de aceitação em Java":
+        "selenium-testes-automatizados-aceitacao-java.svg",
+      "Maven: gerenciamento de dependências e build de aplicações Java":
+        "maven-gerenciamento-dependencias-build-aplicacoes-java.svg",
+      "Boas práticas de programação: melhore o código de uma API Java":
+        "boas-praticas-programacao-melhore-codigo-api-java.svg",
+      "Boas práticas de programação: automatizando testes com Java":
+        "boas-praticas-programacao-testes-java.svg",
+      "Java exceções: aprenda a criar, lançar e controlar exceções":
+        "java-excecoes-aprenda-criar-lancar-controlar-excecoes.svg",
+    },
+    ".NET": {
+      "Testes em .NET: testando software": "testes-net-teste-software.svg",
+      "Testes em .NET: integrando a aplicação com um banco de dados":
+        "testes-net-integrando-aplicacao-banco-dados.svg",
+      "Testes em .NET: testes de interface usando Selenium":
+        "testes-net-testes-interface-selenium.svg",
+      "Testes em .NET: integração e entrega contínua com Azure DevOps":
+        "testes-net-integracao-entrega-continua-azure-devops.svg",
+      ".NET 6: criando uma web API": "dotnet-criando-web-api.svg",
+      ".NET 6: relacionando entidades": "dotnet-relacionando-entidades.svg",
+      "Microsserviços e .NET6: deploy na AWS":
+        "microsservicos-dotnet6-deploy-aws.svg",
+      "Microsserviços e .NET6: implementando a comunicação":
+        "microsservicos-dotnet6-implementando-comunicacao.svg",
+      "Entity Framework Core: banco de dados de forma eficiente":
+        "entity-framework-core.svg",
+      "Entity Framework Core parte 1: mapeando um banco pré-existente":
+        "entity-framework-core-banco-pre-existente-parte1.svg",
+      "Entity Framework Core parte 2: mapeando um banco pré-existente":
+        "entity-framework-core-banco-pre-existente-parte2.svg",
+      "Build de uma aplicação .NET: construindo seus projetos com MSBuild":
+        "msbuild-dotnet-cli.svg",
+      ".NET 6 e Identity: implementando controle de usuário":
+        "dot-net-6-identity-controle-usuario.svg",
+    },
+    "C#": {
+      "C#: criando e distribuindo bibliotecas em .NET":
+        "csharp-criando-distribuindo-bibliotecas-dotnet.svg",
+      "C#: Paralelismo no mundo real": "csharp-paralelismo-no-mundo-real.svg",
+      "C# Collections parte 1: Listas, arrays, listas ligadas, dicionários e conjuntos":
+        "csharp-collections.svg",
+      "C# Collections parte 2: Coleções ordenadas, arrays multidimensionais e LINQ":
+        "csharp-collections-parte-2.svg",
+      "C#: Trabalhando com Arrays e Coleções": "csharp-arrays-colecoes.svg",
+      "C#: trabalhando com arquivos": "c-sharp-trabalhando-arquivos.svg",
+      "C#: criando sua primeira aplicação":
+        "csharp-criando-primeira-aplicacao.svg",
+      "C#: aplicando a Orientação a Objetos":
+        "csharp-aplicando-orientacao-objetos.svg",
+      "C#: consumindo API, gravando arquivos e utilizando o LINQ":
+        "c-sharp-consumindo-api-gravando-arquivos-linq.svg",
+      "C#: dominando Orientação a Objetos":
+        "csharp-dominando-orientacao-objetos.svg",
+      "C#: aplique boas práticas de refatoração e torne seu código mais legível":
+        "csharp-boas-praticas-refatoracao-codigo-legivel.svg",
+      "C#: aprenda a criar testes limpos com boas práticas":
+        "csharp-criar-testes-limpos-boas-praticas.svg",
+      "Windows Forms com C#: Formulários, componentes e eventos":
+        "windows-forms-csharp-formularios-componentes-eventos.svg",
+      "Windows Forms com C#: Menus, outros formulários e validação com login e senha":
+        "windows-forms-csharp-menus-formularios-validacao.svg",
+      "Windows Forms com C#: eventos do mouse e mais componentes":
+        "windows-forms-csharp-eventos-mouse-componentes.svg",
+      "Windows Forms com C#: barra de ferramentas, trabalhando com classes e JSON":
+        "windows-forms-csharp-barra-ferramentas-classes-json.svg",
+      "Windows Forms com C#: manipulando os dados do cliente":
+        "windows-forms-csharp-manipulacao-dados.svg",
+      "Windows Forms com C#: persista os dados no banco de dados":
+        "windows-forms-csharp-introducao-banco-de-dados.svg",
+      "Windows Forms com C#: acesso ao banco de dados SQL Server":
+        "windows-forms-csharp-banco-de-dados-sql-server.svg",
+      "Selenium WebDriver e C# parte 1: testes da sua web app":
+        "selenium-csharp-webdriver.svg",
+      "Selenium WebDriver e C# parte 2: outros recursos":
+        "selenium-csharp-mais-recursos.svg",
+      "C#: aplique princípios SOLID": "csharp-aplique-principios-solid.svg",
+    },
+    "Desenvolvimento de jogos": {
+      "Unity parte 1: criação de um jogo de sobrevivência à zumbis para Web":
+        "criacao-de-jogos-com-unity.svg",
+      "Unity parte 2: iluminação, interface e boas práticas":
+        "criacao-de-jogos-com-unity-2.svg",
+      "Unity parte 3: criando um chefão e refinando o jogo":
+        "criacao-de-jogos-com-unity-3.svg",
+      "Unity parte 4: Chefão, partículas e menu":
+        "criacao-de-jogos-com-unity-4.svg",
+      "Unity 2D parte 1: criando um jogo 2D": "flappybirdunity1.svg",
+      "Unity 2D parte 2: adicionando efeitos visuais ao seu jogo":
+        "flappybirdunity2.svg",
+      "Unity 2D parte 3: criando um jogo multiplayer":
+        "unity-2d-criando-jogo-multiplayer.svg",
+    },
+    Computação: {
+      "Arquitetura de computadores: por trás de como seu programa funciona":
+        "arquitetura-computadores-funcionamento-programa.svg",
+      "Swagger: documentando suas APIs": "swagger-documentando-apis.svg",
+      "Expressões Regulares: faça buscas, validações e substituições de textos":
+        "expressoes-regulares-buscas-validacoes-substituicoes-textos.svg",
+    },
+    "Quality Assurance": {
+      "Quality Assurance: plano de testes e gestão de bugs":
+        "quality-assurance-plano-testes-gestao-bugs.svg",
+      "Cypress: automação de testes E2E": "cypress-automacao-de-testes-e2e.svg",
+      "Robot Framework: automatizando testes no padrão BDD":
+        "robot-framework-testes-padrao-bdd.svg",
+    },
+    Elixir: {
+      "Elixir: Sintaxe, Programação funcional e Pattern Matching":
+        "elixir-sintaxe-programacao-funcional-pattern-matching.svg",
+      "Elixir: Recursão, Enums e formas de execução":
+        "elixir-recursao-enums-execucao.svg",
+      "Elixir Parte 3: Conhecendo o ecossistema Elixir":
+        "elixir-conhecendo-ecossistema-elixir.svg",
+    },
+    Kotlin: {
+      "Kotlin: recursos da linguagem com pacotes e composição":
+        "kotlin-recursos-da-linguagem-com-pacotes-e-composicao.svg",
+      "Kotlin: lidando com exceptions e referências nulas":
+        "kotlin-exceptions-null-safety.svg",
+      "Kotlin: recursos do paradigma funcional":
+        "kotlin-recursos-do-paradigma-funcional.svg",
+      "Kotlin: aplicações resilientes e assíncronas":
+        "kotlin-aplicacoes-resilientes-assincronas.svg",
+      "Kotlin: preparando a aplicação para Cloud":
+        "kotlin-preparando-aplicacao-cloud.svg",
+      "Kotlin: desenvolvendo sua primeira aplicação":
+        "kotlin-desenvolvendo-primeira-aplicacao.svg",
+      "Kotlin: evoluindo a aplicação com OO":
+        "kotlin-evoluindo-aplicacao-oo.svg",
+      "Kotlin: persistindo dados com Hibernate":
+        "kotlin-persistindo-dados-hibernate.svg",
+      "Kotlin Collections: Set e Map": "kotlin-collections-set-map.svg",
+      "Kotlin e Spring: segurança e infraestrutura":
+        "kotlin-spring-seguranca-infraestrutura.svg",
+      "Kotlin e Spring: recursos avançados":
+        "kotlin-spring-recursos-avancados.svg",
+      "Kotlin e Spring: testes automatizados e documentação de API":
+        "kotlin-spring-testes-automatizados-documentacao-api.svg",
+      "API REST com Kotlin e Spring Boot: Camada Web":
+        "api-rest-kotlin-spring-boot-camada-web.svg",
+      "API REST com Kotlin e Spring Boot: Camada de persistência":
+        "api-rest-kotlin-spring-boot-camada-persistencia.svg",
+    },
+    "Embarcados e Robótica": {
+      "Arduino: do zero ao jogo": "arduino.svg",
+      "Arduino e Robótica: Programando um braço robô": "arduino-robotica.svg",
+      "Esp32: detector de presença com Bluetooth Low Energy":
+        "iot-detector-bluetooth-low-energy.svg",
+      "NodeMcu e Esp8266: medindo e publicando dados com MQTT":
+        "iot-com-nodemcu.svg",
+      "NodeMcu e Esp8266: monte um brinquedo interativo para seu Pet":
+        "robotica-brinquedo-interativo.svg",
+    },
+    Clojure: {
+      "Clojure: programação funcional":
+        "clojure-introducao-a-programacao-funcional.svg",
+      "Clojure: coleções no dia a dia": "clojure-colecoes-no-dia-a-dia.svg",
+      "Clojure: mutabilidade com átomos e refs":
+        "clojure-mutabilidade-com-atoms-e-refs.svg",
+      "Clojure: Record, protocol e multi method":
+        "clojure-record-protocol-multi-method.svg",
+      "Clojure: Schemas": "clojure-schemas.svg",
+      "Clojure: explorando testes": "clojure-explorando-testes.svg",
+      "Clojure: geradores e testes de propriedades":
+        "clojure-property-based-test.svg",
+    },
+    GoLang: {
+      "Go: a linguagem do Google": "golang.svg",
+      "Go: Orientação a Objetos": "go-lang-oo.svg",
+      "Go: crie uma aplicação web": "go-lang-web.svg",
+      "Go: desenvolvendo uma API Rest": "go-desenvolvendo-api-rest.svg",
+      "Go: validações, testes e páginas HTML":
+        "go-validacoes-testes-paginas-html.svg",
+      "Go e Gin: criando API rest com simplicidade":
+        "go-gin-api-rest-simplicidade.svg",
+    },
+    "C e C++": {
+      "C: conhecendo a Linguagem das Linguagens":
+        "introducao-a-programacao-com-c-parte-1.svg",
+      "C: avançando na linguagem": "introducao-a-programacao-com-c-parte-2.svg",
+      "C: recursos avançados da linguagem":
+        "introducao-a-programacao-com-c-parte-3.svg",
+      "C++: Conhecendo a linguagem e a STL": "cpp-introducao-a-linguagem.svg",
+      "C++ e TDD: testes de unidade com Catch2":
+        "c-plus-plus-tdd-testes-unidade-catch2.svg",
+      "Avançando com C++: entenda melhor a linguagem":
+        "c-plus-plus-avancando-linguagem.svg",
+      "Avançando com C++: Enum, templates e mais recursos":
+        "c-plus-plus-enum-templates-recursos.svg",
+      "Avançando com C++: performance e otimização":
+        "c-plus-plus-performance-otimizacao.svg",
+      "Orientação a Objetos com C++: Classes, métodos e atributos":
+        "c-plus-plus-orientacao-objetos-classes-metodos-atributos.svg",
+      "Orientação a Objetos com C++: trabalhando com herança":
+        "c-plus-plus-orientacao-objetos-heranca.svg",
+    },
+    Rust: {
+      "Rust: a linguagem de programação performática e segura":
+        "csharp-aplique-principios-solid.svg",
+      "Rust: aprenda mais sobre tipos": "csharp-arrays-colecoes.svg",
+    },
+  },
+  "Front-End": {
+    "HTML e CSS": {
+      "HTML e CSS: praticando HTML/CSS": "html-css-praticando-html-css.svg",
+      "HTML e CSS: responsividade com mobile-first":
+        "html-css-responsividade-mobile-first.svg",
+      "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags":
+        "html-css-ambiente-arquivos-tags.svg",
+      "HTML e CSS: Classes, posicionamento e Flexbox":
+        "html-css-classes-posicionamento-flexbox.svg",
+      "HTML e CSS: cabeçalho, footer e variáveis CSS":
+        "html-css-cabecalho-footer-variaveis-css.svg",
+      "HTML e CSS: trabalhando com responsividade e publicação de projetos":
+        "html-css-responsividade-publicacao-projetos.svg",
+      "CSS: Flexbox e layouts responsivos":
+        "css-flexbox-layouts-responsivos.svg",
+      "Praticando CSS: Grid e Flexbox": "praticando-css-grid-flexbox.svg",
+      "Bootstrap5: crie uma landing page responsiva":
+        "bootstrap5-landing-page-responsiva.svg",
+      "Bootstrap 5: novos recursos e práticas recomendadas de HTML, CSS e JavaScript":
+        "bootstrap-5-novos-recursos-praticas-html-css-javascript.svg",
+      "Arquitetura CSS: descomplicando os problemas": "arquitetura-css.svg",
+      "Acessibilidade web parte 2: componentes acessíveis com um pouco de JavaScript":
+        "acessibilidade-web-front-end-parte-2.svg",
+      "Vetores e Animação com SVG: trabalhando com CSS e JavaScript":
+        "svg-css-animacao.svg",
+      "Tailwind CSS: estilizando a sua página com classes utilitárias":
+        "tailwind-css-estilizando-pagina-classes-utilitarias.svg",
+      "CSS: construindo layouts com Grid":
+        "css-construindo-layouts-com-grid.svg",
+      "SASS e CSS: estilizando um site": "sass-css-estilizando-site.svg",
+      "Acessibilidade web: crie designs inclusivos":
+        "acessibilidade-html-codigos-semanticos-inclusao.svg",
+      "Acessibilidade web parte 1: tornando seu front-end inclusivo":
+        "acessibilidade-html-codigos-semanticos-inclusao.svg",
+    },
+    Svelte: {
+      "Svelte: diretivas e componentes com TypeScript":
+        "svelte-typescript-conhecendo-compilador.svg",
+      "SvelteKit: criando uma SPA": "sveltekit-criando-spa.svg",
+      "SvelteKit: trabalhando com store": "sveltekit-trabalhando-store.svg",
+    },
+    VueJS: {
+      "Vue3: explorando o framework": "vue3-comecando-framework.svg",
+      "Vue3: avançando no framework": "vue3-avancando-framework.svg",
+      "Vue3: composition API e Vuex": "vue3-composition-api-vuex.svg",
+      "Vue 3: entendendo componentes, diretivas e reatividade no framework":
+        "vue-3-componentes-diretivas-reatividade-framework.svg",
+    },
+    React: {
+      "React: gerenciando estado com Recoil":
+        "react-gerenciando-estado-recoil.svg",
+      "React: escrevendo com Typescript":
+        "react-modernizando-escrever-typescript.svg",
+      "React: conhecendo a biblioteca React Router":
+        "react-biblioteca-react-router.svg",
+      "React: integrando seu projeto React com APIs":
+        "react-integrando-projeto-react-apis.svg",
+      "React: otimizando a performance": "react-otimizando-performance.svg",
+      "React: testando os seus componentes": "react-testando-componentes.svg",
+      "React: desenvolvendo com JavaScript":
+        "react-desenvolvendo-javascript.svg",
+      "React: como os componentes funcionam": "react-componentes-funcionam.svg",
+      "React: desenvolvendo uma biblioteca de componentes":
+        "react-desenvolvendo-biblioteca-componentes.svg",
+      "React: desenvolvendo em React Router com JavaScript":
+        "React-desenvolvendo-react-router-javaScript.svg",
+      "React: gerenciamento de estados globais com Redux":
+        "react-gerenciamento-estados-globais-redux.svg",
+      "React: autenticando usuários": "react-autenticando-usuarios.svg",
+      "React: obtendo dados com React Query":
+        "react-obtendo-dados-react-query.svg",
+      "React: comece seu projeto full stack":
+        "react-crie-primeira-pagina-web.svg",
+      "React: migrando para TypeScript": "react-migrando-typescript.svg",
+      "React: Mutabilidade x Imutabilidade no Redux Toolkit com Immer":
+        "react-mutabilidade-imutabilidade-redux-toolkit-immer.svg",
+      "React JS: crie testes com Jest e Testing Library e garanta o funcionamento do Front-end":
+        "react-js-testes-automatizados-front-end.svg",
+      "React com TailwindCSS: estilizando componentes":
+        "react-tailwindcss-estilizando-componentes.svg",
+      "React: entendendo Middlewares com Redux Thunk":
+        "react-entendendo-middlewares-redux-thunk.svg",
+      "React: avançando em Middlewares com Listener Middleware":
+        "react-avancando-middlewares-listener-middleware.svg",
+      "React: praticando React com Js": "react-praticando-react-js.svg",
+      "React: utilizando a arquitetura Saga com Redux Saga":
+        "react-utilizando-arquitetura-saga-redux-saga.svg",
+      "React: combinando Context API e Apollo Client":
+        "react-combinando-context-api-apollo-client.svg",
+      "React: testes de integração e mocks no Front-end":
+        "react-testes-integracao-mocks-front-end.svg",
+      "React: escreva testes end to end com Cypress":
+        "react-escreva-testes-end-to-end-cypress.svg",
+      "React: desenvolvendo componentes customizados e acessíveis com Emotion":
+        "react-componentes-customizados-acessiveis-emotion.svg",
+      "React: arquitetando soluções de roteamento e gestão de estado com React Router e Context API":
+        "solucoes-roteamento-gestao-estado-react-router-context-api.svg",
+      "React: testando um projeto com bibliotecas externas":
+        "react-testando-projeto-bibliotecas-externas.svg",
+      "React: avançando em testes e2e com Cypress":
+        "react-avancando-testes-e2e-cypress.svg",
+      "React: migrando para o Vite e implementando autenticação baseada em Token":
+        "react-migrando-vite-implementando-autenticacao-baseada-token.svg",
+      "React: criando um Design System com TailwindCSS":
+        "react-criando-design-system-tailwind.svg",
+      "React: evolua o seu Design System com TailwindCSS":
+        "react-evolua-design-system-tailwindcss.svg",
+      "React: estilize componentes com Styled Components e manipule arquivos estáticos":
+        "react-estilize-componentes-styled-components-manipule-arquivos-estaticos.svg",
+      "React: eleve o nível da sua documentação no Storybook":
+        "react-eleve-nivel-documentacao-storybook.svg",
+      "React: versione e publique o seu Design System":
+        "react-versione-publique-design-system.svg",
+      "React com Typescript: desenvolvendo uma área administrativa":
+        "react-typescript-area-administrativa.svg",
+      "React com Typescript: desenvolva um sistema de cadastro e autenticação":
+        "react-typescript-sistema-cadastro-autenticacao.svg",
+      "React: gerencie estados globalmente com Context API":
+        "react-gerencie-estados-globalmente-context-api.svg",
+    },
+    "Next.JS": {
+      "Next.js: explorando o framework": "next-js-iniciando-framework.svg",
+      "Next.js: tour pelo Next.js": "next-js-tour-next-js.svg",
+      "Next.js: autenticação e gerenciamento de Tokens":
+        "nextjs-autenticacao-gerenciamento-tokens.svg",
+      "Next.js: trabalhando com um CMS": "next-js-trabalhando-cms.svg",
+      "Next.js: trabalhando com arquitetura Front-end":
+        "nextjs-arquitetura-front-end.svg",
+      "NextJS: CI e CD para Front-end com o Github Actions":
+        "nextjs-ci-cd-front-end-github-actions.svg",
+      "NextJS: documentando seu Front-end com o Storybook":
+        "nextjs-documentando-front-end-storybook.svg",
+      "Next.js Full stack: arquitetura de componentes Front-end":
+        "nextjs-fullstack-arquitetura-componentes-front-end.svg",
+      "Next.js Full stack: gerenciando conteúdo em build time com File System":
+        "nextjs-fullstack-conteudo-build-time-file-system.svg",
+      "Next.JS: full stack com lambdas": "nextjs-full-stack-lambdas.svg",
+    },
+    Angular: {
+      "Angular: design de componentes com acessibilidade":
+        "angular-introducao-componentes-acessibilidade.svg",
+      "Angular: avançando no design de componentes com acessibilidade":
+        "angular-avancando-componentes-acessibilidade.svg",
+      "Angular: testes automatizados com Jasmine e Karma":
+        "angular-testes-automatizados-jasmin-karma.svg",
+      "Angular: avançando com testes automatizados":
+        "angular-avancando-testes-automatizados.svg",
+      "Angular: formulários orientados a templates":
+        "angular-formularios-orientados-templates.svg",
+      "Angular: ciclo de vida": "angular-ciclo-vida.svg",
+      "Angular: torne sua aplicação interativa e personalizada com animações":
+        "angular-aplicacao-interativa-personalizada-animacoes.svg",
+      "Angular: aprimore suas técnicas de animação e crie interfaces ainda mais atraentes":
+        "angular-tecnicas-animacao-interfaces-atraentes.svg",
+      "Angular: componentização e design com Angular Material":
+        "angular-componentizacao-design-angular-material.svg",
+      "Angular: componentização, formulários e interação com APIs":
+        "angular-componentizacao-formularios-interacao-apis.svg",
+      "Angular: buscando, filtrando e exibindo dados de uma API":
+        "angular-buscando-filtrando-exibindo-dados-api.svg",
+      "Angular: trabalhando com Tokens JWT na autenticação e cadastro":
+        "angular-tokens-jwt-autenticacao-cadastro.svg",
+      "Angular: boas práticas de desenvolvimento com Modularização, Lazy Loading e Interceptors":
+        "angular-modularizacao-lazy-loading-interceptors.svg",
+      "Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD":
+        "angular-explorando-framework.svg",
+      "Angular 14: evoluindo a aplicação": "angular-evoluindo-aplicacao.svg",
+      "RxJS e Angular: programando de forma reativa":
+        "rxjs-angular-programando-forma-reativa.svg",
+    },
+    JavaScript: {
+      "JavaScript: programando a Orientação a Objetos":
+        "javascritpt-orientacao-objetos.svg",
+      "JavaScript: explorando a linguagem": "javascript-introducao.svg",
+      "JavaScript: interfaces e Herança em Orientação a Objetos":
+        "javascript-polimorfismo.svg",
+      "JavaScript: de padrões a uma abordagem funcional":
+        "javascript-padroes-abordagem-funcional.svg",
+      "JavaScript: validações e reconhecimento de voz":
+        "javascript-validacoes-reconhecimento-voz.svg",
+      "JavaScript: métodos de array": "javascript-metodos-array.svg",
+      "JavaScript: criando requisições": "javascript-criando-requisicoes.svg",
+      "JavaScript: validando formulários":
+        "javascript-validando-formularios.svg",
+      "JavaScript: classes e heranças no desenvolvimento de aplicações com orientação a objetos":
+        "javascript-orientacao-a-objetos.svg",
+      "JavaScript: manipulando objetos": "javascript-manipulando-objetos.svg",
+      "JavaScript: trabalhando com threads para requisições simultâneas":
+        "javascript-threads-requisicoes-simultaneas.svg",
+      "JavaScript: manipulando elementos no DOM":
+        "javascript-manipulando-elementos-dom.svg",
+      "JS na web: CRUD com JavaScript assíncrono":
+        "javascript-crud-assincrono.svg",
+      "JavaScript para Web: Crie páginas dinâmicas":
+        "javascript-web-paginas-dinamicas.svg",
+      "JavaScript: consumindo e tratando dados de uma API":
+        "javascript-consumindo-tratando-dados-uma-api.svg",
+      "JavaScript: explorando a manipulação de elementos e da localStorage":
+        "javascript-manipulacao-elementos-localstorage.svg",
+      "TypeScript parte 1: evoluindo seu JavaScript":
+        "typescript-evoluindo-javascript.svg",
+      "TypeScript parte 2: avançando na linguagem":
+        "typescript-avancando-linguagem.svg",
+      "Typescript parte 3: mais técnicas e boas práticas":
+        "typescript-tecnicas-boas-praticas.svg",
+      "TypeScript na prática: implemente um projeto completo com TypeScript e módulos":
+        "typescript-pratica-projeto-completo-typescript-modulos.svg",
+      "TypeScript: aplicando orientação a objetos no Front-end":
+        "typescript-orientado-objetos.svg",
+      "TypeScript: o paradigma funcional no front-end":
+        "typescript-paradigma-funcional-front-end.svg",
+    },
+    "Automação e Performance": {
+      "Webpack: trabalhando com módulos na sua webapp":
+        "webpack-modulos-webapp.svg",
+      "HTTP: entendendo a web por baixo dos panos":
+        "http-entendendo-web-por-baixo-dos-panos.svg",
+    },
+    WordPress: {
+      "WordPress: crie sites com Elementor e Figma":
+        "wordpress-crie-sites-elementor-figma.svg",
+      "Wordpress: integrando responsividade, efeitos visuais e explorando plugins":
+        "wordpress-responsividade-efeitos-visuais-plugins.svg",
+    },
+  },
+  DataScience: {
+    "SQL e Banco de Dados": {
+      "SQL com MySQL: manipule e consulte dados":
+        "mysql-manipule-dados-com-sql.svg",
+      "Consultas SQL: avançando no SQL com MySQL": "mysql-consultas-sql.svg",
+      "Oracle Database: projeções, seleções, joins e views":
+        "sql-oracle-projecoes-selecoes-joins-views.svg",
+      "Comandos DML: manipulação de dados com MySQL":
+        "mysql-dml-manipulacao-de-dados.svg",
+      "Procedures SQL: executando código no MySQL": "mysql-procedures.svg",
+      "Administração do MySQL: segurança e otimização do banco":
+        "mysql-dba-administracao.svg",
+      "Modelagem de banco de dados relacional: entendendo SQL":
+        "modelagem-banco-dados-relacional-sql.svg",
+      "Modelagem de banco de dados relacional: modelagem lógica e física":
+        "modelagem-banco-dados-relacional-modelagem-logica-fisica.svg",
+      "MySQL e JSON: persistindo JSON de maneira eficiente":
+        "mysql-json-persistencia.svg",
+      PostgreSQL: "introducao-postgresql-primeiros-passos.svg",
+      "PostgreSQL: Views, Sub-Consultas e Funções":
+        "postgresql-views-sub-consultas-funcoes.svg",
+      "PostgreSQL: comandos DML e DDL": "pgsql-comandos-dml-ddl.svg",
+      "PostgreSQL: desenvolva com PL/pgSQL": "postgresql-procedures.svg",
+      "PostgreSQL: Triggers, transações, erros e cursores":
+        "postgresql-triggers-transacoes-erros-cursores.svg",
+      "PostgreSQL: administração e otimização do banco":
+        "postgresql-administracao-otimizacao.svg",
+      "SQL Server: construção do Data Warehouse":
+        "sql-server-construcao-data-warehouse.svg",
+      "Microsoft SQL Server 2022: consultas avançadas":
+        "microsoft-sql-server-2022-consultas-avancadas.svg",
+      "Microsoft SQL Server 2022: manipulando dados":
+        "microsoft-sql-server-2022-manipulando-dados.svg",
+      "Microsoft SQL Server 2022: conhecendo o T-SQL":
+        "microsoft-sql-server-2022-conhecendo-t-sql.svg",
+      "Microsoft SQL Server 2022: performance":
+        "microsoft-sql-server-2022-performance.svg",
+      "SQL com Oracle Database: manipule e consulte dados":
+        "introducao-sql-oracle-manipule-consulte-dados.svg",
+      "Oracle Database: manipulando dados com comandos DML":
+        "manipulacao-dados-oracle-dml.svg",
+      "Administração do Oracle Database: criação e gerenciamento do banco":
+        "administracao-oracle-database-gerenciamento-banco.svg",
+      "Administração do Oracle Database: segurança e otimização do banco":
+        "administracao-oracle-database-seguranca-otimizacao.svg",
+      "Desempenho do Oracle Database: análise do ambiente":
+        "desempenho-oracle-database-analise-ambiente.svg",
+      "Desempenho do Oracle Database: otimização de consultas":
+        "desempenho-oracle-database-otimizacao-consultas.svg",
+      "Oracle PL/SQL: procedures, funções e exceções":
+        "oracle-pl-sql-procedures-funcoes-excecoes.svg",
+      "Oracle PL/SQL: dominando packages":
+        "oracle-pl-sql-dominando-packages.svg",
+      "Oracle PL/SQL: cursor e exceções": "oracle-pl-sql-cursor-excecoes.svg",
+      "Modelagem de banco de dados: entidades, relacionamentos e atributos":
+        "modelagem-banco-dados-entidades-relacionamentos-atributos.svg",
+      "Modelagem de banco de dados relacional: normalização":
+        "modelagem-de-banco-de-dados-relacional-normalizacao.svg",
+      "Modelagem de banco de dados relacional: álgebra relacional":
+        "modelagem-banco-dados-relacional-algebra-relacional.svg",
+      "Microsoft SQL Server 2022: conhecendo SQL":
+        "microsoft-sql-server-conhecendo-sql.svg",
+      "Microsoft SQL Server 2022: aprofundando em procedures e funções":
+        "microsoft-sql-server-2022-procedures-funcoes.svg",
+      "Microsoft SQL Server 2022: administrando o banco de dados":
+        "microsoft-sql-server-2022-administrando-banco-dados.svg",
+      "Data Mart e Analysis Services: entendendo a linguagem de consultas MDX":
+        "data-mart-analysis-services-linguagem-consultas-mdx.svg",
+    },
+    "Engenharia de Dados": {
+      "Engenharia de Dados: organizando dados na AWS":
+        "engenharia-dados-organizando-dados-aws.svg",
+      "Apache Beam: Data Pipeline com Python":
+        "apache-beam-data-pipeline-python.svg",
+      "Apache Airflow: orquestrando seu primeiro pipeline de dados":
+        "apache-airflow-primeiro-pipeline-dados.svg",
+      "Apache Airflow: extração de dados": "apache-airflow-extracao-dados.svg",
+      "Apache Airflow: transformação de dados com Spark":
+        "apache-airflow-transformacao-dados-spark.svg",
+      "Aprofundando no Airflow: Executores Local e Celery":
+        "aprofundando-airflow-executores-local-celery.svg",
+      "Aprofundando no Airflow: Executor Kubernetes":
+        "aprofundando-airflow-executor-kubernetes.svg",
+      "Spark: apresentando a ferramenta": "spark-apresentando-ferramenta.svg",
+      "Azure Data Lake: criando um pipeline de ingestão de dados":
+        "azure-data-lake-pipeline-ingestao-dados.svg",
+      "Spark: processamento de linguagem natural":
+        "spark-processamento-linguagem-natural.svg",
+      "Spark: trabalhando com regressão": "spark-trabalhando-regressao.svg",
+      "Spark: sistema de recomendação": "spark-sistema-recomendacao.svg",
+      "Spark: criando modelos de classificação":
+        "spark-modelos-classificacao.svg",
+      "Databricks: conhecendo a ferramenta":
+        "databricks-conhecendo-ferramenta.svg",
+      "Databricks: trabalhando com diversos formatos e tipos de arquivos":
+        "databricks-formatos-tipos-arquivos.svg",
+      "Databricks: análise de dados": "databricks-analise-dados.svg",
+      "Databricks e Data Factory: criando e orquestrando pipelines na nuvem":
+        "databricks-data-factory-pipelines-nuvem.svg",
+      "Databricks: construindo pipelines de dados com Airflow e Azure Databricks":
+        "databricks-pipelines-dados-airflow-azure-databricks.svg",
+      "Python e APIs: conhecendo a biblioteca Requests":
+        "python-apis-conhecendo-biblioteca-requests.svg",
+      "Pipeline de dados: integrando Python com MongoDB e MySQL":
+        "pipeline-dados-integrando-python-mongodb-mysql.svg",
+      "Pipeline de dados: combinando Python e orientação a objeto":
+        "pipeline-dados-combinando-python-orientacao-objeto.svg",
+    },
+    "Data Science": {
+      "Data Science: analise e visualização de dados":
+        "data-science-primeiros-passos.svg",
+      "Python para Data Science: primeiros passos":
+        "python-data-science-primeiros-passos.svg",
+      "Python para Data Science: trabalhando com funções, estruturas de dados e exceções":
+        "python-data-science-funcoes-estruturas-dados-excecoes.svg",
+      "Python: análise de dados com SQL": "python-analise-dados-sql.svg",
+      "Pandas: conhecendo a biblioteca": "pandas-conhecendo-biblioteca.svg",
+      "Pandas: transformação e manipulação de dados":
+        "pandas-transformacao-manipulacao-dados.svg",
+      "Pandas: selecionando e agrupando dados":
+        "pandas-selecao-agrupamento-dados.svg",
+      "Pandas I/O: trabalhando com diferentes formatos de arquivos":
+        "pandas-io-trabalhando-diferentes-formatos-arquivos.svg",
+      "Pandas: limpeza e tratamento de dados":
+        "pandas-limpeza-tratamento-dados.svg",
+      "Data Science: análise de series temporais":
+        "data-science-series-temporais.svg",
+      "Data Analysis: Google Sheets":
+        "data-analysis-introducao-google-sheets.svg",
+      "Data Analysis: previsões com Google Sheets":
+        "data-analysis-previsoes-google-sheets.svg",
+      "Data Analysis: estatística com Google Sheets":
+        "data-analysis-estatistica-google-sheets.svg",
+      "Data Science: análises para saúde e medicina":
+        "data-science-saude-e-medicina.svg",
+      "Data Science: visualização de dados para saúde e medicina":
+        "data-science-visualizacao-saude-e-medicina.svg",
+      "Geopandas: trabalhando com dados geoespaciais":
+        "geopandas-trabalhando-dados-geoespaciais.svg",
+      "Reconhecimento de imagens: Twitter e Computer Vision API":
+        "reconhecimento-imagens.svg",
+      "Clustering: extraindo padrões de dados": "cluster-analysis.svg",
+      "MLOps: Machine Learning e APIs": "mlops-machine-learning-e-apis.svg",
+      "MLOps: deploy de modelos": "mlops-deploy-modelos.svg",
+      "Árvores de Decisão: aprofundando em modelos de Machine Learning":
+        "arvores-decisao-aprofundando-modelos-machine-learning.svg",
+      "Data Mesh: uma abordagem distribuída para dados":
+        "data-mesh-abordagem-distribuida-dados.svg",
+      "Data Mesh: dados como produtos": "data-mesh-dados-produtos.svg",
+      "Data Mesh: gerenciando controle e dependências":
+        "data-mesh-controle-dependencias.svg",
+      "Data Mesh: infraestrutura e planos":
+        "data-mesh-infraestrutura-planos.svg",
+      "Oracle ADS: análise de dados na nuvem":
+        "oracle-ads-analise-dados-nuvem.svg",
+      "NumPy: análise numérica eficiente com Python":
+        "numpy-analise-numerica-eficiente-pythons.svg",
+      "Data Visualization: criando gráficos com bibliotecas Python":
+        "data-visualization-graficos-bibliotecas-python.svg",
+      "Data Visualization: gráficos de comparação e distribuição":
+        "data-visualization-graficos-comparacao-distribuicao.svg",
+      "Data Visualization: gráficos de composição e relacionamento":
+        "data-visualization-graficos-composicao-relacionamento.svg",
+      "Pesquisa operacional: entendendo as bases dos métodos de otimização":
+        "pesquisa-operacional-bases-metodos-otimizacao.svg",
+      "IA aumentada: prevendo atrasos de voos":
+        "ia-aumentada-prevendo-atrasos-voos.svg",
+    },
+    "Data Visualization": {
+      "Data Visualization parte 1: gráficos com uma variável":
+        "data-visualization-graficos.svg",
+      "Data Visualization parte 2: gráficos com multivariáveis":
+        "data-visualization-multivariaveis.svg",
+      "Data Visualization: criação de gráficos com o Matplotlib":
+        "customizacao-matplot.svg",
+      "Data Visualization: técnicas de visualização com Google Sheets":
+        "data-visualization-visualizacao-google-sheets.svg",
+      "Data Visualization: estilização de tabelas com Python":
+        "data-visualization-estilizacao-tabelas-python.svg",
+      "Programação em R: desenvolva dashboards online com Shiny":
+        "programacao-r-dashboard-online-shiny.svg",
+      "Oracle Analytics: visualizando dados":
+        "oracle-analytics-visualizando-dados.svg",
+      "Streamlit: construindo um dashboard interativo":
+        "streamlit-construindo-dashboard-interativo.svg",
+      "Dados geográficos: visualização de mapas com Folium":
+        "dados-geograficos-visualizacao-mapas-folium.svg",
+    },
+    "Machine Learning": {
+      "Machine Learning parte 1: otimização de modelos através de hiperparâmetros":
+        "machine-learning-otimizacao-de-modelos-atraves-de-hiperparametros.svg",
+      "Machine Learning parte 2: otimização com exploração aleatória":
+        "machine-learning-otimizacao-com-exploracao-aleatoria.svg",
+      "Linguagem Natural parte 1: NLP com análise de sentimento":
+        "introducao-a-nlp-com-analise-de-sentimento.svg",
+      "Linguagem Natural parte 2: continuando com a análise de sentimento":
+        "nlp-com-analise-de-sentimento.svg",
+      "NLP: regex e modelos de linguagem": "nlp-modelos-linguagem.svg",
+      "Classificação multilabel de textos: múltiplos contextos em NLP":
+        "classificacao-multilabel-nlp.svg",
+      "Machine Learning: intro a sistemas de recomendação em Python":
+        "introducao-a-sistemas-de-recomendacao-com-python.svg",
+      "Machine Learning: Credit Scoring": "machine-learning-credit-scoring.svg",
+      "Machine Learning com Oracle ADS: produtividade na criação de modelos":
+        "machine-learning-oracle-ads-criacao-modelos.svg",
+      "CD4ML: Entrega Contínua para Machine Learning":
+        "cd4ml-entrega-continua-machine-learning.svg",
+      "Deep Learning parte 1: Keras": "deep-learning-introducao-com-keras.svg",
+      "Deep Learning parte 2: como a rede aprende":
+        "deep-learning-como-a-rede-aprende.svg",
+      "Deep Learning: previsão com Keras": "deep-learning-previsao-keras.svg",
+      "Data Analytics: Machine Learning com Google Cloud Platform":
+        "data-analytics-google-cloud.svg",
+      "Data Analytics: Machine Learning no Marketing Digital":
+        "machine-learning-marketing-digital.svg",
+      "Visão computacional: detecção de texto em placas de carro":
+        "visao-computacional-deteccao-texto-placas-carro.svg",
+      "Visão Computacional: reconhecimento de texto com OCR e OpenCV":
+        "visao-computacional-reconhecimento-texto-ocr-opencv.svg",
+      "Visão computacional: Hand Tracking com OpenCV":
+        "visao-computacional-hand-tracking-opencv.svg",
+      "Visão Computacional: detecção de movimento com OpenCV":
+        "visao-computacional-deteccao-movimento-opencv.svg",
+      "Visão Computacional: análise facial":
+        "visao-computacional-analise-facial.svg",
+      "Redes Neurais: Deep Learning com PyTorch": "pln-deep-learning.svg",
+      "Redes Neurais Convolucionais: Deep Learning com PyTorch":
+        "cnn-redes-neurais-convolucionais-deep-learning-pytorch.svg",
+      "Treinando uma Rede Neural: Deep Learning com PyTorch":
+        "treinando-rede-neural-pytorch.svg",
+      "Redes Neurais Recorrentes: Deep Learning com Pytorch":
+        "rnn-redes-neurais-recorrentes-deep-learning-pytorch.svg",
+      "Corretor Ortográfico em Python: aplicando técnicas de NLP":
+        "nlp-corretor-ortografico.svg",
+      "Análise e Classificação de Faces: visão Computacional com OpenCV":
+        "analise-classificacao-faces-visao-computacional-opencv.svg",
+      "Modelos preditivos em dados: detecção de fraude":
+        "modelos-preditivos-dados-deteccao-fraude.svg",
+      "Clustering aplicado: recomendando músicas com K-Means":
+        "clustering-aplicado-recomendando-musicas-k-means.svg",
+      "Word2Vec: interpretação da linguagem humana com Word embedding":
+        "introducao-word-embedding.svg",
+      "Word2Vec: treinamento de Word Embedding":
+        "word2vec-treinamento-word-embedding.svg",
+      "Clusterização de dados: segmentação de clientes":
+        "clusterizacao-dados-segmentacao-clientes.svg",
+      "MLflow: gestão do ciclo de vidas de modelos de ML":
+        "mlflow-gestao-ciclo-vidas-modelos-ml.svg",
+      "Análise de componentes principais: elaboração de rankings com o PCA":
+        "analise-componentes-elaboracao-rankings-pca.svg",
+      "Regressão com Sklearn: desenvolvimento, previsão e otimização":
+        "regressao-sklearn-desenvolvimento-previsao-otimizacao.svg",
+      "Aprendizado não supervisionado: primeiras técnicas e métodos":
+        "aprendizado-nao-supervisionado-tecnicas-metodos.svg",
+      "Keras: primeiros passos em redes neurais":
+        "keras-primeiros-passos-redes-neurais.svg",
+      "Continuous Delivery for Machine Learning: completando o Pipeline":
+        "continuous-delivery-machine-learning-pipeline-completo.svg",
+      "Databricks: criando um sistema de recomendação":
+        "databricks-criando-sistema-recomendacao.svg",
+      "Classificação: validação de modelos e métricas de avaliação":
+        "classificacao-validacao-modelos-metricas-avaliacao.svg",
+      "Classificação: selecionando features":
+        "classificacao-selecionando-features.svg",
+      "Classificação: resolvendo problemas multiclasse":
+        "classificacao-resolvendo-problemas-multiclasse.svg",
+      "Classificação: aprendendo a classificar dados com Machine Learning":
+        "classificacao-aprendendo-classificar-dados-machine-learning.svg",
+      "IA aumentada: aprimorando técnicas de otimização em um problema prático":
+        "ia-aumentada-tecnicas-otimizacao-problema-pratico.svg",
+      "IA aumentada: entendendo e praticando otimização com OR-Tools":
+        "ia-aumentada-entendendo-praticando-otimizacao-or-tools.svg",
+    },
+    Excel: {
+      "Funções com Excel: operações matemáticas e filtros":
+        "funcoes-excel-operacoes-matematicas-filtros.svg",
+      "Excel: simulação e análise de cenários":
+        "excel-simulacao-e-analise-de-cenarios.svg",
+      "Análise de dados: cálculos, padrões e estratégias com Excel":
+        "analise-de-dados-excel.svg",
+      "Excel: personalizando e automatizando tarefas com VBA":
+        "excel-vba-personalizacao-automacao-tarefas.svg",
+      "Excel: criação de macros e automatização de tarefas":
+        "excel-criacao-de-macros-automacao-de-tarefas.svg",
+      "Excel: domine o editor de planilhas":
+        "excel-domine-editor-planilhas.svg",
+      "Excel: aprendendo lógica booleana e busca por valores":
+        "excel-logica-booleana-busca-valores.svg",
+      "Excel: utilizando tabelas dinâmicas e gráficos dinâmicos":
+        "excel-utilizando-tabelas-dinamicas-graficos-dinamicos.svg",
+      "Excel: automatizando tarefas com Macros":
+        "excel-automatizando-tarefas-macros.svg",
+      "Excel VBA: automatize tarefas diárias mesmo não sendo programador":
+        "excel-vba-automatizacao-tarefas-diarias.svg",
+      "Excel VBA: criando Formulários para facilitar a entrada de dados nas planilhas":
+        "excel-vba-formularios-facilitar-entrada-dados-planilhas.svg",
+      "Excel VBA 3: criando conexão com o Outlook Application":
+        "excel-vba-conexao-outlook-application.svg",
+      "Excel VBA 4: criando conexão com Access":
+        "excel-vba-4-criando-conexao-access.svg",
+      "BI com Excel: criando bancos de dados com planilhas":
+        "bi-excel-crie-bancos-dados-planilhas.svg",
+      "BI com Excel: criando um Dashboard sem complicação":
+        "bi-excel-criando-dashboard-sem-complicacao.svg",
+      "BI com Excel: criando Dashboard com Power Pivot":
+        "bi-excel-dashboard-power-pivot.svg",
+      "BI com Excel: conhecendo o Power Query": "bi-excel-power-query.svg",
+      "BI com Excel: dashboard com Power Query":
+        "excel-dashboards-power-query.svg",
+      "BI com Excel: trabalhando com tabelas dinâmicas com Power Pivot":
+        "bi-excel-tabelas-dinamicas-power-pivot.svg",
+      "Recursos Visuais com Excel: explorando gráficos e formatos":
+        "recursos-visuais-excel-graficos-formatos.svg",
+    },
+    "Business Intelligence": {
+      "Modelagem do Data Warehouse: atributos, hierarquia e indicadores":
+        "modelagem-data-warehouse-atributos-hierarquia-indicadores.svg",
+      "Consultas Multidimensionais: MDX com SQL Server":
+        "business-intelligence-mdx-sql-server.svg",
+      "OLAP com SQL Server: construção do Data Warehouse":
+        "business-intelligence-olap-sql-server.svg",
+      "Report Analysis com Power BI: gerando relatórios empresariais":
+        "business-intelligence-power-bi.svg",
+      "Dashboard com Tableau: conceitos essenciais":
+        "tableau-conceitos-essenciais.svg",
+      "Tableau: preparação e transformação de dados":
+        "tableau-preparacao-transformacao-dados.svg",
+      "Tableau: funções e cálculos LoD": "tableau-funcoes-calculos-lod.svg",
+      "Tableau: gráficos simples e avançados":
+        "tableau-graficos-simples-avancados.svg",
+      "Tableau: construindo dashboards e histórias":
+        "tableau-construindo-dashboards-historias.svg",
+      "Tableau: como trabalhar com mapas": "tableau-como-trabalhar-mapas.svg",
+      "Tableau: executando um projeto de BI":
+        "tableau-executando-projeto-bi.svg",
+      "Qlik Sense: conhecendo a ferramenta":
+        "qlik-sense-conhecendo-ferramenta.svg",
+      "Qlik Sense: manipulando dados": "qlik-sense-manipulando-dados.svg",
+      "Qlik Sense: analisando dados": "qlik-sense-analisando-dados.svg",
+      "Qlik Sense: expressões avançadas": "qlik-sense-expressoes-avancadas.svg",
+      "Qlik Sense: conexões SQL": "qlik-sense-conexoes-sql.svg",
+      "Qlik Sense: histórias e gráficos": "qlik-sense-historias-graficos.svg",
+      "Dashboard com Power BI: visualizando dados":
+        "dashboard-power-bi-visualizando-dados.svg",
+      "Power BI Desktop: tratamento de dados no Power Query":
+        "power-bi-desktop-tratamento-de-dados-power-query.svg",
+      "Power BI: mergulhando na linguagem M":
+        "power-bi-mergulhando-linguagem-m.svg",
+      "Power BI Desktop: construindo meu primeiro dashboard":
+        "power-bi-desktop-construindo-primeiro-dashboard.svg",
+      "Power BI: Report Builder": "power-bi-report-builder.svg",
+      "Power BI: conhecendo o serviço": "power-bi-conhecendo-servico.svg",
+      "Power BI: explorando recursos visuais": "power-bi-recursos-visuais.svg",
+      "Power BI: modelagem de dados": "power-bi-modelagem-dados.svg",
+      "Power BI: aplicando DAX ao negócio":
+        "power-bi-aplicando-dax-negocio.svg",
+      "Power BI: DAX contextos e iteração":
+        "power-bi-dax-contextos-iteracao.svg",
+      "Power BI: aprofundando na linguagem DAX":
+        "power-bi-aprofundando-linguagem-dax.svg",
+      "Google Data Studio: Parâmetros e Big Query":
+        "google-data-studio-parametros-big-query.svg",
+      "MicroStrategy Workstation: conhecendo a ferramenta":
+        "microstrategy-workstation-ferramenta.svg",
+      "MicroStrategy Workstation: transformações e métricas":
+        "microstrategy-workstation-transformacoes-metricas.svg",
+      "MicroStrategy Workstation: elaborando uma apresentação":
+        "microstrategy-workstation-elaborando-apresentacao.svg",
+      "Looker Studio: criando o primeiro relatório":
+        "looker-studio-primeiro-relatorio.svg",
+      "Looker Studio: visualização de dados":
+        "looker-studio-visualizacao-dados.svg",
+      "Looker Studio: trabalhando com funções e filtros":
+        "looker-studio-funcoes-filtros.svg",
+      "Looker Studio: parâmetros e combinações de dados":
+        "looker-studio-parametros-combinacoes-dados.svg",
+      "Data Warehouse e Integration Services: carregando dados dimensionais":
+        "data-warehouse-integration-services-dados-dimensionais.svg",
+      "Data Warehouse e Integration Services: carregando fatos e dimensão tempo":
+        "data-warehouse-integration-services-carregando-fatos-dimensao-tempo.svg",
+      "Data Mart e Analysis Services: construindo um modelo OLAP multidimensional":
+        "data-mart-analysis-services-modelo-olap-multidimensional.svg",
+      "Data Lake e Integration Services: construindo e carregando as dimensões":
+        "data-lake-integration-services-construindo-carregando-dimensoes.svg",
+      "Data Lake e Integration Services: construindo e carregando o tempo e as fatos":
+        "data-lake-integration-services-construindo-carregando-tempo-fatos.svg",
+      "Python e Power BI: analisando dados do mercado financeiro":
+        "python-power-bi-dados-mercado-financeiro.svg",
+    },
+    NoSQL: {
+      "MongoDB: conhecendo um banco de dados NoSQL":
+        "mongodb-banco-dados-nosql.svg",
+      "MongoDB: validando dados": "mongodb-validando-dados.svg",
+      "MongoDB: modelagem de dados": "mongodb-modelagem-de-dados.svg",
+      "MongoDB: realizando consultas": "mongodb-realizando-consultas.svg",
+      "MongoDB: segurança e disponibilidade dos dados":
+        "mongodb-seguranca-disponibilidade-dados.svg",
+      "Datomic: um banco cronológico": "introducao-ao-datomic.svg",
+      "Datomic Queries: avançando com o modelo e pesquisas":
+        "datomic-identidade-e-queries.svg",
+      "Datomic: Schemas e Regras": "datomic-schemas-regras.svg",
+      "Datomic: Bindings, transaction functions e filters":
+        "datomic-bindings-transaction-functions-e-filters.svg",
+      "Datomic: banco filtrado e histórico":
+        "datomic-banco-filtrado-e-historico.svg",
+      "Datomic: geradores, schemas e índices":
+        "datomic-geradores-schemas-e-indices.svg",
+      "BigQuery: o banco de dados da Google para Big Data":
+        "bigquery-banco-dados-google-big-data.svg",
+      "BigQuery: funções do BigQuery": "bigquery-funcoes.svg",
+      "BigQuery: manipulação de dados": "bigquery-manipulacao-dados.svg",
+      "Acesso ao Big Query: manipulação programático linguagens":
+        "big-query-manipulacao-programatico-linguagens.svg",
+      "MongoDB: trabalhando com armazenamento, backups e otimização de consulta":
+        "mongodb-armazenamento-backups-otimizacao-consulta.svg",
+    },
+    Estatística: {
+      "Estatística com Python: frequências e medidas":
+        "estatistica-distribuicoes-e-medidas.svg",
+      "Estatística com Python: probabilidade e amostragem":
+        "estatistica-probabilidade-e-amostragem.svg",
+      "Estatística com Python: testes de hipóteses":
+        "estatistica-testes-hipotestes.svg",
+      "Estatística com Python: Correlação e Regressão":
+        "estatistica-correlacao-regressao.svg",
+      "Data Science: testes estatísticos com Python":
+        "data-science-introducao-a-testes-estatisticos-com-python.svg",
+      "Regressão Linear: técnicas avançadas de modelagem":
+        "data-science-modelo-regressao-linear-assimetria-statsmodel.svg",
+      "Regressão linear: testando relações e prevendo resultados":
+        "data-science-modelo-regressao-linear.svg",
+      "Estatística com R: crie e compare modelos estatísticos":
+        "estatistica-introducao-modelagem.svg",
+      "Estatística com R: frequências e medidas":
+        "estatistica-r-frequencias-medidas.svg",
+      "Estatística com R: probabilidade e amostragem":
+        "estatistica-r-probabilidade-amostragem.svg",
+      "Estatística com R: testes de hipóteses":
+        "estatistica-r-testes-hipoteses.svg",
+      "Estatística com R: correlação e regressão":
+        "estatistica-r-correlacao-regressao.svg",
+      "Análise de experimentos: testes, mapas de cores e análises dos dados.":
+        "analise-de-experimentos.svg",
+    },
+  },
+  "Inteligência Artificial": {
+    "IA para Criativos": {
+      "Inteligência artificial Generativa: Midjourney e ChatGPT":
+        "inteligencia-artificial-generativa-midjourney-chatgpt.svg",
+    },
+    "IA para Programação": {
+      "ChatGPT e JavaScript: construa o jogo Pong":
+        "chatgpt-javascript-construa-jogo-pong.svg",
+      "ChatGPT: desvendando a IA em conversas e suas aplicações":
+        "chatgpt-desvendando-ia-conversas-aplicacoes.svg",
+      "ChatGPT: otimizando a qualidade dos resultados":
+        "chatgpt-otimizando-qualidade-resultados.svg",
+      "ChatGPT e programação: aumente sua produtividade":
+        "chatgpt-programacao-aumente-produtividade.svg",
+      "GitHub Copilot e ChatGPT: impulsionando seu desenvolvimento com IA":
+        "github-copilot-chatgpt-desenvolvimento-ia.svg",
+      "GPT e Python: criando ferramentas com a API":
+        "gpt-python-criando-ferramentas-com-api.svg",
+      "OpenAI: criando uma postagem para o Instagram com IA Generativa":
+        "openai-criando-postagem-instagram-ia-generativa.svg",
+      "Python e GPT: crie seu chatbot com IA":
+        "python-gpt-crie-chatbot-com-ia.svg",
+    },
+    "IA para Negócios": {
+      "Excel com IA: mapeando e evoluindo processos":
+        "excel-ia-mapeando-evoluindo-processos.svg",
+      "Excel com IA: análise de negócios com a jornada de usuário":
+        "excel-ia-analise-negocios-jornada-usuario.svg",
+    },
+    "IA para Mobile": {
+      "Jetpack Compose: integrando a API da Open AI no App":
+        "jetpack-compose-integrando-api-open-ai-app.svg",
+    },
+    "IA para Marketing Digital": {
+      "Inteligência Artificial: campanhas de Marketing Digital":
+        "inteligencia-artificial-campanhas-marketing-digital.svg",
+      "Inteligência Artificial: gestão de mídias sociais":
+        "inteligencia-artificial-gestao-midias-sociais.svg",
+    },
+    "IA para Front End": {
+      "IA no front-end: criando testes de unidade com a Luri":
+        "ia-front-end-testes-unidade-luri.svg",
+      "IA generativa no Front-end: trabalhando com acessibilidade, semântica e HTML":
+        "ia-generativa-front-end-acessibilidade-semantica-html.svg",
+    },
+    "IA para Dados": {
+      "ChatGPT com Excel: automação com macros":
+        "chatgpt-excel-automacao-macros.svg",
+      "ChatGPT com Excel: começando a usar o chatGPT como assistente":
+        "chatgpt-excel-usar-chatgpt-assistente.svg",
+      "Excel e ChatGPT: analisando dados": "excel-chatgpt-analisando-dados.svg",
+      "Excel: lógica booleana e busca por valores com IA":
+        "excel-logica-booleana-busca-valores-ia.svg",
+      "Machine Learning: utilizando ChatGPT como assistente":
+        "machine-learning-utilizando-chatgpt-assistente.svg",
+      "Python com IAs: acelerando a produtividade em data science":
+        "python-ias-produtividade-data-science.svg",
+      "Power BI: criando relatórios com auxílio de IA":
+        "power-bi-criando-relatorios-auxilio-ia.svg",
+      "VBA e ChatGPT: potencializando as automações":
+        "vba-chatgpt-potencializando-automacoes.svg",
+      "Análise de dados com Python: utilizando o ChatGPT como assistente":
+        "analise-dados-python-chatgpt-assistente.svg",
+    },
+    "IA para UX & Design": {
+      "Inteligência Artificial e UX: otimize a construção de um produto digital":
+        "Inteligencia-artificial-ux-construcao-produto-digital.svg",
+      "Inteligência artificial e personas: acelerando o processo de criação":
+        "inteligencia-artificial-personas-acelerando-processo-criacao.svg",
+      "IA no Photoshop: criando e editando imagens":
+        "ia-photoshop-criando-editando-imagens.svg",
+      "Ux Research: utilizando IA na pesquisa com usuário":
+        "ux-research-ia-pesquisa-usuario.svg",
+      "Design de apresentações com IA: ferramentas, técnicas e melhores práticas":
+        "design-apresentacoes-ia-ferramentas-tecnicas-melhores-praticas.svg",
+      "Landing Page com IA: construindo uma página web funcional":
+        "landing-page-ia-construindo-pagina-web-funcional.svg",
+    },
+  },
+  DevOps: {
+    "Builds e Controle de versão": {
+      "Git e Github: estratégias de ramificação, Conflitos e Pull Requests":
+        "git-github-branching-conflitos-pull-requests.svg",
+    },
+    "Entrega Contínua": {
+      "Entrega Contínua: confiabilidade e qualidade na implantação de software":
+        "entrega-continua-confiabilidade-qualidade.svg",
+      "Jenkins e Docker: Pipeline de entrega continua":
+        "pipeline-ci-jenkins-docker.svg",
+      "The Twelve-Factor App: Metodologia para construção de aplicações robustas":
+        "the-twelve-factor-app.svg",
+      "Integração Contínua: mais qualidade e menos risco no desenvolvimento":
+        "desenvolvimento-software-integracao-continua.svg",
+      "Integração Contínua: testes automatizados e pipeline no Github Actions":
+        "integracao-continua-testes-automatizados-pipeline-github-actions.svg",
+      "Integração Contínua: Pipeline Docker no Github Actions":
+        "integracao-continua-pipeline-docker-github-actions.svg",
+      "Integração Contínua: Pipeline de entrega e implementação contínua na EC2":
+        "integracao-continua-pipeline-entrega-implementacao-continua-ec2.svg",
+      "Integração Contínua: automatize o deploy no Amazon ECS":
+        "integracao-continua-automatize-deploy-amazon-ecs.svg",
+      "Integração Contínua: Rollback e teste de carga":
+        "integracao-continua-rollback-teste-carga.svg",
+      "Integração Contínua: automatizando a entrega no Kubernetes":
+        "integracao-continua-automatizando-entrega-kubernetes.svg",
+    },
+    AWS: {
+      "Amazon S3: manipule e armazene objetos na nuvem":
+        "amazon-s3-manipule-armazene-objetos-nuvem.svg",
+      "Amazon Elastic Beanstalk Parte 1: container Docker":
+        "elastic-beanstalk.svg",
+      "Amazon Elastic Beanstalk Parte 2: múltiplos containers e NGINX":
+        "elastic-beanstalk-multiplos-containers.svg",
+      "Amazon API Gateway: integrando e protegendo serviços":
+        "amazon-api-gateway.svg",
+      "Amazon ECS: gerencie Docker na nuvem da AWS":
+        "amazon-ecs-docker-nuvem-aws.svg",
+      "Amazon EC2: alta disponibilidade e escalabilidade em uma aplicação":
+        "amazon-ec2-alta-disponibilidade-escalabilidade-aplicacao.svg",
+      "Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes":
+        "amazon-eks-kubernetes.svg",
+      "Amazon VPC: configurando redes na AWS":
+        "amazon-vpc-configurando-redes-aws.svg",
+      "Amazon Lightsail: descomplicando a nuvem":
+        "amazon-lightsail-descomplicando-nuvem.svg",
+      "AWS SQS: mensageria e desacoplamento de sistemas":
+        "aws-sqs-mensageria-desacoplamento-sistemas.svg",
+      "AWS Certified Cloud Practitioner: Domain 1 e 2":
+        "aws-certified-cloud-practitioner-domain-1-e-2.svg",
+      "AWS Certified Cloud Practitioner: Domain 3 e 4":
+        "aws-certified-cloud-practitioner-domain-3-e-4.svg",
+      "AWS Certification: Solution Architect Associate Parte 1":
+        "aws-certified-solutions-architect-associate-parte1.svg",
+      "AWS Certification: Solutions Architect Associate Parte 2":
+        "aws-certified-solutions-architect-associate-parte2.svg",
+      "AWS Certification: Solutions Architect Associate Parte 3":
+        "aws-certified-solutions-architect-associate-parte3.svg",
+      "AWS Certification: Solutions Architect Associate Parte 4":
+        "aws-certified-solutions-architect-associate-parte4.svg",
+      "AWS Certified Solutions Architect Associate: simulado comentado":
+        "aws-certified-solutions-architect-associate-simulado.svg",
+      "AWS Storage Híbrido: soluções de armazenamento na nuvem":
+        "aws-storage-hibrido-armazenamento-nuvem.svg",
+      "AWS: entendendo e controlando os custos dos serviços":
+        "aws-servicos-custos.svg",
+      "Cloud Onboarding: trabalhando com os principais provedores":
+        "cloud-onboarding-trabalhando-principais-provedores.svg",
+      "Cloud Onboarding: conhecendo os principais provedores parte 2":
+        "cloud-onboarding-principais-provedores-parte2.svg",
+      "Observabilidade na AWS: utilizando o CloudWatch":
+        "observabilidade-aws-utilizando-cloudwatch.svg",
+      "Banco de dados na AWS: gerencie RDS e DynamoDB":
+        "banco-dados-aws-rds-dynamodB.svg",
+      "AWS Lambda: escreva código sem se preocupar com infra":
+        "aws-lambda-codigo-sem-se-preocupar-infra.svg",
+    },
+    Linux: {
+      "Linux II: programas, processos e pacotes": "linux-ubuntu-processos.svg",
+      "Shell Scripting parte 1: scripts de automação de tarefas":
+        "shellscripting.svg",
+      "Shell Scripting parte 2: fazendo monitoramento, agendando tarefas e backup":
+        "shellscripting-parte-2.svg",
+      "Certificação Linux LPI Essentials: Evolution and Distributions":
+        "certificacao-linux-lpi-essentials-evolution-distributions.svg",
+      "Certificação Linux LPI Essentials: Open Source Software and Licensing":
+        "certificacao-linux-lpi-essentials-open-source-software-licensing.svg",
+      "Certificação Linux LPI Essentials: Command Line Basics":
+        "certificacao-linux-lpi-essentials-command-line-basics.svg",
+      "Certificação Linux LPI Essentials: using the command line to get help":
+        "certificacao-linux-lpi-essentials-using-command-line-get-help.svg",
+      "Certificação Linux LPI Essentials: Redirecting I/O Redirection":
+        "certificacao-linux-lpi-essentials-redirecting-i-o.svg",
+      "Linux Onboarding: usando a CLI de uma forma rápida e prática":
+        "linux-onboarding-utilizar-cli-forma-rapida-pratica.svg",
+      "Linux Onboarding: localizando arquivos e conteúdos":
+        "linux-onboarding-arquivos-conteudos.svg",
+      "Linux Onboarding: obtendo e tratando informações do sistema":
+        "linux-onboarding-informacoes-sistema.svg",
+      "Linux Onboarding: trabalhe com usuários, permissões e dispositivos":
+        "linux-onboarding-usuarios-permissoes-dispositivos.svg",
+      "Terminal: aprenda comandos para executar tarefas":
+        "terminal-comandos-executar-tarefas.svg",
+    },
+    Confiabilidade: {
+      "Observabilidade: coletando métricas de uma aplicação com Prometheus":
+        "observabilidade-prometheus.svg",
+      "Confiabilidade: garantindo o estado de integridade de sistemas através de logs":
+        "confiabilidade-garantindo-estado-integridade.svg",
+      "Monitoramento: Prometheus, Grafana e Alertmanager":
+        "monitoramento-prometheus-grafana-alertmanager.svg",
+      "Confiabilidade: centralizando logs com Grafana Loki":
+        "confiabilidade-centralizando-logs-grafana-loki.svg",
+      "Rastreamento: fazendo tracing com Jaeger e OpenTelemetry":
+        "rastreamento-tracing-jaeger-opentelemetry.svg",
+      "SRE: entenda a confiabilidade dos sistemas":
+        "sre-entenda-confiabilidade-sistemas.svg",
+    },
+    "Começando em DevOps": {},
+    Arquitetura: {
+      "Microsserviços: padrões de projeto":
+        "microsservicos-padroes-projeto.svg",
+      "Microsserviços: explorando os conceitos":
+        "fundamentos-microsservicos-aprofundando-conceitos.svg",
+      "Microsserviços na prática: entendendo a tomada de decisões":
+        "Microsservicos-pratica-tomada-decisoes.svg",
+    },
+    "Google Cloud Platform": {
+      "Google Cloud: deploy de uma aplicação em Spring MVC":
+        "google-cloud-spring.svg",
+      "Google Cloud Compute Engine: escalabilidade e alta disponibilidade":
+        "google-cloud-compute-engine.svg",
+      "Google Cloud Storage: armazenamento de objetos na Google Cloud":
+        "google-cloud-storage.svg",
+      "Google Cloud Functions: código Serverless":
+        "google-cloud-functions-codigo-serverless.svg",
+      "Google Cloud Endpoints: integrando a API": "google-cloud-endpoints.svg",
+      "Google Cloud Serverless: crie aplicações robustas e escaláveis":
+        "google-gke.svg",
+      "Associate Cloud Engineer parte 1: a certificação do Google Cloud":
+        "google-cloud-engineer-certificacao-parte1.svg",
+      "Associate Cloud Engineer parte 2: a certificação do Google Cloud":
+        "google-cloud-engineer-certificacao-parte2.svg",
+      "Associate Cloud Engineer parte 3: a certificação do Google Cloud":
+        "google-cloud-engineer-certificacao-parte3.svg",
+      "Associate Cloud Engineer parte 4: A certificação do Google Cloud":
+        "google-cloud-engineer-certificacao-parte4.svg",
+      "Google Associate Cloud Engineer: simulado comentado":
+        "google-cloud-associate-engineer-certificacao-simulado.svg",
+    },
+    OCI: {
+      "Oracle Cloud Infrastructure: implantação de uma aplicação na nuvem":
+        "oracle-cloud-infrastructure-aplicacao-nuvem.svg",
+      "Oracle Cloud Infrastructure: banco de dados e infraestrutura como código":
+        "oracle-cloud-infrastructure-dados-infraestrutura-codigo.svg",
+    },
+    Azure: {
+      "Azure: gerencie Kubernetes com AKS e ACR":
+        "azure-gerencie-kubernetes-com-aks-acr.svg",
+      "Azure Functions: rodando código sem servidor": "azure-functions.svg",
+      "Microsoft AZ-900 parte 1: Azure Fundamentals":
+        "Microsoft-az-900-parte-1-azure-fundamentals.svg",
+      "Microsoft AZ-900 parte 2: Azure Fundamentals":
+        "microsoft-az-900-parte-2-azure-fundamentals.svg",
+      "Microsoft AZ-900 parte 3: Azure Fundamentals":
+        "microsoft-az-900-parte-3-azure-fundamentals.svg",
+      "Microsoft AZ-900 parte 4: Azure Fundamentals":
+        "microsoft-az-900-parte-4-azure-fundamentals.svg",
+      "Azure Cloud: segurança e recursos avançados":
+        "azure-cloud-seguranca-recursos-avancados.svg",
+      "Microsoft AZ-900: simulado comentado":
+        "microsoft-az-900-azure-fundamentals-simulado.svg",
+      "Azure Cloud: criando um servidor com banco de dados para receber uma aplicação":
+        "azure-cloud-criando-servidor-banco-dados-receber-aplicacao.svg",
+    },
+    Segurança: {
+      "OWASP Top 10: de Injections a Broken Access Control":
+        "owasp10-a5-broken-access-control.svg",
+      "OWASP Top 10: Security misconfiguration, logging e monitoramento":
+        "owasp-top10-security-misconfiguration-logging.svg",
+      "OWASP: padrão de verificação de segurança de aplicações":
+        "owasp-application-security-verification-standard.svg",
+      "OWASP: padrão de verificação de segurança de aplicações V5 a V8":
+        "owasp-security-verification-standard-v5-a-v8.svg",
+      "OWASP: padrão de verificação de segurança de aplicações V9 a V14":
+        "owasp-application-security-verification-standard-v9-a-v14.svg",
+      "OWASP: melhorando a segurança com Clojure": "owasp-clojure.svg",
+      "Pentest: explorando vulnerabilidades em aplicações web":
+        "pentest-explorando-vulnerabilidades-aplicacoes-web.svg",
+      "Pentest: investigando vulnerabilidades em um servidor de aplicações web":
+        "pentest-vulnerabilidades-servidor-aplicacoes-web.svg",
+      "Pentest: combinando vulnerabilidades e acessando o Shell":
+        "pentest-combinando-vulnerabilidades-acessando-shell.svg",
+      "Modelagem de ameaças: identifique riscos na concepção do software":
+        "modelagem-ameacas-identifique-riscos-concepcao-software.svg",
+      "Segurança de rede: firewall, WAF e SIEM":
+        "seguranca-rede-firewall-waf-siem.svg",
+      "Segurança de rede: proxy reverso, SSH e DNS":
+        "seguranca-rede-proxy-reverso-ssh-dns.svg",
+      "Segurança de rede: manipule logs e dashboards":
+        "seguranca-rede-manipule-logs-dashboards.svg",
+      "Desenvolvimento Seguro: estratégias de segurança para dados de entrada":
+        "desenvolvimento-seguro-estrategias-seguranca-dados-entrada.svg",
+      "Desenvolvimento Seguro: lidando com erros e logs em uma aplicação":
+        "desenvolvimento-seguro-lidando-erros-logs-aplicacao.svg",
+      "Desenvolvimento Seguro: implementando Secret Scanning e SAST na esteira de CI":
+        "desenvolvimento-seguro-secret-scanning-sast-esteira-ci.svg",
+      "Desenvolvimento seguro com DAST e SCA: protegendo as dependências e a aplicação em execução":
+        "desenvolvimento-seguro-dast-sca-protegendo-dependencias-aplicacao-execucao.svg",
+    },
+    Containers: {
+      "Docker: criando e gerenciando containers":
+        "docker-criando-gerenciando-containers.svg",
+      "Kubernetes: Pods, Services e ConfigMaps":
+        "kubernetes-pods-services-configmap.svg",
+      "Kubernetes: Deployments, Volumes e Escalabilidade":
+        "kubernetes-deployments-volumes-escalabilidade.svg",
+      "Kubernetes na Digital Ocean: gerenciando aplicações conteinerizadas":
+        "kubernetes-digital-ocean.svg",
+      "Kubernetes: prática, Helm e Cloud": "kubernetes-pratica-helm-cloud.svg",
+      "Google Kubernetes Engine":
+        "google-kubernetes-engine-primeiros-passos.svg",
+      "Google Kubernetes Engine: avançando com GKE":
+        "google-kubernetes-engine-avancando-gke.svg",
+    },
+    "Infraestrutura como Código": {
+      "Ansible: sua infraestrutura como código":
+        "infraestrutura-como-codigo-com-ansible.svg",
+      "Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform":
+        "infraestrutura-codigo-maquinas-aws-ansible-terraform.svg",
+      "Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform":
+        "infraestrutura-codigo-aws-ansible-terraform.svg",
+      "Infraestrutura como código: montando uma infraestrutura elástica na AWS":
+        "infraestrutura-codigo-infraestrutura-elastica-aws.svg",
+      "Infraestrutura como código: Docker e Elastic Beanstalk na AWS":
+        "infraestrutura-codigo-docker-elastic-beanstalk-aws.svg",
+      "Infraestrutura como código: Terraform, Docker e Elastic Container Service":
+        "infraestrutura-codigo-terraform-docker-elastic-container-service-aws.svg",
+      "Infraestrutura como código: Terraform e Kubernetes":
+        "infraestrutura-codigo-terraform-kubernetes.svg",
+    },
+    "Mensageria/Streams": {
+      "Kafka: produtores, consumidores e streams":
+        "kafka-introducao-a-streams-em-microservicos.svg",
+      "Kafka: Fast delegate, evolução e cluster de brokers":
+        "kafka-cluster-de-microservicos.svg",
+      "Kafka: Batches, correlation ids e dead letters":
+        "kafka-batches-correlation-ids-e-dead-letters.svg",
+      "Kafka: idempotência e garantias": "kafka-idempotencia-e-garantias.svg",
+      "Kafka e Spring: integrando aplicações e gerenciando fluxos de dados":
+        "kafka-spring-aplicacoes-fluxos-dados.svg",
+    },
+    Redes: {
+      "Redes: dos conceitos iniciais à criação de uma intranet":
+        "redes-conceitos-iniciais-criacao-intranet.svg",
+      "Redes parte 5: Wi-FI": "redes-wifi.svg",
+      "Redes onboarding: uma perspectiva prática":
+        "redes-onboarding-rede-forma-pratica.svg",
+      "Redes: construindo um projeto com VLANs, políticas de acesso e conexão com internet":
+        "redes-projeto-vlans-politicas-acesso-conexao-internet.svg",
+      "Redes: implementando roteamento, DNS e IPv6":
+        "redes-implementando-roteamento-dns-ipv6.svg",
+      "Redes Wi-Fi: criando uma rede sem fio de modo seguro":
+        "redes-wi-fi-rede-sem-fio-modo-seguro.svg",
+      "DNS: entenda a resolução de nomes na internet":
+        "dns-resolucao-nomes-internet.svg",
+      "DNS: domine os serviços na nuvem": "dns-como-servico-na-nuvem.svg",
+      "Firewall ASA: configuração de segurança:": "firewall-asa-introducao.svg",
+      "NGINX: servidor Web, Proxy Reverso e API Gateway":
+        "nginx-servidor-web-proxy-reverso-api-gateway.svg",
+      "NGINX Parte 2: performance, FastCGI e HTTPS":
+        "nginx-parte-2-performance-fastcgi-https.svg",
+    },
+    Windows: {
+      "PowerShell parte 1: a linguagem de scripting moderna":
+        "powershell-parte1.svg",
+      "PowerShell parte 2: Sessões, Jobs e Administração Remota":
+        "powershell-parte2.svg",
+      "Windows Prompt: utilizando o CMD": "windows-prompt-utilizando-cmd.svg",
+    },
+  },
+  "UX & Desgin": {
+    "UI Design": {
+      "Adobe XD: design visual de um site mobile": "adobe-xd-site-mobile.svg",
+      "Adobe XD: refinando o visual da interface": "adobe-xd-interface.svg",
+      "Adobe XD: trabalhando com microinterações": "xd-microinteracoes.svg",
+      "Adobe XD: componentes da interface": "adobe-xd-componentes.svg",
+      "Sketch: incrementando e melhorando a UI":
+        "sketch-incrementando-melhorando-ui.svg",
+      "Sketch: design visual de um website": "sketch-design-visual-website.svg",
+      "Sketch: aprimore sua interface com dark mode":
+        "sketch-aprimore-interface-dark-mode.svg",
+      "Figma: conhecendo a ferramenta": "figma-conhecendo-ferramenta.svg",
+      "Figma: componentes, auto layout e máscaras":
+        "figma-componentes-auto-layout-mascaras.svg",
+      "Figma: prototipagem interativa e animações":
+        "figma-prototipagem-interativa-animacoes.svg",
+      "Handoff: documentando a entrega do projeto":
+        "handoff-documentando-entrega-projeto.svg",
+      "UX: metodologias práticas para designers":
+        "ux-metodologias-praticas-designers.svg",
+      "UX Design Patterns: pesquisa e busca":
+        "ux-design-patterns-pesquisa-busca.svg",
+      "UX Design Patterns: navegação e informação":
+        "ux-design-patterns-navegacao-informacao.svg",
+      "UX Design: concepção do produto pós-pesquisa":
+        "ux-design-concepcao-produto-pos-pesquisa.svg",
+      "UI Design: melhorando a experiência de um app com UI Patterns":
+        "ui-design-experiencia-app-ui-patterns.svg",
+      "UI Design: teste de usabilidade": "ui-design-teste-usabilidade.svg",
+      "UI Design: mergulhando nas interfaces digitais":
+        "ui-design-mergulhando-interfaces-digitais.svg",
+      "UI Design: criando o design de um protótipo":
+        "ui-design-criando-design-prototipo.svg",
+      "Landing Page: construindo sua campanha":
+        "landingpage-construindo-campanha.svg",
+      "User Interface: conceitos de UI para Product Designers":
+        "user-interface-conceitos-ui-product-designers.svg",
+      "UX Writing: Arquitetura da Informação em Writing":
+        "ux-writing-arquitetura-informacao-writing.svg",
+      "UI Design: construindo o produto final":
+        "ui-design-construindo-produto-final.svg",
+    },
+    "Design System": {
+      "Design System: criando componentes e documentando":
+        "design-system-componentes-documentando.svg",
+      "Design System: criando um produto digital":
+        "design-system-criando-produto-digital.svg",
+      "Design System: definindo estilos e tokens":
+        "design-system-definindo-estilos-tokens.svg",
+      "Design System: documentando um design system":
+        "design-system-documentando-design-system.svg",
+    },
+    "UX Writing": {
+      "UX Writing: escrevendo textos para usuários":
+        "ux-writing-escrevendo-textos-usuarios.svg",
+      "UX Writing: definindo o tom e voz da sua marca":
+        "ux-writing-tom-voz-sua-marca.svg",
+      "UX Writing: pesquisa e testagem em UX Writing":
+        "ux-writing-pesquisa-testagem.svg",
+      "UX Writing: projetando um chatbot": "ux-writing-projetando-chatbot.svg",
+      "UX Writing: redação para experiências digitais":
+        "ux-writing-redacao-experiencias-digitais.svg",
+    },
+    "UX Research": {
+      "UX Research: mapeando a experiência da pessoa usuária":
+        "ux-research-mapeando-experiencia-usuaria.svg",
+      "UX Research: avaliando interfaces com heurísticas":
+        "ux-research-interfaces-heuristicas.svg",
+      "UX Research: pesquisa etnográfica":
+        "ux-research-pesquisa-etnografica.svg",
+      "UX Research: metodologias e imersão em pesquisa":
+        "ux-research-metodologias-imersao-pesquisa.svg",
+      "UX Research: entrevistando pessoas usuárias":
+        "ux-research-entrevistando-usuarias.svg",
+      "UX Research: otimização de sites": "ux-research-conversao.svg",
+      "UX Research: análise de concorrentes":
+        "ux-research-analise-concorrentes.svg",
+      "UX Research: construindo o Benchmarking estratégico":
+        "ux-research-benchmarking-estrategico.svg",
+      "UX Research: imersão em artefatos de pesquisas quantitativas":
+        "ux-research-imersao-artefatos-pesquisas-quantitativas.svg",
+      "UX Research: trazendo a acessibilidade para projetos digitais":
+        "ux-research-trazendo-acessibilidade-projetos-digitais.svg",
+    },
+    "Manipulação Fotografica": {
+      "Adobe Photoshop: compondo peça publicitária":
+        "adobe-photoshop-composicao.svg",
+    },
+    Filmagem: {
+      "Filmografia: bases para uma boa gravação":
+        "fundamentos-filmografia-bases-gravacao.svg",
+    },
+    "Modelagem 3D": {
+      "Blender 2.8: modelagem poligonal": "blender-modelagem-poligonal.svg",
+      "Blender: entendendo o Box Modeling":
+        "blender-entendendo-box-modeling.svg",
+      "Blender: texturizando modelos com Hand Paint":
+        "blender-texturizando-modelos-hand-paint.svg",
+      "Blender: modelando com a técnica Poly by Poly":
+        "blender-modelando-tecnica-poly-by-poly.svg",
+      "Blender: riggando e animando seu personagem":
+        "blender-riggando-animando-personagem.svg",
+      "Blender: Hard Surfacing Modeling": "blender-hard-surfacing-modeling.svg",
+    },
+    "Tratamento de Imagem": {
+      "Adobe Photoshop: tratando imagem com viés publicitário":
+        "tratamento-imagem-publicitario.svg",
+      "Adobe Photoshop: lidando com imperfeições de pele":
+        "adobe-photoshop-tratamento-pele.svg",
+      "Adobe Photoshop: tons de pele e correções":
+        "adobe-photoshop-tons-pele-correcoes.svg",
+      "Adobe Lightroom: gerenciamento e tratamento de múltiplas fotos":
+        "adobe-lightroom-gerenciamento-tratamento-fotos.svg",
+      "Adobe Lightroom: lidando com aplicações profissionais":
+        "adobe-lightroom-aplicacoes-profissionais.svg",
+      "Adobe Photoshop: tratando imagens com técnicas refinadas":
+        "adobe-photoshop-tratamento-refinado.svg",
+      "Affinity Photo: tratamento de imagens":
+        "affinity-photo-tratamento-imagem.svg",
+      "GIMP: edição e tratamento de imagens para identidade visual":
+        "gimp-edicao-tratamento-imagem.svg",
+      "GIMP: edição e tratamento de imagens":
+        "gimp-edicao-tratamento-imagem-parte-2.svg",
+    },
+    "Arte Vetorial": {
+      "Adobe Illustrator: desenho vetorial": "vetor-illustrator.svg",
+      "Adobe Illustrator: vetorizando a partir da pen tool":
+        "illustrator-vetorizacao-pen.svg",
+      "Adobe Illustrator: trabalhando a partir do gradiente":
+        "adobe-illustrator-gradiente.svg",
+      "Adobe Illustrator: trabalhando com edição tipográfica":
+        "adobe-illustrator-tipografia-edicao.svg",
+      "Criação de imagem: composição de um pôster de filme":
+        "criacao-imagem-composicao-poster-filme.svg",
+      "Affinity Designer: vetorizando ilustrações":
+        "affinity-designer-vetorizacao-ilustracoes.svg",
+      "Inkscape: vetorizando com a ferramenta Bezier e criando simulações":
+        "inkscape-vetor-bezier-simulacoes.svg",
+      "Inkscape: construindo gráficos e objetos 3D":
+        "inkscape-graficos-objetos-3d.svg",
+    },
+    "UX Design": {
+      "UX: entenda a experiência de usuário":
+        "fundamentos-ux-entendendo-experiencia-usuario.svg",
+      "UX Usability: facilite a vida do seu usuário no mobile":
+        "ux-usabilidade.svg",
+      "UX Produto: monitore, mensure e teste o seu projeto":
+        "ux-melhorias-de-produto.svg",
+      "UX Design: criando dashboard com Data Studio":
+        "ux-design-criando-dashboard-data-studio.svg",
+      "UX Design: transição de carreira em áreas de tecnologia":
+        "ux-design-transicao-carreira-areas-tecnologia.svg",
+      "UX Design: entenda a área da User Experience":
+        "ux-design-entenda-area-user-experience.svg",
+      "UX Design: como construir uma persona":
+        "ux-design-construir-persona.svg",
+      "UX Design: criando um portfólio em UX":
+        "ux-design-criando-portfolio-ux.svg",
+      "UX Design: elaborando projetos estratégicos":
+        "ux-design-elaborando-projetos-estrategicos.svg",
+      "Design Thinking: viabilizando soluções":
+        "design-thinking-viabilizando-solucoes.svg",
+      "Portfólio em UX/UI: montando um projeto":
+        "portfolio-ux-ui-montando-primeiro-projeto.svg",
+      "Design emocional: tornando um produto amável":
+        "design-emocional-tornando-produto-amavel.svg",
+      "Product Design: o papel do designer de produtos":
+        "product-design-papel-designer-produtos.svg",
+      "Product Design: realizando o processo de Product Discovery":
+        "product-design-processo-product-discovery.svg",
+      "Product Design: métricas e ciclo de vida do produto":
+        "product-design-metricas-ciclo-vida-produto.svg",
+      "UX Strategy: divergindo e afunilando ideias": "ux-strategy.svg",
+      "UX Strategy: conhecendo o perfil da pessoa usuária":
+        "ux-strategy-perfil-pessoa-usuaria.svg",
+      "UX Strategy: visão estratégica do negócio":
+        "ux-strategy-visao-estrategico-negocio.svg",
+      "Ux Strategy: análise de dados em um MVP":
+        "ux-strategy-analise-dados-mvp.svg",
+      "UX Strategy: conhecendo o mercado e testando ideias":
+        "ux-strategy-conhecendo-mercado-testando-ideias.svg",
+      "UX strategy: criando a modelagem de negócios":
+        "ux-strategy-criando-modelagem-negocios.svg",
+      "Ux Strategy: analisando dados com analytics":
+        "ux-strategy-analisando-dados-analytics.svg",
+      "Service Design: desenvolvimento de produtos digitais com experiência de serviços":
+        "service-design-produtos-digitais-experiencia-servicos.svg",
+      "Service Design: criando o Blueprint de um serviço digital":
+        "service-design-blueprint-servico-digital.svg",
+      "Service Design: exploração em Design de Serviço":
+        "service-design-exploracao-design-servico.svg",
+      "Service Design: a implementação na prática":
+        "service-design-implementacao-pratica.svg",
+      "Arquitetura da Informação: criando a experiência de navegação de um ambiente digital":
+        "arquitetura-informacao-experiencia-navegacao-ambiente-digital.svg",
+      "Arquitetura da Informação: projetando para dispositivos móveis e e-commerces":
+        "arquitetura-informacao-projetando-dispositivos-moveis-e-commerce.svg",
+      "Arquitetura da Informação: técnicas de pesquisa para projetar experiências digitais":
+        "arquitetura-informacao-tecnicas-pesquisa-experiencias-digitais.svg",
+      "Arquitetura da Informação: estratégias e acompanhamento do produto":
+        "arquitetura-informacao-estrategias-acompanhamento-produto.svg",
+    },
+    Stream: {
+      "OBS Studio: configurando sua gravação":
+        "obs-studio-configurando-primeira-gravacao.svg",
+      "OBS Studio: configurando seu stream":
+        "obs-studio-configurando-primeiro-stream.svg",
+      "Streamlabs: produzindo conteúdo em vídeo":
+        "streamlabs-produzindo-conteudo-video.svg",
+      "Streamlabs: produzindo uma LiveStream profissional":
+        "streamlabs-configurando-livestream-profissional.svg",
+    },
+    "Design Editorial": {
+      "Adobe InDesign: Trabalhando com diagramação": "indesign-introducao.svg",
+      "Adobe InDesign: trabalhando na diagramação de um eBook":
+        "indesign-ebook.svg",
+      "InDesign: diagramação em grande escala": "indesign-escala-grande.svg",
+      "InDesign: produção em pequena escala":
+        "indesign-producao-pequena-escala.svg",
+      "Tipografia: conhecendo o que há por trás dos tipos":
+        "tipografia-conceito.svg",
+      "Affinity Publisher: diagramação de conteúdo":
+        "affinity-publisher-diagramacao.svg",
+    },
+    Colorização: {
+      "Premiere: processos de colorização e tratamento de imagem":
+        "adobe-premiere-correcao-cor.svg",
+      "Final Cut: processos de colorização e tratamento de imagem":
+        "final-cut-colorizacao.svg",
+      "DaVinci Resolve: conhecendo o processo de colorização":
+        "davinci-colorizacao.svg",
+      "DaVinci Resolve: correção de cor e colorização em vídeos":
+        "davinci-resolve-cor-colorizacao.svg",
+      "Adobe Premiere: cor grading": "adobe-premiere-cor-grading.svg",
+    },
+    "Design Gráfico": {
+      "InDesign: construindo um design editorial":
+        "indesign-design-editorial.svg",
+      "InDesign: design editorial para e-book":
+        "indesign-design-editorial-e-book.svg",
+      "Grids: como organizar o conteúdo visual":
+        "grids-organizar-conteudo-visual.svg",
+      "Adobe Photoshop e Illustrator: práticas de edição gráfica para mídias sociais":
+        "photoshop-illustrator-midias.svg",
+      "Adobe Photoshop e Illustrator: do vetor à composição":
+        "photoshop-illustrator-vetor-composicao.svg",
+      "Adobe Photoshop e Adobe Illustrator: composição para impressão":
+        "composicao-impressao.svg",
+      "Adobe Photoshop: ferramentas essenciais do programa":
+        "adobe-photoshop-ferramentas-essenciais-programa.svg",
+      "Adobe Photoshop: composição de imagens":
+        "adobe-photoshop-composicao-imagens.svg",
+      "Photoshop: conceitue e esboce um personagem publicitário":
+        "esboco-personagens-publicitario.svg",
+      "Photoshop Mobile: editando imagens no tablet":
+        "photoshop-mobile-editando-tablet.svg",
+      "Photoshop Camera e Express: edição de imagens":
+        "photoshop-camera-express-passos-edicao-imagens.svg",
+      "Photoshop 2022: tratando fotografias de modelos":
+        "photoshop-2022-tratando-fotografias-modelos.svg",
+      "Photoshop 2022: criando composições gráficas":
+        "photoshop-2022-composicoes-graficas.svg",
+      "Photoshop 2022: manipulando imagens":
+        "photoshop-2022-manipulando-imagens.svg",
+      "Photoshop e Illustrator: unificando a identidade visual em peças publicitárias":
+        "photoshop-illustrator-identidade-publicitaria.svg",
+      "Adobe Illustrator: compondo peças gráficas":
+        "adobe-illustrator-compondo-pecas-graficas.svg",
+      "Adobe Illustrator Mobile: criando peças para redes sociais no Ipad":
+        "adobe-illustrator-mobile-pecas-redes-sociais-ipad.svg",
+      "Adobe Illustrator: conhecendo a ferramenta":
+        "adobe-illustrator-conhecendo-ferramenta.svg",
+      "Adobe Illustrator: ilustrações para interfaces digitais":
+        "adobe-illustrator-ilustracoes-interfaces-digitais.svg",
+      "Adobe Illustrator: criação de ícones e fundos para interfaces digitais":
+        "illustrator-criacao-icones-fundos-interfaces-digitais.svg",
+      "Adobe Illustrator: gráficos e elementos 3D para interfaces digitais":
+        "adobe-illustrator-graficos-elementos-3d-interfaces-digitais.svg",
+      "Illustrator: acabamento final de personagem publicitário":
+        "illustrator-finalizacao-e-apresentacao-de-personagem.svg",
+      "Illustrator: criando um logo": "illustrator-criando-logo.svg",
+      "Design Gráfico: desenvolvendo Manual de Identidade Visual":
+        "design-grafico-manual-identidade-visual.svg",
+      "Design Gráfico: conhecimentos de impressão":
+        "design-grafico-conhecimento-de-impressao.svg",
+      "Design Gráfico: design de apresentações": "design-apresentacao.svg",
+      "Design Gráfico: desenvolvendo layouts a partir dos grids":
+        "design-grafico-layouts-grids.svg",
+      "Design Gráfico: design de infográficos": "design-infografico.svg",
+      "Design Gráfico: design de embalagens": "design-grafico-embalagens.svg",
+      "Design Gráfico com Gestalt: desenvolva um projeto gráfico":
+        "design-grafico-gestalt.svg",
+      "Design Gráfico: desenvolvendo identidade visual":
+        "design-grafico-identidade-visual.svg",
+      "Design Gráfico: construindo os elementos de uma identidade visual":
+        "design-grafico-elementos-identidade-visual.svg",
+      "Design de apresentações: trabalhando com o Power Point":
+        "apresentacao-power-point.svg",
+      "Design: desenvolvendo o seu portfólio": "portfolio-design.svg",
+      "Design: entenda e conheça a área": "design-entenda-conheca-area.svg",
+      "Inkscape: desenvolvendo uma identidade visual":
+        "inkscape-identidade-visual.svg",
+      "Inkscape: produzindo imagens para mídias sociais":
+        "inkscape-imagens-midias-sociais.svg",
+      "Inkscape: produção gráfica": "inkscape-producao-grafica.svg",
+      "GIMP e Inkscape: criando peças para uma identidade visual":
+        "gimp-inkscape-identidade-visual.svg",
+      "GIMP e Inkscape: criando composições para mídias sociais":
+        "gimp-inkscape-composicoes-midias-sociais.svg",
+      "Scribus: criando um manual de identidade visual":
+        "scribus-manual-identidade-visual.svg",
+      "Canva: criando o material gráfico para um podcast":
+        "introducao-canva-criando-material-grafico-podcast.svg",
+      "Canva: viabilizando soluções para artes no Instagram e Twitter":
+        "canva-solucoes-artes-instagram-twitter.svg",
+      "Canva: criando um currículo personalizado":
+        "canva-criando-curriculo-personalizado.svg",
+      "Canva: editando imagens": "canva-editando-imagens.svg",
+      "Canva: criando apresentações": "canva-criando-apresentacoes.svg",
+      "LightRoom Mobile: tratando imagens no app":
+        "lightroom-mobile-tratando-imagens-app.svg",
+      "Cores no design: teoria e prática": "cores-design-teoria-pratica.svg",
+      "Tipografia: conceitos e prática": "tipografia-conceitos-pratica.svg",
+      "Design Visual: aplicando técnicas de composição":
+        "design-visual-aplicando-tecnicas-composicao.svg",
+      "Design Visual: estratégias para planejar e construir seu portfólio":
+        "design-visual-estrategias-planejar-construir-portfolio.svg",
+      "Adobe Photoshop: tratamento de imagens":
+        "photoshop-tratamento-imagens.svg",
+      "Mídias sociais: design de posts com o Canva":
+        "midias-sociais-design-posts-canva.svg",
+    },
+    Animação: {
+      "Krita: criando uma animação": "krita-primeiros-passos-animacao.svg",
+      "Krita: criando um cenário animado": "krita-cenario-animado.svg",
+      "Pixel Art: animação de sprite de um RPG":
+        "pixel-art-animacao-sprite.svg",
+      "Aseprite: criando uma pixelart": "pixel-art-animacao-sprite.svg",
+      "Adobe After Effects: construção do personagem no Photoshop":
+        "after-effects-personagem.svg",
+      "Design de cenários: ambientes internos":
+        "design-cenarios-ambientes-internos.svg",
+    },
+    "Edição de Vídeo": {
+      "DaVinci Resolve 16: edição de vídeo":
+        "davinci-resolve-16-edicao-video.svg",
+      "DaVinci Resolve: Edição de vídeo": "edicao-de-video-davinci.svg",
+      "Vegas: edição de vídeo": "vegas-edicao.svg",
+      "Adobe Premiere 2020: edição de vídeo":
+        "adobe-premiere-introducao-edicao-video.svg",
+      "Adobe Premiere: criação de vídeo institucional":
+        "premiere-video-instucional.svg",
+      "Premiere: ritmo de edição e manipulando emoções":
+        "adobe-premiere-ritmo-de-edicao-manipulando-emocoes.svg",
+      "Adobe Premiere Rush: edite seus vídeos direto do seu smartphone":
+        "adobe-premiere-rush.svg",
+      "Final Cut: Edição de vídeos": "final-cut-introducao-edicao-video.svg",
+      "Final Cut: editando matéria jornalística": "final-cut-jornalistica.svg",
+      "Final Cut Pro X: descomplicando à edição de vídeo":
+        "final-cut-pro-x-introducao-edicao-video.svg",
+      "YouTube: da concepção de um canal ao upload":
+        "edicao-de-videos-para-youtube.svg",
+      "Produção de vídeo: conceitos essenciais de uma produção audiovisual":
+        "producao-video.svg",
+      "Produção de vídeo: o que há por trás do mundo do audiovisual":
+        "producao-audiovisual.svg",
+      "Shotcut: editando gratuitamente com computadores de baixo rendimento":
+        "shotcut-edicao-gratuita-computadores-baixo-rendimento.svg",
+      "Filmora X: edição de vídeos para a internet":
+        "filmora-x-edicao-videos-internet.svg",
+      "Premiere Pro: edição com foco em timing e ritmo":
+        "premiere-pro-edicao-foco-timing-ritmo.svg",
+      "Premiere Pro: editando um vídeo com roteiro":
+        "premiere-pro-editando-video-roteiro.svg",
+      "Premiere Pro: criando vídeos para web":
+        "premiere-pro-criando-videos-web.svg",
+      "Premiere Pro: como lidar e criar efeitos de vídeo":
+        "premiere-pro-lidar-criar-efeitos-video.svg",
+      "Produção de vídeos: entenda os conceitos essenciais":
+        "producao-videos-conceitos-essenciais.svg",
+    },
+    "3D": {
+      "Blender: utilizando o 3DCoat na etapa de retopologia":
+        "blender-retopologia-3d-coat.svg",
+      "Blender: abertura de UV": "blender-abertura-uv.svg",
+      "Blender: criando um modelo 3D": "blender-criando-primeiro-modelo-3d.svg",
+      "Marmoset e Substance: Bakes de mapas para jogos":
+        "marmoset-substance-bakes-mapas-jogos.svg",
+      "Substance Painter: texturizando um modelo 3D":
+        "substance-painter-texturizando-modelo-3d.svg",
+      "Spark AR": "spark-ar-fundamentos-basicos.svg",
+    },
+    "Motion Design": {
+      "Adobe After Effects: animando a partir do Element 3D": "element-3d.svg",
+      "After Effects: técnicas de composição e fluxo de trabalho":
+        "after-effects-tecnicas-composicao.svg",
+      "After Effects: animando uma interface":
+        "after-effects-animando-interface.svg",
+      "After Effects: transformando dados em animações impactantes":
+        "after-effects-transformando-dados-animacoes-impactantes.svg",
+      "After effects: anime personagens com Duik":
+        "after-effects-anime-personagens-duik.svg",
+      "Stop Motion: produção de vídeo para mídia social":
+        "video-stop-motion.svg",
+      "Aprenda Motion Design: crie animações incríveis no After Effects":
+        "motion-design-animacoes-incriveis-after-effects.svg",
+    },
+    "Design de Jogos": {
+      "Pixel Art: desenhando um cenário de jogo top-down":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Pixel Art parte 1: sprite de personagem de RPG":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Pixel Art parte 2: aprimorando o seu sprite de personagem":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: assets": "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: cenário": "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: criando um HUD":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: design de personagem":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: direção de arte para games":
+        "game-design-viabilizando-jogo-produto.svg",
+      "Endless Runner: Splash Art": "game-design-viabilizando-jogo-produto.svg",
+    },
+    "Ilustração Digital": {
+      "Photoshop: crie um esboço de um poster de super herói":
+        "photoshop-esboco-de-um-poster-de-super-heroi.svg",
+      "Photoshop: acabamento e entrega de um poster de super herói":
+        "photoshop-acabamento-entrega-de-poster-super-heroi.svg",
+      "Photoshop: contando histórias por meio de uma imagem":
+        "photoshop-contando-historias-por-meio-de-imagens.svg",
+      "Fundamentos de desenho: composição de imagens":
+        "desenho-composicao-imagens.svg",
+      "Desenho: acabamento e finalização": "desenho-acabamento-finalizacao.svg",
+      "Desenho: esboço e composição de imagens":
+        "fundamentos-desenho-esboco-composicao.svg",
+      "Desenho: aplicando esboço e composição":
+        "desenho-aplicando-esboco-composicao.svg",
+      "Desenho: entendendo volumes e iluminação":
+        "desenho-volumes-iluminacao.svg",
+      "Desenho: descomplicando a perspectiva":
+        "desenho-descomplicando-perspectiva.svg",
+      "Desenhe um corpo humano: estruturas e proporções":
+        "desenhe-corpo-humano-estruturas-proporcoes.svg",
+      "Perspectiva: distorções visuais": "perspectiva.svg",
+      "Ilustração digital: perspectiva":
+        "ilustracao-digital-perspectiva-basica.svg",
+      "Ilustração digital: avançando nos conceitos de perspectiva":
+        "ilustracao-digital-perspectiva-avancada.svg",
+      "Ilustração digital: criando a partir da perspectiva isométrica":
+        "ilustracao-digital-perspectiva-isometrica.svg",
+      "Ilustração digital: criando mapas com a perspectiva isométrica":
+        "ilustracao-digital-mapas-perspectiva-isometrica.svg",
+      "Ilustração digital: criando assets para cenários de jogos isoméricos":
+        "ilustracao-digital-assets-cenarios-jogos-isomericos.svg",
+      "Ilustração digital: criando cenários isométricos para games":
+        "ilustracao-digital-cenario-isometrico-games.svg",
+      "Ilustração digital: criando personagens com perspectiva isométrica":
+        "Ilustracao-digital-personagens-perspectiva-isometrica.svg",
+      "Criação de personagem: trabalhando no concept de um personagem":
+        "concept-personagem.svg",
+      "Design de ilustração: criando a partir de referências":
+        "design-ilustracao-referencias.svg",
+      "Pixel Art: criando um avatar": "pixel-art-games.svg",
+      "Ilustração digital: anatomia expressiva":
+        "ilustracao-digital-anatomia-expressiva.svg",
+      "Ilustração: desenhando com referência":
+        "fundamentos-ilustracao-desenho-referencia.svg",
+      "Krita: ilustração editorial": "krita-ilustracao-editorial.svg",
+    },
+    "Pintura Digital": {
+      "Adobe Photoshop: iluminação dentro de uma HQ":
+        "adobe-photoshop-iluminacao-hq.svg",
+      "Adobe Photoshop: cor e narrativa em uma HQ":
+        "adobe-photoshop-cor-narrativa-hq.svg",
+      "Adobe Photoshop: processo de colorização para HQ's":
+        "photoshop-colorizacao-hqs.svg",
+      "Colorização digital: técnicas de colorização e iluminação":
+        "colorizacao-digital.svg",
+      "Pintura digital: montando e refinando o shading": "scenery-painting.svg",
+      "Pintura digital: pintando através do reconhecimento de valores":
+        "painting-value.svg",
+      "Pintura digital: textura e shading":
+        "pintura-digital-texture-shading.svg",
+      "Pintura digital: trabalhando na pintura dos assets":
+        "painting-assets.svg",
+      "Criação de personagem: Model Sheet":
+        "criacao-personagem-model-sheet.svg",
+      "Desenho de rosto: anatomia criativa": "desenho-rosto.svg",
+      "Desenho: descomplicando a estrutura humana":
+        "desenhando-a-estrutura-humana.svg",
+      "Desenho: descomplicando o desenho do rosto": "desenho-rosto-humano.svg",
+      "Desenho: anatomia dos membros inferiores":
+        "desenho-anatomia-perna-pe.svg",
+      "Desenho: a anatomia do torso": "desenho-anatomia-torso.svg",
+      "Desenho: anatomia do braço e mão": "anatomia-braco-mao.svg",
+      "Cores: sistemas básicos e paletas": "fundamentos-da-cor.svg",
+      "Krita: desenvolvendo uma pintura digital":
+        "introducao-krita-pintura-digital.svg",
+      "Krita: refinando o processo de pintura":
+        "krita-refinamento-processo-pintura.svg",
+      "História em quadrinho: princípios de uma narrativa sequencial":
+        "historia-quadrinho-principio-narrativa-sequencial.svg",
+      "História em quadrinho: composição e narrativa":
+        "historia-quadrinho-composicao-narrativa.svg",
+      "História em quadrinhos: desenvolvendo roteiros":
+        "historia-em-quadrinhos-roteiros.svg",
+      "História em quadrinhos: arte final": "hq-arte-final.svg",
+      "Design de personagem: concept de protagonista para animação":
+        "design-personagem-concept-protagonista-animacao.svg",
+      "Design de personagem: concept de grupos para animação":
+        "design-personagem-concept-grupos-animacao.svg",
+      "Design de personagem: concept de robôs":
+        "design-personagem-concept-robo.svg",
+      "Design de personagem: concept de animais e criaturas":
+        "design-personagem-concept-animais-criaturas.svg",
+      "Design de cenários: direção de arte": "design-cenarios-direcao-arte.svg",
+      "Design de cenários: ambientes externos":
+        "design-cenarios-ambientes-externos.svg",
+      "Pintura Digital parte 1: Criando para publicidade no Photoshop":
+        "pintura-digital-parte-1.svg",
+      "Pintura Digital parte 2: Acabamento de publicidade com Photoshop.":
+        "pintura-digital-parte-2.svg",
+      "Design de personagem: Desenvolvendo personagens com a técnica Photobash":
+        "design-personagem-photobash.svg",
+      "Fundamentos de desenho: luz e sombra":
+        "fundamentos-desenho-luz-sombra.svg",
+    },
+    Fotografia: {
+      "Fotografia: conhecendo o mundo da fotografia digital":
+        "fotografia-digital-fundamentos.svg",
+      "Fotografia: criando intimidade com a pessoa retratada":
+        "fotografia-intimidade-pessoa-retratada.svg",
+      "Fotografia: melhorando suas imagens com a composição":
+        "fotografia-melhorando-imagens-composicao.svg",
+      "Fotografia: fotografe usando seu celular":
+        "fotografia-fotografe-usando-celular.svg",
+      "Fotografia: usando a luz a seu favor": "fotografia-usando-luz-favor.svg",
+      "LightRoom: usando seu celular para editar fotos":
+        "lightroom-usando-celular-editar-fotos.svg",
+      "Photoshop: edite suas fotos pelo celular":
+        "photoshop-edite-fotos-celular.svg",
+    },
+    "Áudio (Produção e Pós-Produção)": {
+      "Produção de áudio": "producao-audio-fundamentos-basicos.svg",
+      "Produção de Podcasts: da concepção à publicação": "producao-podcast.svg",
+      "Edição de Podcast: da captação ao render": "edicao-de-podcasts.svg",
+    },
+  },
+  Mobile: {
+    "React Native": {
+      "React Native com Expo: navegação com menu e suporte às telas":
+        "react-native-expo-navegacao-menu-suporte-telas.svg",
+      "React Native: utilizando e criando Hooks":
+        "react-native-utilizando-criando-hooks.svg",
+      "React Native: utilizando Web API": "react-native-utilizando-web-api.svg",
+      "React Native: guardando informações localmente":
+        "react-native-informacoes-localmente.svg",
+      "React Native: criando um app":
+        "react-native-criando-testes-aplicacao.svg",
+      "React Native: criando menu e navegando entre telas":
+        "react-native-criando-testes-aplicacao.svg",
+      "React Native: criando testes para sua aplicação":
+        "react-native-criando-testes-aplicacao.svg",
+      "React Native: utilizando o Context API nas suas aplicações":
+        "react-native-context-api-aplicacoes.svg",
+      "React Native: personalize apps com animações":
+        "react-native-personalize-apps-animacoes.svg",
+      "React Native: armazenando dados no Firestore":
+        "react-native-armazenando-dados-firestore.svg",
+      "React Native: autenticação com Firebase":
+        "react-native-autenticacao-firebase.svg",
+      "React Native: armazenando imagens com Cloud Storage":
+        "react-native-armazenamento-imagens-cloud-storage.svg",
+      "React Native: utilizando o Push Notification no Cloud Messaging":
+        "react-native-push-notification-cloud-messaging.svg",
+      "React Native: Construindo um App com Native-base":
+        "react-native-typescript-app-consultas-medicas.svg",
+      "React Native: integrando um App à Web API":
+        "react-native-integrando-app-web-api.svg",
+      "React Native: gerenciando estados globais com Redux Toolkit":
+        "react-native-gerenciando-estados-globais-redux-toolkit.svg",
+      "React Native: imutabilidade simplificada no Redux Toolkit com Immer":
+        "react-native-imutabilidade-simplificada-redux-toolkit-immer.svg",
+      "React Native: aplicando Middlewares com Redux Thunk":
+        "react-native-middlewares-redux-thunk.svg",
+      "React Native: criando cache em chamadas assíncronas com RTK Query":
+        "react-native-cache-chamadas-assincronas-rtk-query.svg",
+    },
+    Flutter: {
+      "Persistência com Flutter: crie um app com armazenamento interno":
+        "flutter-persistencia-interna.svg",
+      "Testes de unidade e Widget com Mocks: boas práticas no Flutter":
+        "testes-widgets-flutter.svg",
+      "Flutter: criando um app": "flutter-crie-primeiro-app.svg",
+      "Flutter Nuvigator: controle de rotas e navegação":
+        "flutter-nuvigator-controle-rotas-navegacao.svg",
+      "Flutter com Web API: integrando sua app mobile": "flutter-web-api.svg",
+      "Flutter: entendendo comunicação HTTP e utilizando Web API":
+        "flutter-comunicacao-http.svg",
+      "Flutter: gerenciamento de estados com Provider":
+        "flutter-gerenciamento-de-estados-provider.svg",
+      "Flutter: Streams de programação reativa com BLoC": "flutter-bloc.svg",
+      "Flutter: Firebase Crashlytics, gere relatórios de erro em tempo real":
+        "flutter-firebase-crashlytics-relatorios-tempo-real.svg",
+      "Flutter i18n: entenda abordagens de internacionalização":
+        "flutter-i18n-internacionalizacao.svg",
+      "Flutter: Push Notifications com Firebase Cloud Messaging":
+        "flutter-push-notifications-firebase-cloud-messaging.svg",
+      "Flutter: Widgets, Stateless, Stateful, Imagens e Animações":
+        "flutter-widgets-stateless-stateful-imagens-animacoes.svg",
+      "Flutter: Controller, navegação e estados":
+        "flutter-controller-navegacao-estados.svg",
+      "Flutter: aplicando persistência de dados":
+        "flutter-aplicando-persistencia-dados.svg",
+      "Flutter com WebAPI: integrando sua aplicação":
+        "flutter-web-api-integrando-aplicacao.svg",
+      "Flutter com Web API: evoluindo na integração da aplicação":
+        "flutter-web-api-integracao-aplicacao.svg",
+      "Flutter: aplicando testes de unidade, de Widget e Mocks":
+        "flutter-testes-unidade-widget-mocks.svg",
+      "Flutter: estilizando e reproduzindo layouts":
+        "flutter-estilizando-reproduzindo-layouts.svg",
+      "Flutter: aplicando constraints e implementando layouts responsivos":
+        "flutter-aplicando-constraints-layouts-responsivos.svg",
+      "Flutter: implementando testes de integração":
+        "flutter-implementando-testes-integracao.svg",
+      "Flutter: aplicando gerenciamento de estados com MobX":
+        "flutter-gerenciamento-estados-mobx.svg",
+      "Flutter: aplicando BLoC com Cubit": "flutter-aplicando-bloc-cubit.svg",
+      "Flutter: praticando arquitetura e padrão MVC":
+        "flutter-praticando-arquitetura-padrao-mvc.svg",
+      "Flutter com Firebase: implementando banco de dados online com Cloud Firestore":
+        "flutter-firebase-banco-dados-online-cloud-firestore.svg",
+      "Flutter com Firebase: evoluindo a aplicação com o Cloud Firestore":
+        "flutter-firebase-evoluindo-aplicacao-cloud-firestores.svg",
+      "Flutter com Firebase: autenticando usuários com Authentication":
+        "flutter-firebase-autenticando-usuarios-authenticator.svg",
+      "Flutter com Firebase: guardando arquivos na nuvem com Storage":
+        "flutter-firebase-arquivos-nuvem-storage.svg",
+      "Flutter: praticando orientação a pacotes":
+        "flutter-praticando-orientacao-pacotes.svg",
+      "Flutter: praticando e adaptando arquitetura limpa":
+        "flutter-praticando-adaptando-arquitetura-limpa.svg",
+      "Flutter com animações: personalize seu app com animações implícitas":
+        "flutter-animacoes-personalize-app-animacoes-implicitas.svg",
+      "Flutter: aplicando integração contínua (CI)":
+        "flutter-aplicando-integracao-continua-ci.svg",
+      "Dart: criando e manipulando variáveis e listas":
+        "dart-variaveis-listas.svg",
+      "Dart: entendendo a Orientação a Objetos":
+        "dart-entendendo-orientacao-objetos.svg",
+      "Dart: lidando com Exceptions e Null Safety":
+        "dart-lidando-exceptions-null-safety.svg",
+      "Dart: sintaxe, coleções e dinamismo":
+        "dart-sintaxe-colecoes-dinamismo.svg",
+      "Dart: entendendo assincronismo": "dart-entendendo-assincronismo.svg",
+    },
+    Android: {
+      "Android parte 1: crie um app mobile":
+        "android-sua-primeira-app-mobile.svg",
+      "Android parte 2: avançando com listeners, menu e UI":
+        "android-avancando-listeners-menu-ui.svg",
+      "Android parte 3: refinando o projeto": "android-refinando-o-projeto.svg",
+      "Android com Kotlin: personalize o seu app":
+        "android-kotlin-personalize-app.svg",
+      "Android com Kotlin: criando um app": "fundamentos-android-kotlin.svg",
+      "Android com Kotlin: persistência de dados com o Room":
+        "android-kotlin-persistencia-dados-room.svg",
+      "Android com Kotlin: Migrations e relacionamento com o Room":
+        "android-kotlin-migrations-relacionamento-room.svg",
+      "Android com Kotlin: comunicação com Web API":
+        "android-kotlin-comunicacao-web-api.svg",
+      "Android com Kotlin: testes de unidade e Mocks":
+        "android-kotlin-testes-unidade-mocks.svg",
+      "Android com Kotlin: testes instrumentados":
+        "android-kotlin-testes-instrumentados.svg",
+      "Android Room parte 1: entendendo e aplicando a persistência de dados com ORM":
+        "android-room.svg",
+      "Android Room parte 2: implementando operações assíncronas":
+        "android-room-operacoes-assincronas.svg",
+      "Android parte 1: testes automatizados e TDD":
+        "android-testes-automatizados-tdd.svg",
+      "Android parte 2: boas práticas e novos cenários de testes":
+        "android-boas-praticas-e-cenarios-testes.svg",
+      "Testes no Android: Mocks e integrações":
+        "testes-android-mockito-e-integracoes.svg",
+      "Android com Espresso parte 1: teste da interface do usuário":
+        "android-espresso-teste-interface.svg",
+      "Android com Espresso parte 2: testes de fluxos complexos":
+        "android-espresso-testes-complexos.svg",
+      "Layouts Android parte 1: criando telas com Constraint Layouts":
+        "layout-android-1.svg",
+      "Layouts Android parte 2: boas práticas para criação de telas":
+        "layout-android-2.svg",
+      "Navigation parte 1: transição de telas no Android":
+        "android-navigation.svg",
+      "Navigation parte 2: novas features e reutilização de código":
+        "android-navigation-features.svg",
+      "Android: acessando uma API Web": "android-api-web.svg",
+      "Android: entendendo conceitos de Arquitetura":
+        "android-entendendo-conceitos-arquitetura.svg",
+      "Recycler View parte 1: listas flexíveis e performáticas":
+        "recyclerview-listas-flexiveis-e-performaticas.svg",
+      "Recycler View parte 2: Listeners, animações e boas práticas":
+        "recyclerview-listeners-animacoes.svg",
+      "Android Fragments: reutilizando componentes visuais":
+        "android-fragments.svg",
+      "Architecture Components: ViewModel, LiveData e Room":
+        "android-archtecture-components.svg",
+      "Data Binding no Android: vinculando modelo com layout":
+        "android-data-binding.svg",
+      "Firebase Authentication: integração com apps Android":
+        "firebase-authentication-apps-android.svg",
+      "Firebase com Android: salve os dados NoSQL no Firestore":
+        "firebase-android-nosql-firestore.svg",
+      "Firebase com Android: Push Notification no Cloud Messaging":
+        "firebase-android-push-notification-cloud-messaging.svg",
+      "Firebase com Android: armazene imagens com o Cloud Storage":
+        "firebase-android-cloud-storage.svg",
+      "Appium: compreenda e aplique testes de interface":
+        "appium-compreenda-e-aplique-testes-interface.svg",
+      "Jetpack Compose: criando um app android":
+        "jetpack-compose-app-android.svg",
+      "Jetpack Compose: utilizando Lazy Layout e estados":
+        "jetpack-compose-lazy-layout-estados.svg",
+      "Jetpack Compose: formulário e gerenciamento de estado":
+        "jetpack-compose-formulario-gerenciamento-estado.svg",
+      "Jetpack Compose: mantendo estados com ViewModel":
+        "jetpack-compose-estados-viewmodel.svg",
+      "Jetpack Compose: navegando entre telas com o Navigation":
+        "jetpack-compose-navegando-telas-navigation.svg",
+      "Jetpack Compose: armazenamento de dados internos":
+        "jetpack-compose-armazenamento-dados-internos.svg",
+      "Jetpack Compose: Navigation com Type Safety":
+        "jetpack-compose-navigation-type-safety.svg",
+      "Jetpack Compose: criando Deep links e testando o Navigation":
+        "jetpack-compose-deep-links-testando-navigation.svg",
+      "Jetpack Compose: utilizando Migrations e relacionamentos de tabelas com Room":
+        "jetpack-compose-migrations-relacionamentos-tabelas-room.svg",
+      "Jetpack Compose: realizando a comunicação com REST API":
+        "jetpack-compose-comunicacao-rest-api.svg",
+      "Jetpack Compose: lidando com armazenamento de arquivos no Android":
+        "jetpack-compose-armazenamento-arquivos-android.svg",
+      "Jetpack Compose: baixando e compartilhando arquivos no Android":
+        "jepack-compose-baixando-compartilhando-arquivos-android.svg",
+    },
+    iOS: {
+      "Swift: Entendendo a linguagem": "swift-entendendo-linguagem.svg",
+      "Swift: entendendo e praticando orientação a objetos":
+        "swift-entendendo-praticando-orientacao-objetos.svg",
+      "iOS: usando recursos nativos": "ios-usando-recursos-nativos.svg",
+      "IOS: autenticação, GPS e mais recursos nativos":
+        "ios-autenticacao-gps-recursos-nativos.svg",
+      "iOS e HTTP: Web Services e sincronização offline":
+        "ios-web-services-sincronizacao-offline.svg",
+      "iOS: testes de unidade e TDD": "ios-testes-unidade-tdd.svg",
+      "iOS: auto layout com Constraints": "ios-auto-layout-constraints.svg",
+      "iOS layout: mais recursos para criar telas responsivas":
+        "ios-layout-parte-2-recursos-telas-responsivas.svg",
+      "iOS: layouts com SwiftUI": "swift-ui.svg",
+      "iOS: construindo seu primeiro aplicativo":
+        "ios-construindo-primeiro-aplicativo.svg",
+      "iOS com SwiftUI: fazendo requisições HTTP e conexão com API":
+        "ios-swiftui-requisicoes-http-conexao-api.svg",
+      "iOS com SwiftUI: construindo componentes e layouts":
+        "ios-swiftui-construindo-componentes-layouts.svg",
+      "iOS com SwiftUI: trabalhando com animações e DragGesture":
+        "ios-swiftui-trabalhando-animacoes-draggesture.svg",
+      "iOS com SwiftUI: implementando navegação e gerenciamento de estados":
+        "ios-swiftui-navegacao-gerenciamento-estados.svg",
+      "iOS com SwiftUI: construindo aplicações interativas com CRUD e APIs REST":
+        "ios-swiftui-aplicacoes-interativas-crud-apis-rest.svg",
+      "iOS com SwiftUI: construindo autenticação de usuários em uma aplicação":
+        "ios-swiftui-autenticacao-usuarios-aplicacao.svg",
+    },
+    Jogos: {
+      "Unity Mobile parte 1: jogos para celular com persistência de dados":
+        "trabalhando-unity-mobile.svg",
+      "Unity Mobile parte 2: interface responsiva e desempenho":
+        "unity-mobile-interface-responsiva-desempenho.svg",
+      "Unity Mobile parte 3: aprofundando em jogos Mobile":
+        "unity-mobile-aprofundando-jogos.svg",
+    },
+  },
+  "Inovação & Gestão": {
+    "Métodos Ágeis": {
+      "Métricas Ágeis: como medir resultados em um Ambiente Ágil":
+        "metricas-ageis-medir-resultados-ambiente-agil.svg",
+      "Scrum: agilidade em seu projeto": "scrum-agilidade-seu-projeto.svg",
+    },
+    "Gestão Ágil": {
+      "Agile Coaching: difunda o Ágil nas organizações":
+        "agile-coaching-difunda-agil-organizacoes.svg",
+      "Ágil Escalado: conheça frameworks para grandes desenvolvimentos":
+        "agil-escalado-frameworks-grandes-desenvolvimentos.svg",
+      "Lean-Ágil: expanda horizontes para a organização toda":
+        "lean-agil-expanda-horizontes-organizacao-toda.svg",
+      "Design Sprint 2.0: crie produtos digitais rapidamente":
+        "design-sprint.svg",
+      "Transformação organizacional: Lean-Ágil além da TI":
+        "transformacao-organizacional-lean-agil.svg",
+      "Scrum escalado: LeSS Framework": "scrum-escalado-less-framework.svg",
+      "Extreme Programming: metodologia de desenvolvimento ágil de software":
+        "xp-extreme-programming.svg",
+      "OKR: construindo metas ágeis": "okr-construindo-metas-ageis.svg",
+      "Certificação PMI-ACP: conheça a Cultura Ágil e seu potencial de aplicação":
+        "certificacao-pmi-acp-cultura-agil-potencial-aplicacao.svg",
+      "Certificação PMI-ACP: entenda a estrutura do Scrum":
+        "certificacao-pmi-acp-estrutura-scrum.svg",
+      "Certificação PMI-ACP: entenda mais sobre o Scrum":
+        "certificacao-pmi-acp-entenda-sobre-scrum.svg",
+      "Certificação PMI-ACP: escopo, tempo e custo no Ágil":
+        "certificacao-pmi-acp-escopo-tempo-custo.svg",
+      "Certificação PMI-ACP: qualidade, comunicação e Recursos Humanos no Ágil":
+        "pmi-acp-qualidade-comunicacao-recursos-humanos-agil.svg",
+      "Certificação PMI-ACP: riscos, aquisições e integração no Ágil":
+        "certificacao-pmi-acp-riscos-aquisicoes-integracao-agil.svg",
+      "Certificação PMI-ACP: o Kanban": "certificacao-pmi-acp-kanban.svg",
+      "Certificação PMI-ACP: aspectos humanos do Ágil":
+        "certificacao-pmi-acp-aspectos-humanos-agil.svg",
+      "Certificação PMI-ACP: desafios na adoção do Ágil":
+        "certificacao-pmi-acp-desafios-adocao-agil.svg",
+      "Certificação PMI-ACP: simulado do exame":
+        "certificacao-pmi-acp-simulado-exame.svg",
+      "Cultura e Métodos Ágeis: pilares para uma imersão avançada":
+        "cultura-metodos-ageis-pilares-imersao-avancada.svg",
+      "Tópicos avançados da agilidade: aprofunde seus conhecimentos em qualidade, valor e contratações":
+        "topicos-avancados-agilidade-qualidade-valor-contratacoes.svg",
+      "Liderança Ágil: aprimoramento de soft skills":
+        "lideranca-agil-aprimoramento-soft-skills.svg",
+      "Gestão Ágil: explorando conceitos da agilidade":
+        "gestao-agil-conceitos-agilidade.svg",
+      "Gestão Ágil: Gestão de Processos para Agilidade":
+        "gestao-agil-gestao-processos-agilidade.svg",
+      "Team Building: técnicas e práticas para times ágeis":
+        "team-building-tecnicas-praticas-times-ageis.svg",
+      "Product Management: agilize o desenvolvimento de produtos":
+        "product-management-desenvolvimento-produtos.svg",
+      "Equipes ágeis: organizando os papéis em uma equipe":
+        "equipes-ageis-organizando-papeis-equipe.svg",
+    },
+    "Transformação Ágil": {
+      "A Empresa Ágil: implemente o Business Agility nas organizações":
+        "empresa-agil.svg",
+      "Gestão Ágil: liderando a mudança em um ambiente de agilidade":
+        "gestao-agil.svg",
+      "Agile Coach: lidere a transformação nas empresas": "agile-coach.svg",
+      "Práticas Ágeis: construa um ambiente ágil": "praticas-ageis.svg",
+      "Escalando Equipes Ágeis: como levar a agilidade adiante na organização":
+        "escalando-equipes-ageis-v2.svg",
+      "Ferramentas para agilidade: visão geral sobre controle de projetos e produtos":
+        "ferramentas-agilidade-visao-sobre-controle-projetos-produtos.svg",
+    },
+    "Certificação PMP e CAPM": {
+      "Certificação PMP e CAPM parte 1: processos de gerenciamento de projetos":
+        "certificacao-pmp-processos-de-gerenciamento-projetos.svg",
+      "Certificação PMP e CAPM parte 2: gerenciamento de integração":
+        "certificacao-pmp-gerenciamento-de-integracao.svg",
+      "Certificação PMP e CAPM parte 3: gerenciamento de escopo":
+        "certificacao-pmp-processos-de-gerenciamento-escopo.svg",
+      "Certificação PMP e CAPM parte 4: gerenciamento de tempo":
+        "certificacao-pmp-gerenciamento-de-tempo.svg",
+      "Certificação PMP e CAPM parte 5: gerenciamento de custos":
+        "certificacao-pmp-gerenciamento-de-custos.svg",
+      "Certificação PMP e CAPM parte 6: gerenciamento de qualidade":
+        "certificacao-pmp-gerenciamento-de-qualidade.svg",
+      "Certificação PMP e CAPM parte 7: gerenciamento dos Recursos Humanos":
+        "certificacao-pmp-gerenciamento-de-recursos-humanos.svg",
+      "Certificação PMP e CAPM parte 8: gerenciamento de comunicação":
+        "certificacao-pmp-gerenciamento-de-comunicacao.svg",
+      "Certificação PMP e CAPM parte 9: gerenciamento de riscos":
+        "certificacao-pmp-gerenciamento-de-riscos.svg",
+      "Certificação PMP e CAPM parte 10: gerenciamento de aquisições":
+        "certificacao-pmp-gerenciamento-de-aquisicoes.svg",
+      "Certificação PMP e CAPM parte 11: gerenciamento de partes interessadas":
+        "certificacao-pmp-gerenciamento-de-partes-interessadas.svg",
+      "Certificação PMP e CAPM parte 12: Código de Conduta e Ética":
+        "certificacao-pmp-gerenciamento-codigo-de-conduta-etica.svg",
+      "Certificação PMP e CAPM parte 13: PMBOK 6ª edição":
+        "pmp-capm-atualizacao.svg",
+      "PMP e CAPM: fundamentos do gerenciamento de projetos":
+        "pmp-capm-fundamentos-gerenciamento-projetos.svg",
+    },
+    Liderança: {
+      "Hábitos na liderança: boas práticas":
+        "habitos-lideranca-boas-praticas.svg",
+      "Gerenciamento de estresse: otimize sua liderança":
+        "gerenciamento-estresse-otimizacao-lideranca.svg",
+      "Comunicação participativa: liderança eficaz e motivadora":
+        "comunicacao-participativa-lideranca-eficaz-motivadora.svg",
+      "Comunicação estratégica na liderança: como engajar e influenciar pessoas":
+        "comunicacao-estrategica-lideranca-engajar-influenciar-pessoas.svg",
+      "Agilidade: como ela pode ajudar a criar um time de alta performance":
+        "agilidade-ajudar-criar-time-alta-performance.svg",
+      "Integridade corporativa: tomada de decisões éticas em ambientes empresariais":
+        "integridade-corporativa-decisoes-eticas-ambientes-empresariais.svg",
+      "Inteligência emocional: aumente seu potencial de liderança":
+        "inteligencia-emocional-aumentando-potencial-lideranca.svg",
+      "Liderança ambidestra: buscando inovação e resultados":
+        "lideranca-ambidestra-inovacao-resultados.svg",
+      "Liderança: práticas de gestão e melhorias":
+        "lideranca-praticas-gestao-melhorias.svg",
+      "Liderança transformacional: criando uma cultura de excelência":
+        "lideranca-transformacional-criando-cultura-excelencia.svg",
+      "Mentalidade de crescimento: potencializando sua carreira":
+        "mentalidade-crescimento-potencializando-carreira.svg",
+      "Mindset digital: técnicas e habilidades para liderança remota":
+        "mindset-digital-tecnicas-habilidades-para-lideranca-remota.svg",
+      "Negociação para líderes: desenvolva a habilidade e consiga bons acordos":
+        "negociacao-lideres-habilidade-bons-acordos.svg",
+      "Oratória para líderes: como se comunicar profissionalmente":
+        "oratoria-lideres-comunicacao-profissional.svg",
+      "Psicologia positiva: liderança autêntica a partir de forças pessoais":
+        "psicologia-positiva-lideranca-forcas-pessoais.svg",
+      "Responsabilidade corporativa: como lidar com divergências e julgamentos":
+        "responsabilidade-corporativa-divergencias-julgamentos.svg",
+      "Treinamento e desenvolvimento: atue com técnicas e diretrizes":
+        "treinamento-desenvolvimento-atue-tecnicas-diretrizes.svg",
+      "Tomada de decisão: pensar, analisar e agir":
+        "tomada-de-decisao-pensar-analisar-agir.svg",
+      "Liderança: aprendendo sobre a missão e propósito de liderar pessoas":
+        "lideranca-missao-proposito-liderar-pessoas.svg",
+    },
+    "Governança Organizacional": {
+      "Governança de TI: gestão de programas, projetos e produtos":
+        "governanca-ti-gestao-programas-projetos-produtos.svg",
+      "Governança de TI: alinhamento estratégico":
+        "governanca-ti-alinhamento-estrategico.svg",
+      "Governança de TI: Gestão de Requisitos no Contexto Ágil":
+        "governanca-ti-gestao-requisitos-contexto-agil.svg",
+      "Governança de TI: modelo de gestão, arquitetura e inovação":
+        "governanca-ti-modelo-gestao-arquitetura-inovacao.svg",
+      "Governança de TI: Gestão de Mudanças Organizacionais e de TI":
+        "governanca-ti-gestao-mudancas-organizacionais-ti.svg",
+      "Governança de TI: a importância da Gestão do Conhecimento":
+        "governanca-ti-importancia-gestao-conhecimento.svg",
+      "Governança de TI: conheça os fundamentos da gestão de portfólios":
+        "governanca-ti-fundamentos-gestao-portfolios.svg",
+      "Governança de TI: gerencie serviços e fortaleça a segurança":
+        "governanca-ti-gerencie-servicos-fortaleca-seguranca.svg",
+      "Gerenciamento de inovação organizacional parte 1: técnicas de ideação":
+        "gerenciamento-inovacao-organizacional.svg",
+      "Gerenciamento de inovação organizacional parte 2: aplicações práticas":
+        "gerenciamento-inovacao-aplicacoes-praticas.svg",
+      "Gestão de contratos: dicas e cuidados gerais":
+        "fundamentos-gestao-contratos-dicas-cuidados.svg",
+      "Gestão de fornecedores: seleção e contratação":
+        "gestao-fornecedores-selecao-contratacao.svg",
+      "Gestão de fornecedores: mobilização, acompanhamento e desmobilização":
+        "gestao-fornecedores-mobilizacao-acompanhamento-desmobilizacao.svg",
+    },
+    "Gestão de Pessoas": {
+      "RH Ágil: estratégia ou sobrevivência":
+        "rh-agil-estrategia-sobrevivencia.svg",
+      "RH Ágil: desenvolvendo competências profissionais":
+        "rh-agil-desenvolvendo-competencias-profissionais.svg",
+      "RH Ágil: Employer Branding": "rh-agil-employer-branding.svg",
+      "RH Ágil: Employee Experience": "rh-agil-employee-experience.svg",
+      "RH na Educação Corporativa: visualizando novos paradigmas":
+        "rh-educacao-corporativa-novos-paradigmas.svg",
+      "Técnicas de facilitação de RH: interações e envolvimento de colaboradores":
+        "tecnicas-facilitacao-rh-interacoes-envolvimento-colaboradores.svg",
+      "Princípios do trabalho em equipe: relações colaborativas":
+        "principios-trabalho-equipe-relacao-colaborativa.svg",
+      "Mentoria: desenvolvendo pessoas e compartilhando experiências":
+        "mentoria-desenvolvendo-pessoas-compartilhando-experiencias.svg",
+      "Mediação de conflitos: construa soluções efetivas":
+        "mediacao-conflitos-solucoes-efetivas.svg",
+      "Management 3.0: gerencie o ambiente, não as pessoas":
+        "management-3-0-gerencie-ambiente-nao-pessoas.svg",
+      "Tech Recruiter: desenvolva sua carreira":
+        "tech-recruiter-desenvolva-carreira.svg",
+      "Recrutamento e seleção: uma estratégia com foco em competências":
+        "recrutamento-selecao-estrategia-foco-competencias.svg",
+      "People Analytics: RH orientado a dados":
+        "people-analytics-rh-orientado-dados.svg",
+      "Benchmarking em RH: explore boas práticas":
+        "benchmarking-rh-explore-praticas.svg",
+      "Confiança: crie uma cultura baseada em confiança":
+        "confianca-crie-cultura-baseada-confianca.svg",
+      "Business Partner: atue como um RH de impacto estratégico":
+        "business-partner-atue-rh-impacto-estrategico.svg",
+      "Delegação de tarefas: obtenha o melhor do seu time":
+        "delegacao-tarefas-obtenha-melhor-time.svg",
+    },
+    "Ferramentas de Apoio à Gestão": {
+      "SharePoint 1: criando um site de colaboração para a equipe":
+        "sharepoint-1-site-colaboracao-equipe.svg",
+      "SharePoint 2: montando uma estrutura de rede usando SharePoint e OneDrive":
+        "sharepoint-2-estrutura-rede-sharepoint-onedrive.svg",
+      "Sharepoint 3: criando listas personalizadas":
+        "sharepoint-3-criando-listas-personalizadas.svg",
+      "SAP: entendendo suas características gerais":
+        "sap-caracteristicas-gerais.svg",
+      "SAP Activate: gestão ágil em projetos SAP":
+        "sap-activate-fundamentos-essenciais.svg",
+      "KCS: implementando o serviço centrado no conhecimento":
+        "kcs-implementando-servico-centrado-conhecimento.svg",
+    },
+    "Modelagem e Processos de Negócios": {
+      "Análise da gestão de processos: implantando melhorias":
+        "gestao-processos-implantando-melhorias.svg",
+      "Value Stream Mapping (VSM): conheça o mapeamento de Fluxo de Valor":
+        "vsm-mapeamento-fluxo-valor.svg",
+      "Value Stream Mapping (VSM): desenhe um Mapa de Valor":
+        "vsm-desenhe-mapa-valor.svg",
+      "Lean Six Sigma: um guia para melhoria de processos":
+        "lean-six-sigma-guia-melhoria-processos.svg",
+      "RPA: automatize processos com ferramentas No/Low Code":
+        "rpa-automatize-processos-ferramentas-no-low-code.svg",
+      "Gestão de negócios: visão geral de processos de negócios":
+        "gestao-negocios-visao-geral-processos-negocios.svg",
+      "Gestão de negócios: governança, agilidade e métricas":
+        "gestao-negocios-governanca-agilidade-metricas.svg",
+      "Reengenharia e qualidade: mudando e aperfeiçoando processos":
+        "reengenharia-qualidade-mudando-aperfeicoando-processos.svg",
+      "Kaizen: implemente uma estratégia de melhoria contínua":
+        "kaizen-implemente-estrategia-melhoria-continua.svg",
+    },
+    "Práticas de Gestão - Waterfall & Híbridas": {
+      "Alavancas de gestão do conhecimento: aprendizagem e produtividade":
+        "alavancas-gestao-conhecimento-aprendizagem-produtividade.svg",
+      "Manifesto NoProjects: desprojetização":
+        "fundamentos-desprojetizacao-manifesto-noprojects.svg",
+      "Práticas de desprojetização: Flow Framework":
+        "praticas-desprojetizacao-flow-framework.svg",
+    },
+    "Negociação e Comunicação": {
+      "Feedback: a arte de orientar e ser orientado com sentido":
+        "feedback.svg",
+      "Oratória: conquiste a atenção do seu público":
+        "oratoria-conquiste-atencao-seu-publico.svg",
+      "Oratória: supere desafios com confiança":
+        "oratoria-supere-desafios-confianca.svg",
+      "Comunicação não violenta: consciência para agir":
+        "comunicacao-nao-violenta.svg",
+      "Comunicação não violenta parte 2: mantendo a empatia":
+        "comunicacao-nao-violenta-mantendo-empatia.svg",
+      "Comunicação corporativa: usando PowerPoint de forma efetiva":
+        "comunicacao-corporativa-powerpoint.svg",
+      "Negociação parte 1: práticas essenciais":
+        "negociacao-praticas-essenciais.svg",
+      "Negociação parte 2: técnicas avançadas": "negociacao-avancada.svg",
+      "Gerenciamento de conflitos: técnicas fundamentais":
+        "gestao-de-conflitos.svg",
+      "Networking: expanda sua rede de contatos":
+        "networking-expanda-rede-contatos.svg",
+      "Comunicação persuasiva: habilidades e estratégias para atrair clientes":
+        "comunicacao-persuasiva-habilidades-estrategias-atrair-clientes.svg",
+    },
+    "Produtividade e Qualidade de Vida": {
+      "Hábitos: da produtividade às metas pessoais":
+        "habitos-produtividade-metas-pessoais.svg",
+      "Foco: trazendo mais resultados para o dia a dia":
+        "foco-o-poder-do-habito-seu-dia-a-dia.svg",
+      "Estresse parte 1: buscando qualidade de vida": "estresse-trabalho.svg",
+      "Estresse parte 2: equilibre seu estilo de vida":
+        "estresse-trabalho-equilibrio-no-estilo-de-vida.svg",
+      "Produtividade: hábitos e práticas para o dia a dia": "produtividade.svg",
+      "Produtividade parte 1: estratégias para o dia a dia":
+        "produtividade-administre-tempo.svg",
+      "Produtividade parte 2: organização e prioridade":
+        "produtividade-organizacao-e-prioridade.svg",
+      "Eficácia parte 1: hábitos para sua proatividade": "habitos-eficazes.svg",
+      "Eficácia parte 2: hábitos para sua proatividade":
+        "habitos-eficazes-2.svg",
+      "Desenvolvimento de carreira: a demanda do mercado":
+        "desenvolvimento-de-carreira-a-demanda-do-mercado.svg",
+      "Desenvolvimento de carreira: como alcançar a posição desejada":
+        "desenvolvimento-de-carreira-como-alcancar-a-posicao-desejada.svg",
+      "Curiosidade, persistência e resiliência: da ideia à ação":
+        "curiosidade-persistencia-resiliencia-ideia-acao.svg",
+      "Transição de carreira: um guia para a área da tecnologia":
+        "transicao-carreira-tecnologia-guia-basico.svg",
+      "Propósito profissional: seja protagonista da sua carreira":
+        "proposito-profissional-protagonista-carreira.svg",
+    },
+    "Habilidades Interpessoais": {
+      "Relacionamento interpessoal: aprenda a lidar melhor com você e com o outro":
+        "relacionamento-pessoal.svg",
+      "Relacionamento interpessoal parte 2: melhore seu potencial":
+        "relacionamento-interpessoal.svg",
+      "Pontos fortes parte 1: descubra os seus e aprenda a gerenciá-los":
+        "pontos-fortes.svg",
+      "Pontos fortes parte 2: habilidades e competências":
+        "pontos-fortes-habilidades-competencias.svg",
+      "Síndrome do Impostor: reconheça seu sucesso e resultados":
+        "sindrome-do-impostor.svg",
+      "Storytelling: visão de negócios e desenvolvimento pessoal":
+        "storytelling-negocios-desenvolvimento-pessoal.svg",
+      "Inteligência emocional: práticas para o cotidiano":
+        "inteligencia-emocional.svg",
+      "Comunicação assertiva: reduzindo conflitos e frustrações":
+        "comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes.svg",
+      "Comunicação: como se expressar bem e ser compreendido":
+        "comunicacao-se-expressar-bem-ser-compreendido.svg",
+      "PNL: comunicação efetiva para o dia a dia":
+        "pnl-comunicacao-efetiva.svg",
+      "Criatividade e adequação: aprendendo e aprimorando um processo criativo":
+        "criatividade-adequacao.svg",
+      "Criatividade aplicada: aprimorando o processo criativo no mercado de trabalho":
+        "criatividade-aplicada.svg",
+      "Criatividade: potencialize a partir das suas motivações":
+        "criatividade-potencialize-motivacoes.svg",
+    },
+    Marketing: {
+      "Marketing Digital: explorando os conceitos":
+        "marketing-digital-explorando-conceitos.svg",
+      "Marketing Digital para lançamentos de Infoprodutos: do conteúdo à conversão":
+        "marketing-digital-lancamentos-infoprodutos-conteudo-conversao.svg",
+      "Tipos de lançamentos: estratégias e técnicas para produtos digitais":
+        "tipos-lancamentos-estrategias-tecnicas-produtos-digitais.svg",
+      "Branding: criando uma marca forte": "branding-criando-marca-forte.svg",
+      "Rebranding: mude, transforme e recrie marcas para o século 21":
+        "rebranding-mude-transforme-recrie-marcas-seculo-21.svg",
+      "Design da proposta de valor: transformando produtos e serviços":
+        "design-proposta-valor-produtos-servicos.svg",
+      "Growth Hacking: crescimento para negócios digitais":
+        "introducao-growth-hacking.svg",
+      "Mobile Marketing: como engajar seu cliente":
+        "mobile-marketing-engajar-cliente.svg",
+      "Estratégia Omnichannel: aumentando suas vendas":
+        "estrategia-omnichannel-aumentando-vendas.svg",
+      "CRM e Funil de Marketing: estratégias e funcionalidades":
+        "crm-funil-marketing-estrategias-funcionalidades.svg",
+      "Fidelização de clientes: estratégias para manter relacionamentos a longo prazo":
+        "fidelizacao-clientes-estrategias-relacionamentos-longo-prazo.svg",
+      "E-mail Marketing: da utilização às estratégias":
+        "e-mail-marketing-utilizacao-estrategias.svg",
+      "E-mail Marketing: utilizando uma ferramenta de automação":
+        "e-mail-marketing-ferramenta-automacao.svg",
+      "Neuromarketing: estratégias e ações através do estudo da mente":
+        "neuromarketing-estrategias-acoes-estudo-mente.svg",
+      "WhatsApp Business: estratégias e funcionalidades para alavancar o seu negócio":
+        "whatsapp-business-estrategias-funcionalidades-negocio.svg",
+      "Plano de Marketing Digital: como criar e coordenar estratégias":
+        "plano-marketing-digital-criar-coordenar-estrategias.svg",
+    },
+    "Marketing Analytics": {
+      "Marketing Digital: análise de métricas":
+        "marketing-digital-metricas.svg",
+      "Google Analytics 4: implementação e relatórios":
+        "google-analytics-implementacao-relatorios.svg",
+      "Google Search Console: configurações e relatórios":
+        "google-search-console-configuracoes-relatorios.svg",
+      "Marketing Analytics: técnicas e análise de dados":
+        "marketing-analytics-tecnicas-analise-dados.svg",
+      "Google Analytics 4: eventos e parametrizações":
+        "google-analytics-4-eventos-parametrizacoes.svg",
+      "Google Tag Manager: aplicação e gerenciamento de tags":
+        "google-tag-manager-aplicacao-gerenciamento-de-tags.svg",
+      "Análise de métricas para aplicativos: configurações e relatórios":
+        "analise-metricas-aplicativos-configuracoes-relatorios.svg",
+    },
+    "Marketing Pessoal": {
+      "Personal Branding: como utilizar sua Marca Pessoal a favor da sua carreira":
+        "personal-branding-utilizar-marca-pessoal-favor-carreira.svg",
+    },
+    "Ensino e Aprendizado": {
+      "Aprender a aprender: técnicas para seu autodesenvolvimento":
+        "aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento.svg",
+      "Ensino e aprendizado remoto: elabore conteúdos encantadores":
+        "ensino-aprendizado-remoto-conteudos-encantadores.svg",
+      "Andragogia: aprimore a educação de pessoas adultas":
+        "andragogia-educacao-pessoas-adultas.svg",
+      "Educação corporativa: engaje seu time na aprendizagem":
+        "educacao-corporativa-engaje-time-aprendizagem.svg",
+    },
+    SEO: {
+      "SEO: otimização de sites": "seo-otimizacao-de-sites.svg",
+      "SEO: plataformas CMS": "seo-plataformas-cms.svg",
+      "SEO: dominando estratégias e ferramentas para aumento de conversões":
+        "seo-estrategias-ferramentas-aumento-conversoes.svg",
+    },
+    "Tráfego Pago": {
+      "Google Ads: criando uma campanha": "google-ads-criando-campanha.svg",
+      "Google Ads: aprenda a criar campanhas na rede de display":
+        "google-ads-criar-campanhas-rede-display.svg",
+      "Google Ads: campanha de Shopping": "google-ads-campanha-shopping.svg",
+      "Google Ads: campanhas de vídeo para Youtube":
+        "google-ads-campanhas-video-youtube.svg",
+      "Google Ads: campanhas para aplicativos":
+        "google-ads-campanhas-aplicativos.svg",
+      "Google Ads: otimização da rede de pesquisa":
+        "google-ads-rede-pesquisa.svg",
+      "Tráfego pago: estratégias e aplicações":
+        "trafego-pago-estrategias-aplicacoes.svg",
+      "Facebook Ads: criando campanhas de sucesso":
+        "facebook-ads-crie-primeiras-campanhas.svg",
+      "Facebook Ads: campanha de vídeo e mensagem":
+        "facebook-ads-campanha-video-mensagem.svg",
+      "Facebook Ads: campanhas de remarketing":
+        "facebook-ads-campanhas-remarketing.svg",
+      "Facebook Ads: campanhas para e-commerce":
+        "facebook-ads-campanhas-e-commerce.svg",
+      "LinkedIn Ads: criando uma campanha":
+        "linkedin-ads-crie-primeira-campanha.svg",
+      "Twitter Ads: criando campanhas": "twitter-ads-primeiras-campanhas.svg",
+      "TikTok Ads: funcionalidades e configurações para criar campanhas":
+        "tiktok-ads-funcionalidades-configuracoes-campanhas.svg",
+    },
+    Conteúdo: {
+      "Produção de conteúdo: estratégias, planejamento e gestão":
+        "producao-de-conteudo.svg",
+      "Inbound Marketing parte 1: estratégias e ações":
+        "inbound-marketing-fundamentos.svg",
+      "Inbound Marketing parte 2: processos de automação":
+        "inbound-marketing-automacao.svg",
+      "Criação de conteúdo em vídeo: estratégias e otimizações":
+        "criacao-conteudo-video-estrategias-otimizacoes.svg",
+    },
+    "Gestão Estratégica": {
+      "Business Model Canvas parte I: um modelo poderoso para o seu negócio":
+        "business-model-canvas.svg",
+      "Business Model Canvas parte II: avance no seu modelo de negócios":
+        "avance-na-construcao-de-negocios.svg",
+      "Compliance: destaque sua empresa no mercado":
+        "compliance-destaque-empresa-mercado.svg",
+      "Modelos de Gestão parte 1: componentes essenciais":
+        "modelos-de-gestao-componentes-essenciais.svg",
+      "BSC: aplicado na gestão de portfólios":
+        "bsc-aplicado-na-gestao-de-portfolios.svg",
+      "Lean Agile Budgeting: princípios para a orçamentação eficaz na era digital":
+        "lean-agile-budgeting-principios-orcamentacao.svg",
+      "OKR: direcionando seu negócio para resultados":
+        "okr-direcionando-negocio-resultados.svg",
+      "Transformação digital: pilares culturais":
+        "transformacao-digital-pilares-culturais.svg",
+      "Transformação digital: alinhamento estratégico":
+        "transformacao-digital-alinhamento-estrategico.svg",
+      "Transformação Digital: a organização Lean-Ágil":
+        "transformacao-digital-organizacao-lean-agil.svg",
+      "Transformação Digital: cultura de experimentação":
+        "transformacao-digital-cultura-experimentacao.svg",
+      "Transformação Digital: fluxo, DevOps e abordagem product-based":
+        "transformacao-digital-fluxo-devops-product-based.svg",
+      "Transformação Digital: inicie a implementação do movimento":
+        "transformacao-digital-implementacao-movimento.svg",
+      "Gestão de mudanças: uma visão comportamental":
+        "gestao-mudancas-visao-comportamental.svg",
+      "LGPD: entendendo direitos de uso e responsabilidades":
+        "lgpd-entendendo-direitos-uso-responsabilidades.svg",
+    },
+    "Social Media": {
+      "Mídias Sociais: estratégias para engajar o público":
+        "midias-sociais-estrategias-engajar-publico.svg",
+      "Company Page: melhorando a presença digital": "company-page.svg",
+      "Facebook Marketing: crie uma página que atraia e encante clientes":
+        "facebook-marketing-crie-pagina-atraia-encante-clientes.svg",
+      "Instagram para empresas: estratégia e planejamento":
+        "instagram-empresas-primeiros-passos.svg",
+      "Marketing Viral: Os elementos que podem promover a sua ação digital":
+        "marketing-viral-elementos-promover-acao-digital.svg",
+      "Social Listening: como ouvir sua audiência nas redes":
+        "social-listening-ouvir-audiencia-redes.svg",
+      "YouTube: estratégias de sucesso para o seu negócio":
+        "youtube-estrategias-sucesso-negocio.svg",
+      "Princípios da influência: persuasão com foco em negócios":
+        "principios-influencia-persuasao-foco-negocios.svg",
+      "Redação: boas práticas para marketing digital":
+        "redacao-boas-praticas-marketing-digital.svg",
+    },
+    "E-commerce": {
+      "Marketplace: estratégias de vendas":
+        "marketplace-estrategias-vendas.svg",
+      "Social Commerce: como alavancar suas vendas nas redes sociais":
+        "social-commerce-alavancar-vendas-redes-sociais.svg",
+      "Análise de métricas para e-commerce: explorando conceitos":
+        "analise-metricas-e-commerce-explorando-conceitos.svg",
+      "SEO para e-commerce: estratégias para alcançar um bom posicionamento nos sites de busca":
+        "seo-e-commerce-estrategias-alcancar-bom-posicionamento-sites-busca.svg",
+    },
+    "Gestão de Produtos": {
+      "Gestão de produtos digitais: Produto vs. Projeto":
+        "gestao-produtos-digitais-produto-vs-projeto.svg",
+      "Gestão de produtos digitais: Product Discovery":
+        "gestao-produtos-digitais-product-discovery.svg",
+      "Gestão de produtos digitais: priorização":
+        "gestao-produtos-priorizacao.svg",
+      "Gestão de produtos digitais: validação":
+        "gestao-produtos-digitais-validacao.svg",
+      "Gestão de produtos digitais: aceleração":
+        "gestao-produtos-aceleracao.svg",
+      "Roadmap: como criar e manter o mapa de produto":
+        "roadmap-criar-manter-mapa-produto.svg",
+      "Product Manager: uma jornada em gestão de produto":
+        "product-manager-jornada-gestao-produto.svg",
+      "Kanban: análises para implementação":
+        "kanban-analises-implementacao.svg",
+      "Kanban: evolua suas entregas com métricas":
+        "kanban-evolua-entregas-metricas.svg",
+      "Kanban: marque o ritmo com cadências":
+        "kanban-marque-ritmo-cadencias.svg",
+      "Kanban: implementação sistêmica em múltiplas equipes":
+        "kanban-implementacao-sistemica-multiplas-equipes.svg",
+      "Kanban: práticas avançadas incluindo gestão de portfólio":
+        "kanban-praticas-incluindo-gestao-portfolio.svg",
+    },
+    "Startups e Empreendedorismo": {
+      "Lean Startup: primeiros passos da sua Startup enxuta": "lean.svg",
+      "Empreendedorismo: da ideia ao plano de negócios": "empreendedorismo.svg",
+      "Empreendedorismo: abrindo sua empresa do jeito certo":
+        "empreendedorismo-abra-sua-empresa.svg",
+      "Empreendedorismo para Devs: transformando ideias em negócios":
+        "empreendedorismo-devs-ideias-negocio.svg",
+      "Propriedade intelectual: aplicada em Startups e negócios em geral":
+        "propriedade-intelectual-startups.svg",
+      "Freelancer parte 1: estruture seu negócio":
+        "freelancer-estruture-seu-negocio.svg",
+      "Freelancer parte 2: profissionalize seu negócio": "freelancer-2.svg",
+      "Freelancer de sucesso: construa uma carreira autônoma":
+        "freelancer-sucesso-construa-carreira-autonoma.svg",
+      "Viabilidade de Projetos & Negócios: fluxo de caixa, juros, VPL, TIR e payback":
+        "viabilidade-projetos-negocios-fluxo-caixa-juros-vpl-tir-payback.svg",
+      "Viabilidade de Projetos & Negócios: seleção de alternativas de investimento":
+        "viabilidade-projetos-negocios-alternativas-investimento.svg",
+      "Startupismo: comece do jeito certo":
+        "startupismo-comece-jeito-certo.svg",
+      "Startupismo: Product Discovery": "startupismo-product-discovery.svg",
+      "Startupismo: a importância do Produto Mínimo Viável":
+        "startupismo-produto-minimo-viavel.svg",
+      "Startupismo: descubra o Product-Market Fit":
+        "startupismo-product-market-fit.svg",
+      "Startupismo: quando e como buscar investimento":
+        "startupismo-quando-como-buscar-investimento.svg",
+      "Inovação: descubra como e onde inovar": "inovacao-descubra-inovar.svg",
+      "Transformação Digital: tecnologias":
+        "transformacao-digital-tecnologias.svg",
+      "Inovação Aberta: táticas e ferramentas para implementação":
+        "inovacao-aberta-taticas-ferramentas-implementacao.svg",
+      "Inovação Social e Empreendedorismo: conduza a mudança e gere impacto":
+        "inovacao-social-empreendedorismo-mudanca-impacto.svg",
+      "Teoria U: desenvolva soluções práticas para problemas complexos":
+        "teoria-u-solucoes-praticas-problemas-complexos.svg",
+      "Design Thinking: inove ao focar no problema e crie soluções assertivas para seu negócio":
+        "design-thinking-inove-solucoes-assertivas-negocio.svg",
+      "Inovação Ágil: gerencie projetos inovadores com eficiência e agilidade":
+        "inovacao-agil-projetos-inovadores-eficiencia-agilidade.svg",
+      "Carreira internacional: descubra como conquistar sua oportunidade no exterior":
+        "carreira-internacional-conquistar-oportunidade-exterior.svg",
+      "Liderança pessoal: desenvolvendo habilidades de autogestão":
+        "lideranca-pessoal-desenvolvendo-habilidades-autogestao.svg",
+      "Gestão financeira: administre suas finanças na prática":
+        "gestao-financeira-administre-financas-pratica.svg",
+      "Psicologia financeira: maximizando o potencial financeiro":
+        "psicologia-financeira-maximizando-potencial-financeiro.svg",
+      "Negociações de sucesso: convencendo e fechando negócios com excelência":
+        "negociacoes-sucesso-convencendo-fechando-negocios-excelencia.svg",
+    },
+    Vendas: {
+      "Vendas de alta performance: vendas na era digital":
+        "vendas-alta-performance.svg",
+      "Vendas de alta performance: prospecção de clientes":
+        "vendas-prospeccao-de-clientes.svg",
+      "Vendas de alta performance: técnicas para melhorar seu aprendizado":
+        "vendas-aprenda-a-aprender.svg",
+      "Vendas de alta performance: entendendo a necessidade do cliente":
+        "vendas-entendendo-a-necessidade-do-cliente.svg",
+      "Vendas de alta performance: perguntas poderosas":
+        "vendas-perguntas-poderosas.svg",
+      "Vendas de alta performance: Pitch e dicas de negociação":
+        "vendas-alta-performance-pitch-dicas-negociacao.svg",
+      "Outbound Marketing: pré-vendas de alta performance":
+        "outbound-marketing-pre-vendas.svg",
+      "Customer Success: cultura centrada em cliente":
+        "customer-success-cultura-centrada-cliente.svg",
+      "Vendas de alta performance: gestão de carteira":
+        "vendas-alta-performance-gestao-carteira.svg",
+      "Vendas de alta performance: solução e proposta":
+        "vendas-solucao-e-proposta.svg",
+      "Design Thinking em vendas: conhecendo seu cliente":
+        "design-thinking-em-vendas.svg",
+      "Vendas de alta performance: Social Selling":
+        "vendas-de-alta-performance-social-selling.svg",
+      "Jornada do cliente: aplique estratégias de engajamento no dia a dia":
+        "jornada-cliente-estrategias-engajamento-dia-a-dia.svg",
+    },
+    "Conformidade Legal": {
+      "Elaboração de contratos: técnicas voltadas ao empreendedor":
+        "elaboracao-contratos-empreendedor.svg",
+    },
+    Outros: {
+      "Cadeia de valor de serviços: conhecendo as 4 dimensões":
+        "elaboracao-contratos-empreendedor.svg",
+      "Criação de valor: conhecendo os conceitos-chave para gerenciamento de serviços":
+        "elaboracao-contratos-empreendedor.svg",
+      "Demandas de gerenciamento: apresentando o sistema de valores de serviço":
+        "elaboracao-contratos-empreendedor.svg",
+      "Práticas gerais: descobrindo as práticas de gerenciamento de serviços":
+        "elaboracao-contratos-empreendedor.svg",
+      "Symfony Framework: e-mail, processamento assíncrono, uploads e testes":
+        "elaboracao-contratos-empreendedor.svg",
+    },
+  },
+};

@@ -1,5 +1,8 @@
 export interface CategoryModules {
   [module: string]: {
-    [course: string]: string;
+    [course: string]: {
+      uuid: string;
+      icon: string;
+    };
   };
 }

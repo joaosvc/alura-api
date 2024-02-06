@@ -1,7 +1,37 @@
 import { Category, CategoryWithModules } from "../../models/category/category";
-import { NestCoursesData, NestCategoriesData } from "./data/nest-data";
+import { NestCoursesData, NestPreloadedCategoriesData } from "./data/nest-data";
+import { INestCategoriesData } from "./data/protocols";
 
 export default class NestExplorer {
+  private nestCategoriesData: INestCategoriesData = {};
+
+  constructor() {
+    this.initNestCategoriesData();
+  }
+
+  private initNestCategoriesData() {
+    NestPreloadedCategoriesData.map(
+      (category) => (this.nestCategoriesData[category] = {})
+    );
+
+    for (const [uuid, data] of Object.entries(NestCoursesData)) {
+      const { name, module } = data.category;
+
+      if (!this.nestCategoriesData[name]) {
+        this.nestCategoriesData[name] = {};
+      }
+
+      if (!this.nestCategoriesData[name][module]) {
+        this.nestCategoriesData[name][module] = {};
+      }
+
+      this.nestCategoriesData[name][module][data.name] = {
+        uuid,
+        icon: data.icon,
+      };
+    }
+  }
+
   async getCourses() {
     return Object.entries(NestCoursesData).map(([id, course]) => {
       return {
@@ -63,16 +93,16 @@ export default class NestExplorer {
   async getCategories(
     modules: boolean = false
   ): Promise<Category[] | CategoryWithModules[]> {
-    return Object.entries(NestCategoriesData).map(([category, data]) => {
+    return Object.entries(this.nestCategoriesData).map(([category, data]) => {
       return modules ? { category, modules: Object.keys(data) } : { category };
     });
   }
 
   async getCategoryModulesWhere(category: string) {
-    if (!NestCategoriesData[category]) {
+    if (!this.nestCategoriesData[category]) {
       throw new Error("Category not found");
     }
 
-    return NestCategoriesData[category];
+    return this.nestCategoriesData[category];
   }
 }
