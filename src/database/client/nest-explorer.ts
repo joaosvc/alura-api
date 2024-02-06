@@ -3,17 +3,13 @@ import { NestCoursesData, NestPreloadedCategoriesData } from "./data/nest-data";
 import { INestCategoriesData } from "./data/protocols";
 
 export default class NestExplorer {
-  private nestCategoriesData: INestCategoriesData = {};
+  private nestCategoriesData: INestCategoriesData = NestPreloadedCategoriesData;
 
   constructor() {
     this.initNestCategoriesData();
   }
 
   private initNestCategoriesData() {
-    NestPreloadedCategoriesData.map(
-      (category) => (this.nestCategoriesData[category] = {})
-    );
-
     for (const [uuid, data] of Object.entries(NestCoursesData)) {
       const { name, module } = data.category;
 
