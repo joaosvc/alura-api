@@ -12,7 +12,7 @@ Returns a list of available courses.
 
 ### 2. Get List of Modules
 
-`GET /modules`
+`POST /modules`
 
 Parameters in the request body:
 
@@ -26,7 +26,7 @@ Returns a list of modules for the specified course.
 
 ### 3. Get List of Videos
 
-`GET /videos`
+`POST /videos`
 
 Parameters in the request body:
 
@@ -45,7 +45,13 @@ Returns a list of videos for the specified course and module.
 
 Returns a list of available categories.
 
-### 5. Get List of Categery Modules
+### 5. Get List of Categories with modules
+
+`GET /categories/modules`
+
+Returns a list of available categories.
+
+### 6. Get List of Categery Modules
 
 `POST /category/modules`
 
