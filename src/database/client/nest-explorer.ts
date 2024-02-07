@@ -1,9 +1,9 @@
 import { Category, CategoryWithModules } from "../../models/category/category";
-import { NestCoursesData, NestPreloadedCategoriesData } from "./data/nest-data";
+import { NestCoursesData } from "./data/nest-data";
 import { INestCategoriesData } from "./data/protocols";
 
 export default class NestExplorer {
-  private nestCategoriesData: INestCategoriesData = NestPreloadedCategoriesData;
+  private nestCategoriesData: INestCategoriesData = {};
 
   constructor() {
     this.initNestCategoriesData();
