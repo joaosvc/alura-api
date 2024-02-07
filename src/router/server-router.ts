@@ -12,6 +12,7 @@ import { GetCategoriesController } from "../controllers/get-categories/get-categ
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 import { HttpStatusCode } from "../controllers/protocols";
 import { GetCategoriesWithModulesController } from "../controllers/get-categories/get-categories-modules";
+import { GetModulesWithVideosController } from "../controllers/get-modules/get-modules-videos";
 
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
@@ -23,8 +24,9 @@ const corsOptions: CorsOptions = {
 serverRouter.use(
   [
     "/courses",
-    "/modules",
     "/videos",
+    "/modules",
+    "/modules/videos",
     "/categories",
     "/categories/modules",
     "/category/modules",
@@ -64,6 +66,16 @@ serverRouter.post("/modules", async (req, res) => {
   const getModulesController = new GetModulesController();
 
   const { body, statusCode } = await getModulesController.handle({
+    body: req.body,
+  });
+
+  res.status(statusCode).send(body);
+});
+
+serverRouter.post("/modules/videos", async (req, res) => {
+  const getModulesWithVideosController = new GetModulesWithVideosController();
+
+  const { body, statusCode } = await getModulesWithVideosController.handle({
     body: req.body,
   });
 

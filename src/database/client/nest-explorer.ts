@@ -37,15 +37,15 @@ export default class NestExplorer {
     });
   }
 
-  async getModulesWhere(courseId: string) {
+  async getModulesWhere(courseId: string, videos: boolean = false) {
     if (!NestCoursesData[courseId]) {
       throw new Error("Course not found");
     }
 
     return Object.keys(NestCoursesData[courseId].modules).map((module) => {
-      return {
-        module: module,
-      };
+      return videos
+        ? { module, videos: Object.keys(module) }
+        : { module: module };
     });
   }
 

@@ -22,9 +22,21 @@ Parameters in the request body:
 }
 ```
 
+### 3. Get List of Modules with videos
+
+`POST /modules/videos`
+
+Parameters in the request body:
+
+```json
+{
+  "courseId": "..."
+}
+```
+
 Returns a list of modules for the specified course.
 
-### 3. Get List of Videos
+### 4. Get List of Videos
 
 `POST /videos`
 
@@ -39,19 +51,19 @@ Parameters in the request body:
 
 Returns a list of videos for the specified course and module.
 
-### 4. Get List of Categories
+### 5. Get List of Categories
 
 `GET /categories`
 
 Returns a list of available categories.
 
-### 5. Get List of Categories with modules
+### 6. Get List of Categories with modules
 
 `GET /categories/modules`
 
 Returns a list of available categories.
 
-### 6. Get List of Categery Modules
+### 7. Get List of Categery Modules
 
 `POST /category/modules`
 

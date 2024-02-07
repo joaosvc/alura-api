@@ -1,8 +1,8 @@
 import { ClientTypes } from "./protocols";
 import { DataNest } from "./types/data-nest";
-import { Course } from "../models/course/course";
-import { Module } from "../models/course/module";
 import { Video } from "../models/course/video";
+import { Course } from "../models/course/course";
+import { Module, ModuleWithVideos } from "../models/course/module";
 import { VideoPlaylist } from "../models/course/playlist";
 import { Category, CategoryWithModules } from "../models/category/category";
 import { CategoryModules } from "../models/category/modules";
@@ -23,9 +23,24 @@ export const DatabaseClient = {
     return [];
   },
 
-  async getModulesWhere(courseId: string): Promise<Module[]> {
+  async getModulesWhere(
+    courseId: string,
+    videos: boolean = false
+  ): Promise<Module[] | ModuleWithVideos[]> {
     if (Type === ClientTypes.DataNest) {
-      return await DataNest.client.getModulesWhere(courseId);
+      return await DataNest.client.getModulesWhere(courseId, videos);
+    }
+    return [];
+  },
+
+  async getModulesWithVideosWhere(
+    courseId: string
+  ): Promise<ModuleWithVideos[]> {
+    if (Type === ClientTypes.DataNest) {
+      return (await DataNest.client.getModulesWhere(
+        courseId,
+        true
+      )) as ModuleWithVideos[];
     }
     return [];
   },
