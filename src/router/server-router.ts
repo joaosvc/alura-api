@@ -3,7 +3,6 @@ import cors, { CorsOptions } from "cors";
 import { Router } from "express";
 import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
-import { GetVideosController } from "../controllers/get-videos/get-videos";
 import { authMiddleware } from "../middleware/middleware";
 import { GetJwtTokenController } from "../controllers/get-token/get-token";
 import { GetVideoController } from "../controllers/get-video/get-video";
@@ -11,8 +10,6 @@ import { GetVideoSegmentController } from "../controllers/get-segment/get-segmen
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 import { HttpStatusCode } from "../controllers/protocols";
-import { GetCategoriesWithModulesController } from "../controllers/get-categories/get-categories-modules";
-import { GetModulesWithVideosController } from "../controllers/get-modules/get-modules-videos";
 
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
@@ -22,15 +19,7 @@ const corsOptions: CorsOptions = {
 };
 
 serverRouter.use(
-  [
-    "/courses",
-    "/videos",
-    "/modules",
-    "/modules/videos",
-    "/categories",
-    "/categories/modules",
-    "/category/modules",
-  ],
+  ["/courses", "/course/modules", "/categories", "/category/modules"],
   cors(corsOptions),
   authMiddleware,
   express.json()
@@ -44,38 +33,20 @@ serverRouter.get("/courses", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/categories", async (req, res) => {
+serverRouter.post("/categories", async (req, res) => {
   const getCategoriesController = new GetCategoriesController();
 
-  const { body, statusCode } = await getCategoriesController.handle();
-
-  res.status(statusCode).send(body);
-});
-
-serverRouter.get("/categories/modules", async (req, res) => {
-  const getCategoriesWithModulesController =
-    new GetCategoriesWithModulesController();
-
-  const { body, statusCode } =
-    await getCategoriesWithModulesController.handle();
-
-  res.status(statusCode).send(body);
-});
-
-serverRouter.post("/modules", async (req, res) => {
-  const getModulesController = new GetModulesController();
-
-  const { body, statusCode } = await getModulesController.handle({
+  const { body, statusCode } = await getCategoriesController.handle({
     body: req.body,
   });
 
   res.status(statusCode).send(body);
 });
 
-serverRouter.post("/modules/videos", async (req, res) => {
-  const getModulesWithVideosController = new GetModulesWithVideosController();
+serverRouter.post("/course/modules", async (req, res) => {
+  const getModulesController = new GetModulesController();
 
-  const { body, statusCode } = await getModulesWithVideosController.handle({
+  const { body, statusCode } = await getModulesController.handle({
     body: req.body,
   });
 
@@ -86,16 +57,6 @@ serverRouter.post("/category/modules", async (req, res) => {
   const getCategoryModulesController = new GetCategoryModulesController();
 
   const { body, statusCode } = await getCategoryModulesController.handle({
-    body: req.body,
-  });
-
-  res.status(statusCode).send(body);
-});
-
-serverRouter.post("/videos", async (req, res) => {
-  const getVideosController = new GetVideosController();
-
-  const { body, statusCode } = await getVideosController.handle({
     body: req.body,
   });
 

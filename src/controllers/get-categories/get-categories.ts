@@ -1,14 +1,19 @@
 import { DatabaseClient } from "../../database/client";
-import { Category } from "../../models/category/category";
+import { Category, CategoryWithModules } from "../../models/category/category";
 import { badRequest, ok, serverError } from "../helpers";
-import { HttpResponse, IController } from "../protocols";
+import { HttpRequest, HttpResponse, IController } from "../protocols";
+import { GetCategoriesParams } from "./protocols";
 
 export class GetCategoriesController implements IController {
-  async handle(): Promise<HttpResponse<Category[] | string>> {
+  async handle(
+    httpRequest: HttpRequest<GetCategoriesParams>
+  ): Promise<HttpResponse<Category[] | CategoryWithModules[] | string>> {
     try {
-      const categories = await DatabaseClient.getCategories();
+      const categories = await DatabaseClient.getCategories(
+        httpRequest.body!.modules === true
+      );
 
-      return ok<Category[]>(categories);
+      return ok<Category[] | CategoryWithModules[]>(categories);
     } catch (error) {
       if (error instanceof Error) {
         return badRequest(error.message);

@@ -10,62 +10,50 @@ This API provides public endpoints for accessing m3u8 videos and playlist segmen
 
 Returns a list of available courses.
 
-### 2. Get List of Modules
+### 2. Get List of Course Modules
 
-`POST /modules`
+`POST /course/modules`
 
-Parameters in the request body:
-
-```json
-{
-  "courseId": "..."
-}
-```
-
-### 3. Get List of Modules with videos
-
-`POST /modules/videos`
-
-Parameters in the request body:
-
-```json
-{
-  "courseId": "..."
-}
-```
-
-Returns a list of modules for the specified course.
-
-### 4. Get List of Videos
-
-`POST /videos`
+Returns a list of available courses modules.
 
 Parameters in the request body:
 
 ```json
 {
   "courseId": "...",
-  "module": "..."
+  /**
+  * Indicates whether videos should be included in modules
+  * default: false
+  */
+  "videos": true | false
 }
 ```
 
-Returns a list of videos for the specified course and module.
+### 3. Get List of Categories
 
-### 5. Get List of Categories
-
-`GET /categories`
+`POST /categories`
 
 Returns a list of available categories.
 
-### 6. Get List of Categories with modules
+Parameters in the request body:
 
-`GET /categories/modules`
+```json
+{
+  /**
+  * Indicates whether modules should be included in categories
+  * default: false
+  */
+  "modules": true | false
+}
+```
 
 Returns a list of available categories.
 
-### 7. Get List of Categery Modules
+### 4. Get List of Categery Modules
 
 `POST /category/modules`
+
+Returns a list of available category modules.
 
 Parameters in the request body:
 

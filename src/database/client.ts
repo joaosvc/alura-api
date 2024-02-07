@@ -1,8 +1,7 @@
 import { ClientTypes } from "./protocols";
 import { DataNest } from "./types/data-nest";
-import { Video } from "../models/course/video";
 import { Course } from "../models/course/course";
-import { Module, ModuleWithVideos } from "../models/course/module";
+import { Modules } from "../models/course/module";
 import { VideoPlaylist } from "../models/course/playlist";
 import { Category, CategoryWithModules } from "../models/category/category";
 import { CategoryModules } from "../models/category/modules";
@@ -16,6 +15,10 @@ export const DatabaseClient = {
     }
   },
 
+  /**
+   * Returns all courses
+   * @returns {Promise<Course[]>} - A list of courses
+   */
   async getCourses(): Promise<Course[]> {
     if (Type === ClientTypes.DataNest) {
       return await DataNest.client.getCourses();
@@ -23,35 +26,29 @@ export const DatabaseClient = {
     return [];
   },
 
-  async getModulesWhere(
+  /**
+   * Returns the modules of a course
+   * @param {string} courseId - The course ID(UUID)
+   * @param {boolean} [videos=false] - Indicates whether videos should be included in modules
+   */
+  async getCourseModulesWhere(
     courseId: string,
     videos: boolean = false
-  ): Promise<Module[] | ModuleWithVideos[]> {
+  ): Promise<Modules> {
     if (Type === ClientTypes.DataNest) {
       return await DataNest.client.getModulesWhere(courseId, videos);
     }
-    return [];
+
+    throw new Error("Client not found");
   },
 
-  async getModulesWithVideosWhere(
-    courseId: string
-  ): Promise<ModuleWithVideos[]> {
-    if (Type === ClientTypes.DataNest) {
-      return (await DataNest.client.getModulesWhere(
-        courseId,
-        true
-      )) as ModuleWithVideos[];
-    }
-    return [];
-  },
-
-  async getVideosWhere(courseId: string, module: string): Promise<Video[]> {
-    if (Type === ClientTypes.DataNest) {
-      return await DataNest.client.getVideosWhere(courseId, module);
-    }
-    return [];
-  },
-
+  /**
+   * Returns a video playlist
+   * @param {string} courseId - The course ID(UUID)
+   * @param {string} module - The module name
+   * @param {string} video - The video name
+   * @returns {Promise<VideoPlaylist>} - A video playlist
+   */
   async getVideoWhere(
     courseId: string,
     module: string,
@@ -64,26 +61,27 @@ export const DatabaseClient = {
     throw new Error("Client not found");
   },
 
-  async getCategories(): Promise<Category[]> {
+  /**
+   * Returns all categories
+   * @param {boolean} [modules=false] - Indicates whether modules should be included in categories
+   */
+  async getCategories(
+    modules: boolean = false
+  ): Promise<Category[] | CategoryWithModules[]> {
     if (Type === ClientTypes.DataNest) {
-      return await DataNest.client.getCategories();
+      return await DataNest.client.getCategories(modules);
     }
     return [];
   },
 
+  /**
+   * Returns modules from a category
+   * @param {string} category - The category name
+   */
   async getCategoryModulesWhere(category: string): Promise<CategoryModules> {
     if (Type === ClientTypes.DataNest) {
       return await DataNest.client.getCategoryModulesWhere(category);
     }
     return {};
-  },
-
-  async getCategoriesWithModules(): Promise<CategoryWithModules[]> {
-    if (Type === ClientTypes.DataNest) {
-      return (await DataNest.client.getCategories(
-        true
-      )) as CategoryWithModules[];
-    }
-    return [];
   },
 };

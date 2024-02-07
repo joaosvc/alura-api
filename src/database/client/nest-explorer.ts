@@ -42,11 +42,14 @@ export default class NestExplorer {
       throw new Error("Course not found");
     }
 
-    return Object.keys(NestCoursesData[courseId].modules).map((module) => {
-      return videos
-        ? { module, videos: Object.keys(module) }
-        : { module: module };
-    });
+    return {
+      courseName: NestCoursesData[courseId].name,
+      modules: Object.keys(NestCoursesData[courseId].modules).map((module) => {
+        const result = { module };
+
+        return videos ? { ...result, videos: Object.keys(module) } : result;
+      }),
+    };
   }
 
   async getVideosWhere(courseId: string, module: string) {

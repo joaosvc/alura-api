@@ -5,3 +5,8 @@ export interface Module {
 export interface ModuleWithVideos extends Module {
   videos: string[];
 }
+
+export interface Modules {
+  courseName: string;
+  modules: Module[] | ModuleWithVideos[];
+}
