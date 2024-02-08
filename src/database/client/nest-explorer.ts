@@ -44,11 +44,15 @@ export default class NestExplorer {
 
     return {
       courseName: NestCoursesData[courseId].name,
-      modules: Object.keys(NestCoursesData[courseId].modules).map((module) => {
-        const result = { module };
+      modules: Object.entries(NestCoursesData[courseId].modules).map(
+        ([module, moduleData]) => {
+          const result = { module };
 
-        return videos ? { ...result, videos: Object.keys(module) } : result;
-      }),
+          return videos
+            ? { ...result, videos: Object.keys(moduleData) }
+            : result;
+        }
+      ),
     };
   }
 
