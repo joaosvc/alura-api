@@ -25,6 +25,11 @@ serverRouter.use(
   express.json()
 );
 
+serverRouter.use(
+  ["/video/:courseId/:module/:video/", "/segment/:id/"],
+  cors(corsOptions)
+);
+
 serverRouter.get("/courses", async (req, res) => {
   const getCoursesController = new GetCoursesController();
 
