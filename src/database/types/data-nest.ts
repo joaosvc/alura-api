@@ -7,6 +7,8 @@ export const DataNest = {
     try {
       this.client = new NestExplorer();
 
+      await this.client.init();
+
       console.log("Connected to DataNest");
     } catch (error) {
       console.error("Error connecting to DataNest");

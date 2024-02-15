@@ -1,16 +1,28 @@
 import { Category, CategoryWithModules } from "../../models/category/category";
-import { NestCoursesData } from "./data/nest-data";
-import { INestCategoriesData } from "./data/protocols";
+import { INestCategoriesData, INestCoursesData } from "./protocols";
+import fs from "fs";
 
 export default class NestExplorer {
+  private nestData: INestCoursesData = {};
   private nestCategoriesData: INestCategoriesData = {};
 
-  constructor() {
-    this.initNestCategoriesData();
+  public async init() {
+    await this.initNestData();
+    await this.initNestCategoriesData();
   }
 
-  private initNestCategoriesData() {
-    for (const [uuid, data] of Object.entries(NestCoursesData)) {
+  private async initNestData() {
+    if (!fs.existsSync("database.json")) {
+      throw new Error("Database file not found");
+    }
+
+    this.nestData = JSON.parse(
+      await fs.promises.readFile("database.json", "utf-8")
+    );
+  }
+
+  private async initNestCategoriesData() {
+    for (const [uuid, data] of Object.entries(this.nestData)) {
       const { name, module } = data.category;
 
       if (!this.nestCategoriesData[name]) {
@@ -29,7 +41,7 @@ export default class NestExplorer {
   }
 
   async getCourses() {
-    return Object.entries(NestCoursesData).map(([id, course]) => {
+    return Object.entries(this.nestData).map(([id, course]) => {
       return {
         id,
         name: course.name,
@@ -38,59 +50,46 @@ export default class NestExplorer {
   }
 
   async getModulesWhere(courseId: string, videos: boolean = false) {
-    if (!NestCoursesData[courseId]) {
+    if (!this.nestData[courseId]) {
       throw new Error("Course not found");
     }
 
     return {
-      courseName: NestCoursesData[courseId].name,
-      modules: Object.entries(NestCoursesData[courseId].modules).map(
+      courseName: this.nestData[courseId].name,
+      modules: Object.entries(this.nestData[courseId].modules).map(
         ([module, moduleData]) => {
-          const result = { module };
+          const result = { name: module };
 
           return videos
-            ? { ...result, videos: Object.keys(moduleData) }
+            ? {
+                ...result,
+                videos: Object.keys(moduleData.videos).map((video) => {
+                  return {
+                    video,
+                    name: moduleData.videos[video].name,
+                  };
+                }),
+              }
             : result;
         }
       ),
     };
   }
 
-  async getVideosWhere(courseId: string, module: string) {
-    if (!NestCoursesData[courseId]) {
-      throw new Error("Course not found");
-    }
-
-    if (!NestCoursesData[courseId].modules[module]) {
-      throw new Error("Module not found");
-    }
-
-    return Object.keys(NestCoursesData[courseId].modules[module]).map(
-      (video) => {
-        return {
-          video,
-        };
-      }
-    );
-  }
-
   async getVideoWhere(courseId: string, module: string, video: string) {
-    if (!NestCoursesData[courseId]) {
+    if (!this.nestData[courseId]) {
       throw new Error("Course not found");
     }
 
-    if (!NestCoursesData[courseId].modules[module]) {
+    if (!this.nestData[courseId].modules[module]) {
       throw new Error("Module not found");
     }
 
-    if (!NestCoursesData[courseId].modules[module][video]) {
+    if (!this.nestData[courseId].modules[module].videos[video]) {
       throw new Error("Video not found");
     }
 
-    return {
-      video,
-      playlist: NestCoursesData[courseId].modules[module][video],
-    };
+    return this.nestData[courseId].modules[module].videos[video];
   }
 
   async getCategories(

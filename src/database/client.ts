@@ -2,7 +2,7 @@ import { ClientTypes } from "./protocols";
 import { DataNest } from "./types/data-nest";
 import { Course } from "../models/course/course";
 import { Modules } from "../models/course/module";
-import { VideoPlaylist } from "../models/course/playlist";
+import { VideoPath } from "../models/course/video";
 import { Category, CategoryWithModules } from "../models/category/category";
 import { CategoryModules } from "../models/category/modules";
 
@@ -43,17 +43,17 @@ export const DatabaseClient = {
   },
 
   /**
-   * Returns a video playlist
+   * Returns a video data
    * @param {string} courseId - The course ID(UUID)
    * @param {string} module - The module name
    * @param {string} video - The video name
-   * @returns {Promise<VideoPlaylist>} - A video playlist
+   * @returns {Promise<VideoPath>} - A video data
    */
   async getVideoWhere(
     courseId: string,
     module: string,
     video: string
-  ): Promise<VideoPlaylist> {
+  ): Promise<VideoPath> {
     if (Type === ClientTypes.DataNest) {
       return await DataNest.client.getVideoWhere(courseId, module, video);
     }

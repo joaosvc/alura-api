@@ -6,10 +6,8 @@ import { GetModulesController } from "../controllers/get-modules/get-modules";
 import { authMiddleware } from "../middleware/middleware";
 import { GetJwtTokenController } from "../controllers/get-token/get-token";
 import { GetVideoController } from "../controllers/get-video/get-video";
-import { GetVideoSegmentController } from "../controllers/get-segment/get-segment";
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
-import { HttpStatusCode } from "../controllers/protocols";
 
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
@@ -25,10 +23,7 @@ serverRouter.use(
   express.json()
 );
 
-serverRouter.use(
-  ["/video/:courseId/:module/:video/", "/segment/:id/"],
-  cors(corsOptions)
-);
+serverRouter.use(["/video/:courseId/:module/:video/"], cors(corsOptions));
 
 serverRouter.get("/courses", async (req, res) => {
   const getCoursesController = new GetCoursesController();
@@ -79,33 +74,12 @@ serverRouter.get("/jwt-token", express.json(), async (req, res) => {
 serverRouter.get("/video/:courseId/:module/:video/", async (req, res) => {
   const getVideoController = new GetVideoController();
 
-  const { body, statusCode } = await getVideoController.handle(
-    {
-      body: req.body,
-      params: req.params,
-    },
-    req,
-    res
-  );
+  const { body, statusCode } = await getVideoController.handle({
+    body: req.body,
+    params: req.params,
+  });
 
   res.status(statusCode).send(body);
-});
-
-serverRouter.get("/segment/:id/", async (req, res) => {
-  const getVideoSegmentController = new GetVideoSegmentController();
-
-  const { body, statusCode } = await getVideoSegmentController.handle(
-    {
-      body: req.body,
-      params: req.params,
-    },
-    req,
-    res
-  );
-
-  if (statusCode !== HttpStatusCode.OK) {
-    res.status(statusCode).send(body);
-  }
 });
 
 export default serverRouter;

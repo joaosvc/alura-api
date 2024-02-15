@@ -1,9 +1,13 @@
 export interface Module {
-  module: string;
+  name: string;
 }
 
-export interface ModuleWithVideos extends Module {
-  videos: string[];
+export interface ModuleWithVideos {
+  name: string;
+  videos: {
+    video: string;
+    name: string;
+  }[];
 }
 
 export interface Modules {

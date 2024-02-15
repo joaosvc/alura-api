@@ -7,8 +7,15 @@ export interface INestCoursesData {
       module: string;
     };
     modules: {
-      [uuid: string]: {
-        [name: string]: string;
+      [module: string]: {
+        name: string;
+        videos: {
+          [video: string]: {
+            name: string;
+            path: string;
+            url: string | null;
+          };
+        };
       };
     };
   };
@@ -21,25 +28,6 @@ export interface INestCategoriesData {
         uuid: string;
         icon: string;
       };
-    };
-  };
-}
-
-export interface INestCoursesLegacyData {
-  [uuid: string]: {
-    name: string;
-    modules: {
-      [uuid: string]: {
-        [name: string]: string;
-      };
-    };
-  };
-}
-
-export interface INestCategoriesLegacyData {
-  [category: string]: {
-    [categoryModule: string]: {
-      [courseName: string]: string;
     };
   };
 }
