@@ -67,19 +67,13 @@ Returns a list of modules for the specified category.
 
 ## Public Routes
 
-### 1. Get M3U8 Playlist for a Video
+### 1. Get Video
 
 `GET /video/:courseId/:module/:video/`
 
-Returns an M3U8 playlist for the specified video.
+Returns name and url(mp4) for the specified video.
 
-### 2. Get Segment of an M3U8 Playlist
-
-`GET /segment/:id/`
-
-Returns a segment of the M3U8 playlist based on the specified ID.
-
-### 3. Get JWT Token
+### 2. Get JWT Token
 
 `GET /jwt-token`
 
