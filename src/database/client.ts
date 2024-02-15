@@ -10,6 +10,8 @@ export const Type = ClientTypes.DataNest;
 
 export const DatabaseClient = {
   async connect() {
+    console.log("Connecting to database...");
+
     if (Type === ClientTypes.DataNest) {
       await DataNest.connect();
     }
