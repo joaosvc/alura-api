@@ -17,7 +17,13 @@ const corsOptions: CorsOptions = {
 };
 
 serverRouter.use(
-  ["/courses", "/course/modules", "/categories", "/category/modules", "/video"],
+  [
+    "/courses",
+    "/course/modules",
+    "/course/video",
+    "/categories",
+    "/category/modules",
+  ],
   cors(corsOptions),
   authMiddleware,
   express.json()
@@ -51,22 +57,22 @@ serverRouter.post("/course/modules", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.post("/category/modules", async (req, res) => {
-  const getCategoryModulesController = new GetCategoryModulesController();
-
-  const { body, statusCode } = await getCategoryModulesController.handle({
-    body: req.body,
-  });
-
-  res.status(statusCode).send(body);
-});
-
-serverRouter.post("/video", async (req, res) => {
+serverRouter.post("/course/video", async (req, res) => {
   const getVideoController = new GetVideoController();
 
   const { body, statusCode } = await getVideoController.handle({
     body: req.body,
     params: req.params,
+  });
+
+  res.status(statusCode).send(body);
+});
+
+serverRouter.post("/category/modules", async (req, res) => {
+  const getCategoryModulesController = new GetCategoryModulesController();
+
+  const { body, statusCode } = await getCategoryModulesController.handle({
+    body: req.body,
   });
 
   res.status(statusCode).send(body);
