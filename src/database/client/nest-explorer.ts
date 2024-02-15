@@ -58,7 +58,7 @@ export default class NestExplorer {
       courseName: this.nestData[courseId].name,
       modules: Object.entries(this.nestData[courseId].modules).map(
         ([module, moduleData]) => {
-          const result = { name: module };
+          const result = { name: moduleData.name, module };
 
           return videos
             ? {
