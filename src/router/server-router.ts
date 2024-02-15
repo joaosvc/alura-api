@@ -5,7 +5,7 @@ import { GetCoursesController } from "../controllers/get-courses/get-courses";
 import { GetModulesController } from "../controllers/get-modules/get-modules";
 import { authMiddleware } from "../middleware/middleware";
 import { GetJwtTokenController } from "../controllers/get-token/get-token";
-import { GetVideoController } from "../controllers/get-video/get-video";
+import { GetVideoController } from "../controllers/get-video-data/get-video-data";
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
 
@@ -17,13 +17,11 @@ const corsOptions: CorsOptions = {
 };
 
 serverRouter.use(
-  ["/courses", "/course/modules", "/categories", "/category/modules"],
+  ["/courses", "/course/modules", "/categories", "/category/modules", "/video"],
   cors(corsOptions),
   authMiddleware,
   express.json()
 );
-
-serverRouter.use(["/video/:courseId/:module/:video/"], cors(corsOptions));
 
 serverRouter.get("/courses", async (req, res) => {
   const getCoursesController = new GetCoursesController();
@@ -63,21 +61,21 @@ serverRouter.post("/category/modules", async (req, res) => {
   res.status(statusCode).send(body);
 });
 
-serverRouter.get("/jwt-token", express.json(), async (req, res) => {
-  const getJwtTokenController = new GetJwtTokenController();
-
-  const { body, statusCode } = await getJwtTokenController.handle();
-
-  res.status(statusCode).send(body);
-});
-
-serverRouter.get("/video/:courseId/:module/:video/", async (req, res) => {
+serverRouter.post("/video", async (req, res) => {
   const getVideoController = new GetVideoController();
 
   const { body, statusCode } = await getVideoController.handle({
     body: req.body,
     params: req.params,
   });
+
+  res.status(statusCode).send(body);
+});
+
+serverRouter.get("/jwt-token", express.json(), async (req, res) => {
+  const getJwtTokenController = new GetJwtTokenController();
+
+  const { body, statusCode } = await getJwtTokenController.handle();
 
   res.status(statusCode).send(body);
 });
