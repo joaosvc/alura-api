@@ -25,13 +25,16 @@ export class GetVideoController implements IController {
         return badRequest("Missing video");
       }
 
-      const videoData = await DatabaseClient.getVideoWhere(
+      const { name, url } = await DatabaseClient.getVideoWhere(
         courseId,
         module,
         video
       );
 
-      return ok<Video>(videoData);
+      return ok<Video>({
+        name,
+        url
+      });
     } catch (error) {
       if (error instanceof Error) {
         return badRequest(error.message);
