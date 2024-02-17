@@ -8,6 +8,8 @@ import { GetJwtTokenController } from "../controllers/get-token/get-token";
 import { GetVideoController } from "../controllers/get-video-data/get-video-data";
 import { GetCategoriesController } from "../controllers/get-categories/get-categories";
 import { GetCategoryModulesController } from "../controllers/get-category/get-category";
+import { GetRawVideoController } from "../controllers/get-video/get-video";
+import { HttpStatusCode } from "../controllers/protocols";
 
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
@@ -72,6 +74,30 @@ serverRouter.post("/course/video", async (req, res) => {
 
   res.status(statusCode).send(body);
 });
+
+serverRouter.use(
+  "/course/raw-video/:courseId/:module/:video/",
+  cors(corsOptions)
+);
+serverRouter.get(
+  "/course/raw-video/:courseId/:module/:video/",
+  async (req, res) => {
+    const getRawVideoController = new GetRawVideoController();
+
+    const { body, statusCode } = await getRawVideoController.handle(
+      {
+        body: req.body,
+        params: req.params,
+      },
+      req,
+      res
+    );
+
+    if (statusCode !== HttpStatusCode.OK) {
+      res.status(statusCode).send(body);
+    }
+  }
+);
 
 serverRouter.post("/category/modules", async (req, res) => {
   const getCategoryModulesController = new GetCategoryModulesController();

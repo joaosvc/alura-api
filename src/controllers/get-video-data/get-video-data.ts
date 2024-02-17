@@ -27,19 +27,20 @@ export class GetVideoController implements IController {
 
       const { courseId, module, video } = httpRequest.body!;
 
-      const { name, url } = await DatabaseClient.getVideoWhere(
+      const { name } = await DatabaseClient.getVideoWhere(
         courseId,
         module,
         video
       );
 
+      const host = `https://${request.hostname}`;
       const extraData = httpRequest.body!.thumbnail === true && {
-        thumbnail: `https://${request.hostname}/thumbnails/${courseId}/${module}/${video}.png`,
+        thumbnail: `${host}/thumbnails/${courseId}/${module}/${video}.png`,
       };
 
       return ok<Video>({
         name,
-        url: url!,
+        url: `${host}/course/raw-video/${courseId}/${module}/${video}`,
         ...extraData,
       });
     } catch (error) {
