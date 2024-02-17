@@ -29,6 +29,8 @@ serverRouter.use(
   express.json()
 );
 
+serverRouter.use("/thumbnails", express.static("thumbnails"));
+
 serverRouter.get("/courses", async (req, res) => {
   const getCoursesController = new GetCoursesController();
 
@@ -60,10 +62,13 @@ serverRouter.post("/course/modules", async (req, res) => {
 serverRouter.post("/course/video", async (req, res) => {
   const getVideoController = new GetVideoController();
 
-  const { body, statusCode } = await getVideoController.handle({
-    body: req.body,
-    params: req.params,
-  });
+  const { body, statusCode } = await getVideoController.handle(
+    {
+      body: req.body,
+      params: req.params,
+    },
+    req
+  );
 
   res.status(statusCode).send(body);
 });

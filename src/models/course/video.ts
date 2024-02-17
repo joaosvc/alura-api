@@ -1,8 +1,11 @@
 export interface Video {
   name: string;
-  url: string | null;
+  url: string;
+  thumbnail?: string;
 }
 
-export interface VideoPath extends Video {
+export interface VideoPath {
+  name: string;
   path: string;
+  url: string | null;
 }
