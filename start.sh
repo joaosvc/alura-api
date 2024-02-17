@@ -49,6 +49,8 @@ while true; do
 
     if [ "$LOCAL" != "$REMOTE" ]; then
         echo "Atualizando o repositório..."
+        git submodule init
+        git submodule update
         git pull "$REPOSITORIO" "$BRANCH"
 
         iniciar_novo_processo
