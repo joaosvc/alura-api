@@ -1,6 +1,6 @@
 import { Category, CategoryWithModules } from "../../models/category/category";
+import { NestData } from "./data/nest-data";
 import { INestCategoriesData, INestCoursesData } from "./protocols";
-import fs from "fs";
 
 export default class NestExplorer {
   private nestData: INestCoursesData = {};
@@ -12,13 +12,7 @@ export default class NestExplorer {
   }
 
   private async initNestData() {
-    if (!fs.existsSync("database.json")) {
-      throw new Error("Database file not found");
-    }
-
-    this.nestData = JSON.parse(
-      await fs.promises.readFile("database.json", "utf-8")
-    );
+    this.nestData = NestData.JSON;
   }
 
   private async initNestCategoriesData() {
