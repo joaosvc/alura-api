@@ -35,7 +35,7 @@ export class GetVideoController implements IController {
 
       const host = `https://${request.hostname}`;
       const extraData = httpRequest.body!.thumbnail === true && {
-        thumbnail: `${host}/thumbnails/${courseId}/${module}/${video}.png`,
+        thumbnail: `${process.env.THUMBNAILS_URL}/${courseId}/${module}/${video}.png`,
       };
 
       return ok<Video>({
