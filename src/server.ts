@@ -1,8 +1,6 @@
 import express from "express";
-import serverRouter from "./router/server-router";
+import cors, { CorsOptions } from "cors";
 import { config } from "dotenv";
-import { DatabaseClient } from "./database/client";
-import { DropboxClient } from "./dropbox/dropbox";
 
 const main = async () => {
   config();
@@ -12,10 +10,17 @@ const main = async () => {
     port: process.env.SERVER_PORT || 8000,
   };
 
-  await DropboxClient.connect();
-  await DatabaseClient.connect();
+  const corsOptions: CorsOptions = {
+    origin: "*",
+    methods: "GET",
+    optionsSuccessStatus: 204,
+  };
 
-  server.app.use(serverRouter);
+  server.app.use(
+    "/thumbnails",
+    cors(corsOptions),
+    express.static("thumbnails")
+  );
 
   server.app.listen(server.port, async () =>
     console.log(`listening on port ${server.port}!`)

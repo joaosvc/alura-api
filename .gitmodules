@@ -1,3 +1,0 @@
-[submodule "src/dropbox/client"]
-	path = src/dropbox/client
-	url = https://github.com/joaosvc/dropbox-cli.git

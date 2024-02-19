@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOSITORIO="origin"
-BRANCH="main"
+BRANCH="thumbnails"
 TEMPO_ESPERA=5
 PRIMEIRA_EXECUCAO=true
 

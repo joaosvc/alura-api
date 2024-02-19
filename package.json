@@ -1,7 +1,7 @@
 {
   "name": "alura-api",
   "version": "1.0.0",
-  "description": "alura server courses",
+  "description": "alura server courses thumbnails",
   "main": "server.js",
   "scripts": {
     "start:dev": "nodemon src/server.ts",
@@ -28,12 +28,8 @@
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/cors": "^2.8.17",
-    "@types/jwt-simple": "^0.5.36",
-    "@types/node-fetch": "^2.6.11",
     "axios": "^1.6.7",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "jwt-simple": "^0.5.6",
-    "node-fetch": "^2.7.0"
+    "express": "^4.18.2"
   }
 }
