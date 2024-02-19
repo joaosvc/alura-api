@@ -4,6 +4,11 @@ import { HttpRequest, HttpResponse, IController } from "../protocols";
 import { GetVideoParams } from "./protocols";
 import { Video } from "../../models/course/video";
 import { Request } from "express";
+import { DropboxClient } from "../../dropbox/dropbox";
+import NodeCache from "node-cache";
+
+const nodeCache = new NodeCache();
+const URL_TYPE = "request_dropbox";
 
 export class GetVideoController implements IController {
   async handle(
@@ -27,7 +32,7 @@ export class GetVideoController implements IController {
 
       const { courseId, module, video } = httpRequest.body!;
 
-      const { name } = await DatabaseClient.getVideoWhere(
+      const { name, path } = await DatabaseClient.getVideoWhere(
         courseId,
         module,
         video
@@ -38,9 +43,23 @@ export class GetVideoController implements IController {
         thumbnail: `${process.env.THUMBNAILS_URL}/${courseId}/${module}/${video}.png`,
       };
 
+      const cacheKey = `${courseId}_${module}_${video}`;
+      let url = nodeCache.get(cacheKey) as string | null;
+
+      if (!url) {
+        if (URL_TYPE === "request_dropbox") {
+          url = (await DropboxClient.client.getTemporaryLink(`/alura/${path}`))
+            .link;
+        } else {
+          url = `${host}/course/raw-video/${courseId}/${module}/${video}`;
+        }
+
+        nodeCache.set(cacheKey, url, 60 * 60 * 3);
+      }
+
       return ok<Video>({
         name,
-        url: `${host}/course/raw-video/${courseId}/${module}/${video}`,
+        url: url!,
         ...extraData,
       });
     } catch (error) {
