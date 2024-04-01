@@ -83,4 +83,3 @@ Returns a JWT token for authentication in private routes.
 
 - Ensure to include the JWT token in requests for private routes.
 - Manage refresh and token expiration appropriately on the client side.
-
