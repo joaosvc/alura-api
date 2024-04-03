@@ -31,8 +31,6 @@ serverRouter.use(
   express.json()
 );
 
-serverRouter.use("/thumbnails", express.static("thumbnails"));
-
 serverRouter.get("/courses", async (req, res) => {
   const getCoursesController = new GetCoursesController();
 
