@@ -39,27 +39,35 @@ export class GetVideoController implements IController {
       );
 
       const host = `https://${request.hostname}`;
-      const extraData = httpRequest.body!.thumbnail === true && {
-        thumbnail: `${process.env.THUMBNAILS_URL}/${courseId}/${module}/${video}.png`,
-      };
 
-      const cacheKey = `${courseId}_${module}_${video}`;
-      let url = nodeCache.get(cacheKey) as string | null;
+      const extraData: { [key: string]: string } = {};
 
-      if (!url) {
-        if (URL_TYPE === "request_dropbox") {
-          url = (await DropboxClient.client.getTemporaryLink(`/alura/${path}`))
-            .link;
-        } else {
-          url = `${host}/course/raw-video/${courseId}/${module}/${video}`;
+      if (httpRequest.body!.thumbnail === true) {
+        extraData["thumbnail"] =
+          `${process.env.THUMBNAILS_URL}/${courseId}/${module}/${video}.png`;
+      }
+
+      if (httpRequest.body!.videoUrl !== false) {
+        const cacheKey = `${courseId}_${module}_${video}`;
+        let url = nodeCache.get(cacheKey) as string | null;
+
+        if (!url) {
+          if (URL_TYPE === "request_dropbox") {
+            url = (
+              await DropboxClient.client.getTemporaryLink(`/alura/${path}`)
+            ).link;
+          } else {
+            url = `${host}/course/raw-video/${courseId}/${module}/${video}`;
+          }
+
+          nodeCache.set(cacheKey, url, 60 * 60 * 3);
         }
 
-        nodeCache.set(cacheKey, url, 60 * 60 * 3);
+        extraData["url"] = url!;
       }
 
       return ok<Video>({
         name,
-        url: url!,
         ...extraData,
       });
     } catch (error) {

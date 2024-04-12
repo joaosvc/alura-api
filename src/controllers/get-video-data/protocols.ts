@@ -3,4 +3,5 @@ export interface GetVideoParams {
   module: string;
   video: string;
   thumbnail?: boolean;
+  videoUrl?: boolean;
 }

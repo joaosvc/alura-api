@@ -1,6 +1,6 @@
 export interface Video {
   name: string;
-  url: string;
+  url?: string;
   thumbnail?: string;
 }
 
