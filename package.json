@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/server.ts",
     "start": "node build/server.js",
-    "build": "tsc --project tsconfig.json"
+    "build": "git submodule init && git submodule update && tsc --project tsconfig.json"
   },
   "keywords": [],
   "author": "",
