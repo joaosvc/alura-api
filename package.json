@@ -4,7 +4,7 @@
   "description": "alura server courses",
   "main": "server.js",
   "scripts": {
-    "start:dev": "nodemon src/server.ts",
+    "dev": "nodemon src/server.ts",
     "start": "node build/server.js",
     "build": "tsc --project tsconfig.json"
   },
