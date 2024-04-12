@@ -6,8 +6,7 @@
   "scripts": {
     "start:dev": "nodemon src/server.ts",
     "start": "node build/server.js",
-    "build": "tsc --project tsconfig.json",
-    "vercel-build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json"
   },
   "keywords": [],
   "author": "",
