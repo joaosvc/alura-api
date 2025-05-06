@@ -14,9 +14,14 @@ import { HttpStatusCode } from "../controllers/protocols";
 const serverRouter: Router = Router();
 const corsOptions: CorsOptions = {
   origin: "*",
-  methods: "GET, POST",
+  methods: ["GET", "POST", "OPTIONS"],
+  allowedHeaders: ["*"],
   optionsSuccessStatus: 204,
 };
+
+serverRouter.options("*", (req, res) => {
+  res.sendStatus(204);
+});
 
 serverRouter.use(
   [
