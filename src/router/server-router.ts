@@ -19,9 +19,7 @@ const corsOptions: CorsOptions = {
   optionsSuccessStatus: 204,
 };
 
-serverRouter.options("*", (req, res) => {
-  res.sendStatus(204);
-});
+serverRouter.options("*", cors(corsOptions));
 
 serverRouter.use(
   [
